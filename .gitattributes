@@ -1,0 +1,43 @@
+# Normaliza fin de linea para archivos de texto
+* text=auto
+
+# Texto tecnico y configuracion
+*.md text
+*.txt text
+*.csv text
+*.json text
+*.xml text
+*.html text
+*.ps1 text eol=crlf
+*.psm1 text eol=crlf
+*.psd1 text eol=crlf
+*.cs text eol=crlf
+*.py text
+*.sh text
+*.bc3 text eol=crlf
+
+# Archivos binarios tratados como snapshots
+*.docx binary
+*.docm binary
+*.xlsx binary
+*.xlsm binary
+*.xls binary
+*.pzh binary
+*.dwg binary
+*.ctb binary
+*.stb binary
+*.icafir binary
+*.pdf binary
+*.jpeg binary
+*.jpg binary
+*.png binary
+*.gif binary
+*.emf binary
+*.wmf binary
+*.wdp binary
+*.tif binary
+*.tiff binary
+*.zip binary
+*.7z binary
+*.rar binary
+*.skill binary

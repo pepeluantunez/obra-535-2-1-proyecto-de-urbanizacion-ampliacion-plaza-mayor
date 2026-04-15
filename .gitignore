@@ -1,0 +1,66 @@
+# Estado local y temporales del entorno
+.codex_tmp/
+.claude/handoffs/
+.claude/settings.json
+.claude/settings.local.json
+task_plan.md
+progress.md
+findings.md
+
+# Temporales y bloqueos de Office
+~$*.docx
+~$*.docm
+~$*.xlsx
+~$*.xlsm
+*.xlsx#
+*.tmp
+*.temp
+*.bak
+*.log
+*.err
+
+# Caches y artefactos de desarrollo
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+node_modules/
+.vs/
+bin/
+obj/
+
+# Basura del sistema
+Thumbs.db
+.DS_Store
+
+# Raster y cartografia pesada
+*.tif
+*.tiff
+*.tfw
+*.aux.xml
+PLANOS/01_RefExt/ORTO/
+
+# Archivos de sesion y simulacion local
+*.pkt
+*.atc
+*.cdmd
+*.emd
+*.pvd
+*.xaml
+[Content_Types].xml
+
+# Paquetes zip de skills
+*.skill
+
+# Artefactos MSBuild adicionales
+*.deps.json
+*.assets.cache
+*.AssemblyReference.cache
+*.CoreCompileInputs.cache
+*.FileListAbsolute.txt
+*.AssemblyInfoInputs.cache
+*.GeneratedMSBuildEditorConfig.editorconfig
+nuget.cache

@@ -1,0 +1,39 @@
+name: Presupuesto y trazabilidad
+description: Cambios en BC3, mediciones, coherencia con anejos o auditoria.
+title: "[BC3] "
+labels:
+  - tipo:bc3
+  - tipo:trazabilidad
+body:
+  - type: textarea
+    id: objetivo
+    attributes:
+      label: Objetivo
+      description: Que partida, familia o bloque hay que revisar.
+      placeholder: Ajustar partidas de pluviales y dejar la auditoria sincronizada.
+    validations:
+      required: true
+  - type: input
+    id: agujas
+    attributes:
+      label: Codigos o needles
+      description: Conceptos, codigos BC3 o referencias clave.
+      placeholder: MCG-1.04#, UAC010.3.6, CLP630
+  - type: textarea
+    id: alcance
+    attributes:
+      label: Alcance documental
+      description: Que otros documentos deben quedar coherentes.
+      placeholder: BC3 maestro, auditoria, anejo 7 y matriz de trazabilidad.
+    validations:
+      required: true
+  - type: checkboxes
+    id: controles
+    attributes:
+      label: Controles obligatorios
+      options:
+        - label: Revisar lineas ~C, ~D, ~T y ~M afectadas
+        - label: Ejecutar control de integridad BC3
+        - label: Ejecutar control de trazabilidad si hay arrastre documental
+        - label: Verificar que no quedan partidas huerfanas o precios pendientes
+        - label: Confirmar coherencia entre calculo, tablas, medicion y presupuesto

@@ -1,0 +1,52 @@
+name: Tarea documental
+description: Cambios en DOCX, XLSX, PDF, memoria, anejos o maquetacion.
+title: "[DOCS] "
+labels:
+  - tipo:documental
+body:
+  - type: textarea
+    id: objetivo
+    attributes:
+      label: Objetivo
+      description: Que hay que cambiar y por que.
+      placeholder: Actualizar tablas del anejo 7 con los resultados validados.
+    validations:
+      required: true
+  - type: input
+    id: archivos
+    attributes:
+      label: Archivos afectados
+      description: Lista corta de los ficheros principales.
+      placeholder: memoria.docx, anejo.xlsx, DOCS/...
+    validations:
+      required: true
+  - type: dropdown
+    id: tipo_cambio
+    attributes:
+      label: Tipo de cambio
+      options:
+        - Maquetacion
+        - Tabla o caption
+        - Texto tecnico
+        - Excel con formulas
+        - Revision final
+    validations:
+      required: true
+  - type: textarea
+    id: criterios
+    attributes:
+      label: Criterios de aceptacion
+      description: Define el resultado visible esperado.
+      placeholder: Las tablas deben quedar visibles, con caption Tabla N y fuente Montserrat.
+    validations:
+      required: true
+  - type: checkboxes
+    id: controles
+    attributes:
+      label: Controles obligatorios
+      options:
+        - label: Ejecutar control anti mojibake si hay Office
+        - label: Ejecutar control de tablas/captions si hay DOCX con tablas
+        - label: Ejecutar control de formulas si hay XLSX/XLSM
+        - label: Confirmar el cambio visible esperado antes de cerrar
+        - label: Evitar rehacer el documento completo si solo cambia una parte

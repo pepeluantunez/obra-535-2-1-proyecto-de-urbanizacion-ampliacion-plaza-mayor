@@ -1,0 +1,64 @@
+{
+  "base_general": [
+    "PRESUPUESTO\\535.2.bc3",
+    "PRESUPUESTO\\AUDITORIA_TRAZABILIDAD_535_2_2.md",
+    "PRESUPUESTO\\AUDITORIA_TRAZABILIDAD_535_2_2.xlsx",
+    "DOCS\\Documentos de Trabajo\\4.- Trazado, Replanteo y Mediciones Auxiliares\\Anexo 4 - Replanteo y Mediciones Auxiliares.docx",
+    "DOCS\\Documentos de Trabajo\\4.- Trazado, Replanteo y Mediciones Auxiliares\\Mediciones_Auxiliares_Trazado.xlsx",
+    "DOCS\\Documentos de Trabajo\\Informe_Correspondencia_Mediciones_BC3.md",
+    "DOCS\\Documentos de Trabajo\\Resumen_Trazabilidad_Actualizaciones.md"
+  ],
+  "pluviales_fecales": [
+    "PRESUPUESTO\\535.2.bc3",
+    "PRESUPUESTO\\AUDITORIA_TRAZABILIDAD_535_2_2.md",
+    "DOCS\\Documentos de Trabajo\\7.- Red de Saneamiento - Pluviales\\Anexo 7 - Pluviales.docx",
+    "DOCS\\Documentos de Trabajo\\7.- Red de Saneamiento - Pluviales\\CivilReport.html",
+    "DOCS\\Documentos de Trabajo\\7.- Red de Saneamiento - Pluviales\\Red_Pluviales_Tuberias_Trazable.csv",
+    "DOCS\\Documentos de Trabajo\\7.- Red de Saneamiento - Pluviales\\Red_Pluviales_Estructuras_Trazable.csv",
+    "DOCS\\Documentos de Trabajo\\8.- Red de Saneamiento - Fecales\\Anexo 8 - Fecales.docx",
+    "DOCS\\Documentos de Trabajo\\8.- Red de Saneamiento - Fecales\\MEDICION FECALES.html",
+    "DOCS\\Documentos de Trabajo\\8.- Red de Saneamiento - Fecales\\Red_Fecales_Tuberias_Trazable.csv",
+    "DOCS\\Documentos de Trabajo\\8.- Red de Saneamiento - Fecales\\Red_Fecales_Estructuras_Trazable.csv"
+  ],
+  "control_calidad_plan_obra": [
+    "PRESUPUESTO\\535.2.bc3",
+    "PRESUPUESTO\\AUDITORIA_TRAZABILIDAD_535_2_2.md",
+    "DOCS\\Documentos de Trabajo\\14.- Control de Calidad\\Anexo 14 - Control de calidad.docx",
+    "DOCS\\Documentos de Trabajo\\14.- Control de Calidad\\535.2.2 Control-Calidad.xlsx",
+    "DOCS\\Documentos de Trabajo\\15.- Plan de Obra\\Anexo 15 - Plan de Obras.docx",
+    "DOCS\\Documentos de Trabajo\\15.- Plan de Obra\\535.2.2 - Plan de Obra.xlsx",
+    "DOCS\\Documentos de Trabajo\\17.- Seguridad y Salud\\Anejo 17 - Estudio de Seguridad y Salud_REVISADO.docx",
+    "DOCS\\Documentos de Trabajo\\17.- Seguridad y Salud\\Dimensionado_SyS_Guadalmar.xlsx",
+    "DOCS\\Documentos de Trabajo\\17.- Seguridad y Salud\\Dimensionado_SyS_Guadalmar.md",
+    "DOCS\\Documentos de Trabajo\\17.- Seguridad y Salud\\SyS_535_2_2_DIMENSIONADO_TRAZABLE.md"
+  ],
+  "residuos_sys": [
+    "PRESUPUESTO\\535.2.bc3",
+    "PRESUPUESTO\\AUDITORIA_TRAZABILIDAD_535_2_2.md",
+    "DOCS\\Documentos de Trabajo\\13.- Estudio de Gestion de Residuos",
+    "DOCS\\Documentos de Trabajo\\17.- Seguridad y Salud"
+  ],
+  "todo_integral": [
+    "PRESUPUESTO\\535.2.bc3",
+    "PRESUPUESTO\\AUDITORIA_TRAZABILIDAD_535_2_2.md",
+    "PRESUPUESTO\\AUDITORIA_TRAZABILIDAD_535_2_2.xlsx",
+    "DOCS\\Documentos de Trabajo\\4.- Trazado, Replanteo y Mediciones Auxiliares\\Anexo 4 - Replanteo y Mediciones Auxiliares.docx",
+    "DOCS\\Documentos de Trabajo\\4.- Trazado, Replanteo y Mediciones Auxiliares\\Mediciones_Auxiliares_Trazado.xlsx",
+    "DOCS\\Documentos de Trabajo\\Informe_Correspondencia_Mediciones_BC3.md",
+    "DOCS\\Documentos de Trabajo\\Resumen_Trazabilidad_Actualizaciones.md",
+    "DOCS\\Documentos de Trabajo\\7.- Red de Saneamiento - Pluviales\\Anexo 7 - Pluviales.docx",
+    "DOCS\\Documentos de Trabajo\\7.- Red de Saneamiento - Pluviales\\CivilReport.html",
+    "DOCS\\Documentos de Trabajo\\7.- Red de Saneamiento - Pluviales\\Red_Pluviales_Tuberias_Trazable.csv",
+    "DOCS\\Documentos de Trabajo\\7.- Red de Saneamiento - Pluviales\\Red_Pluviales_Estructuras_Trazable.csv",
+    "DOCS\\Documentos de Trabajo\\8.- Red de Saneamiento - Fecales\\Anexo 8 - Fecales.docx",
+    "DOCS\\Documentos de Trabajo\\8.- Red de Saneamiento - Fecales\\MEDICION FECALES.html",
+    "DOCS\\Documentos de Trabajo\\8.- Red de Saneamiento - Fecales\\Red_Fecales_Tuberias_Trazable.csv",
+    "DOCS\\Documentos de Trabajo\\8.- Red de Saneamiento - Fecales\\Red_Fecales_Estructuras_Trazable.csv",
+    "DOCS\\Documentos de Trabajo\\13.- Estudio de Gestion de Residuos",
+    "DOCS\\Documentos de Trabajo\\14.- Control de Calidad\\Anexo 14 - Control de calidad.docx",
+    "DOCS\\Documentos de Trabajo\\14.- Control de Calidad\\535.2.2 Control-Calidad.xlsx",
+    "DOCS\\Documentos de Trabajo\\15.- Plan de Obra\\Anexo 15 - Plan de Obras.docx",
+    "DOCS\\Documentos de Trabajo\\15.- Plan de Obra\\535.2.2 - Plan de Obra.xlsx",
+    "DOCS\\Documentos de Trabajo\\17.- Seguridad y Salud"
+  ]
+}

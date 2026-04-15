@@ -1,0 +1,37 @@
+name: Automatizacion o tooling
+description: Scripts, verificadores, plantillas o flujo reusable del proyecto.
+title: "[TOOLS] "
+labels:
+  - tipo:automatizacion
+body:
+  - type: textarea
+    id: objetivo
+    attributes:
+      label: Objetivo
+      description: Que automatizacion se quiere crear o mejorar.
+      placeholder: Crear un cierre GitHub mas util para proyectos de urbanizacion.
+    validations:
+      required: true
+  - type: input
+    id: rutas
+    attributes:
+      label: Rutas probables
+      description: Herramientas o docs afectadas.
+      placeholder: tools/, scripts/, CONFIG/, .github/
+  - type: textarea
+    id: salida
+    attributes:
+      label: Resultado esperado
+      description: Di que deberia poder hacer el usuario despues del cambio.
+      placeholder: Abrir un repo nuevo y tener issue templates, PR checks y guia de uso.
+    validations:
+      required: true
+  - type: checkboxes
+    id: controles
+    attributes:
+      label: Controles obligatorios
+      options:
+        - label: Mantener compatibilidad con el flujo actual del proyecto
+        - label: Documentar el uso de la herramienta o plantilla
+        - label: Comprobar que no se introduce mojibake en archivos de texto
+        - label: Separar claramente configuracion, script y documentacion
