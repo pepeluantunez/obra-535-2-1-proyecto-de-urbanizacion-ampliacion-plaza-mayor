@@ -66,6 +66,33 @@
 - El agente que edita no se autoaprueba sin una pasada final de control. Si la tarea es minima, el control puede ser breve, pero nunca se omite.
 - No responder "terminado" sin indicar que control final se ha ejecutado y si hubo o no incidencias.
 
+## Protocolo de aprendizaje y mejora continua de skills
+
+### Registro de errores
+- Cuando una skill, script o herramienta falle de forma inesperada, registrar el error ANTES de responder al usuario:
+  ```
+  powershell -NoProfile -ExecutionPolicy Bypass -File .\tools\skill_error_logger.ps1 -Skill "<nombre_skill>" -Error "<descripcion_error>" -Contexto "<tarea_en_curso>" -Categoria "<script|skill|agente|herramienta>"
+  ```
+- Registrar siempre: errores de codificacion inesperados, fallos de script, incoherencias detectadas en cierre, resultados incorrectos que requieran rehacer la tarea.
+- No registrar: errores de usuario (datos incorrectos suministrados), ausencia de archivos esperados por el usuario, comportamiento correcto del sistema.
+
+### Generacion de propuestas de mejora
+- Cuando el usuario pida revision de errores acumulados, o periodicamente, ejecutar:
+  ```
+  powershell -NoProfile -ExecutionPolicy Bypass -File .\tools\skill_self_improve.ps1
+  ```
+- El script genera `scratch\skill_improvement\propuestas_mejora.md` con sugerencias concretas de correccion para AGENTS.md o SKILL.md.
+- **Ninguna propuesta se aplica automaticamente.** Siempre se presenta al usuario para revision y aprobacion antes de modificar cualquier archivo.
+- Para analizar solo una skill: anadir `-SoloSkill "<nombre>"`.
+- Una vez revisadas y aprobadas las propuestas, marcar como revisadas: anadir `-MarcarRevisados`.
+
+### Flujo de aprobacion
+1. Agente detecta fallo → registra con `skill_error_logger.ps1`.
+2. Usuario o agente ejecuta `skill_self_improve.ps1` → se genera informe de propuestas.
+3. Usuario revisa `scratch\skill_improvement\propuestas_mejora.md`.
+4. Usuario aprueba o descarta cada propuesta.
+5. Agente aplica solo los cambios aprobados y hace commit: `fix(agents): mejora basada en errores registrados`.
+
 ## Cierre rapido recomendado
 - Un unico `DOCX` o `XLSX`: editar, comprobar el cambio visible, ejecutar `tools\check_office_mojibake.ps1` y responder con resultado.
 - Un unico `DOCX` con tablas: ademas de mojibake, ejecutar `tools\check_docx_tables_consistency.ps1`.
