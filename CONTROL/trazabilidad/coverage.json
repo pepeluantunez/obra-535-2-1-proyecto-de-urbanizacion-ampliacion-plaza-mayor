@@ -1,0 +1,30 @@
+{
+  "word_tables_with_excel_source_pct": 100,
+  "memoria_sections_backed_by_annex_pct": 100,
+  "bc3_concepts_with_document_support_pct": 100,
+  "outputs_with_authority_defined_pct": 100,
+  "scope": "seed",
+  "generated_at": "2026-04-22",
+  "counts": {
+    "node_count": 50,
+    "edge_count": 71,
+    "annex_nodes": 18,
+    "annex_nodes_missing_local": 4,
+    "memoria_section_nodes_scoped": 8,
+    "memoria_sections_with_annex_support": 8,
+    "excel_source_nodes": 4,
+    "word_table_nodes_scoped": 12,
+    "word_tables_with_explicit_excel_source": 12,
+    "bc3_concept_nodes_scoped": 4,
+    "bc3_concepts_with_explicit_document_support": 4,
+    "review_output_nodes": 2,
+    "bc3_nodes": 5
+  },
+  "notes": [
+    "Plaza Mayor ya hereda la maquina generica de trazabilidad a nivel de memoria, tabla Word y conceptos BC3 dentro del subconjunto hoy declarado.",
+    "La cobertura de tablas Word con fuente explicita cubre residuos y control de calidad, que son los anejos con captions visibles y soporte Excel confirmado en el working tree actual.",
+    "La cobertura BC3 se limita al ambito de Seguridad y Salud, porque sigue sin existir un BC3 maestro general confirmado para el proyecto completo.",
+    "Los anejos 9, 10, 11 y 18 siguen declarados como missing_local y el checker los mantiene como warning controlado.",
+    "La siguiente mejora util es ampliar la misma gramatica a agua potable, pluviales y fecales cuando sus fuentes locales queden cerradas."
+  ]
+}

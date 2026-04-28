@@ -1,11 +1,29 @@
-﻿{
-  "codigo_proyecto": "535.2.1",
-  "nombre_proyecto": "Proyecto de Urbanizacion - Ampliacion Plaza Mayor",
-  "nombre_carpeta_proyecto": "535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor",
-  "cliente": "PENDIENTE",
-  "fecha_inicio": "2026-04-15",
-  "repo_proyecto": "obra-535-2-1-proyecto-de-urbanizacion-ampliacion-plaza-mayor",
-  "workspace_codex": "535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor",
-  "version_estandar": "1.1.0"
+{
+  "project_name": "Proyecto de urbanizaci\u00f3n - Ampliaci\u00f3n Plaza Mayor",
+  "short_name": "Ampliaci\u00f3n Plaza Mayor",
+  "project_heading": "PROYECTO DE URBANIZACI\u00d3N",
+  "project_cover": "AMPLIACI\u00d3N PLAZA MAYOR, M\u00c1LAGA",
+  "memory_filename": "Memoria descriptiva - Proyecto de Urbanizacion - Ampliacion Plaza Mayor.docx",
+  "municipality": "M\u00e1laga",
+  "province": "M\u00e1laga",
+  "client": "",
+  "promoter": "",
+  "base_normativa": [
+    "Ley 7/2021, de 1 de diciembre, de impulso para la sostenibilidad del territorio de Andaluc\u00eda",
+    "Reglamento General de la Ley de Contratos del Sector P\u00fablico, en lo que resulte de aplicaci\u00f3n",
+    "CTE y reglamentaci\u00f3n sectorial aplicable a redes e instalaciones urbanas",
+    "PGOU, NNSS y ordenanzas municipales vigentes del \u00e1mbito"
+  ],
+  "known_sources": [
+    {
+      "type": "plantilla",
+      "path": "DOCS - ANEJOS/Plantillas/PLANTILLA_MAESTRA_ANEJOS.docx",
+      "notes": "Plantilla maestra para anejos"
+    },
+    {
+      "type": "plantilla",
+      "path": "DOCS - ANEJOS/Plantillas/PLANTILLA_MAESTRA_MEMORIA.docx",
+      "notes": "Plantilla maestra de memoria"
+    }
+  ]
 }
-

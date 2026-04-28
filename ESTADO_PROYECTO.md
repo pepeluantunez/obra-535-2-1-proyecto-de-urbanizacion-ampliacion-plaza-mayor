@@ -1,26 +1,75 @@
 # ESTADO_PROYECTO - 535.2.1 Plaza Mayor
 
 > Estado corto y operativo del expediente.
-> Ultima revision: 2026-04-22
+> Ultima revision: 2026-04-27
+
+## Documentacion tecnica
 
 | Elemento | Estado | Nota corta |
 | --- | --- | --- |
-| Memoria descriptiva | en revision | Existe Word vivo en `DOCS - MEMORIA/` |
-| Pliego de condiciones | en revision | Hay varias versiones en raiz y falta fijar la vigente |
-| BC3 maestro del proyecto | borrador | No existe archivo maestro activo todavia |
-| BC3 de Seguridad y Salud | activo | Disponible en `DOCS - ANEJOS/17.- Seguridad y Salud/PRESUPUESTO_DONOR/` |
-| Anejo 4 | borrador | Base para futuras mediciones y trazabilidad |
-| Anejo 7 | borrador | Pendiente de consolidacion |
-| Anejo 17 | activo | Documento y BC3 propios localizados |
-| Resto de anejos civiles | borrador | Revisar por necesidad, no en bloque |
-| Anejos electricos 9 a 11 | activo | Fuera de alcance salvo orden expresa |
-| Anejo 18 telecomunicaciones | activo | Fuera de alcance salvo orden expresa |
-| Trazabilidad transversal | en revision | Falta cerrar jerarquia de fuentes y futuras relaciones con BC3 general |
-| Cierre de entrega | borrador | No esta listo para cierre global |
+| Memoria descriptiva | en revision | Word vivo en `DOCS - MEMORIA/` |
+| Pliego de condiciones | en revision | Varias versiones en raiz; falta fijar la vigente |
+| BC3 maestro del proyecto | activo — seed sin mediciones | `PRESUPUESTO/535.2.1_maestro.bc3`; 671 conceptos, 0 mediciones (~M); mediciones se incorporan progresivamente desde Civil 3D y delineante |
+| BC3 de Seguridad y Salud | activo | `DOCS - ANEJOS/17.- Seguridad y Salud/PRESUPUESTO_DONOR/535.2.1-Seguridad & Salud.bc3` |
+
+## Anejos por disciplina
+
+| Anejo | Nombre | Estado | Carpeta en repo |
+| --- | --- | --- | --- |
+| 1 | Reportaje Fotografico | base util preparada | si |
+| 2 | Cartografia y Topografia | arranque completado | si |
+| 3 | Estudio Geotecnico | base util preparada | si |
+| 4 | Trazado, Replanteo y Mediciones Auxiliares | arranque completado | si |
+| 5 | Dimensionamiento del Firme | arranque completado | si |
+| 6 | Red de Agua Potable | arranque completado | si |
+| 7 | Red de Saneamiento - Pluviales | borrador | si |
+| 8 | Red de Saneamiento - Fecales | arranque completado | si |
+| 9 | Red de Media Tension | fuera de alcance civil | sin carpeta en DOCS - ANEJOS |
+| 10 | Red de Baja Tension | fuera de alcance civil | sin carpeta en DOCS - ANEJOS |
+| 11 | Red de Alumbrado | fuera de alcance civil | sin carpeta en DOCS - ANEJOS |
+| 12 | Accesibilidad | arranque completado | si |
+| 13 | Estudio de Gestion de Residuos | base util preparada | si |
+| 14 | Control de Calidad | base util preparada | si |
+| 15 | Plan de Obra | base util preparada | si |
+| 16 | Comunicaciones con Companias Suministradoras | base util preparada | si |
+| 17 | Seguridad y Salud | activo | si — BC3 propio localizado |
+| 18 | Telecomunicaciones | fuera de alcance civil | sin carpeta en DOCS - ANEJOS |
+
+Nota: carpetas de anejos 9-11 y 18 no aparecen en `DOCS - ANEJOS/`; los DOCX pueden estar en otra ubicacion o no haberse creado en este repo.
+
+## Infraestructura del repo
+
+| Elemento | Estado | Nota corta |
+| --- | --- | --- |
+| CLAUDE.md (raiz) | activo | Creado 2026-04-25; version previa en `PLANNING/OPERATIVA/CLAUDE.md` |
+| AGENTS.md | activo | Reglas criticas de BC3, mojibake y operativa |
+| MAPA_PROYECTO.md | activo | Actualizado 2026-04-25 |
+| FUENTES_MAESTRAS.md | activo | Jerarquia de fuentes fijada |
+| DECISIONES_PROYECTO.md | activo | Decisiones operativas consolidadas |
+| about-me.md | activo | Perfil del tecnico actualizado |
+| tools/ | activo | ~44 scripts PS1 + 3 Python (bc3_tools, excel_tools, mediciones_validator) |
+| scripts/ | activo | Scripts especificos del proyecto |
+| .claude/skills/ | activo | 17 skills locales instaladas |
+| CONTROL/trazabilidad/ | activo | nodes.json, edges.json, coverage.json — semilla real |
+| CONFIG/ | activo | project_identity.json, repo_contract.json, toolkit.lock.json y perfiles |
+| NORMATIVA/ | pendiente | No existe; falta crear e indexar normativa aplicable |
+| Trazabilidad transversal | en revision | Falta cerrar jerarquia con BC3 general cuando se cree |
+| Cierre de entrega | borrador | No listo para cierre global |
+
+## Cambios 2026-04-27
+
+- Raiz limpiada: `findings.md`, `progress.md`, `task_plan.md` y `535.2.2_POU_PLIEGO DE CONDICIONES.docx` movidos a `scratch/`.
+- Pliego de trabajo fijado: `535.2.1_POU_PLIEGO DE CONDICIONES_REFINADO_v2.docx`.
+- Base de precios del ecosistema declarada: GMU Malaga PRECIOS_V5_18_05_2023.
+- Skills locales clasificadas: 7 a toolkit, 1 mantener local, 1 retirar. Ver `07_CATALOGO_ECOSISTEMA.md`.
+- KANBAN reestructurado en dos carriles (expediente tecnico / plataforma).
 
 ## Pendientes inmediatos
 
-- Fijar el pliego vigente y archivar el resto.
-- Retirar de la raiz el pliego de Guadalmar.
-- Definir si se creara BC3 maestro del proyecto y con que fuente.
+- Crear BC3 maestro de Plaza Mayor con mediciones propias (base: GMU Malaga PRECIOS_V5_18_05_2023).
+- Confirmar estado y ubicacion de anejos 9-11 y 18 (sin carpeta activa en `DOCS - ANEJOS/`).
+- Cerrar anejo 7 — Red de Saneamiento Pluviales (unico en borrador).
+- Eliminar carpeta `career-ops` de `C:\Users\USUARIO\Documents\Claude\Projects\` (repo ajeno al ecosistema).
+- Promover las 7 skills maduras al `urbanizacion-toolkit` cuando el toolkit exista como autoridad real.
+- Crear `NORMATIVA/` local o confirmar que `normativa-obra-civil/` en Projects es suficiente.
 - Mantener actualizados `MAPA_PROYECTO.md`, `FUENTES_MAESTRAS.md` y `DECISIONES_PROYECTO.md` cuando cambie una fuente activa.

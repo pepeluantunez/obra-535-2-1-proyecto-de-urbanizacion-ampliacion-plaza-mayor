@@ -1,0 +1,671 @@
+﻿<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+<Worksheet ss:Name="00_Resumen"><Table>
+<Row>
+<Cell><Data ss:Type="String">Alineacion</Data></Cell>
+<Cell><Data ss:Type="String">PK_Inicio_PI</Data></Cell>
+<Cell><Data ss:Type="String">PK_Fin_PI</Data></Cell>
+<Cell><Data ss:Type="String">Longitud_PI_m</Data></Cell>
+<Cell><Data ss:Type="String">PK_Inicio_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">PK_Fin_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Longitud_Incremental_m</Data></Cell>
+<Cell><Data ss:Type="String">Delta_m</Data></Cell>
+<Cell><Data ss:Type="String">Estado</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">ROTONDA</Data></Cell>
+<Cell><Data ss:Type="String">0+000.00</Data></Cell>
+<Cell><Data ss:Type="String">0+056.54</Data></Cell>
+<Cell><Data ss:Type="Number">56.54</Data></Cell>
+<Cell><Data ss:Type="String">0+000.00</Data></Cell>
+<Cell><Data ss:Type="String">0+056.54</Data></Cell>
+<Cell><Data ss:Type="Number">56.54</Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="String">Coherente</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="String">0+000.00</Data></Cell>
+<Cell><Data ss:Type="String">0+162.93</Data></Cell>
+<Cell><Data ss:Type="Number">162.93</Data></Cell>
+<Cell><Data ss:Type="String">0+000.00</Data></Cell>
+<Cell><Data ss:Type="String">0+162.93</Data></Cell>
+<Cell><Data ss:Type="Number">162.93</Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="String">Coherente</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
+<Cell><Data ss:Type="String">0+000.00</Data></Cell>
+<Cell><Data ss:Type="String">0+098.34</Data></Cell>
+<Cell><Data ss:Type="Number">98.34</Data></Cell>
+<Cell><Data ss:Type="String">0+000.00</Data></Cell>
+<Cell><Data ss:Type="String">0+098.34</Data></Cell>
+<Cell><Data ss:Type="Number">98.34</Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="String">Coherente</Data></Cell>
+</Row>
+</Table></Worksheet>
+<Worksheet ss:Name="01_PI"><Table>
+<Row>
+<Cell><Data ss:Type="String">Tipo</Data></Cell>
+<Cell><Data ss:Type="String">Alineacion</Data></Cell>
+<Cell><Data ss:Type="String">PK</Data></Cell>
+<Cell><Data ss:Type="String">PK_m</Data></Cell>
+<Cell><Data ss:Type="String">Ordenada_m</Data></Cell>
+<Cell><Data ss:Type="String">Abscisa_m</Data></Cell>
+<Cell><Data ss:Type="String">Distancia_m</Data></Cell>
+<Cell><Data ss:Type="String">Orientacion</Data></Cell>
+<Cell><Data ss:Type="String">RowKind</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">PI</Data></Cell>
+<Cell><Data ss:Type="String">ROTONDA</Data></Cell>
+<Cell><Data ss:Type="String">0+000.00</Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number">4058038.9315</Data></Cell>
+<Cell><Data ss:Type="Number">368042.9782</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">Punto_PI</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">PI</Data></Cell>
+<Cell><Data ss:Type="String">ROTONDA</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">8.727</Data></Cell>
+<Cell><Data ss:Type="String">N1.762539O (d)</Data></Cell>
+<Cell><Data ss:Type="String">Tramo_PI</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">PI</Data></Cell>
+<Cell><Data ss:Type="String">ROTONDA</Data></Cell>
+<Cell><Data ss:Type="String">0+008.73</Data></Cell>
+<Cell><Data ss:Type="Number">8.73</Data></Cell>
+<Cell><Data ss:Type="Number">4058047.6547</Data></Cell>
+<Cell><Data ss:Type="Number">368042.7097</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">Punto_PI</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">PI</Data></Cell>
+<Cell><Data ss:Type="String">ROTONDA</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">18.008</Data></Cell>
+<Cell><Data ss:Type="String">S1.729747E (d)</Data></Cell>
+<Cell><Data ss:Type="String">Tramo_PI</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">PI</Data></Cell>
+<Cell><Data ss:Type="String">ROTONDA</Data></Cell>
+<Cell><Data ss:Type="String">0+051.41</Data></Cell>
+<Cell><Data ss:Type="Number">51.41</Data></Cell>
+<Cell><Data ss:Type="Number">4058029.6547</Data></Cell>
+<Cell><Data ss:Type="Number">368043.2533</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">Punto_PI</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">PI</Data></Cell>
+<Cell><Data ss:Type="String">ROTONDA</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">9.271</Data></Cell>
+<Cell><Data ss:Type="String">N1.698877O (d)</Data></Cell>
+<Cell><Data ss:Type="String">Tramo_PI</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">PI</Data></Cell>
+<Cell><Data ss:Type="String">ROTONDA</Data></Cell>
+<Cell><Data ss:Type="String">0+056.54</Data></Cell>
+<Cell><Data ss:Type="Number">56.54</Data></Cell>
+<Cell><Data ss:Type="Number">4058038.9215</Data></Cell>
+<Cell><Data ss:Type="Number">368042.9785</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">Punto_PI</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">PI</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="String">0+000.00</Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number">4058038.6547</Data></Cell>
+<Cell><Data ss:Type="Number">368033.9824</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">Punto_PI</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">PI</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">26.839</Data></Cell>
+<Cell><Data ss:Type="String">N88.269292E (d)</Data></Cell>
+<Cell><Data ss:Type="String">Tramo_PI</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">PI</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="String">0+026.84</Data></Cell>
+<Cell><Data ss:Type="Number">26.84</Data></Cell>
+<Cell><Data ss:Type="Number">4058039.4653</Data></Cell>
+<Cell><Data ss:Type="Number">368060.8092</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">Punto_PI</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">PI</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">136.432</Data></Cell>
+<Cell><Data ss:Type="String">S55.112678E (d)</Data></Cell>
+<Cell><Data ss:Type="String">Tramo_PI</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">PI</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="String">0+162.93</Data></Cell>
+<Cell><Data ss:Type="Number">162.93</Data></Cell>
+<Cell><Data ss:Type="Number">4057961.431</Data></Cell>
+<Cell><Data ss:Type="Number">368172.7215</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">Punto_PI</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">PI</Data></Cell>
+<Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
+<Cell><Data ss:Type="String">0+000.00</Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number">4057996.5823</Data></Cell>
+<Cell><Data ss:Type="Number">368122.3095</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">Punto_PI</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">PI</Data></Cell>
+<Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">98.344</Data></Cell>
+<Cell><Data ss:Type="String">N35.013566E (d)</Data></Cell>
+<Cell><Data ss:Type="String">Tramo_PI</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">PI</Data></Cell>
+<Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
+<Cell><Data ss:Type="String">0+098.34</Data></Cell>
+<Cell><Data ss:Type="Number">98.34</Data></Cell>
+<Cell><Data ss:Type="Number">4058077.1274</Data></Cell>
+<Cell><Data ss:Type="Number">368178.7362</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">Punto_PI</Data></Cell>
+</Row>
+</Table></Worksheet>
+<Worksheet ss:Name="02_Incremental"><Table>
+<Row>
+<Cell><Data ss:Type="String">Tipo</Data></Cell>
+<Cell><Data ss:Type="String">Alineacion</Data></Cell>
+<Cell><Data ss:Type="String">PK</Data></Cell>
+<Cell><Data ss:Type="String">PK_m</Data></Cell>
+<Cell><Data ss:Type="String">Ordenada_m</Data></Cell>
+<Cell><Data ss:Type="String">Abscisa_m</Data></Cell>
+<Cell><Data ss:Type="String">Distancia_m</Data></Cell>
+<Cell><Data ss:Type="String">Orientacion</Data></Cell>
+<Cell><Data ss:Type="String">RowKind</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">INCREMENTAL</Data></Cell>
+<Cell><Data ss:Type="String">ROTONDA</Data></Cell>
+<Cell><Data ss:Type="String">0+000.00</Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number">4058038.9315</Data></Cell>
+<Cell><Data ss:Type="Number">368042.9782</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">N1.762539O (d)</Data></Cell>
+<Cell><Data ss:Type="String">Punto_Incremental</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">INCREMENTAL</Data></Cell>
+<Cell><Data ss:Type="String">ROTONDA</Data></Cell>
+<Cell><Data ss:Type="String">0+010.00</Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="Number">4058046.8394</Data></Cell>
+<Cell><Data ss:Type="Number">368037.7255</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">N65.424516O (d)</Data></Cell>
+<Cell><Data ss:Type="String">Punto_Incremental</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">INCREMENTAL</Data></Cell>
+<Cell><Data ss:Type="String">ROTONDA</Data></Cell>
+<Cell><Data ss:Type="String">0+020.00</Data></Cell>
+<Cell><Data ss:Type="Number">20</Data></Cell>
+<Cell><Data ss:Type="Number">4058045.6404</Data></Cell>
+<Cell><Data ss:Type="Number">368028.308</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">S50.913507O (d)</Data></Cell>
+<Cell><Data ss:Type="String">Punto_Incremental</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">INCREMENTAL</Data></Cell>
+<Cell><Data ss:Type="String">ROTONDA</Data></Cell>
+<Cell><Data ss:Type="String">0+030.00</Data></Cell>
+<Cell><Data ss:Type="Number">30</Data></Cell>
+<Cell><Data ss:Type="Number">4058036.6686</Data></Cell>
+<Cell><Data ss:Type="Number">368025.2043</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">S12.748470E (d)</Data></Cell>
+<Cell><Data ss:Type="String">Punto_Incremental</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">INCREMENTAL</Data></Cell>
+<Cell><Data ss:Type="String">ROTONDA</Data></Cell>
+<Cell><Data ss:Type="String">0+040.00</Data></Cell>
+<Cell><Data ss:Type="Number">40</Data></Cell>
+<Cell><Data ss:Type="Number">4058029.9066</Data></Cell>
+<Cell><Data ss:Type="Number">368031.8677</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">S76.410448E (d)</Data></Cell>
+<Cell><Data ss:Type="String">Punto_Incremental</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">INCREMENTAL</Data></Cell>
+<Cell><Data ss:Type="String">ROTONDA</Data></Cell>
+<Cell><Data ss:Type="String">0+050.00</Data></Cell>
+<Cell><Data ss:Type="Number">50</Data></Cell>
+<Cell><Data ss:Type="Number">4058032.8783</Data></Cell>
+<Cell><Data ss:Type="Number">368040.8841</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">N39.927575E (d)</Data></Cell>
+<Cell><Data ss:Type="String">Punto_Incremental</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">INCREMENTAL</Data></Cell>
+<Cell><Data ss:Type="String">ROTONDA</Data></Cell>
+<Cell><Data ss:Type="String">0+056.54</Data></Cell>
+<Cell><Data ss:Type="Number">56.54</Data></Cell>
+<Cell><Data ss:Type="Number">4058038.9215</Data></Cell>
+<Cell><Data ss:Type="Number">368042.9785</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">N1.698877O (d)</Data></Cell>
+<Cell><Data ss:Type="String">Punto_Incremental</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">INCREMENTAL</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="String">0+000.00</Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number">4058038.6547</Data></Cell>
+<Cell><Data ss:Type="Number">368033.9824</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">N88.269292E (d)</Data></Cell>
+<Cell><Data ss:Type="String">Punto_Incremental</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">INCREMENTAL</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="String">0+010.00</Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="Number">4058038.9567</Data></Cell>
+<Cell><Data ss:Type="Number">368043.9779</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">N88.269292E (d)</Data></Cell>
+<Cell><Data ss:Type="String">Punto_Incremental</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">INCREMENTAL</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="String">0+020.00</Data></Cell>
+<Cell><Data ss:Type="Number">20</Data></Cell>
+<Cell><Data ss:Type="Number">4058039.2587</Data></Cell>
+<Cell><Data ss:Type="Number">368053.9733</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">N88.269292E (d)</Data></Cell>
+<Cell><Data ss:Type="String">Punto_Incremental</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">INCREMENTAL</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="String">0+030.00</Data></Cell>
+<Cell><Data ss:Type="Number">30</Data></Cell>
+<Cell><Data ss:Type="Number">4058037.4029</Data></Cell>
+<Cell><Data ss:Type="Number">368063.6423</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">S60.697712E (d)</Data></Cell>
+<Cell><Data ss:Type="String">Punto_Incremental</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">INCREMENTAL</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="String">0+040.00</Data></Cell>
+<Cell><Data ss:Type="Number">40</Data></Cell>
+<Cell><Data ss:Type="Number">4058031.743</Data></Cell>
+<Cell><Data ss:Type="Number">368071.8839</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">S55.112678E (d)</Data></Cell>
+<Cell><Data ss:Type="String">Punto_Incremental</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">INCREMENTAL</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="String">0+050.00</Data></Cell>
+<Cell><Data ss:Type="Number">50</Data></Cell>
+<Cell><Data ss:Type="Number">4058026.0234</Data></Cell>
+<Cell><Data ss:Type="Number">368080.0867</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">S55.112678E (d)</Data></Cell>
+<Cell><Data ss:Type="String">Punto_Incremental</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">INCREMENTAL</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="String">0+060.00</Data></Cell>
+<Cell><Data ss:Type="Number">60</Data></Cell>
+<Cell><Data ss:Type="Number">4058020.3037</Data></Cell>
+<Cell><Data ss:Type="Number">368088.2895</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">S55.112678E (d)</Data></Cell>
+<Cell><Data ss:Type="String">Punto_Incremental</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">INCREMENTAL</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="String">0+070.00</Data></Cell>
+<Cell><Data ss:Type="Number">70</Data></Cell>
+<Cell><Data ss:Type="Number">4058014.5841</Data></Cell>
+<Cell><Data ss:Type="Number">368096.4923</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">S55.112678E (d)</Data></Cell>
+<Cell><Data ss:Type="String">Punto_Incremental</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">INCREMENTAL</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="String">0+080.00</Data></Cell>
+<Cell><Data ss:Type="Number">80</Data></Cell>
+<Cell><Data ss:Type="Number">4058008.8645</Data></Cell>
+<Cell><Data ss:Type="Number">368104.6951</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">S55.112678E (d)</Data></Cell>
+<Cell><Data ss:Type="String">Punto_Incremental</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">INCREMENTAL</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="String">0+090.00</Data></Cell>
+<Cell><Data ss:Type="Number">90</Data></Cell>
+<Cell><Data ss:Type="Number">4058003.1448</Data></Cell>
+<Cell><Data ss:Type="Number">368112.8979</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">S55.112678E (d)</Data></Cell>
+<Cell><Data ss:Type="String">Punto_Incremental</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">INCREMENTAL</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="String">0+100.00</Data></Cell>
+<Cell><Data ss:Type="Number">100</Data></Cell>
+<Cell><Data ss:Type="Number">4057997.4252</Data></Cell>
+<Cell><Data ss:Type="Number">368121.1006</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">S55.112678E (d)</Data></Cell>
+<Cell><Data ss:Type="String">Punto_Incremental</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">INCREMENTAL</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="String">0+110.00</Data></Cell>
+<Cell><Data ss:Type="Number">110</Data></Cell>
+<Cell><Data ss:Type="Number">4057991.7055</Data></Cell>
+<Cell><Data ss:Type="Number">368129.3034</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">S55.112678E (d)</Data></Cell>
+<Cell><Data ss:Type="String">Punto_Incremental</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">INCREMENTAL</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="String">0+120.00</Data></Cell>
+<Cell><Data ss:Type="Number">120</Data></Cell>
+<Cell><Data ss:Type="Number">4057985.9859</Data></Cell>
+<Cell><Data ss:Type="Number">368137.5062</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">S55.112678E (d)</Data></Cell>
+<Cell><Data ss:Type="String">Punto_Incremental</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">INCREMENTAL</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="String">0+130.00</Data></Cell>
+<Cell><Data ss:Type="Number">130</Data></Cell>
+<Cell><Data ss:Type="Number">4057980.2662</Data></Cell>
+<Cell><Data ss:Type="Number">368145.709</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">S55.112678E (d)</Data></Cell>
+<Cell><Data ss:Type="String">Punto_Incremental</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">INCREMENTAL</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="String">0+140.00</Data></Cell>
+<Cell><Data ss:Type="Number">140</Data></Cell>
+<Cell><Data ss:Type="Number">4057974.5466</Data></Cell>
+<Cell><Data ss:Type="Number">368153.9118</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">S55.112678E (d)</Data></Cell>
+<Cell><Data ss:Type="String">Punto_Incremental</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">INCREMENTAL</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="String">0+150.00</Data></Cell>
+<Cell><Data ss:Type="Number">150</Data></Cell>
+<Cell><Data ss:Type="Number">4057968.827</Data></Cell>
+<Cell><Data ss:Type="Number">368162.1146</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">S55.112678E (d)</Data></Cell>
+<Cell><Data ss:Type="String">Punto_Incremental</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">INCREMENTAL</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="String">0+160.00</Data></Cell>
+<Cell><Data ss:Type="Number">160</Data></Cell>
+<Cell><Data ss:Type="Number">4057963.1073</Data></Cell>
+<Cell><Data ss:Type="Number">368170.3174</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">S55.112678E (d)</Data></Cell>
+<Cell><Data ss:Type="String">Punto_Incremental</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">INCREMENTAL</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="String">0+162.93</Data></Cell>
+<Cell><Data ss:Type="Number">162.93</Data></Cell>
+<Cell><Data ss:Type="Number">4057961.4315</Data></Cell>
+<Cell><Data ss:Type="Number">368172.7208</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">S55.112678E (d)</Data></Cell>
+<Cell><Data ss:Type="String">Punto_Incremental</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">INCREMENTAL</Data></Cell>
+<Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
+<Cell><Data ss:Type="String">0+000.00</Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number">4057996.5823</Data></Cell>
+<Cell><Data ss:Type="Number">368122.3095</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">N35.013566E (d)</Data></Cell>
+<Cell><Data ss:Type="String">Punto_Incremental</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">INCREMENTAL</Data></Cell>
+<Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
+<Cell><Data ss:Type="String">0+010.00</Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="Number">4058004.7724</Data></Cell>
+<Cell><Data ss:Type="Number">368128.0472</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">N35.013566E (d)</Data></Cell>
+<Cell><Data ss:Type="String">Punto_Incremental</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">INCREMENTAL</Data></Cell>
+<Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
+<Cell><Data ss:Type="String">0+020.00</Data></Cell>
+<Cell><Data ss:Type="Number">20</Data></Cell>
+<Cell><Data ss:Type="Number">4058012.9626</Data></Cell>
+<Cell><Data ss:Type="Number">368133.7849</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">N35.013566E (d)</Data></Cell>
+<Cell><Data ss:Type="String">Punto_Incremental</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">INCREMENTAL</Data></Cell>
+<Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
+<Cell><Data ss:Type="String">0+030.00</Data></Cell>
+<Cell><Data ss:Type="Number">30</Data></Cell>
+<Cell><Data ss:Type="Number">4058021.1528</Data></Cell>
+<Cell><Data ss:Type="Number">368139.5226</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">N35.013566E (d)</Data></Cell>
+<Cell><Data ss:Type="String">Punto_Incremental</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">INCREMENTAL</Data></Cell>
+<Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
+<Cell><Data ss:Type="String">0+040.00</Data></Cell>
+<Cell><Data ss:Type="Number">40</Data></Cell>
+<Cell><Data ss:Type="Number">4058029.3429</Data></Cell>
+<Cell><Data ss:Type="Number">368145.2603</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">N35.013566E (d)</Data></Cell>
+<Cell><Data ss:Type="String">Punto_Incremental</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">INCREMENTAL</Data></Cell>
+<Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
+<Cell><Data ss:Type="String">0+050.00</Data></Cell>
+<Cell><Data ss:Type="Number">50</Data></Cell>
+<Cell><Data ss:Type="Number">4058037.5331</Data></Cell>
+<Cell><Data ss:Type="Number">368150.998</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">N35.013566E (d)</Data></Cell>
+<Cell><Data ss:Type="String">Punto_Incremental</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">INCREMENTAL</Data></Cell>
+<Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
+<Cell><Data ss:Type="String">0+060.00</Data></Cell>
+<Cell><Data ss:Type="Number">60</Data></Cell>
+<Cell><Data ss:Type="Number">4058045.7233</Data></Cell>
+<Cell><Data ss:Type="Number">368156.7357</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">N35.013566E (d)</Data></Cell>
+<Cell><Data ss:Type="String">Punto_Incremental</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">INCREMENTAL</Data></Cell>
+<Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
+<Cell><Data ss:Type="String">0+070.00</Data></Cell>
+<Cell><Data ss:Type="Number">70</Data></Cell>
+<Cell><Data ss:Type="Number">4058053.9134</Data></Cell>
+<Cell><Data ss:Type="Number">368162.4734</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">N35.013566E (d)</Data></Cell>
+<Cell><Data ss:Type="String">Punto_Incremental</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">INCREMENTAL</Data></Cell>
+<Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
+<Cell><Data ss:Type="String">0+080.00</Data></Cell>
+<Cell><Data ss:Type="Number">80</Data></Cell>
+<Cell><Data ss:Type="Number">4058062.1036</Data></Cell>
+<Cell><Data ss:Type="Number">368168.2111</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">N35.013566E (d)</Data></Cell>
+<Cell><Data ss:Type="String">Punto_Incremental</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">INCREMENTAL</Data></Cell>
+<Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
+<Cell><Data ss:Type="String">0+090.00</Data></Cell>
+<Cell><Data ss:Type="Number">90</Data></Cell>
+<Cell><Data ss:Type="Number">4058070.2937</Data></Cell>
+<Cell><Data ss:Type="Number">368173.9488</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">N35.013566E (d)</Data></Cell>
+<Cell><Data ss:Type="String">Punto_Incremental</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">INCREMENTAL</Data></Cell>
+<Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
+<Cell><Data ss:Type="String">0+098.34</Data></Cell>
+<Cell><Data ss:Type="Number">98.34</Data></Cell>
+<Cell><Data ss:Type="Number">4058077.1243</Data></Cell>
+<Cell><Data ss:Type="Number">368178.734</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">N35.013566E (d)</Data></Cell>
+<Cell><Data ss:Type="String">Punto_Incremental</Data></Cell>
+</Row>
+</Table></Worksheet>
+<Worksheet ss:Name="03_Control"><Table>
+<Row>
+<Cell><Data ss:Type="String">Bloque</Data></Cell>
+<Cell><Data ss:Type="String">Magnitud</Data></Cell>
+<Cell><Data ss:Type="String">Estado</Data></Cell>
+<Cell><Data ss:Type="String">Fuente</Data></Cell>
+<Cell><Data ss:Type="String">Impacta</Data></Cell>
+<Cell><Data ss:Type="String">Nota</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Anejo 4</Data></Cell>
+<Cell><Data ss:Type="String">PK de PI de alineaciones</Data></Cell>
+<Cell><Data ss:Type="String">Confirmado</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. de PI de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">Replanteo; trazado; memoria de anejo</Data></Cell>
+<Cell><Data ss:Type="String">No actualiza por si solo partidas BC3</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Anejo 4</Data></Cell>
+<Cell><Data ss:Type="String">PK incremental de alineaciones</Data></Cell>
+<Cell><Data ss:Type="String">Confirmado</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">Replanteo de campo; control geometrico</Data></Cell>
+<Cell><Data ss:Type="String">No actualiza por si solo partidas BC3</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Proyecto</Data></Cell>
+<Cell><Data ss:Type="String">Longitudes por eje</Data></Cell>
+<Cell><Data ss:Type="String">Derivado</Data></Cell>
+<Cell><Data ss:Type="String">Comparativa PI vs Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Coherencia de trazado</Data></Cell>
+<Cell><Data ss:Type="String">Si hay delta, abrir revision de mediciones auxiliares</Data></Cell>
+</Row>
+</Table></Worksheet>
+</Workbook>

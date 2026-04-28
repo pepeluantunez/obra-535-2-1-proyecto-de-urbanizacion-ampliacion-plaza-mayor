@@ -1,0 +1,26 @@
+﻿{
+    "number":  14,
+    "slug":  "14-control-de-calidad",
+    "title":  "CONTROL DE CALIDAD",
+    "family":  "control-calidad",
+    "reusability":  "specific_template",
+    "notes":  "Plantilla especifica clara con estructura fija y tablas repetibles.",
+    "variable_inputs":  [
+                            "[NOMBRE DEL PROYECTO]",
+                            "[CIUDAD DEL PROYECTO]",
+                            "[UNIDADES DE OBRA]",
+                            "[PLAN DE ENSAYOS]",
+                            "[FRECUENCIAS]",
+                            "[PRESUPUESTO DE CONTROL]"
+                        ],
+    "copied_assets":  {
+                          "master_template":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\Plantillas\\Por Anejo\\14-14-control-de-calidad\\00_master\\PLANTILLA_MAESTRA_ANEJOS.docx",
+                          "donor_docx":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\Plantillas\\Por Anejo\\14-14-control-de-calidad\\10_donor_docx\\Anexo 14 - Control de calidad.docx",
+                          "donor_excels":  [
+                                               "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\Plantillas\\Por Anejo\\14-14-control-de-calidad\\20_donor_excel\\535.2.2 Control-Calidad.xlsx"
+                                           ],
+                          "support_files":  [
+                                                "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\Plantillas\\Por Anejo\\14-14-control-de-calidad\\30_support\\535.2.2 Control-Calidad_CRTA. GUADALMAR.csv"
+                                            ]
+                      }
+}

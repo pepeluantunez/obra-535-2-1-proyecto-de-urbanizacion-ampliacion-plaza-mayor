@@ -1,0 +1,30 @@
+﻿{
+    "number":  7,
+    "slug":  "07-red-de-saneamiento-pluviales",
+    "title":  "RED DE SANEAMIENTO - PLUVIALES",
+    "family":  "pluviales",
+    "reusability":  "specific_template",
+    "notes":  "Anejo con trazabilidad fuerte entre DOCX, hojas hidrologicas y resultados SSA.",
+    "variable_inputs":  [
+                            "[NOMBRE DEL PROYECTO]",
+                            "[CIUDAD DEL PROYECTO]",
+                            "[CUENCAS]",
+                            "[CAUDALES DE DISENO]",
+                            "[TRAZADO DE LA RED]",
+                            "[TABLAS SSA]"
+                        ],
+    "copied_assets":  {
+                          "master_template":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\Plantillas\\Por Anejo\\07-07-red-de-saneamiento-pluviales\\00_master\\PLANTILLA_MAESTRA_ANEJOS.docx",
+                          "donor_docx":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\Plantillas\\Por Anejo\\07-07-red-de-saneamiento-pluviales\\10_donor_docx\\Anexo 7 - Pluviales.docx",
+                          "donor_excels":  [
+                                               "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\Plantillas\\Por Anejo\\07-07-red-de-saneamiento-pluviales\\20_donor_excel\\Cálculo Hidrológico(nueva IC-5.2)_A_535.2.xlsx",
+                                               "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\Plantillas\\Por Anejo\\07-07-red-de-saneamiento-pluviales\\20_donor_excel\\Cálculo Hidrológico(nueva IC-5.2)_B_535.2.xlsx",
+                                               "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\Plantillas\\Por Anejo\\07-07-red-de-saneamiento-pluviales\\20_donor_excel\\SSA ABRIL26 2.xlsx"
+                                           ],
+                          "support_files":  [
+                                                "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\Plantillas\\Por Anejo\\07-07-red-de-saneamiento-pluviales\\30_support\\Red_Pluviales_Trazable.xls",
+                                                "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\Plantillas\\Por Anejo\\07-07-red-de-saneamiento-pluviales\\30_support\\Red_Pluviales_Estructuras_Trazable.csv",
+                                                "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\Plantillas\\Por Anejo\\07-07-red-de-saneamiento-pluviales\\30_support\\Red_Pluviales_Tuberias_Trazable.csv"
+                                            ]
+                      }
+}

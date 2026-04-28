@@ -1,0 +1,67 @@
+{
+  "families": [
+    {
+      "id": "anejo4_pk_alineaciones",
+      "title": "Anejo 4 - PK de alineaciones",
+      "folder_names": [
+        "4.- Trazado, Replanteo y Mediciones Auxiliares"
+      ],
+      "source_files": [
+        "Informe de P.K. de PI de alineaciones.html",
+        "Informe de P.K. incremental de alineaciones.html"
+      ],
+      "require_all_sources": true,
+      "derived_files": [
+        "Anejo4_PK_PI_Alineaciones.csv",
+        "Anejo4_PK_Incremental_Alineaciones.csv",
+        "Anejo4_PK_Alineaciones_Trazable.xls",
+        "Actualizacion_Anejo4_PK_Alineaciones.md"
+      ],
+      "sync_script": "build_anejo4_alignment_pk_package.ps1",
+      "docx_update_script": "update_anejo4_docx_pk.ps1"
+    },
+    {
+      "id": "anejo4_html_word",
+      "title": "Anejo 4 - HTML a Word",
+      "folder_names": [
+        "4.- Trazado, Replanteo y Mediciones Auxiliares"
+      ],
+      "source_files": [
+        "Informe de P.K. de PI de alineaciones.html",
+        "Informe de P.K. incremental de alineaciones.html",
+        "Informe de curva y P.K. de VAV.html",
+        "Informe de P.K. incremental de VAV.html"
+      ],
+      "require_all_sources": false,
+      "derived_files": [
+        "Anejo4_HTML_WORD_Trazabilidad.xls",
+        "Anejo4_HTML_WORD_Trazabilidad.md"
+      ],
+      "sync_script": "build_anejo4_html_word_traceability.ps1",
+      "docx_update_script": ""
+    },
+    {
+      "id": "redes_saneamiento_civil3d",
+      "title": "Redes de saneamiento - Civil 3D",
+      "folder_names": [
+        "7.- Red de Saneamiento - Pluviales",
+        "8.- Red de Saneamiento - Fecales"
+      ],
+      "source_files": [
+        "CivilReport.html",
+        "MEDICION FECALES.html"
+      ],
+      "require_all_sources": false,
+      "derived_files": [
+        "Red_Pluviales_Trazable.xls",
+        "Red_Pluviales_Tuberias_Trazable.csv",
+        "Red_Pluviales_Estructuras_Trazable.csv",
+        "Red_Fecales_Trazable.xls",
+        "Red_Fecales_Tuberias_Trazable.csv",
+        "Red_Fecales_Estructuras_Trazable.csv"
+      ],
+      "sync_script": "build_network_measurements.ps1",
+      "docx_update_script": ""
+    }
+  ]
+}

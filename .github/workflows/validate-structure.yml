@@ -1,0 +1,30 @@
+name: validate-structure
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  repo-contract:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate repo contract
+        shell: pwsh
+        run: >
+          .\tools\check_repo_contract.ps1
+          -ContractPath .\CONFIG\repo_contract.json
+          -RootPath .
+
+      - name: Validate traceability seed
+        shell: pwsh
+        run: >
+          .\tools\check_traceability_graph_seed.ps1
+          -NodesPath .\CONTROL\trazabilidad\nodes.json
+          -EdgesPath .\CONTROL\trazabilidad\edges.json
+          -CoveragePath .\CONTROL\trazabilidad\coverage.json
+          -RootPath .

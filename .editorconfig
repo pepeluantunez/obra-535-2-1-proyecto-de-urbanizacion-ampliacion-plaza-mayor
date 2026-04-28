@@ -1,0 +1,46 @@
+# .editorconfig
+# Politica de encoding/EOL/indentacion del proyecto.
+# Motivo: Windows PowerShell 5.1 lee .ps1 SIN BOM como cp1252 -> mojibake en
+# strings con acentos. UTF-8 con BOM garantiza lectura correcta en PS 5.1 y PS 7+.
+# Excel para Windows tambien requiere BOM en CSV para abrir acentos correctamente.
+
+root = true
+
+# Default global
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 4
+
+# PowerShell: BOM obligatorio (causa-raiz del mojibake en este proyecto)
+[*.{ps1,psm1,psd1}]
+charset = utf-8-bom
+end_of_line = crlf
+
+# C# (OpenXmlExcelFormatter.cs): convencion .NET
+[*.cs]
+charset = utf-8-bom
+end_of_line = crlf
+
+# CSV/TSV: Excel necesita BOM para acentos; CRLF y sin newline final por compat
+[*.{csv,tsv}]
+charset = utf-8-bom
+end_of_line = crlf
+insert_final_newline = false
+trim_trailing_whitespace = false
+
+# TXT: en Windows con acentos, BOM evita Notepad cp1252
+[*.txt]
+charset = utf-8-bom
+end_of_line = crlf
+
+# Markdown: trailing whitespace tiene significado (dos espacios = <br>)
+[*.md]
+trim_trailing_whitespace = false
+
+# YAML/JSON: estandar 2 espacios. Sin BOM (RFC 8259 lo prohibe en JSON)
+[*.{yml,yaml,json}]
+indent_size = 2

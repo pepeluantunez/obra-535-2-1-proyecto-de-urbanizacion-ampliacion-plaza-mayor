@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "repo_role": "project",
+  "project_code": "535.2.1",
+  "project_slug": "obra-535-2-1-proyecto-de-urbanizacion-ampliacion-plaza-mayor",
+  "project_name": "Proyecto de Urbanizacion - Ampliacion Plaza Mayor",
+  "workspace_name": "535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor",
+  "authoritative_toolkit_repo": "urbanizacion-toolkit",
+  "authoritative_template_repo": "urbanizacion-plantilla-base"
+}

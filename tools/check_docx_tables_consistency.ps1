@@ -13,18 +13,48 @@ Add-Type -AssemblyName System.IO.Compression.FileSystem
 
 $docExtensions = @('.docx', '.docm')
 
+function Convert-ToExtendedPath {
+    param([string]$Path)
+
+    if ([string]::IsNullOrWhiteSpace($Path) -or $Path.StartsWith('\\?\')) {
+        return $Path
+    }
+
+    if ($Path.StartsWith('\\')) {
+        return '\\?\UNC\' + $Path.TrimStart('\')
+    }
+
+    return '\\?\' + $Path
+}
+
+function Resolve-ExistingPath {
+    param([string]$InputPath)
+
+    $absolute = if ([System.IO.Path]::IsPathRooted($InputPath)) {
+        [System.IO.Path]::GetFullPath($InputPath)
+    } else {
+        [System.IO.Path]::GetFullPath((Join-Path (Get-Location) $InputPath))
+    }
+
+    if ([System.IO.File]::Exists($absolute) -or [System.IO.Directory]::Exists($absolute)) {
+        return $absolute
+    }
+
+    $extended = Convert-ToExtendedPath -Path $absolute
+    if ([System.IO.File]::Exists($extended) -or [System.IO.Directory]::Exists($extended)) {
+        return $extended
+    }
+
+    return $null
+}
+
 function Resolve-DocFiles {
     param([string[]]$InputPaths)
 
     $resolved = @()
     foreach ($inputPath in $InputPaths) {
-        $absolute = if ([System.IO.Path]::IsPathRooted($inputPath)) {
-            $inputPath
-        } else {
-            Join-Path (Get-Location) $inputPath
-        }
-
-        if (-not (Test-Path -LiteralPath $absolute)) {
+        $absolute = Resolve-ExistingPath -InputPath $inputPath
+        if ($null -eq $absolute) {
             throw "No existe la ruta: $inputPath"
         }
 

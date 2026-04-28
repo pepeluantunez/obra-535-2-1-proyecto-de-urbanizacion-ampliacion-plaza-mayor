@@ -1,53 +1,72 @@
-﻿# Plantilla Base de Proyecto
+# obra-535-2-1-proyecto-de-urbanizacion-ampliacion-plaza-mayor
 
-Esta carpeta es la base reutilizable para arrancar nuevos proyectos con el mismo metodo de trabajo.
+Repositorio vivo del expediente `535.2.1`, centrado en documentacion tecnica, anejos, memoria y automatizacion especifica de Plaza Mayor.
 
-## Contenido
+## Rol del repo
 
-- `ESTANDARES.md`: reglas de nombres, estructura y control documental.
-- `AGENTS.md`: reglas operativas de agentes, cierres y controles obligatorios.
-- `PLANTILLA_ORDEN_TRABAJO.md`: formato corto para pedir tareas sin ambiguedad.
-- `CHECKLISTS/`: flujo operativo repetible (inicio, control de calidad y cierre).
-- `DOCS/Plantillas/`: plantillas documentales reutilizables.
-- `.github/`: plantillas de issues y PR para trabajar con GitHub sin perder controles de calidad.
-- `PLANOS/`, `PLANNING/`, `PRESUPUESTO/`: estructura minima estandar.
-- `scripts/` y `tools/`: automatizaciones y utilidades heredadas del sistema comun.
-- `CONFIG/proyecto.template.json`: datos base del nuevo expediente.
-- `CONFIG/bootstrap.copy-manifest.json`: seleccion curada de rutas que si se copian en el arranque.
-- `CONFIG/trazabilidad_profiles.json`: perfiles de documentos oficiales para revision de trazabilidad.
+Aqui deben vivir solo piezas propias del proyecto:
 
-## Como se crea ahora un proyecto nuevo
+- identidad del expediente
+- fuentes maestras, decisiones y estado operativo
+- memoria y anejos tecnicos
+- scripts y tools especificos de Plaza Mayor
+- control de trazabilidad local
+- red minima de trazabilidad verificable
 
-El arranque ya no debe copiar toda la plantilla a ciegas.
+No debe actuar como plantilla base ni como toolkit reutilizable.
 
-- `scripts/iniciar_proyecto_estandar.ps1` lee `CONFIG/bootstrap.copy-manifest.json`.
-- Solo se copian rutas curadas y reutilizables.
-- Quedan fuera artefactos de referencia, temporales y piezas demasiado especificas del proyecto origen.
+## Gobierno operativo
 
-Esto permite mantener `00_PLANTILLA_BASE` como base de trabajo viva sin contaminar automaticamente cada expediente nuevo.
+La autoridad operativa de este repo se reparte asi:
 
-## Estandarizacion operativa incluida
+- `MAPA_PROYECTO.md`: punto de entrada, limites y triage minimo.
+- `FUENTES_MAESTRAS.md`: autoridad documental y jerarquia entre fuentes.
+- `DECISIONES_PROYECTO.md`: criterios ya fijados para trabajar sin reabrir debates locales.
+- `AGENTS.md`: reglas especificas de Plaza Mayor, cierres y comandos de comprobacion del proyecto.
+- `CONFIG/repo_contract.json`: guardarrailes para evitar inflar la raiz o mezclar capas de ecosistema.
 
-La plantilla base ya incorpora controles listos para usar en proyectos nuevos:
+Si una regla o SOP es comun a varios proyectos, no debe consolidarse aqui como autoridad final.
 
-- Anti-mojibake Office: `tools/check_office_mojibake.ps1`
-- Integridad BC3: `tools/check_bc3_integrity.ps1`
-- Trazabilidad transversal y por perfil: `tools/check_traceability_consistency.ps1`, `tools/run_traceability_profile.ps1`
-- Guardas de formulas Excel: `tools/check_excel_formula_guard.ps1`
-- Estilo seguro de Excel (sin perder formulas): `tools/excel_style_safe.ps1`
-- Coherencia DOCX de tablas/captions/fuente: `tools/check_docx_tables_consistency.ps1`
-- Autofix de captions de tablas en DOCX: `tools/autofix_docx_captions.ps1`
-- Cierre mixto completo: `tools/run_project_closeout.ps1`
+## Punto de entrada corto
 
-## Tokens de personalizacion
+Antes de una tarea no trivial, leer en este orden:
 
-Los siguientes tokens se sustituyen automaticamente al crear un proyecto nuevo:
+1. `MAPA_PROYECTO.md`
+2. `FUENTES_MAESTRAS.md`
+3. `DECISIONES_PROYECTO.md`
+4. `ESTADO_PROYECTO.md`
+5. `AGENTS.md`
 
-- `535.2.1`
-- `Proyecto de Urbanizacion - Ampliacion Plaza Mayor`
-- `PENDIENTE`
-- `2026-04-15`
-- `535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor`
-- `obra-535-2-1-proyecto-de-urbanizacion-ampliacion-plaza-mayor`
-- `535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor`
+La rutina minima de triage local ya esta resumida dentro de `MAPA_PROYECTO.md`; no necesita vivir como autoridad separada en raiz.
 
+## Contrato estructural
+
+Este repo ya declara su contrato minimo en:
+
+- `CONFIG/project_identity.json`
+- `CONFIG/toolkit.lock.json`
+- `CONFIG/repo_contract.json`
+
+Validacion local:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\tools\check_repo_contract.ps1 -ContractPath .\CONFIG\repo_contract.json -RootPath .
+powershell -NoProfile -ExecutionPolicy Bypass -File .\tools\check_traceability_graph_seed.ps1 -NodesPath .\CONTROL\trazabilidad\nodes.json -EdgesPath .\CONTROL\trazabilidad\edges.json -CoveragePath .\CONTROL\trazabilidad\coverage.json -RootPath .
+```
+
+La raiz debe ir reduciendose. La operativa secundaria y la documentacion de migracion se agrupan en `PLANNING/OPERATIVA/` y `PLANNING/ECOSISTEMA/`.
+La gestion ligera del trabajo local vive en `PLANNING/KANBAN.md`.
+
+## Estructura principal
+
+- `DOCS - MEMORIA/`
+- `DOCS - ANEJOS/`
+- `CONFIG/`
+- `tools/`
+- `scripts/`
+- `PLANNING/`
+- `CHECKLISTS/`
+- `CONTROL/`
+- `CONTROL_CALIDAD/`
+
+Dentro de `CONTROL/`, la carpeta `trazabilidad/` pasa a ser la capa minima verificable de relaciones y cobertura. Las matrices o informes legibles siguen siendo utiles, pero ya no deben ser la unica representacion.

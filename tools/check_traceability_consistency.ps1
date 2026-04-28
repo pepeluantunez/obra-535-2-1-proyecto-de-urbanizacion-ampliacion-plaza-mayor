@@ -4,6 +4,8 @@ param(
 
     [string[]]$Needles,
 
+    [string[]]$RequiredCategories,
+
     [string]$OutMarkdownPath,
 
     [int]$MaxAutoNeedles = 25
@@ -15,7 +17,7 @@ $ErrorActionPreference = 'Stop'
 Add-Type -AssemblyName System.IO.Compression.FileSystem
 
 $supportedExtensions = @(
-    '.bc3', '.pzh',
+    '.bc3',
     '.docx', '.docm',
     '.xlsx', '.xlsm',
     '.csv', '.txt', '.md', '.html', '.htm', '.xml'
@@ -28,18 +30,48 @@ $stopTokens = @(
     'CONTENT', 'TYPES', 'OFFICE', 'MICROSOFT', 'DRAWING'
 )
 
+function Convert-ToExtendedPath {
+    param([string]$Path)
+
+    if ([string]::IsNullOrWhiteSpace($Path) -or $Path.StartsWith('\\?\')) {
+        return $Path
+    }
+
+    if ($Path.StartsWith('\\')) {
+        return '\\?\UNC\' + $Path.TrimStart('\')
+    }
+
+    return '\\?\' + $Path
+}
+
+function Resolve-ExistingPath {
+    param([string]$InputPath)
+
+    $absolute = if ([System.IO.Path]::IsPathRooted($InputPath)) {
+        [System.IO.Path]::GetFullPath($InputPath)
+    } else {
+        [System.IO.Path]::GetFullPath((Join-Path (Get-Location) $InputPath))
+    }
+
+    if ([System.IO.File]::Exists($absolute) -or [System.IO.Directory]::Exists($absolute)) {
+        return $absolute
+    }
+
+    $extended = Convert-ToExtendedPath -Path $absolute
+    if ([System.IO.File]::Exists($extended) -or [System.IO.Directory]::Exists($extended)) {
+        return $extended
+    }
+
+    return $null
+}
+
 function Resolve-TraceFiles {
     param([string[]]$InputPaths)
 
     $resolved = @()
     foreach ($inputPath in $InputPaths) {
-        $absolute = if ([System.IO.Path]::IsPathRooted($inputPath)) {
-            $inputPath
-        } else {
-            Join-Path (Get-Location) $inputPath
-        }
-
-        if (-not (Test-Path -LiteralPath $absolute)) {
+        $absolute = Resolve-ExistingPath -InputPath $inputPath
+        if ($null -eq $absolute) {
             throw "No existe la ruta: $inputPath"
         }
 
@@ -66,7 +98,6 @@ function Get-Category {
 
     switch ($Extension.ToLowerInvariant()) {
         '.bc3' { return 'BC3' }
-        '.pzh' { return 'BC3' }
         '.xlsx' { return 'Excel' }
         '.xlsm' { return 'Excel' }
         '.docx' { return 'Word' }
@@ -158,9 +189,53 @@ function Get-AutoNeedles {
         [int]$Limit
     )
 
+    $bc3Candidates = @{}
+    foreach ($context in ($FileContexts | Where-Object { $_.Category -eq 'BC3' })) {
+        foreach ($match in [regex]::Matches($context.NormalizedText, '(?:^|\s)~C\|([^|\s]+)\|')) {
+            $token = $match.Groups[1].Value.Trim().ToUpperInvariant()
+            if ($token.Length -lt 3 -or $token.Length -gt 40) { continue }
+            if ($token -match '^[\d.]+$') { continue }
+            if ($token.StartsWith('%')) { continue }
+            if ($token -notmatch '[\d._#-]' -and $token.Length -lt 8) { continue }
+            $bc3Candidates[$token] = $true
+        }
+    }
+
+    if ($bc3Candidates.Count -gt 0) {
+        $rankedBc3 = @(
+            foreach ($token in $bc3Candidates.Keys) {
+                $categories = New-Object 'System.Collections.Generic.HashSet[string]'
+                $fileHits = 0
+                foreach ($context in $FileContexts) {
+                    if ($context.NormalizedText.IndexOf($token, [System.StringComparison]::OrdinalIgnoreCase) -lt 0) {
+                        continue
+                    }
+                    $fileHits++
+                    [void]$categories.Add($context.Category)
+                }
+
+                if ($categories.Count -lt 2) { continue }
+
+                [pscustomobject]@{
+                    Token = $token
+                    CategoryCount = $categories.Count
+                    FileHits = $fileHits
+                }
+            }
+        )
+
+        if ($rankedBc3.Count -gt 0) {
+            return @(
+                $rankedBc3 |
+                    Sort-Object { -1 * $_.CategoryCount }, { -1 * $_.FileHits }, Token |
+                    Select-Object -First $Limit -ExpandProperty Token
+            )
+        }
+    }
+
     $candidates = @{}
     foreach ($context in $FileContexts) {
-        foreach ($match in [regex]::Matches($context.NormalizedText, '\b(?:MCG-\d+\.\d+#|[A-Z]{2,}[A-Z0-9._/-]{1,}|CP\d+|DN\d+)\b')) {
+        foreach ($match in [regex]::Matches($context.NormalizedText, '\b(?:MCG-\d+\.\d+#|[A-Z]{2,}[A-Z0-9._/-]*\d+[A-Z0-9._/-]*|[A-Z]{2,}(?:[._/-][A-Z0-9]+)+|CP\d+|DN\d+)\b')) {
             $token = $match.Value.Trim().ToUpperInvariant()
             if ($token.Length -lt 3 -or $token.Length -gt 32) { continue }
             if ($token -match '^\d+$') { continue }
@@ -212,15 +287,25 @@ $contexts = foreach ($file in $files) {
     }
 }
 
-$availableCategories = @($contexts.Category | Sort-Object -Unique)
-$effectiveNeedles = if ($Needles -and $Needles.Count -gt 0) {
+$availableCategories = @($contexts | ForEach-Object { $_.Category } | Sort-Object -Unique)
+$effectiveRequiredCategories = if ($RequiredCategories -and @($RequiredCategories).Count -gt 0) {
+    @($RequiredCategories | Where-Object { -not [string]::IsNullOrWhiteSpace($_) } | Sort-Object -Unique)
+} else {
+    @($availableCategories)
+}
+$effectiveRequiredCategories = @($effectiveRequiredCategories | Where-Object { $_ -in $availableCategories } | Sort-Object -Unique)
+if ($effectiveRequiredCategories.Count -eq 0) {
+    $effectiveRequiredCategories = @($availableCategories)
+}
+
+$effectiveNeedles = if ($Needles -and @($Needles).Count -gt 0) {
     @($Needles | Where-Object { -not [string]::IsNullOrWhiteSpace($_) } | ForEach-Object { $_.Trim() } | Sort-Object -Unique)
 } else {
     Get-AutoNeedles -FileContexts $contexts -Limit $MaxAutoNeedles
 }
 $effectiveNeedles = @($effectiveNeedles)
 
-if ($effectiveNeedles.Count -eq 0) {
+if (@($effectiveNeedles).Count -eq 0) {
     throw 'No se han encontrado anclas de trazabilidad. Usa -Needles para forzar conceptos concretos.'
 }
 
@@ -239,13 +324,18 @@ foreach ($needle in $effectiveNeedles) {
         }
     }
 
-    $hitCategories = @($hits.Category | Sort-Object -Unique)
-    $missingCategories = @($availableCategories | Where-Object { $_ -notin $hitCategories })
-    $status = if ($hitCategories.Count -eq 0) {
+    $hits = @($hits)
+    $hitCategories = if (@($hits).Count -gt 0) {
+        @($hits | ForEach-Object { $_.Category } | Sort-Object -Unique)
+    } else {
+        @()
+    }
+    $missingCategories = @($effectiveRequiredCategories | Where-Object { $_ -notin $hitCategories })
+    $status = if (@($hitCategories).Count -eq 0) {
         'SIN_HUELLAS'
-    } elseif ($hitCategories.Count -eq $availableCategories.Count) {
+    } elseif (@($missingCategories).Count -eq 0) {
         'OK'
-    } elseif ($hitCategories.Count -ge 2) {
+    } elseif (@($hitCategories).Count -ge 2) {
         'INCOMPLETA'
     } else {
         'DEBIL'
@@ -263,9 +353,10 @@ foreach ($needle in $effectiveNeedles) {
 $reportLines = @()
 $reportLines += '# Revision de trazabilidad transversal'
 $reportLines += ''
-$reportLines += ("Archivos revisados: {0}" -f $contexts.Count)
+$reportLines += ("Archivos revisados: {0}" -f @($contexts).Count)
 $reportLines += ("Categorias presentes: {0}" -f ($availableCategories -join ', '))
-$reportLines += ("Anclas revisadas: {0}" -f $results.Count)
+$reportLines += ("Categorias requeridas: {0}" -f ($effectiveRequiredCategories -join ', '))
+$reportLines += ("Anclas revisadas: {0}" -f @($results).Count)
 $reportLines += ''
 
 $hasFailures = $false
@@ -273,7 +364,7 @@ foreach ($result in $results) {
     if ($result.Status -ne 'OK') { $hasFailures = $true }
 
     $line = "- [{0}] {1} :: categorias={2}" -f $result.Status, $result.Needle, ($result.Categories -join ', ')
-    if ($result.MissingCategories.Count -gt 0) {
+    if (@($result.MissingCategories).Count -gt 0) {
         $line += " :: faltan={0}" -f ($result.MissingCategories -join ', ')
     }
     $reportLines += $line

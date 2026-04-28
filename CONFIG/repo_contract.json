@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "repo_role": "project",
+  "required_files": [
+    "README.md",
+    "AGENTS.md",
+    "MAPA_PROYECTO.md",
+    "FUENTES_MAESTRAS.md",
+    "DECISIONES_PROYECTO.md",
+    "ESTADO_PROYECTO.md",
+    "PLANNING/KANBAN.md",
+    "CONFIG/project_identity.json",
+    "CONFIG/toolkit.lock.json"
+  ],
+  "required_directories": [
+    "CONFIG",
+    "CONTROL",
+    "PLANNING",
+    "tools"
+  ],
+  "forbidden_paths": [
+    "urbanizacion-toolkit",
+    "urbanizacion-plantilla-base",
+    "00_PLANTILLA_BASE"
+  ],
+  "ignored_nested_git_markers": [
+    ".codex_tmp\\",
+    "scratch\\",
+    "_archive\\",
+    "_ARCHIVO_LOCAL_DOCS\\"
+  ],
+  "warn_if_root_markdown_count_gt": 12,
+  "warn_on_root_governance_duplicates": [
+    "CLAUDE.md",
+    "ESTANDARES.md",
+    "TRIAGE.md",
+    "COMANDOS_RAPIDOS_MAQUETACION.md",
+    "PLANTILLA_ORDEN_TRABAJO.md",
+    "GUIA_FUNCIONAMIENTO_SKILLS_AGENTES_2026-04-14.md",
+    "GUIA_OPERATIVA_AGENTES_STRICT_2026-04-14.md",
+    "PACK_SKILLS_URBANIZACION_VERIFICADO_2026-04-14.md"
+  ]
+}

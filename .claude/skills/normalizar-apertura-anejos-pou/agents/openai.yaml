@@ -1,0 +1,3 @@
+interface:
+  display_name: "Normalizar Apertura Anejos POU"
+  short_description: "Inserta 1. OBJETO, homogeniza índices y añade introducciones específicas por anejo."

@@ -1,0 +1,33 @@
+anejo: "Anejo 17 - Seguridad y Salud"
+status_actual: "activo"
+scope: "estudio de seguridad y salud con BC3 propio"
+fuentes_maestras:
+  - "DOCS - ANEJOS/17.- Seguridad y Salud/PRESUPUESTO_DONOR/535.2.1-Seguridad & Salud.bc3"
+  - "DOCS - ANEJOS/17.- Seguridad y Salud/CALCULOS/*.xlsx"
+  - "DOCS - ANEJOS/17.- Seguridad y Salud/Anexo 17 - Estudio de Seguridad y Salud.docx"
+  - "CONTROL/trazabilidad/*"
+restricciones:
+  - "El BC3 de SyS solo gobierna el ambito de SyS."
+  - "Toda modificacion BC3 debe seguir snapshot antes, snapshot despues y diff."
+  - "No convertir BC3 SyS en autoridad del presupuesto general del proyecto."
+datos_minimos:
+  - "conceptos BC3 relevantes"
+  - "medicion o estructura de coste de SyS"
+  - "soporte documental en el anejo"
+  - "fuente Excel si aplica"
+datos_deseables:
+  - "tabla Word trazable a bloques BC3"
+  - "dimensionado resumido con enlace a calculos"
+outputs_premium_recomendados:
+  - "tabla_partidas_criticas_presupuesto"
+  - "informe_de_incoherencias_transversales"
+  - "dashboard_resumen_proyecto"
+validaciones:
+  - "bc3_snapshot_before_after"
+  - "bc3_diff_report"
+  - "check_bc3_integrity"
+  - "check_office_mojibake"
+  - "coherencia_bc3_docx_excel"
+pendientes_tipicos:
+  - "[PENDIENTE: mantener clara la frontera entre BC3 de SyS y futuro BC3 general]"
+  - "[PENDIENTE: declarar tablas Word de SyS si se quiere trazabilidad mas alla de BC3 y Excel]"

@@ -1,0 +1,791 @@
+﻿<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+<Worksheet ss:Name="00_Matriz"><Table>
+<Row>
+<Cell><Data ss:Type="String">Seccion</Data></Cell>
+<Cell><Data ss:Type="String">FuenteTipo</Data></Cell>
+<Cell><Data ss:Type="String">ArchivoFuente</Data></Cell>
+<Cell><Data ss:Type="String">NombreHtml</Data></Cell>
+<Cell><Data ss:Type="String">HeadingEsperado</Data></Cell>
+<Cell><Data ss:Type="String">PK_Inicio</Data></Cell>
+<Cell><Data ss:Type="String">PK_Fin</Data></Cell>
+<Cell><Data ss:Type="String">Incremento_PK</Data></Cell>
+<Cell><Data ss:Type="String">FilasFuente</Data></Cell>
+<Cell><Data ss:Type="String">Word_Huellas_Visibles</Data></Cell>
+<Cell><Data ss:Type="String">Word_Headings_Sueltos</Data></Cell>
+<Cell><Data ss:Type="String">Word_Headings_Titulo5</Data></Cell>
+<Cell><Data ss:Type="String">EstadoWord</Data></Cell>
+<Cell><Data ss:Type="String">AccionRecomendada</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.1</Data></Cell>
+<Cell><Data ss:Type="String">Planta_PI</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. de PI de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">ROTONDA</Data></Cell>
+<Cell><Data ss:Type="String">ROTONDA</Data></Cell>
+<Cell><Data ss:Type="String">0+000.00</Data></Cell>
+<Cell><Data ss:Type="String">0+056.54</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">7</Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="String">Falta en Word</Data></Cell>
+<Cell><Data ss:Type="String">Insertar bloque nuevo desde HTML y revisar tabla asociada</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.1</Data></Cell>
+<Cell><Data ss:Type="String">Planta_PI</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. de PI de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="String">0+000.00</Data></Cell>
+<Cell><Data ss:Type="String">0+162.93</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">5</Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="String">Falta en Word</Data></Cell>
+<Cell><Data ss:Type="String">Insertar bloque nuevo desde HTML y revisar tabla asociada</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.1</Data></Cell>
+<Cell><Data ss:Type="String">Planta_PI</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. de PI de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
+<Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
+<Cell><Data ss:Type="String">0+000.00</Data></Cell>
+<Cell><Data ss:Type="String">0+098.34</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="String">Falta en Word</Data></Cell>
+<Cell><Data ss:Type="String">Insertar bloque nuevo desde HTML y revisar tabla asociada</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">ROTONDA</Data></Cell>
+<Cell><Data ss:Type="String">ROTONDA</Data></Cell>
+<Cell><Data ss:Type="String">0+000.00</Data></Cell>
+<Cell><Data ss:Type="String">0+056.54</Data></Cell>
+<Cell><Data ss:Type="String">10.00</Data></Cell>
+<Cell><Data ss:Type="Number">7</Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="String">Falta en Word</Data></Cell>
+<Cell><Data ss:Type="String">Insertar bloque nuevo desde HTML y revisar tabla asociada</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="String">0+000.00</Data></Cell>
+<Cell><Data ss:Type="String">0+162.93</Data></Cell>
+<Cell><Data ss:Type="String">10.00</Data></Cell>
+<Cell><Data ss:Type="Number">18</Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="String">Falta en Word</Data></Cell>
+<Cell><Data ss:Type="String">Insertar bloque nuevo desde HTML y revisar tabla asociada</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
+<Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
+<Cell><Data ss:Type="String">0+000.00</Data></Cell>
+<Cell><Data ss:Type="String">0+098.34</Data></Cell>
+<Cell><Data ss:Type="String">10.00</Data></Cell>
+<Cell><Data ss:Type="Number">11</Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="String">Falta en Word</Data></Cell>
+<Cell><Data ss:Type="String">Insertar bloque nuevo desde HTML y revisar tabla asociada</Data></Cell>
+</Row>
+</Table></Worksheet>
+<Worksheet ss:Name="01_Planta_PI"><Table>
+<Row>
+<Cell><Data ss:Type="String">Seccion</Data></Cell>
+<Cell><Data ss:Type="String">FuenteTipo</Data></Cell>
+<Cell><Data ss:Type="String">ArchivoFuente</Data></Cell>
+<Cell><Data ss:Type="String">NombreHtml</Data></Cell>
+<Cell><Data ss:Type="String">Fila</Data></Cell>
+<Cell><Data ss:Type="String">Col1</Data></Cell>
+<Cell><Data ss:Type="String">Col2</Data></Cell>
+<Cell><Data ss:Type="String">Col3</Data></Cell>
+<Cell><Data ss:Type="String">Col4</Data></Cell>
+<Cell><Data ss:Type="String">Col5</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.1</Data></Cell>
+<Cell><Data ss:Type="String">Planta_PI</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. de PI de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">ROTONDA</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="String">0+000.00</Data></Cell>
+<Cell><Data ss:Type="String">4,058,038.9315m</Data></Cell>
+<Cell><Data ss:Type="String">368,042.9782m</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.1</Data></Cell>
+<Cell><Data ss:Type="String">Planta_PI</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. de PI de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">ROTONDA</Data></Cell>
+<Cell><Data ss:Type="Number">2</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">8.727m</Data></Cell>
+<Cell><Data ss:Type="String">N1.762539O (d)</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.1</Data></Cell>
+<Cell><Data ss:Type="String">Planta_PI</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. de PI de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">ROTONDA</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="String">0+008.73</Data></Cell>
+<Cell><Data ss:Type="String">4,058,047.6547m</Data></Cell>
+<Cell><Data ss:Type="String">368,042.7097m</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.1</Data></Cell>
+<Cell><Data ss:Type="String">Planta_PI</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. de PI de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">ROTONDA</Data></Cell>
+<Cell><Data ss:Type="Number">4</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">18.008m</Data></Cell>
+<Cell><Data ss:Type="String">S1.729747E (d)</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.1</Data></Cell>
+<Cell><Data ss:Type="String">Planta_PI</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. de PI de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">ROTONDA</Data></Cell>
+<Cell><Data ss:Type="Number">5</Data></Cell>
+<Cell><Data ss:Type="String">0+051.41</Data></Cell>
+<Cell><Data ss:Type="String">4,058,029.6547m</Data></Cell>
+<Cell><Data ss:Type="String">368,043.2533m</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.1</Data></Cell>
+<Cell><Data ss:Type="String">Planta_PI</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. de PI de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">ROTONDA</Data></Cell>
+<Cell><Data ss:Type="Number">6</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">9.271m</Data></Cell>
+<Cell><Data ss:Type="String">N1.698877O (d)</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.1</Data></Cell>
+<Cell><Data ss:Type="String">Planta_PI</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. de PI de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">ROTONDA</Data></Cell>
+<Cell><Data ss:Type="Number">7</Data></Cell>
+<Cell><Data ss:Type="String">0+056.54</Data></Cell>
+<Cell><Data ss:Type="String">4,058,038.9215m</Data></Cell>
+<Cell><Data ss:Type="String">368,042.9785m</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.1</Data></Cell>
+<Cell><Data ss:Type="String">Planta_PI</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. de PI de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="String">0+000.00</Data></Cell>
+<Cell><Data ss:Type="String">4,058,038.6547m</Data></Cell>
+<Cell><Data ss:Type="String">368,033.9824m</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.1</Data></Cell>
+<Cell><Data ss:Type="String">Planta_PI</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. de PI de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">2</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">26.839m</Data></Cell>
+<Cell><Data ss:Type="String">N88.269292E (d)</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.1</Data></Cell>
+<Cell><Data ss:Type="String">Planta_PI</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. de PI de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="String">0+026.84</Data></Cell>
+<Cell><Data ss:Type="String">4,058,039.4653m</Data></Cell>
+<Cell><Data ss:Type="String">368,060.8092m</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.1</Data></Cell>
+<Cell><Data ss:Type="String">Planta_PI</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. de PI de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">4</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">136.432m</Data></Cell>
+<Cell><Data ss:Type="String">S55.112678E (d)</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.1</Data></Cell>
+<Cell><Data ss:Type="String">Planta_PI</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. de PI de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">5</Data></Cell>
+<Cell><Data ss:Type="String">0+162.93</Data></Cell>
+<Cell><Data ss:Type="String">4,057,961.4310m</Data></Cell>
+<Cell><Data ss:Type="String">368,172.7215m</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.1</Data></Cell>
+<Cell><Data ss:Type="String">Planta_PI</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. de PI de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="String">0+000.00</Data></Cell>
+<Cell><Data ss:Type="String">4,057,996.5823m</Data></Cell>
+<Cell><Data ss:Type="String">368,122.3095m</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.1</Data></Cell>
+<Cell><Data ss:Type="String">Planta_PI</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. de PI de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
+<Cell><Data ss:Type="Number">2</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">98.344m</Data></Cell>
+<Cell><Data ss:Type="String">N35.013566E (d)</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.1</Data></Cell>
+<Cell><Data ss:Type="String">Planta_PI</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. de PI de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="String">0+098.34</Data></Cell>
+<Cell><Data ss:Type="String">4,058,077.1274m</Data></Cell>
+<Cell><Data ss:Type="String">368,178.7362m</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+</Table></Worksheet>
+<Worksheet ss:Name="02_Planta_INC"><Table>
+<Row>
+<Cell><Data ss:Type="String">Seccion</Data></Cell>
+<Cell><Data ss:Type="String">FuenteTipo</Data></Cell>
+<Cell><Data ss:Type="String">ArchivoFuente</Data></Cell>
+<Cell><Data ss:Type="String">NombreHtml</Data></Cell>
+<Cell><Data ss:Type="String">Fila</Data></Cell>
+<Cell><Data ss:Type="String">Col1</Data></Cell>
+<Cell><Data ss:Type="String">Col2</Data></Cell>
+<Cell><Data ss:Type="String">Col3</Data></Cell>
+<Cell><Data ss:Type="String">Col4</Data></Cell>
+<Cell><Data ss:Type="String">Col5</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">ROTONDA</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="String">0+000.00</Data></Cell>
+<Cell><Data ss:Type="String">4,058,038.9315m</Data></Cell>
+<Cell><Data ss:Type="String">368,042.9782m</Data></Cell>
+<Cell><Data ss:Type="String">N1.762539O (d)</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">ROTONDA</Data></Cell>
+<Cell><Data ss:Type="Number">2</Data></Cell>
+<Cell><Data ss:Type="String">0+010.00</Data></Cell>
+<Cell><Data ss:Type="String">4,058,046.8394m</Data></Cell>
+<Cell><Data ss:Type="String">368,037.7255m</Data></Cell>
+<Cell><Data ss:Type="String">N65.424516O (d)</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">ROTONDA</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="String">0+020.00</Data></Cell>
+<Cell><Data ss:Type="String">4,058,045.6404m</Data></Cell>
+<Cell><Data ss:Type="String">368,028.3080m</Data></Cell>
+<Cell><Data ss:Type="String">S50.913507O (d)</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">ROTONDA</Data></Cell>
+<Cell><Data ss:Type="Number">4</Data></Cell>
+<Cell><Data ss:Type="String">0+030.00</Data></Cell>
+<Cell><Data ss:Type="String">4,058,036.6686m</Data></Cell>
+<Cell><Data ss:Type="String">368,025.2043m</Data></Cell>
+<Cell><Data ss:Type="String">S12.748470E (d)</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">ROTONDA</Data></Cell>
+<Cell><Data ss:Type="Number">5</Data></Cell>
+<Cell><Data ss:Type="String">0+040.00</Data></Cell>
+<Cell><Data ss:Type="String">4,058,029.9066m</Data></Cell>
+<Cell><Data ss:Type="String">368,031.8677m</Data></Cell>
+<Cell><Data ss:Type="String">S76.410448E (d)</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">ROTONDA</Data></Cell>
+<Cell><Data ss:Type="Number">6</Data></Cell>
+<Cell><Data ss:Type="String">0+050.00</Data></Cell>
+<Cell><Data ss:Type="String">4,058,032.8783m</Data></Cell>
+<Cell><Data ss:Type="String">368,040.8841m</Data></Cell>
+<Cell><Data ss:Type="String">N39.927575E (d)</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">ROTONDA</Data></Cell>
+<Cell><Data ss:Type="Number">7</Data></Cell>
+<Cell><Data ss:Type="String">0+056.54</Data></Cell>
+<Cell><Data ss:Type="String">4,058,038.9215m</Data></Cell>
+<Cell><Data ss:Type="String">368,042.9785m</Data></Cell>
+<Cell><Data ss:Type="String">N1.698877O (d)</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="String">0+000.00</Data></Cell>
+<Cell><Data ss:Type="String">4,058,038.6547m</Data></Cell>
+<Cell><Data ss:Type="String">368,033.9824m</Data></Cell>
+<Cell><Data ss:Type="String">N88.269292E (d)</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">2</Data></Cell>
+<Cell><Data ss:Type="String">0+010.00</Data></Cell>
+<Cell><Data ss:Type="String">4,058,038.9567m</Data></Cell>
+<Cell><Data ss:Type="String">368,043.9779m</Data></Cell>
+<Cell><Data ss:Type="String">N88.269292E (d)</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="String">0+020.00</Data></Cell>
+<Cell><Data ss:Type="String">4,058,039.2587m</Data></Cell>
+<Cell><Data ss:Type="String">368,053.9733m</Data></Cell>
+<Cell><Data ss:Type="String">N88.269292E (d)</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">4</Data></Cell>
+<Cell><Data ss:Type="String">0+030.00</Data></Cell>
+<Cell><Data ss:Type="String">4,058,037.4029m</Data></Cell>
+<Cell><Data ss:Type="String">368,063.6423m</Data></Cell>
+<Cell><Data ss:Type="String">S60.697712E (d)</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">5</Data></Cell>
+<Cell><Data ss:Type="String">0+040.00</Data></Cell>
+<Cell><Data ss:Type="String">4,058,031.7430m</Data></Cell>
+<Cell><Data ss:Type="String">368,071.8839m</Data></Cell>
+<Cell><Data ss:Type="String">S55.112678E (d)</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">6</Data></Cell>
+<Cell><Data ss:Type="String">0+050.00</Data></Cell>
+<Cell><Data ss:Type="String">4,058,026.0234m</Data></Cell>
+<Cell><Data ss:Type="String">368,080.0867m</Data></Cell>
+<Cell><Data ss:Type="String">S55.112678E (d)</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">7</Data></Cell>
+<Cell><Data ss:Type="String">0+060.00</Data></Cell>
+<Cell><Data ss:Type="String">4,058,020.3037m</Data></Cell>
+<Cell><Data ss:Type="String">368,088.2895m</Data></Cell>
+<Cell><Data ss:Type="String">S55.112678E (d)</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">8</Data></Cell>
+<Cell><Data ss:Type="String">0+070.00</Data></Cell>
+<Cell><Data ss:Type="String">4,058,014.5841m</Data></Cell>
+<Cell><Data ss:Type="String">368,096.4923m</Data></Cell>
+<Cell><Data ss:Type="String">S55.112678E (d)</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">9</Data></Cell>
+<Cell><Data ss:Type="String">0+080.00</Data></Cell>
+<Cell><Data ss:Type="String">4,058,008.8645m</Data></Cell>
+<Cell><Data ss:Type="String">368,104.6951m</Data></Cell>
+<Cell><Data ss:Type="String">S55.112678E (d)</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="String">0+090.00</Data></Cell>
+<Cell><Data ss:Type="String">4,058,003.1448m</Data></Cell>
+<Cell><Data ss:Type="String">368,112.8979m</Data></Cell>
+<Cell><Data ss:Type="String">S55.112678E (d)</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">11</Data></Cell>
+<Cell><Data ss:Type="String">0+100.00</Data></Cell>
+<Cell><Data ss:Type="String">4,057,997.4252m</Data></Cell>
+<Cell><Data ss:Type="String">368,121.1006m</Data></Cell>
+<Cell><Data ss:Type="String">S55.112678E (d)</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">12</Data></Cell>
+<Cell><Data ss:Type="String">0+110.00</Data></Cell>
+<Cell><Data ss:Type="String">4,057,991.7055m</Data></Cell>
+<Cell><Data ss:Type="String">368,129.3034m</Data></Cell>
+<Cell><Data ss:Type="String">S55.112678E (d)</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">13</Data></Cell>
+<Cell><Data ss:Type="String">0+120.00</Data></Cell>
+<Cell><Data ss:Type="String">4,057,985.9859m</Data></Cell>
+<Cell><Data ss:Type="String">368,137.5062m</Data></Cell>
+<Cell><Data ss:Type="String">S55.112678E (d)</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">14</Data></Cell>
+<Cell><Data ss:Type="String">0+130.00</Data></Cell>
+<Cell><Data ss:Type="String">4,057,980.2662m</Data></Cell>
+<Cell><Data ss:Type="String">368,145.7090m</Data></Cell>
+<Cell><Data ss:Type="String">S55.112678E (d)</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">15</Data></Cell>
+<Cell><Data ss:Type="String">0+140.00</Data></Cell>
+<Cell><Data ss:Type="String">4,057,974.5466m</Data></Cell>
+<Cell><Data ss:Type="String">368,153.9118m</Data></Cell>
+<Cell><Data ss:Type="String">S55.112678E (d)</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">16</Data></Cell>
+<Cell><Data ss:Type="String">0+150.00</Data></Cell>
+<Cell><Data ss:Type="String">4,057,968.8270m</Data></Cell>
+<Cell><Data ss:Type="String">368,162.1146m</Data></Cell>
+<Cell><Data ss:Type="String">S55.112678E (d)</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">17</Data></Cell>
+<Cell><Data ss:Type="String">0+160.00</Data></Cell>
+<Cell><Data ss:Type="String">4,057,963.1073m</Data></Cell>
+<Cell><Data ss:Type="String">368,170.3174m</Data></Cell>
+<Cell><Data ss:Type="String">S55.112678E (d)</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">18</Data></Cell>
+<Cell><Data ss:Type="String">0+162.93</Data></Cell>
+<Cell><Data ss:Type="String">4,057,961.4315m</Data></Cell>
+<Cell><Data ss:Type="String">368,172.7208m</Data></Cell>
+<Cell><Data ss:Type="String">S55.112678E (d)</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="String">0+000.00</Data></Cell>
+<Cell><Data ss:Type="String">4,057,996.5823m</Data></Cell>
+<Cell><Data ss:Type="String">368,122.3095m</Data></Cell>
+<Cell><Data ss:Type="String">N35.013566E (d)</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
+<Cell><Data ss:Type="Number">2</Data></Cell>
+<Cell><Data ss:Type="String">0+010.00</Data></Cell>
+<Cell><Data ss:Type="String">4,058,004.7724m</Data></Cell>
+<Cell><Data ss:Type="String">368,128.0472m</Data></Cell>
+<Cell><Data ss:Type="String">N35.013566E (d)</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="String">0+020.00</Data></Cell>
+<Cell><Data ss:Type="String">4,058,012.9626m</Data></Cell>
+<Cell><Data ss:Type="String">368,133.7849m</Data></Cell>
+<Cell><Data ss:Type="String">N35.013566E (d)</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
+<Cell><Data ss:Type="Number">4</Data></Cell>
+<Cell><Data ss:Type="String">0+030.00</Data></Cell>
+<Cell><Data ss:Type="String">4,058,021.1528m</Data></Cell>
+<Cell><Data ss:Type="String">368,139.5226m</Data></Cell>
+<Cell><Data ss:Type="String">N35.013566E (d)</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
+<Cell><Data ss:Type="Number">5</Data></Cell>
+<Cell><Data ss:Type="String">0+040.00</Data></Cell>
+<Cell><Data ss:Type="String">4,058,029.3429m</Data></Cell>
+<Cell><Data ss:Type="String">368,145.2603m</Data></Cell>
+<Cell><Data ss:Type="String">N35.013566E (d)</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
+<Cell><Data ss:Type="Number">6</Data></Cell>
+<Cell><Data ss:Type="String">0+050.00</Data></Cell>
+<Cell><Data ss:Type="String">4,058,037.5331m</Data></Cell>
+<Cell><Data ss:Type="String">368,150.9980m</Data></Cell>
+<Cell><Data ss:Type="String">N35.013566E (d)</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
+<Cell><Data ss:Type="Number">7</Data></Cell>
+<Cell><Data ss:Type="String">0+060.00</Data></Cell>
+<Cell><Data ss:Type="String">4,058,045.7233m</Data></Cell>
+<Cell><Data ss:Type="String">368,156.7357m</Data></Cell>
+<Cell><Data ss:Type="String">N35.013566E (d)</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
+<Cell><Data ss:Type="Number">8</Data></Cell>
+<Cell><Data ss:Type="String">0+070.00</Data></Cell>
+<Cell><Data ss:Type="String">4,058,053.9134m</Data></Cell>
+<Cell><Data ss:Type="String">368,162.4734m</Data></Cell>
+<Cell><Data ss:Type="String">N35.013566E (d)</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
+<Cell><Data ss:Type="Number">9</Data></Cell>
+<Cell><Data ss:Type="String">0+080.00</Data></Cell>
+<Cell><Data ss:Type="String">4,058,062.1036m</Data></Cell>
+<Cell><Data ss:Type="String">368,168.2111m</Data></Cell>
+<Cell><Data ss:Type="String">N35.013566E (d)</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="String">0+090.00</Data></Cell>
+<Cell><Data ss:Type="String">4,058,070.2937m</Data></Cell>
+<Cell><Data ss:Type="String">368,173.9488m</Data></Cell>
+<Cell><Data ss:Type="String">N35.013566E (d)</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
+<Cell><Data ss:Type="Number">11</Data></Cell>
+<Cell><Data ss:Type="String">0+098.34</Data></Cell>
+<Cell><Data ss:Type="String">4,058,077.1243m</Data></Cell>
+<Cell><Data ss:Type="String">368,178.7340m</Data></Cell>
+<Cell><Data ss:Type="String">N35.013566E (d)</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+</Table></Worksheet>
+<Worksheet ss:Name="05_Word"><Table>
+<Row>
+</Row>
+<Row>
+</Row>
+</Table></Worksheet>
+<Worksheet ss:Name="06_Control"><Table>
+<Row>
+<Cell><Data ss:Type="String">Regla</Data></Cell>
+<Cell><Data ss:Type="String">Accion</Data></Cell>
+<Cell><Data ss:Type="String">Salida</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">HTML de planta</Data></Cell>
+<Cell><Data ss:Type="String">Regenerar paquete de PK y matriz HTML-Word</Data></Cell>
+<Cell><Data ss:Type="String">Anejo4_PK_* + Anejo4_HTML_WORD_Trazabilidad.*</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">HTML de alzado</Data></Cell>
+<Cell><Data ss:Type="String">Regenerar matriz HTML-Word y revisar headings del 2.2</Data></Cell>
+<Cell><Data ss:Type="String">Anejo4_HTML_WORD_Trazabilidad.*</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Word principal</Data></Cell>
+<Cell><Data ss:Type="String">Aplicar solo cambios puntuales</Data></Cell>
+<Cell><Data ss:Type="String">DOCX principal consistente</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Cierre</Data></Cell>
+<Cell><Data ss:Type="String">Pasar checks de mojibake, tablas y trazabilidad</Data></Cell>
+<Cell><Data ss:Type="String">Cierre verificable</Data></Cell>
+</Row>
+</Table></Worksheet>
+</Workbook>

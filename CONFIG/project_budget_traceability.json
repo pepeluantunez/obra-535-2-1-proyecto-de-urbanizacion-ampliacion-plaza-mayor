@@ -1,0 +1,32 @@
+{
+  "project_code": "535.2.1",
+  "project_name": "Proyecto de Urbanizacion - Ampliacion Plaza Mayor",
+  "budget_master_candidates": [
+    "PRESUPUESTO\\535.2.1.bc3",
+    "PRESUPUESTO\\535.2.1_presupuesto.bc3",
+    "PRESUPUESTO\\presupuesto.bc3",
+    "DOCS - ANEJOS\\17.- Seguridad y Salud\\PRESUPUESTO_DONOR\\535.2.1-Seguridad & Salud.bc3"
+  ],
+  "memory_candidates": [
+    "DOCS - MEMORIA\\Memoria descriptiva - Proyecto de Urbanizacion - Ampliacion Plaza Mayor.docx"
+  ],
+  "anejo17_docx_candidates": [
+    "DOCS - ANEJOS\\17.- Seguridad y Salud\\Anexo 17 - Estudio de Seguridad y Salud.docx"
+  ],
+  "pem_expected_targets": [
+    "DOCS - MEMORIA\\Memoria descriptiva - Proyecto de Urbanizacion - Ampliacion Plaza Mayor.docx",
+    "DOCS - ANEJOS\\17.- Seguridad y Salud\\Anexo 17 - Estudio de Seguridad y Salud.docx"
+  ],
+  "traceability_reference_targets": [
+    "CONTROL\\project_facts.md",
+    "CONTROL\\matriz_estado_anejos.md",
+    "PLANNING\\PLAZA_MAYOR\\03_TRAZABILIDAD_CIVIL3D_BASE.md"
+  ],
+  "trace_profiles_on_budget_change": [
+    "base_general",
+    "control_calidad_plan_obra",
+    "residuos_sys",
+    "seguridad_salud"
+  ],
+  "sync_scripts": []
+}

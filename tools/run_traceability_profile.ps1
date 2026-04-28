@@ -9,6 +9,41 @@ Set-StrictMode -Version Latest
 $ErrorActionPreference = 'Stop'
 [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)
 
+function Convert-ToExtendedPath {
+    param([string]$Path)
+
+    if ([string]::IsNullOrWhiteSpace($Path) -or $Path.StartsWith('\\?\')) {
+        return $Path
+    }
+
+    if ($Path.StartsWith('\\')) {
+        return '\\?\UNC\' + $Path.TrimStart('\')
+    }
+
+    return '\\?\' + $Path
+}
+
+function Resolve-ExistingPath {
+    param([string]$InputPath)
+
+    $absolute = if ([System.IO.Path]::IsPathRooted($InputPath)) {
+        [System.IO.Path]::GetFullPath($InputPath)
+    } else {
+        [System.IO.Path]::GetFullPath((Join-Path (Get-Location) $InputPath))
+    }
+
+    if ([System.IO.File]::Exists($absolute) -or [System.IO.Directory]::Exists($absolute)) {
+        return $absolute
+    }
+
+    $extended = Convert-ToExtendedPath -Path $absolute
+    if ([System.IO.File]::Exists($extended) -or [System.IO.Directory]::Exists($extended)) {
+        return $extended
+    }
+
+    return $null
+}
+
 $profilePath = if ([System.IO.Path]::IsPathRooted($ProfileFile)) {
     $ProfileFile
 } else {
@@ -25,7 +60,18 @@ if ($profileNames -notcontains $Profile) {
     throw ("Perfil no encontrado: {0}. Perfiles disponibles: {1}" -f $Profile, ($profileNames -join ', '))
 }
 
-$inputPaths = @($json.$Profile)
+$profileConfig = $json.$Profile
+$profileNeedles = @()
+$profileRequiredCategories = @()
+if ($profileConfig -is [System.Collections.IEnumerable] -and -not ($profileConfig -is [string]) -and -not ($profileConfig.PSObject.Properties.Name -contains 'paths')) {
+    $inputPaths = @($profileConfig)
+}
+else {
+    $inputPaths = @($profileConfig.paths)
+    $profileNeedles = @($profileConfig.needles)
+    $profileRequiredCategories = @($profileConfig.required_categories)
+}
+
 if ($inputPaths.Count -eq 0) {
     throw "El perfil '$Profile' no contiene rutas."
 }
@@ -35,15 +81,15 @@ $resolved = @()
 $missing = @()
 $unsupported = @()
 foreach ($p in $inputPaths) {
-    $abs = if ([System.IO.Path]::IsPathRooted($p)) { $p } else { Join-Path (Get-Location) $p }
-    if (Test-Path -LiteralPath $abs) {
+    $abs = Resolve-ExistingPath -InputPath $p
+    if ($null -ne $abs) {
         $item = Get-Item -LiteralPath $abs
         if ($item.PSIsContainer) {
-            $resolved += $abs
+            $resolved += $item.FullName
         } else {
-            $ext = [System.IO.Path]::GetExtension($abs).ToLowerInvariant()
+            $ext = [System.IO.Path]::GetExtension($item.FullName).ToLowerInvariant()
             if ($supportedExtensions -contains $ext) {
-                $resolved += $abs
+                $resolved += $item.FullName
             } else {
                 $unsupported += $p
             }
@@ -84,8 +130,55 @@ if (-not (Test-Path -LiteralPath $checker)) {
     throw "No existe el verificador de trazabilidad: $checker"
 }
 
+$specialAnejoChecker = Join-Path (Split-Path -Parent $MyInvocation.MyCommand.Path) 'check_anejo13_14_value_traceability.ps1'
+$freshnessChecker = Join-Path (Split-Path -Parent $MyInvocation.MyCommand.Path) 'check_annex_live_source_freshness.ps1'
+$electricFolderExclusions = @(
+    '9.- Red de Media Tensión',
+    '10.- Red de Baja Tensión',
+    '11.-Red de Alumbrado'
+)
+
+$effectiveNeedles = @()
 if ($Needles -and $Needles.Count -gt 0) {
-    & $checker -Paths $resolved -Needles $Needles
+    $effectiveNeedles = @($Needles)
+}
+elseif ($profileNeedles.Count -gt 0) {
+    $effectiveNeedles = @($profileNeedles)
+}
+
+if ($effectiveNeedles.Count -gt 0) {
+    if ($profileRequiredCategories.Count -gt 0) {
+        & $checker -Paths $resolved -Needles $effectiveNeedles -RequiredCategories $profileRequiredCategories
+    }
+    else {
+        & $checker -Paths $resolved -Needles $effectiveNeedles
+    }
 } else {
-    & $checker -Paths $resolved
+    if ($profileRequiredCategories.Count -gt 0) {
+        & $checker -Paths $resolved -RequiredCategories $profileRequiredCategories
+    }
+    else {
+        & $checker -Paths $resolved
+    }
+}
+
+if ($Profile -in @('control_calidad_plan_obra', 'residuos_sys', 'todo_integral', 'memoria_integral')) {
+    if (-not (Test-Path -LiteralPath $specialAnejoChecker)) {
+        Write-Warning "No existe el verificador especializado de anejos 13/14: $specialAnejoChecker"
+    }
+    else {
+        & $specialAnejoChecker -Root (Get-Location).Path
+    }
+}
+
+if ($Profile -in @('base_general', 'pluviales_fecales', 'control_calidad_plan_obra', 'residuos_sys', 'todo_integral', 'memoria_integral', 'instalaciones_electricas')) {
+    if (-not (Test-Path -LiteralPath $freshnessChecker)) {
+        Write-Warning "No existe el verificador de frescura documental: $freshnessChecker"
+    }
+    elseif ($Profile -eq 'instalaciones_electricas') {
+        & $freshnessChecker -Root (Get-Location).Path
+    }
+    else {
+        & $freshnessChecker -Root (Get-Location).Path -ExcludeFolders $electricFolderExclusions
+    }
 }

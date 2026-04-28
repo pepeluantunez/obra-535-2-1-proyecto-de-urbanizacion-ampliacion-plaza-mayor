@@ -1,0 +1,3 @@
+interface:
+  display_name: "Sync Apartados Guadalmar"
+  short_description: "Replica la jerarquia de apartados de Guadalmar en los DOCX de anejos sin copiar la redaccion donor."

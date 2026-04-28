@@ -1,0 +1,27 @@
+﻿{
+    "number":  17,
+    "slug":  "17-seguridad-y-salud",
+    "title":  "ESTUDIO DE SEGURIDAD Y SALUD",
+    "family":  "seguridad-salud",
+    "reusability":  "specific_template",
+    "notes":  "Plantilla especifica muy larga, con fuerte relacion con dimensionado y presupuesto donor.",
+    "variable_inputs":  [
+                            "[NOMBRE DEL PROYECTO]",
+                            "[CIUDAD DEL PROYECTO]",
+                            "[RIESGOS]",
+                            "[MEDIDAS PREVENTIVAS]",
+                            "[MEDICIONES SYS]",
+                            "[PRESUPUESTO SYS]"
+                        ],
+    "copied_assets":  {
+                          "master_template":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\Plantillas\\Por Anejo\\17-17-seguridad-y-salud\\00_master\\PLANTILLA_MAESTRA_ANEJOS.docx",
+                          "donor_docx":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\Plantillas\\Por Anejo\\17-17-seguridad-y-salud\\10_donor_docx\\Anejo 17 - Estudio de Seguridad y Salud.docx",
+                          "donor_excels":  [
+                                               "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\Plantillas\\Por Anejo\\17-17-seguridad-y-salud\\20_donor_excel\\Dimensionado_SyS_Guadalmar.xlsx"
+                                           ],
+                          "support_files":  [
+                                                "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\Plantillas\\Por Anejo\\17-17-seguridad-y-salud\\30_support\\SyS_535_2_2_DIMENSIONADO_TRAZABLE.xls",
+                                                "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\Plantillas\\Por Anejo\\17-17-seguridad-y-salud\\30_support\\Dimensionado_SyS_Guadalmar.xml"
+                                            ]
+                      }
+}

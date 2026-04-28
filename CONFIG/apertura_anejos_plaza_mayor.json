@@ -1,0 +1,116 @@
+{
+  "project_heading": "PROYECTO DE URBANIZACIÓN",
+  "project_cover": "AMPLIACIÓN PLAZA MAYOR, MÁLAGA",
+  "common_background": "Como información de partida se dispone del dossier base de Plaza Mayor, de los antecedentes urbanísticos, administrativos y sectoriales ya recopilados, así como de la estructura documental preparada para este proyecto. Cuando ha resultado útil, se han conservado referencias metodológicas o soportes donor únicamente como guía documental o de maquetación, sin trasladar automáticamente sus datos técnicos al presente expediente.",
+  "common_normativa": "Sin perjuicio de la normativa específica que deba completarse en la redacción definitiva de cada anejo, resultan de aplicación la legislación urbanística y contractual vigente, el planeamiento y las ordenanzas municipales del ámbito, así como la reglamentación técnica sectorial correspondiente a las redes, instalaciones y obras de urbanización incluidas en el proyecto.",
+  "annexes": [
+    {
+      "number": 1,
+      "title": "REPORTAJE FOTOGRÁFICO",
+      "object_text": "El presente anejo tiene por objeto ordenar el reportaje fotográfico del Proyecto de Urbanización - Ampliación Plaza Mayor, identificando la documentación gráfica de partida disponible y fijando un marco profesional para su posterior desarrollo. En esta fase inicial se incorpora únicamente la estructura documental base del anejo, quedando pendiente la carga del material fotográfico específico del ámbito.",
+      "additional_background": ""
+    },
+    {
+      "number": 2,
+      "title": "CARTOGRAFÍA Y TOPOGRAFÍA",
+      "object_text": "El presente anejo tiene por objeto iniciar la redacción del bloque de cartografía y topografía del Proyecto de Urbanización - Ampliación Plaza Mayor, identificando la información de partida disponible y la estructura documental necesaria para su desarrollo. El contenido técnico definitivo se completará cuando se incorporen y contrasten los soportes topográficos y cartográficos propios del ámbito.",
+      "additional_background": ""
+    },
+    {
+      "number": 3,
+      "title": "ESTUDIO GEOTÉCNICO",
+      "object_text": "El presente anejo tiene por objeto dejar iniciado el estudio geotécnico asociado al Proyecto de Urbanización - Ampliación Plaza Mayor, encajando la documentación disponible dentro de una estructura técnica homogénea con el resto del expediente. En esta fase se limita a ordenar la base documental y a señalar la necesidad de incorporar y verificar los datos geotécnicos específicos del ámbito.",
+      "additional_background": ""
+    },
+    {
+      "number": 4,
+      "title": "TRAZADO, REPLANTEO Y MEDICIONES AUXILIARES",
+      "object_text": "El presente anejo tiene por objeto iniciar la redacción del trazado, replanteo y mediciones auxiliares del Proyecto de Urbanización - Ampliación Plaza Mayor, ordenando la información base y fijando el criterio de trabajo para su posterior desarrollo técnico. La definición geométrica, las mediciones y la trazabilidad definitiva se completarán con la documentación específica del ámbito y sus exportaciones contrastadas.",
+      "additional_background": "En los bloques vinculados a trazado y redes se prevé reutilizar la misma familia documental de soporte empleada en Guadalmar, adaptándola íntegramente a las denominaciones, alineaciones y resultados propios de Plaza Mayor."
+    },
+    {
+      "number": 5,
+      "title": "DIMENSIONAMIENTO DEL FIRME",
+      "object_text": "El presente anejo tiene por objeto iniciar la redacción del dimensionamiento del firme del Proyecto de Urbanización - Ampliación Plaza Mayor, dejando identificado el marco documental de partida y la estructura de trabajo del anejo. Las comprobaciones, hipótesis y cálculos definitivos se incorporarán una vez se consoliden los datos específicos de tráfico, plataforma y solución constructiva del ámbito.",
+      "additional_background": ""
+    },
+    {
+      "number": 6,
+      "title": "RED DE AGUA POTABLE",
+      "object_text": "El presente anejo tiene por objeto iniciar la redacción de la red de agua potable del Proyecto de Urbanización - Ampliación Plaza Mayor, ordenando la documentación actualmente disponible y fijando un arranque documental coherente con el resto del expediente. El diseño hidráulico y la definición técnica final de la red se completarán cuando se incorporen los datos de trazado, demanda, conexión y comprobación propios del proyecto.",
+      "additional_background": ""
+    },
+    {
+      "number": 7,
+      "title": "RED DE SANEAMIENTO - PLUVIALES",
+      "object_text": "El presente anejo tiene por objeto iniciar la redacción de la red de saneamiento de pluviales del Proyecto de Urbanización - Ampliación Plaza Mayor, identificando la información base disponible y la estructura documental necesaria para su desarrollo. La definición hidráulica y la trazabilidad final de la red quedarán condicionadas a la incorporación de reportes, tablas y exportaciones específicas del ámbito.",
+      "additional_background": "En los bloques vinculados a trazado y redes se prevé reutilizar la misma familia documental de soporte empleada en Guadalmar, adaptándola íntegramente a las denominaciones, alineaciones y resultados propios de Plaza Mayor."
+    },
+    {
+      "number": 8,
+      "title": "RED DE SANEAMIENTO - FECALES",
+      "object_text": "El presente anejo tiene por objeto iniciar la redacción de la red de saneamiento de fecales del Proyecto de Urbanización - Ampliación Plaza Mayor, identificando la información base disponible y la estructura documental necesaria para su desarrollo. La definición hidráulica y la trazabilidad final de la red quedarán condicionadas a la incorporación de reportes, tablas y exportaciones específicas del ámbito.",
+      "additional_background": "En los bloques vinculados a trazado y redes se prevé reutilizar la misma familia documental de soporte empleada en Guadalmar, adaptándola íntegramente a las denominaciones, alineaciones y resultados propios de Plaza Mayor."
+    },
+    {
+      "number": 9,
+      "title": "RED DE MEDIA TENSIÓN",
+      "object_text": "El presente anejo tiene por objeto iniciar la redacción de la red de media tensión del Proyecto de Urbanización - Ampliación Plaza Mayor, ordenando la documentación base y fijando el marco inicial de trabajo del anejo. La definición técnica y la justificación sectorial definitiva se incorporarán cuando se consoliden los datos propios del ámbito y sus condicionantes de suministro.",
+      "additional_background": ""
+    },
+    {
+      "number": 10,
+      "title": "RED DE BAJA TENSIÓN",
+      "object_text": "El presente anejo tiene por objeto iniciar la redacción de la red de baja tensión del Proyecto de Urbanización - Ampliación Plaza Mayor, ordenando la documentación base disponible y fijando la estructura documental de este bloque. La solución técnica definitiva se completará cuando se incorporen las determinaciones de proyecto, el dimensionado y las condiciones de suministro aplicables al ámbito.",
+      "additional_background": ""
+    },
+    {
+      "number": 11,
+      "title": "RED DE ALUMBRADO",
+      "object_text": "El presente anejo tiene por objeto iniciar la redacción de la red de alumbrado del Proyecto de Urbanización - Ampliación Plaza Mayor, organizando la información base y adecuando el documento a la plantilla general del expediente. La definición lumínica, eléctrica y de implantación final se completará cuando se disponga de los datos específicos y de la comprobación técnica correspondiente.",
+      "additional_background": ""
+    },
+    {
+      "number": 12,
+      "title": "ACCESIBILIDAD",
+      "object_text": "El presente anejo tiene por objeto iniciar la redacción del estudio de accesibilidad del Proyecto de Urbanización - Ampliación Plaza Mayor, ordenando la base documental disponible y fijando el alcance inicial de este bloque. La comprobación normativa detallada y la definición final de soluciones accesibles se incorporarán cuando se consolide la información geométrica y de diseño del ámbito.",
+      "additional_background": ""
+    },
+    {
+      "number": 13,
+      "title": "ESTUDIO DE GESTIÓN DE RESIDUOS",
+      "object_text": "El presente anejo tiene por objeto iniciar la redacción del estudio de gestión de residuos del Proyecto de Urbanización - Ampliación Plaza Mayor, ordenando la información base disponible y dejando preparada la estructura documental para su desarrollo posterior. La cuantificación definitiva y la trazabilidad completa del anejo se incorporarán cuando se contrasten las mediciones reales y la planificación de obra.",
+      "additional_background": "Además, se dispone de un libro de cálculo de residuos incorporado como soporte inicial, pendiente de revisión y recalibración con las mediciones reales del proyecto."
+    },
+    {
+      "number": 14,
+      "title": "CONTROL DE CALIDAD",
+      "object_text": "El presente anejo tiene por objeto iniciar la redacción del plan de control de calidad del Proyecto de Urbanización - Ampliación Plaza Mayor, ordenando la documentación de partida y dejando preparado el documento para su desarrollo técnico posterior. La programación detallada de controles, ensayos y frecuencias se completará cuando se definan con precisión las unidades y procesos de obra del proyecto.",
+      "additional_background": "Además, se dispone de un libro base de control de calidad incorporado como soporte inicial, pendiente de adaptación completa a las unidades reales del proyecto."
+    },
+    {
+      "number": 15,
+      "title": "PLAN DE OBRA",
+      "object_text": "El presente anejo tiene por objeto iniciar la redacción del plan de obra del Proyecto de Urbanización - Ampliación Plaza Mayor, dejando estructurado el documento y ordenando la información de partida actualmente disponible. La programación temporal detallada, sus rendimientos y la coordinación definitiva con las fases de ejecución se completarán cuando se consoliden las mediciones y la solución técnica del proyecto.",
+      "additional_background": ""
+    },
+    {
+      "number": 16,
+      "title": "COMUNICACIONES CON COMPAÑÍAS SUMINISTRADORAS",
+      "object_text": "El presente anejo tiene por objeto iniciar la redacción del bloque de comunicaciones con compañías suministradoras del Proyecto de Urbanización - Ampliación Plaza Mayor, ordenando la documentación base disponible y fijando el marco de trabajo del anejo. La incorporación de respuestas, condicionantes y gestiones específicas de cada servicio afectado se completará conforme avance la tramitación del expediente.",
+      "additional_background": ""
+    },
+    {
+      "number": 17,
+      "title": "ESTUDIO DE SEGURIDAD Y SALUD",
+      "object_text": "El presente anejo tiene por objeto iniciar la redacción del estudio de seguridad y salud del Proyecto de Urbanización - Ampliación Plaza Mayor, ordenando la información base disponible y dejando preparado el soporte documental para su posterior desarrollo técnico. La identificación completa de riesgos, medidas preventivas, mediciones y presupuesto específicos del ámbito se incorporará cuando se consolide la solución de proyecto y se contrasten los soportes auxiliares.",
+      "additional_background": "Además, se dispone de soportes iniciales de dimensionado y de un presupuesto donor de seguridad y salud, pendientes de revisión integral y adaptación completa a Plaza Mayor."
+    },
+    {
+      "number": 18,
+      "title": "TELECOMUNICACIONES",
+      "object_text": "El presente anejo tiene por objeto iniciar la redacción del bloque de telecomunicaciones del Proyecto de Urbanización - Ampliación Plaza Mayor, ordenando la documentación base y adecuando el documento a la estructura general del expediente. La definición técnica definitiva y sus condicionantes sectoriales se completarán cuando se incorporen las necesidades, trazados y comprobaciones propias del ámbito.",
+      "additional_background": ""
+    }
+  ]
+}

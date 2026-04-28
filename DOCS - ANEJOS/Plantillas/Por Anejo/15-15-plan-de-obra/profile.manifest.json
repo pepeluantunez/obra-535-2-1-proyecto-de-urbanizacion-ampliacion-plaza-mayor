@@ -1,0 +1,26 @@
+﻿{
+    "number":  15,
+    "slug":  "15-plan-de-obra",
+    "title":  "PLAN DE OBRA",
+    "family":  "plan-obra",
+    "reusability":  "specific_template",
+    "notes":  "Plantilla especifica con Gantt y duraciones repetibles.",
+    "variable_inputs":  [
+                            "[NOMBRE DEL PROYECTO]",
+                            "[CIUDAD DEL PROYECTO]",
+                            "[PLAZO DE OBRA]",
+                            "[FASES]",
+                            "[RENDIMIENTOS]",
+                            "[CAMINO CRITICO]"
+                        ],
+    "copied_assets":  {
+                          "master_template":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\Plantillas\\Por Anejo\\15-15-plan-de-obra\\00_master\\PLANTILLA_MAESTRA_ANEJOS.docx",
+                          "donor_docx":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\Plantillas\\Por Anejo\\15-15-plan-de-obra\\10_donor_docx\\Anexo 15 - Plan de Obras.docx",
+                          "donor_excels":  [
+                                               "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\Plantillas\\Por Anejo\\15-15-plan-de-obra\\20_donor_excel\\535.2.2 - Plan de Obra.xlsx"
+                                           ],
+                          "support_files":  [
+
+                                            ]
+                      }
+}

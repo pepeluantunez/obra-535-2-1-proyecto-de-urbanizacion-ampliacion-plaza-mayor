@@ -1,0 +1,58 @@
+{
+  "manifest_version": 1,
+  "project_code": "535.2.1",
+  "output_id": "data-presupuesto-normalizado-sys-bc3",
+  "output_type": "data_extract",
+  "output_status": "validado_localmente",
+  "output_path": "DATA/presupuesto_normalizado.csv",
+  "generated_at": "2026-04-25T00:00:00+02:00",
+  "generator": {
+    "kind": "manual_seed",
+    "name": "bc3_sys_to_presupuesto_normalizado",
+    "version": "seed-local-1"
+  },
+  "input_sources": [
+    {
+      "id": "bc3.17.sys",
+      "label": "BC3 de Seguridad y Salud",
+      "path": "DOCS - ANEJOS/17.- Seguridad y Salud/PRESUPUESTO_DONOR/535.2.1-Seguridad & Salud.bc3",
+      "evidence_kind": "dato_leido",
+      "validation_state": "confirmado",
+      "source_locator": "~C Q409SEG# / Q409C1#-Q409C4# y ~M asociados"
+    }
+  ],
+  "derived_items": [
+    {
+      "id": "slice-sys-only",
+      "statement": "La capa DATA de presupuesto queda poblada solo con el ambito SyS confirmado hoy.",
+      "evidence_kind": "dato_calculado",
+      "derived_from": [
+        "bc3.17.sys"
+      ],
+      "method": "extraccion manual de capitulos y bloques activos del BC3 maestro de SyS"
+    }
+  ],
+  "assumptions": [],
+  "proposed_improvements": [
+    {
+      "id": "next-general-budget",
+      "statement": "Completar presupuesto_normalizado.csv con el futuro BC3 maestro general del proyecto cuando exista.",
+      "evidence_kind": "propuesta_mejora"
+    }
+  ],
+  "pending_items": [
+    {
+      "id": "pending-bc3-general",
+      "statement": "[PENDIENTE: incorporar presupuesto general cuando exista BC3 maestro confirmado]",
+      "blocking": true
+    }
+  ],
+  "validation": {
+    "checks_run": [
+      "tools/check_output_trace_manifest.ps1"
+    ],
+    "issues": [
+      "La capa sigue parcial: solo incluye Seguridad y Salud."
+    ]
+  }
+}

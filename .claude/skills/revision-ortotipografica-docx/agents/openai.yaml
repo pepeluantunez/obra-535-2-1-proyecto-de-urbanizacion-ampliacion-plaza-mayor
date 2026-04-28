@@ -1,0 +1,3 @@
+interface:
+  display_name: "Revision Ortotipografica DOCX"
+  short_description: "Controla acentos, ortografia y grafias tecnicas visibles en documentos Word del proyecto."

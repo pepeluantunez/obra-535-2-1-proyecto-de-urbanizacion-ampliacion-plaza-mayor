@@ -9,12 +9,14 @@ $ErrorActionPreference = 'Stop'
 Add-Type -AssemblyName System.IO.Compression.FileSystem
 
 $officeExtensions = @('.docx', '.docm', '.xlsx', '.xlsm', '.pptx', '.pptm')
-$suspiciousTokens = @(
-    [string][char]0x00C3,
-    [string][char]0x00C2,
-    [string][char]0x00E2,
-    [string][char]0xFFFD,
-    (([string][char]0x00EF) + [char]0x00BF + [char]0x00BD),
+$badLeadChars = @(
+    [char]0x00C3,
+    [char]0x00C2,
+    [char]0x00E2,
+    [char]0xFFFD
+)
+
+$knownQuestionTokens = @(
     'URBANIZACI?N',
     'M?LAGA',
     '?NDICE',
@@ -34,18 +36,49 @@ $suspiciousTokens = @(
     'C?ncavo'
 )
 
+function Convert-ToExtendedPath {
+    param([string]$Path)
+
+    if ([string]::IsNullOrWhiteSpace($Path) -or $Path.StartsWith('\\?\')) {
+        return $Path
+    }
+
+    if ($Path.StartsWith('\\')) {
+        return '\\?\UNC\' + $Path.TrimStart('\')
+    }
+
+    return '\\?\' + $Path
+}
+
+function Resolve-ExistingPath {
+    param([string]$InputPath)
+
+    $absolute = if ([System.IO.Path]::IsPathRooted($InputPath)) {
+        [System.IO.Path]::GetFullPath($InputPath)
+    }
+    else {
+        [System.IO.Path]::GetFullPath((Join-Path (Get-Location) $InputPath))
+    }
+
+    if ([System.IO.File]::Exists($absolute) -or [System.IO.Directory]::Exists($absolute)) {
+        return $absolute
+    }
+
+    $extended = Convert-ToExtendedPath -Path $absolute
+    if ([System.IO.File]::Exists($extended) -or [System.IO.Directory]::Exists($extended)) {
+        return $extended
+    }
+
+    return $null
+}
+
 function Resolve-OfficeFiles {
     param([string[]]$InputPaths)
 
     $resolved = @()
     foreach ($inputPath in $InputPaths) {
-        $absolute = if ([System.IO.Path]::IsPathRooted($inputPath)) {
-            $inputPath
-        } else {
-            Join-Path (Get-Location) $inputPath
-        }
-
-        if (-not (Test-Path -LiteralPath $absolute)) {
+        $absolute = Resolve-ExistingPath -InputPath $inputPath
+        if ($null -eq $absolute) {
             throw "No existe la ruta: $inputPath"
         }
 
@@ -75,69 +108,84 @@ function Get-ZipText {
         $reader = New-Object System.IO.StreamReader($stream, [System.Text.Encoding]::UTF8, $true)
         try {
             return $reader.ReadToEnd()
-        } finally {
+        }
+        finally {
             $reader.Dispose()
         }
-    } finally {
+    }
+    finally {
         $stream.Dispose()
     }
 }
 
-function Get-VisibleOfficeText {
+function Get-VisibleTextChunks {
     param(
         [string]$Extension,
         [hashtable]$EntryMap
     )
 
     $chunks = @()
-    $regex = switch ($Extension) {
-        '.docx' { '<w:t[^>]*>(.*?)</w:t>' }
-        '.docm' { '<w:t[^>]*>(.*?)</w:t>' }
-        '.xlsx' { '<t[^>]*>(.*?)</t>' }
-        '.xlsm' { '<t[^>]*>(.*?)</t>' }
-        '.pptx' { '<a:t>(.*?)</a:t>' }
-        '.pptm' { '<a:t>(.*?)</a:t>' }
-        default { return '' }
-    }
-
     foreach ($entryName in ($EntryMap.Keys | Sort-Object)) {
-        foreach ($match in [regex]::Matches($EntryMap[$entryName], $regex)) {
-            $decoded = [System.Net.WebUtility]::HtmlDecode($match.Groups[1].Value)
-            if (-not [string]::IsNullOrWhiteSpace($decoded)) {
-                $chunks += $decoded
+        try {
+            [xml]$xmlDoc = $EntryMap[$entryName]
+        }
+        catch {
+            continue
+        }
+
+        foreach ($node in $xmlDoc.SelectNodes('//*[local-name()="t"]')) {
+            $decoded = [System.Net.WebUtility]::HtmlDecode($node.InnerText)
+            $normalized = ($decoded -replace '\s+', ' ').Trim()
+            if (-not [string]::IsNullOrWhiteSpace($normalized)) {
+                $chunks += [pscustomobject]@{
+                    Scope = $entryName
+                    Text = $normalized
+                }
             }
         }
     }
 
-    return ($chunks -join ' ')
+    return @($chunks)
 }
 
-function Find-SuspiciousContent {
-    param(
-        [string]$Text,
-        [string]$Scope,
-        [string[]]$Tokens
-    )
+function Find-MojibakeInChunks {
+    param([object[]]$Chunks)
 
-    $results = @()
-    $lineNumber = 0
-    foreach ($line in ($Text -split "`r?`n")) {
-        $lineNumber++
-        foreach ($token in $Tokens) {
-            if (-not $line.Contains($token)) { continue }
-            $snippet = $line.Trim()
-            if ($snippet.Length -gt 180) {
-                $snippet = $snippet.Substring(0, 180)
+    $findings = @()
+    foreach ($chunk in $Chunks) {
+        $text = [string]$chunk.Text
+        $scope = [string]$chunk.Scope
+
+        foreach ($token in $knownQuestionTokens) {
+            if ($text.Contains($token)) {
+                $findings += [pscustomobject]@{
+                    Scope = $scope
+                    Token = $token
+                    Snippet = $text
+                }
             }
-            $results += [pscustomobject]@{
-                Scope = $Scope
-                Line = $lineNumber
-                Token = $token
-                Snippet = $snippet
+        }
+
+        if ($text -match '\b\p{L}{2,}\?\p{L}{1,}\b') {
+            $findings += [pscustomobject]@{
+                Scope = $scope
+                Token = '?-in-word'
+                Snippet = $text
+            }
+        }
+
+        foreach ($badChar in $badLeadChars) {
+            if ($text.Contains([string]$badChar)) {
+                $findings += [pscustomobject]@{
+                    Scope = $scope
+                    Token = [string]$badChar
+                    Snippet = $text
+                }
             }
         }
     }
-    return @($results)
+
+    return @($findings)
 }
 
 $files = @(Resolve-OfficeFiles -InputPaths $Paths)
@@ -151,24 +199,19 @@ foreach ($file in $files) {
     $archive = [System.IO.Compression.ZipFile]::OpenRead($file)
     try {
         foreach ($entry in $archive.Entries) {
-            if ($entry.FullName -notmatch '^(word|xl|ppt)/.*\.xml$') { continue }
+            if ($entry.FullName -notmatch '^(word|xl|ppt)/.*\.xml$') {
+                continue
+            }
             $entryMap[$entry.FullName] = Get-ZipText -Entry $entry
         }
-    } finally {
+    }
+    finally {
         $archive.Dispose()
     }
 
-    $findings = @()
-    foreach ($entryName in ($entryMap.Keys | Sort-Object)) {
-        foreach ($finding in (Find-SuspiciousContent -Text $entryMap[$entryName] -Scope $entryName -Tokens $suspiciousTokens)) {
-            $findings += $finding
-        }
-    }
-
-    $visibleText = Get-VisibleOfficeText -Extension ([System.IO.Path]::GetExtension($file).ToLowerInvariant()) -EntryMap $entryMap
-    foreach ($finding in (Find-SuspiciousContent -Text $visibleText -Scope 'visible-text-estimate' -Tokens $suspiciousTokens)) {
-        $findings += $finding
-    }
+    $extension = [System.IO.Path]::GetExtension($file).ToLowerInvariant()
+    $chunks = @(Get-VisibleTextChunks -Extension $extension -EntryMap $entryMap)
+    $findings = @(Find-MojibakeInChunks -Chunks $chunks)
 
     if ($findings.Count -eq 0) {
         Write-Output "OK OFFICE: $file"
@@ -178,4 +221,17 @@ foreach ($file in $files) {
     $hasFailures = $true
     Write-Output "FALLO OFFICE: $file"
     foreach ($finding in ($findings | Select-Object -First 25)) {
-        Write-Output ("  [{0}:{1}] token='{2}' texto='{3}'" -f $finding.Scope, $finding.Line, $
+        $snippet = [string]$finding.Snippet
+        if ($snippet.Length -gt 180) {
+            $snippet = $snippet.Substring(0, 180)
+        }
+        Write-Output ("  [{0}] token='{1}' texto='{2}'" -f $finding.Scope, $finding.Token, $snippet)
+    }
+    if ($findings.Count -gt 25) {
+        Write-Output ("  ... {0} incidencias adicionales no mostradas" -f ($findings.Count - 25))
+    }
+}
+
+if ($hasFailures) {
+    throw 'Se han detectado incidencias de mojibake o codificacion en Office.'
+}

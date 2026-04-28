@@ -1,0 +1,4 @@
+version: 1
+display_name: Biblioteca Anejos Trazables
+short_description: Mapea y prepara donors DOCX/XLSX reutilizables por anejo.
+default_prompt: Analiza Guadalmar como biblioteca reusable y prepara perfiles o paquetes donor por anejo sin tocar primero los documentos vivos.

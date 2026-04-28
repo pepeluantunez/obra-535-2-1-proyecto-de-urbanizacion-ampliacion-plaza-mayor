@@ -1,0 +1,31 @@
+﻿{
+    "number":  5,
+    "slug":  "05-dimensionamiento-del-firme",
+    "title":  "DIMENSIONAMIENTO DEL FIRME",
+    "family":  "firmes",
+    "reusability":  "specific_template",
+    "notes":  "Anejo compacto pero con calculo y soporte Excel muy repetibles entre proyectos.",
+    "variable_inputs":  [
+                            "[NOMBRE DEL PROYECTO]",
+                            "[CIUDAD DEL PROYECTO]",
+                            "[NOMBRE DEL DOCX]",
+                            "[TRAFICO DE PROYECTO]",
+                            "[CATEGORIA DE EXPLANADA]",
+                            "[PAQUETE DE FIRME]",
+                            "[MEDICIONES DE FIRME]"
+                        ],
+    "copied_assets":  {
+                          "master_template":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\Plantillas\\Por Anejo\\05-05-dimensionamiento-del-firme\\00_master\\PLANTILLA_MAESTRA_ANEJOS.docx",
+                          "donor_docx":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\Plantillas\\Por Anejo\\05-05-dimensionamiento-del-firme\\10_donor_docx\\Anexo 5 - Dimensionamiento del firme.docx",
+                          "donor_excels":  [
+                                               "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\Plantillas\\Por Anejo\\05-05-dimensionamiento-del-firme\\20_donor_excel\\Mediciones_Firme.xlsx"
+                                           ],
+                          "support_files":  [
+                                                "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\Plantillas\\Por Anejo\\05-05-dimensionamiento-del-firme\\30_support\\FIRME.icafir",
+                                                "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\Plantillas\\Por Anejo\\05-05-dimensionamiento-del-firme\\30_support\\EXPLANADA.icafir",
+                                                "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\Plantillas\\Por Anejo\\05-05-dimensionamiento-del-firme\\30_support\\update_firme_repav_fresado.ps1",
+                                                "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\Plantillas\\Por Anejo\\05-05-dimensionamiento-del-firme\\30_support\\update_isletas_rotondas_firme.ps1",
+                                                "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\Plantillas\\Por Anejo\\05-05-dimensionamiento-del-firme\\30_support\\update_mediciones_firme_auxiliar.ps1"
+                                            ]
+                      }
+}

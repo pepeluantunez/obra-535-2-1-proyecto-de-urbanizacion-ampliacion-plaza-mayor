@@ -1,0 +1,507 @@
+﻿[
+    {
+        "Number":  4,
+        "Slug":  "04-trazado-replanteo-mediciones-auxiliares",
+        "Title":  "TRAZADO, REPLANTEO Y MEDICIONES AUXILIARES",
+        "Family":  "viario-trazado",
+        "Reusability":  "specific_template",
+        "Status":  "READY",
+        "DonorDocx":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\MEJORA CARRETERA GUADALMAR\\PROYECTO 535\\535.2\\535.2.2 Mejora Carretera Guadalmar\\POU 2026\\DOCS\\Documentos de Trabajo\\4.- Trazado, Replanteo y Mediciones Auxiliares\\Anexo 4 - Replanteo y Mediciones Auxiliares.docx",
+        "HeadingCount":  41,
+        "TableCount":  62,
+        "SampleHeadings":  [
+                               "1. NORMATIVA DE REFERENCIA",
+                               "2. REPLANTEO",
+                               "2.1. Planta",
+                               "2.1.1. Puntos singulares",
+                               "EJE AV MCE",
+                               "EJE AVENIDA MANUEL CASTILLO",
+                               "EJE CALLE GUADALHORCE",
+                               "EJE CARRETERA GUADALMAR"
+                           ],
+        "DonorExcels":  [
+                            {
+                                "Path":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\MEJORA CARRETERA GUADALMAR\\PROYECTO 535\\535.2\\535.2.2 Mejora Carretera Guadalmar\\POU 2026\\DOCS\\Documentos de Trabajo\\4.- Trazado, Replanteo y Mediciones Auxiliares\\Mediciones_Auxiliares_Trazado.xlsx",
+                                "Exists":  true,
+                                "SheetCount":  8,
+                                "Sheets":  [
+                                               "TRAMO1",
+                                               "TRAMO2",
+                                               "AV MANUEL CASTILLO",
+                                               "CF",
+                                               "CP1",
+                                               "CP2",
+                                               "CTRA GUADALMAR",
+                                               "CALLE GUADALHORCE"
+                                           ]
+                            }
+                        ],
+        "SupportFileCount":  4,
+        "MissingSupportCount":  0,
+        "VariableInputCount":  7,
+        "VariableInputs":  [
+                               "[NOMBRE DEL PROYECTO]",
+                               "[CIUDAD DEL PROYECTO]",
+                               "[NOMBRE DEL DOCX]",
+                               "[ALINEACIONES DEL PROYECTO]",
+                               "[PERFILES LONGITUDINALES]",
+                               "[MEDICIONES AUXILIARES]",
+                               "[TRAZABILIDAD DE VIALES]"
+                           ],
+        "Notes":  "Plantilla pesada y muy repetible. Debe conservar estructura de trazado, tablas y soportes auxiliares."
+    },
+    {
+        "Number":  5,
+        "Slug":  "05-dimensionamiento-del-firme",
+        "Title":  "DIMENSIONAMIENTO DEL FIRME",
+        "Family":  "firmes",
+        "Reusability":  "specific_template",
+        "Status":  "READY",
+        "DonorDocx":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\MEJORA CARRETERA GUADALMAR\\PROYECTO 535\\535.2\\535.2.2 Mejora Carretera Guadalmar\\POU 2026\\DOCS\\Documentos de Trabajo\\5.- Dimensionamiento del Firme\\Anexo 5 - Dimensionamiento del firme.docx",
+        "HeadingCount":  9,
+        "TableCount":  1,
+        "SampleHeadings":  [
+                               "ANEJO N.º 5.- DIMENSIONAMIENTO DEL FIRME",
+                               "1. OBJETO",
+                               "2. METODOLOGÍA Y MARCO NORMATIVO PARA EL DIMENSIONAMIENTO DE FIRMES",
+                               "3.- CATEGORÍA DE TRAFICO DE PROYECTO",
+                               "4.- EXPLANADA",
+                               "5.- FIRMES",
+                               "5.1. Calzada tráfico rodado",
+                               "5.2. Aceras"
+                           ],
+        "DonorExcels":  [
+                            {
+                                "Path":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\MEJORA CARRETERA GUADALMAR\\PROYECTO 535\\535.2\\535.2.2 Mejora Carretera Guadalmar\\POU 2026\\DOCS\\Documentos de Trabajo\\5.- Dimensionamiento del Firme\\Mediciones_Firme.xlsx",
+                                "Exists":  true,
+                                "SheetCount":  6,
+                                "Sheets":  [
+                                               "RESUMEN",
+                                               "AV MANUEL CASTILLO",
+                                               "CALLE GUADALHORCE",
+                                               "CTRA GUADALMAR",
+                                               "TRAMO 1",
+                                               "TRAMO 2"
+                                           ]
+                            }
+                        ],
+        "SupportFileCount":  5,
+        "MissingSupportCount":  0,
+        "VariableInputCount":  7,
+        "VariableInputs":  [
+                               "[NOMBRE DEL PROYECTO]",
+                               "[CIUDAD DEL PROYECTO]",
+                               "[NOMBRE DEL DOCX]",
+                               "[TRAFICO DE PROYECTO]",
+                               "[CATEGORIA DE EXPLANADA]",
+                               "[PAQUETE DE FIRME]",
+                               "[MEDICIONES DE FIRME]"
+                           ],
+        "Notes":  "Anejo compacto pero con calculo y soporte Excel muy repetibles entre proyectos."
+    },
+    {
+        "Number":  6,
+        "Slug":  "06-red-de-agua-potable",
+        "Title":  "RED DE AGUA POTABLE",
+        "Family":  "redes-lineales",
+        "Reusability":  "family_candidate",
+        "Status":  "READY",
+        "DonorDocx":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\MEJORA CARRETERA GUADALMAR\\PROYECTO 535\\535.2\\535.2.2 Mejora Carretera Guadalmar\\POU 2026\\DOCS\\Documentos de Trabajo\\6.- Red de Agua Potable\\Anexo 6 - Agua Potable.docx",
+        "HeadingCount":  19,
+        "TableCount":  0,
+        "SampleHeadings":  [
+                               "ANEJO N.º 6.- RED DE AGUA POTABLE",
+                               "1. INTRODUCCIÓN",
+                               "2. DATOS DE PARTIDA Y CONDICIONANTES PREVIOS",
+                               "2.1. Caudales, Dimensionamiento y Planificación Estratégica",
+                               "2.2. Suministros de la Red",
+                               "2.3. Velocidad de las conducciones",
+                               "2.4 Presiones en los consumos",
+                               "2.5 Diámetro mínimo"
+                           ],
+        "DonorExcels":  [
+
+                        ],
+        "SupportFileCount":  0,
+        "MissingSupportCount":  0,
+        "VariableInputCount":  6,
+        "VariableInputs":  [
+                               "[NOMBRE DEL PROYECTO]",
+                               "[CIUDAD DEL PROYECTO]",
+                               "[TRAZADO DE RED]",
+                               "[DEMANDAS]",
+                               "[DIAMETROS]",
+                               "[PRESIONES]"
+                           ],
+        "Notes":  "Buen candidato a familia reusable de redes aunque todavia no hay paquete Excel consolidado en esta biblioteca."
+    },
+    {
+        "Number":  7,
+        "Slug":  "07-red-de-saneamiento-pluviales",
+        "Title":  "RED DE SANEAMIENTO - PLUVIALES",
+        "Family":  "pluviales",
+        "Reusability":  "specific_template",
+        "Status":  "READY",
+        "DonorDocx":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\MEJORA CARRETERA GUADALMAR\\PROYECTO 535\\535.2\\535.2.2 Mejora Carretera Guadalmar\\POU 2026\\DOCS\\Documentos de Trabajo\\7.- Red de Saneamiento - Pluviales\\Anexo 7 - Pluviales.docx",
+        "HeadingCount":  13,
+        "TableCount":  8,
+        "SampleHeadings":  [
+                               "1. INTRODUCCIÓN",
+                               "2. CÁLCULOS HIDROLÓGICOS",
+                               "2.1. Método de cálculo",
+                               "2.2. Datos de las cuencas",
+                               "2.3. Tiempo de concentración",
+                               "2.4. Intensidad de Precipitación I (T,tc)",
+                               "a) Máxima precipitaciones diarias (Pd)",
+                               "b) Factor de Intensidad (Fint)"
+                           ],
+        "DonorExcels":  [
+                            {
+                                "Path":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\MEJORA CARRETERA GUADALMAR\\PROYECTO 535\\535.2\\535.2.2 Mejora Carretera Guadalmar\\POU 2026\\DOCS\\Documentos de Trabajo\\7.- Red de Saneamiento - Pluviales\\Cálculo Hidrológico(nueva IC-5.2)_A_535.2.xlsx",
+                                "Exists":  true,
+                                "SheetCount":  4,
+                                "Sheets":  [
+                                               "Calculo Hidrológico T 25 - (A)",
+                                               "Datos 1",
+                                               "Datos 2",
+                                               "SITUACIÓN"
+                                           ]
+                            },
+                            {
+                                "Path":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\MEJORA CARRETERA GUADALMAR\\PROYECTO 535\\535.2\\535.2.2 Mejora Carretera Guadalmar\\POU 2026\\DOCS\\Documentos de Trabajo\\7.- Red de Saneamiento - Pluviales\\Cálculo Hidrológico(nueva IC-5.2)_B_535.2.xlsx",
+                                "Exists":  true,
+                                "SheetCount":  4,
+                                "Sheets":  [
+                                               "Calculo Hidrológico T 25 - (A)",
+                                               "Datos 1",
+                                               "Datos 2",
+                                               "SITUACIÓN"
+                                           ]
+                            },
+                            {
+                                "Path":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\MEJORA CARRETERA GUADALMAR\\PROYECTO 535\\535.2\\535.2.2 Mejora Carretera Guadalmar\\POU 2026\\DOCS\\Documentos de Trabajo\\7.- Red de Saneamiento - Pluviales\\SSA ABRIL26 2.xlsx",
+                                "Exists":  true,
+                                "SheetCount":  3,
+                                "Sheets":  [
+                                               "Pipes",
+                                               "Outfalls",
+                                               "Junctions"
+                                           ]
+                            }
+                        ],
+        "SupportFileCount":  3,
+        "MissingSupportCount":  0,
+        "VariableInputCount":  6,
+        "VariableInputs":  [
+                               "[NOMBRE DEL PROYECTO]",
+                               "[CIUDAD DEL PROYECTO]",
+                               "[CUENCAS]",
+                               "[CAUDALES DE DISENO]",
+                               "[TRAZADO DE LA RED]",
+                               "[TABLAS SSA]"
+                           ],
+        "Notes":  "Anejo con trazabilidad fuerte entre DOCX, hojas hidrologicas y resultados SSA."
+    },
+    {
+        "Number":  8,
+        "Slug":  "08-red-de-saneamiento-fecales",
+        "Title":  "RED DE SANEAMIENTO - FECALES",
+        "Family":  "redes-lineales",
+        "Reusability":  "family_candidate",
+        "Status":  "READY",
+        "DonorDocx":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\MEJORA CARRETERA GUADALMAR\\PROYECTO 535\\535.2\\535.2.2 Mejora Carretera Guadalmar\\POU 2026\\DOCS\\Documentos de Trabajo\\8.- Red de Saneamiento - Fecales\\Anexo 8 - Fecales.docx",
+        "HeadingCount":  6,
+        "TableCount":  1,
+        "SampleHeadings":  [
+                               "ANEJO N.º 8.– RED DE SANEAMIENTO: FECALES",
+                               "NORMATIVA DE REFERENCIA",
+                               "1. INTRODUCCIÓN",
+                               "2. CONDICIONANTES Y AFECCIONES EXISTENTES",
+                               "3. SOLUCIÓN PROYECTADA",
+                               "4. ALCANCE DE LAS COMPROBACIONES"
+                           ],
+        "DonorExcels":  [
+
+                        ],
+        "SupportFileCount":  0,
+        "MissingSupportCount":  0,
+        "VariableInputCount":  6,
+        "VariableInputs":  [
+                               "[NOMBRE DEL PROYECTO]",
+                               "[CIUDAD DEL PROYECTO]",
+                               "[TRAZADO DE RED]",
+                               "[CAUDALES SANITARIOS]",
+                               "[DIAMETROS]",
+                               "[CONDICIONES DE VERTIDO]"
+                           ],
+        "Notes":  "Candidato claro a familia reusable de redes, pendiente de traer soporte Excel donor a la biblioteca."
+    },
+    {
+        "Number":  11,
+        "Slug":  "11-red-de-alumbrado",
+        "Title":  "RED DE ALUMBRADO",
+        "Family":  "alumbrado",
+        "Reusability":  "specific_template",
+        "Status":  "READY",
+        "DonorDocx":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\MEJORA CARRETERA GUADALMAR\\PROYECTO 535\\535.2\\535.2.2 Mejora Carretera Guadalmar\\POU 2026\\DOCS\\Documentos de Trabajo\\11.-Red de Alumbrado\\Anejo alumbrado.docx",
+        "HeadingCount":  24,
+        "TableCount":  36,
+        "SampleHeadings":  [
+                               "1. BASES Y FÓRMULAS DEL CÁLCULO LUMÍNICO",
+                               "1.1.- Objetivo y Generalidades",
+                               "1.1.1.- Eficiencia energética/Costes de mantenimiento.",
+                               "1.1.2.- Requisitos mínimos de eficiencia energética",
+                               "1.1.3.- Calificación Energética de las Instalaciones de Alumbrado",
+                               "1.1.4.- Criterios de Elección de Fuente de Luz",
+                               "1.2.- Luminarias",
+                               "1.3.- Equipos Auxiliares"
+                           ],
+        "DonorExcels":  [
+                            {
+                                "Path":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\MEJORA CARRETERA GUADALMAR\\PROYECTO 535\\535.2\\535.2.2 Mejora Carretera Guadalmar\\POU 2026\\DOCS\\Documentos de Trabajo\\11.-Red de Alumbrado\\CALCULO EFICIENCIA ENERGÉTICA.xlsx",
+                                "Exists":  true,
+                                "SheetCount":  16,
+                                "Sheets":  [
+                                               "Sección 1.1",
+                                               "Sección 1.3",
+                                               "Sección 1.4",
+                                               "Sección 1.6",
+                                               "Sección 2.1",
+                                               "Sección 2.2",
+                                               "Sección 2.3",
+                                               "Sección 2.4",
+                                               "Rotonda puente",
+                                               "Rotonda Guadalmar",
+                                               "Vial mixto",
+                                               "CE-1",
+                                               "ZLP",
+                                               "Zona juegos",
+                                               "Estancia",
+                                               "TRAZABILIDAD"
+                                           ]
+                            }
+                        ],
+        "SupportFileCount":  1,
+        "MissingSupportCount":  0,
+        "VariableInputCount":  6,
+        "VariableInputs":  [
+                               "[NOMBRE DEL PROYECTO]",
+                               "[CIUDAD DEL PROYECTO]",
+                               "[LUMINARIAS]",
+                               "[NIVELES LUMINICOS]",
+                               "[EFICIENCIA ENERGETICA]",
+                               "[CIRCUITOS]"
+                           ],
+        "Notes":  "Anejo muy repetible con tablas y calculo asociados."
+    },
+    {
+        "Number":  12,
+        "Slug":  "12-accesibilidad",
+        "Title":  "ACCESIBILIDAD",
+        "Family":  "accesibilidad",
+        "Reusability":  "family_candidate",
+        "Status":  "READY",
+        "DonorDocx":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\MEJORA CARRETERA GUADALMAR\\PROYECTO 535\\535.2\\535.2.2 Mejora Carretera Guadalmar\\POU 2026\\DOCS\\Documentos de Trabajo\\12.- Accesibilidad\\Anexo 12 - Accesibilidad.docx",
+        "HeadingCount":  3,
+        "TableCount":  5,
+        "SampleHeadings":  [
+                               "ANEJO N.º 12.- ACCESIBILIDAD",
+                               "1. ACCESIBILIDAD",
+                               "JUSTIFICACIÓN DEL CUMPLIMIENTO DEL REGLAMENTO"
+                           ],
+        "DonorExcels":  [
+
+                        ],
+        "SupportFileCount":  0,
+        "MissingSupportCount":  0,
+        "VariableInputCount":  6,
+        "VariableInputs":  [
+                               "[NOMBRE DEL PROYECTO]",
+                               "[CIUDAD DEL PROYECTO]",
+                               "[ITINERARIOS ACCESIBLES]",
+                               "[PENDIENTES]",
+                               "[PASOS PEATONALES]",
+                               "[NORMATIVA DE ACCESIBILIDAD]"
+                           ],
+        "Notes":  "Mas ligero que otros anejos, pero la forma se repite y merece familia reusable."
+    },
+    {
+        "Number":  13,
+        "Slug":  "13-estudio-de-gestion-de-residuos",
+        "Title":  "ESTUDIO DE GESTION DE RESIDUOS",
+        "Family":  "residuos",
+        "Reusability":  "specific_template",
+        "Status":  "READY",
+        "DonorDocx":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\MEJORA CARRETERA GUADALMAR\\PROYECTO 535\\535.2\\535.2.2 Mejora Carretera Guadalmar\\POU 2026\\DOCS\\Documentos de Trabajo\\13.- Estudio de Gestion de Residuos\\Anexo 13 - Estudio de Gestión de Residuos.docx",
+        "HeadingCount":  18,
+        "TableCount":  8,
+        "SampleHeadings":  [
+                               "1. INTRODUCCION",
+                               "2.- AGENTES INTERVINIENTES",
+                               "2.1 Identificación",
+                               "2.1.1. Productor de residuos (promotor)",
+                               "2.1.2.- Poseedor de residuos (constructor)",
+                               "2.1.3.- Gestor de residuos",
+                               "2.2 Obligaciones",
+                               "2.2.1.- Productor de residuos (promotor)"
+                           ],
+        "DonorExcels":  [
+                            {
+                                "Path":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\MEJORA CARRETERA GUADALMAR\\PROYECTO 535\\535.2\\535.2.2 Mejora Carretera Guadalmar\\POU 2026\\DOCS\\Documentos de Trabajo\\13.- Estudio de Gestion de Residuos\\535_2_2-GR.xlsx",
+                                "Exists":  true,
+                                "SheetCount":  2,
+                                "Sheets":  [
+                                               "CTRA. GUADALMAR",
+                                               "Hoja2"
+                                           ]
+                            }
+                        ],
+        "SupportFileCount":  0,
+        "MissingSupportCount":  0,
+        "VariableInputCount":  6,
+        "VariableInputs":  [
+                               "[NOMBRE DEL PROYECTO]",
+                               "[CIUDAD DEL PROYECTO]",
+                               "[PEM]",
+                               "[MEDICIONES DE DEMOLICION]",
+                               "[FRACCIONES RCD]",
+                               "[GESTORES AUTORIZADOS]"
+                           ],
+        "Notes":  "Plantilla especifica clara con Excel donor directo."
+    },
+    {
+        "Number":  14,
+        "Slug":  "14-control-de-calidad",
+        "Title":  "CONTROL DE CALIDAD",
+        "Family":  "control-calidad",
+        "Reusability":  "specific_template",
+        "Status":  "READY",
+        "DonorDocx":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\MEJORA CARRETERA GUADALMAR\\PROYECTO 535\\535.2\\535.2.2 Mejora Carretera Guadalmar\\POU 2026\\DOCS\\Documentos de Trabajo\\14.- Control de Calidad\\Anexo 14 - Control de calidad.docx",
+        "HeadingCount":  10,
+        "TableCount":  7,
+        "SampleHeadings":  [
+                               "ANEJO N.º 14.- CONTROL DE CALIDAD",
+                               "1. CONTROL DE CALIDAD",
+                               "1.1. CAPÍTULO 1: EXPLANACIONES.",
+                               "1.2. CAPÍTULO 2: EXPLANACIONES. CAPAS DE ASIENTO. SUELO SELECCIONADO.",
+                               "1.3. CAPÍTULO 3: FIRMES. ZAHORRA ARTIFICIAL",
+                               "1.4. CAPÍTULO 4: MEZCLA BITUMINOSA EN CALIENTE",
+                               "1.5. CAPÍTULO 5: BORDILLOS",
+                               "1.6. CAPÍTULO 6: HORMIGONES Y ACEROS"
+                           ],
+        "DonorExcels":  [
+                            {
+                                "Path":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\MEJORA CARRETERA GUADALMAR\\PROYECTO 535\\535.2\\535.2.2 Mejora Carretera Guadalmar\\POU 2026\\DOCS\\Documentos de Trabajo\\14.- Control de Calidad\\535.2.2 Control-Calidad.xlsx",
+                                "Exists":  true,
+                                "SheetCount":  1,
+                                "Sheets":  [
+                                               "CRTA. GUADALMAR"
+                                           ]
+                            }
+                        ],
+        "SupportFileCount":  1,
+        "MissingSupportCount":  0,
+        "VariableInputCount":  6,
+        "VariableInputs":  [
+                               "[NOMBRE DEL PROYECTO]",
+                               "[CIUDAD DEL PROYECTO]",
+                               "[UNIDADES DE OBRA]",
+                               "[PLAN DE ENSAYOS]",
+                               "[FRECUENCIAS]",
+                               "[PRESUPUESTO DE CONTROL]"
+                           ],
+        "Notes":  "Plantilla especifica clara con estructura fija y tablas repetibles."
+    },
+    {
+        "Number":  15,
+        "Slug":  "15-plan-de-obra",
+        "Title":  "PLAN DE OBRA",
+        "Family":  "plan-obra",
+        "Reusability":  "specific_template",
+        "Status":  "READY",
+        "DonorDocx":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\MEJORA CARRETERA GUADALMAR\\PROYECTO 535\\535.2\\535.2.2 Mejora Carretera Guadalmar\\POU 2026\\DOCS\\Documentos de Trabajo\\15.- Plan de Obra\\Anexo 15 - Plan de Obras.docx",
+        "HeadingCount":  5,
+        "TableCount":  0,
+        "SampleHeadings":  [
+                               "Anexo 15. Plan de Obras",
+                               "1. INTRODUCCION",
+                               "2. DESCRIPCIÓN DE LAS ACTUACIONES MÁS SIGNIFICATIVAS",
+                               "3. DURACIÓN DE LOS TRABAJOS",
+                               "4. DIAGRAMA DE GANTT"
+                           ],
+        "DonorExcels":  [
+                            {
+                                "Path":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\MEJORA CARRETERA GUADALMAR\\PROYECTO 535\\535.2\\535.2.2 Mejora Carretera Guadalmar\\POU 2026\\DOCS\\Documentos de Trabajo\\15.- Plan de Obra\\535.2.2 - Plan de Obra.xlsx",
+                                "Exists":  true,
+                                "SheetCount":  4,
+                                "Sheets":  [
+                                               "PARÁMETROS",
+                                               "PLAN DE OBRA",
+                                               "GANTT",
+                                               "CERTIFICACIONES"
+                                           ]
+                            }
+                        ],
+        "SupportFileCount":  0,
+        "MissingSupportCount":  0,
+        "VariableInputCount":  6,
+        "VariableInputs":  [
+                               "[NOMBRE DEL PROYECTO]",
+                               "[CIUDAD DEL PROYECTO]",
+                               "[PLAZO DE OBRA]",
+                               "[FASES]",
+                               "[RENDIMIENTOS]",
+                               "[CAMINO CRITICO]"
+                           ],
+        "Notes":  "Plantilla especifica con Gantt y duraciones repetibles."
+    },
+    {
+        "Number":  17,
+        "Slug":  "17-seguridad-y-salud",
+        "Title":  "ESTUDIO DE SEGURIDAD Y SALUD",
+        "Family":  "seguridad-salud",
+        "Reusability":  "specific_template",
+        "Status":  "READY",
+        "DonorDocx":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\MEJORA CARRETERA GUADALMAR\\PROYECTO 535\\535.2\\535.2.2 Mejora Carretera Guadalmar\\POU 2026\\DOCS\\Documentos de Trabajo\\17.- Seguridad y Salud\\Anejo 17 - Estudio de Seguridad y Salud.docx",
+        "HeadingCount":  186,
+        "TableCount":  2,
+        "SampleHeadings":  [
+                               "DOCUMENTO Nº 1.- MEMORIA INFORMATIVA",
+                               "DOCUMENTO 1º.- MEMORIA INFORMATIVA",
+                               "1.1.- ANTECEDENTES Y OBJETO DEL ESTUDIO DE SEGURIDAD Y SALUD.",
+                               "1.2.- DATOS GENERALES",
+                               "1.2.1.- Promotor.",
+                               "1.2.2.- Autor del proyecto.",
+                               "1.2.3.- Autor del Estudio de Seguridad y Salud.",
+                               "1.2.4.- Tipología de la obra."
+                           ],
+        "DonorExcels":  [
+                            {
+                                "Path":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\MEJORA CARRETERA GUADALMAR\\PROYECTO 535\\535.2\\535.2.2 Mejora Carretera Guadalmar\\POU 2026\\DOCS\\Documentos de Trabajo\\17.- Seguridad y Salud\\Dimensionado_SyS_Guadalmar.xlsx",
+                                "Exists":  true,
+                                "SheetCount":  7,
+                                "Sheets":  [
+                                               "00_Resumen",
+                                               "01_MedicionesProyecto",
+                                               "02_PlanObraBase",
+                                               "03_PersonalEstimado",
+                                               "04_ZanjasOcupacion",
+                                               "05_PartidasSyS",
+                                               "06_Pendientes"
+                                           ]
+                            }
+                        ],
+        "SupportFileCount":  2,
+        "MissingSupportCount":  0,
+        "VariableInputCount":  6,
+        "VariableInputs":  [
+                               "[NOMBRE DEL PROYECTO]",
+                               "[CIUDAD DEL PROYECTO]",
+                               "[RIESGOS]",
+                               "[MEDIDAS PREVENTIVAS]",
+                               "[MEDICIONES SYS]",
+                               "[PRESUPUESTO SYS]"
+                           ],
+        "Notes":  "Plantilla especifica muy larga, con fuerte relacion con dimensionado y presupuesto donor."
+    }
+]

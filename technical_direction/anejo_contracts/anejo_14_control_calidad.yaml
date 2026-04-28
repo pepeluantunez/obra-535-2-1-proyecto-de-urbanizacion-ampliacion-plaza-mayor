@@ -1,0 +1,34 @@
+anejo: "Anejo 14 - Control de Calidad"
+status_actual: "base util preparada"
+scope: "control de calidad y coste asociado"
+fuentes_maestras:
+  - "DOCS - ANEJOS/14.- Control de Calidad/CALCULOS/*.xlsx"
+  - "DOCS - ANEJOS/14.- Control de Calidad/Anexo 14 - Control de Calidad.docx"
+  - "CONTROL/trazabilidad/*"
+restricciones:
+  - "El Excel manda sobre la tabla Word si discrepan."
+  - "No sustituir formulas por valores en estandarizaciones o salidas auxiliares."
+datos_minimos:
+  - "ensayos o controles"
+  - "unidad"
+  - "cantidad"
+  - "precio unitario"
+  - "importe"
+  - "capitulo o ambito asociado"
+datos_deseables:
+  - "frecuencia de control"
+  - "justificacion normativa"
+  - "traza al presupuesto general si existe"
+outputs_premium_recomendados:
+  - "grafico_control_calidad_por_capitulo"
+  - "tabla_partidas_criticas_presupuesto"
+  - "tabla_decisiones_y_pendientes"
+  - "dashboard_resumen_proyecto"
+validaciones:
+  - "check_excel_formula_guard"
+  - "coherencia_excel_word"
+  - "coherencia_con_memoria"
+  - "coherencia_con_trazabilidad"
+pendientes_tipicos:
+  - "[PENDIENTE: reforzar outputs review_output para control de calidad]"
+  - "[PENDIENTE: enlazar mejor control de calidad con presupuesto general cuando exista]"

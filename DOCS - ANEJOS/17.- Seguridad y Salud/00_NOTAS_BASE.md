@@ -6,6 +6,9 @@
 - Donantes copiados:
   - CALCULOS\Dimensionado_SyS_Plaza_Mayor.xlsx
   - CALCULOS\SyS_535_2_1_MEJORADO.xlsx
+  - CALCULOS\Dimensionado_SyS_Guadalmar.xml
+  - CALCULOS\SyS_535_2_2_DIMENSIONADO_TRAZABLE.xls
   - PRESUPUESTO_DONOR\535.2.1-Seguridad & Salud.bc3
+  - PRESUPUESTO_DONOR\535.2.2-Seguridad & Salud.pzh
 
 - Pendiente principal: sustituir referencias donor por informacion, mediciones y soluciones reales de Plaza Mayor.

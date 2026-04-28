@@ -1,0 +1,258 @@
+{
+  "library_name": "biblioteca_guadalmar_anejos_trazables",
+  "master_template": "DOCS - ANEJOS/Plantillas/PLANTILLA_MAESTRA_ANEJOS.docx",
+  "default_output_root": "DOCS - ANEJOS/Plantillas/Por Anejo",
+  "profiles": [
+    {
+      "number": 4,
+      "slug": "04-trazado-replanteo-mediciones-auxiliares",
+      "title": "TRAZADO, REPLANTEO Y MEDICIONES AUXILIARES",
+      "family": "viario-trazado",
+      "reusability": "specific_template",
+      "donor_docx": "../MEJORA CARRETERA GUADALMAR/PROYECTO 535/535.2/535.2.2 Mejora Carretera Guadalmar/POU 2026/DOCS/Documentos de Trabajo/4.- Trazado, Replanteo y Mediciones Auxiliares/Anexo 4 - Replanteo y Mediciones Auxiliares.docx",
+      "donor_excels": [
+        "../MEJORA CARRETERA GUADALMAR/PROYECTO 535/535.2/535.2.2 Mejora Carretera Guadalmar/POU 2026/DOCS/Documentos de Trabajo/4.- Trazado, Replanteo y Mediciones Auxiliares/Mediciones_Auxiliares_Trazado.xlsx"
+      ],
+      "support_files": [
+        "../MEJORA CARRETERA GUADALMAR/PROYECTO 535/535.2/535.2.2 Mejora Carretera Guadalmar/POU 2026/DOCS/Documentos de Trabajo/4.- Trazado, Replanteo y Mediciones Auxiliares/Anejo4_PK_Alineaciones_Trazable.xls",
+        "../MEJORA CARRETERA GUADALMAR/PROYECTO 535/535.2/535.2.2 Mejora Carretera Guadalmar/POU 2026/DOCS/Documentos de Trabajo/4.- Trazado, Replanteo y Mediciones Auxiliares/Anejo4_HTML_WORD_Trazabilidad.xls",
+        "../MEJORA CARRETERA GUADALMAR/PROYECTO 535/535.2/535.2.2 Mejora Carretera Guadalmar/POU 2026/DOCS/Documentos de Trabajo/4.- Trazado, Replanteo y Mediciones Auxiliares/Anejo4_PK_PI_Alineaciones.csv",
+        "../MEJORA CARRETERA GUADALMAR/PROYECTO 535/535.2/535.2.2 Mejora Carretera Guadalmar/POU 2026/DOCS/Documentos de Trabajo/4.- Trazado, Replanteo y Mediciones Auxiliares/Anejo4_PK_Incremental_Alineaciones.csv"
+      ],
+      "variable_inputs": [
+        "[NOMBRE DEL PROYECTO]",
+        "[CIUDAD DEL PROYECTO]",
+        "[NOMBRE DEL DOCX]",
+        "[ALINEACIONES DEL PROYECTO]",
+        "[PERFILES LONGITUDINALES]",
+        "[MEDICIONES AUXILIARES]",
+        "[TRAZABILIDAD DE VIALES]"
+      ],
+      "notes": "Plantilla pesada y muy repetible. Debe conservar estructura de trazado, tablas y soportes auxiliares."
+    },
+    {
+      "number": 5,
+      "slug": "05-dimensionamiento-del-firme",
+      "title": "DIMENSIONAMIENTO DEL FIRME",
+      "family": "firmes",
+      "reusability": "specific_template",
+      "donor_docx": "../MEJORA CARRETERA GUADALMAR/PROYECTO 535/535.2/535.2.2 Mejora Carretera Guadalmar/POU 2026/DOCS/Documentos de Trabajo/5.- Dimensionamiento del Firme/Anexo 5 - Dimensionamiento del firme.docx",
+      "donor_excels": [
+        "../MEJORA CARRETERA GUADALMAR/PROYECTO 535/535.2/535.2.2 Mejora Carretera Guadalmar/POU 2026/DOCS/Documentos de Trabajo/5.- Dimensionamiento del Firme/Mediciones_Firme.xlsx"
+      ],
+      "support_files": [
+        "../MEJORA CARRETERA GUADALMAR/PROYECTO 535/535.2/535.2.2 Mejora Carretera Guadalmar/POU 2026/DOCS/Documentos de Trabajo/5.- Dimensionamiento del Firme/FIRME.icafir",
+        "../MEJORA CARRETERA GUADALMAR/PROYECTO 535/535.2/535.2.2 Mejora Carretera Guadalmar/POU 2026/DOCS/Documentos de Trabajo/5.- Dimensionamiento del Firme/EXPLANADA.icafir",
+        "../MEJORA CARRETERA GUADALMAR/PROYECTO 535/535.2/535.2.2 Mejora Carretera Guadalmar/POU 2026/scripts/update_firme_repav_fresado.ps1",
+        "../MEJORA CARRETERA GUADALMAR/PROYECTO 535/535.2/535.2.2 Mejora Carretera Guadalmar/POU 2026/scripts/update_isletas_rotondas_firme.ps1",
+        "../MEJORA CARRETERA GUADALMAR/PROYECTO 535/535.2/535.2.2 Mejora Carretera Guadalmar/POU 2026/scripts/update_mediciones_firme_auxiliar.ps1"
+      ],
+      "variable_inputs": [
+        "[NOMBRE DEL PROYECTO]",
+        "[CIUDAD DEL PROYECTO]",
+        "[NOMBRE DEL DOCX]",
+        "[TRAFICO DE PROYECTO]",
+        "[CATEGORIA DE EXPLANADA]",
+        "[PAQUETE DE FIRME]",
+        "[MEDICIONES DE FIRME]"
+      ],
+      "notes": "Anejo compacto pero con calculo y soporte Excel muy repetibles entre proyectos."
+    },
+    {
+      "number": 6,
+      "slug": "06-red-de-agua-potable",
+      "title": "RED DE AGUA POTABLE",
+      "family": "redes-lineales",
+      "reusability": "family_candidate",
+      "donor_docx": "../MEJORA CARRETERA GUADALMAR/PROYECTO 535/535.2/535.2.2 Mejora Carretera Guadalmar/POU 2026/DOCS/Documentos de Trabajo/6.- Red de Agua Potable/Anexo 6 - Agua Potable.docx",
+      "donor_excels": [],
+      "support_files": [],
+      "variable_inputs": [
+        "[NOMBRE DEL PROYECTO]",
+        "[CIUDAD DEL PROYECTO]",
+        "[TRAZADO DE RED]",
+        "[DEMANDAS]",
+        "[DIAMETROS]",
+        "[PRESIONES]"
+      ],
+      "notes": "Buen candidato a familia reusable de redes aunque todavia no hay paquete Excel consolidado en esta biblioteca."
+    },
+    {
+      "number": 7,
+      "slug": "07-red-de-saneamiento-pluviales",
+      "title": "RED DE SANEAMIENTO - PLUVIALES",
+      "family": "pluviales",
+      "reusability": "specific_template",
+      "donor_docx": "../MEJORA CARRETERA GUADALMAR/PROYECTO 535/535.2/535.2.2 Mejora Carretera Guadalmar/POU 2026/DOCS/Documentos de Trabajo/7.- Red de Saneamiento - Pluviales/Anexo 7 - Pluviales.docx",
+      "donor_excels": [
+        "../MEJORA CARRETERA GUADALMAR/PROYECTO 535/535.2/535.2.2 Mejora Carretera Guadalmar/POU 2026/DOCS/Documentos de Trabajo/7.- Red de Saneamiento - Pluviales/Cálculo Hidrológico(nueva IC-5.2)_A_535.2.xlsx",
+        "../MEJORA CARRETERA GUADALMAR/PROYECTO 535/535.2/535.2.2 Mejora Carretera Guadalmar/POU 2026/DOCS/Documentos de Trabajo/7.- Red de Saneamiento - Pluviales/Cálculo Hidrológico(nueva IC-5.2)_B_535.2.xlsx",
+        "../MEJORA CARRETERA GUADALMAR/PROYECTO 535/535.2/535.2.2 Mejora Carretera Guadalmar/POU 2026/DOCS/Documentos de Trabajo/7.- Red de Saneamiento - Pluviales/SSA ABRIL26 2.xlsx"
+      ],
+      "support_files": [
+        "../MEJORA CARRETERA GUADALMAR/PROYECTO 535/535.2/535.2.2 Mejora Carretera Guadalmar/POU 2026/DOCS/Documentos de Trabajo/7.- Red de Saneamiento - Pluviales/Red_Pluviales_Trazable.xls",
+        "../MEJORA CARRETERA GUADALMAR/PROYECTO 535/535.2/535.2.2 Mejora Carretera Guadalmar/POU 2026/DOCS/Documentos de Trabajo/7.- Red de Saneamiento - Pluviales/Red_Pluviales_Estructuras_Trazable.csv",
+        "../MEJORA CARRETERA GUADALMAR/PROYECTO 535/535.2/535.2.2 Mejora Carretera Guadalmar/POU 2026/DOCS/Documentos de Trabajo/7.- Red de Saneamiento - Pluviales/Red_Pluviales_Tuberias_Trazable.csv"
+      ],
+      "variable_inputs": [
+        "[NOMBRE DEL PROYECTO]",
+        "[CIUDAD DEL PROYECTO]",
+        "[CUENCAS]",
+        "[CAUDALES DE DISENO]",
+        "[TRAZADO DE LA RED]",
+        "[TABLAS SSA]"
+      ],
+      "notes": "Anejo con trazabilidad fuerte entre DOCX, hojas hidrologicas y resultados SSA."
+    },
+    {
+      "number": 8,
+      "slug": "08-red-de-saneamiento-fecales",
+      "title": "RED DE SANEAMIENTO - FECALES",
+      "family": "redes-lineales",
+      "reusability": "family_candidate",
+      "donor_docx": "../MEJORA CARRETERA GUADALMAR/PROYECTO 535/535.2/535.2.2 Mejora Carretera Guadalmar/POU 2026/DOCS/Documentos de Trabajo/8.- Red de Saneamiento - Fecales/Anexo 8 - Fecales.docx",
+      "donor_excels": [],
+      "support_files": [],
+      "variable_inputs": [
+        "[NOMBRE DEL PROYECTO]",
+        "[CIUDAD DEL PROYECTO]",
+        "[TRAZADO DE RED]",
+        "[CAUDALES SANITARIOS]",
+        "[DIAMETROS]",
+        "[CONDICIONES DE VERTIDO]"
+      ],
+      "notes": "Candidato claro a familia reusable de redes, pendiente de traer soporte Excel donor a la biblioteca."
+    },
+    {
+      "number": 11,
+      "slug": "11-red-de-alumbrado",
+      "title": "RED DE ALUMBRADO",
+      "family": "alumbrado",
+      "reusability": "specific_template",
+      "donor_docx": "../MEJORA CARRETERA GUADALMAR/PROYECTO 535/535.2/535.2.2 Mejora Carretera Guadalmar/POU 2026/DOCS/Documentos de Trabajo/11.-Red de Alumbrado/Anejo alumbrado.docx",
+      "donor_excels": [
+        "../MEJORA CARRETERA GUADALMAR/PROYECTO 535/535.2/535.2.2 Mejora Carretera Guadalmar/POU 2026/DOCS/Documentos de Trabajo/11.-Red de Alumbrado/CALCULO EFICIENCIA ENERGÉTICA.xlsx"
+      ],
+      "support_files": [
+        "../MEJORA CARRETERA GUADALMAR/PROYECTO 535/535.2/535.2.2 Mejora Carretera Guadalmar/POU 2026/DOCS/Documentos de Trabajo/11.-Red de Alumbrado/medición.xlsx"
+      ],
+      "variable_inputs": [
+        "[NOMBRE DEL PROYECTO]",
+        "[CIUDAD DEL PROYECTO]",
+        "[LUMINARIAS]",
+        "[NIVELES LUMINICOS]",
+        "[EFICIENCIA ENERGETICA]",
+        "[CIRCUITOS]"
+      ],
+      "notes": "Anejo muy repetible con tablas y calculo asociados."
+    },
+    {
+      "number": 12,
+      "slug": "12-accesibilidad",
+      "title": "ACCESIBILIDAD",
+      "family": "accesibilidad",
+      "reusability": "family_candidate",
+      "donor_docx": "../MEJORA CARRETERA GUADALMAR/PROYECTO 535/535.2/535.2.2 Mejora Carretera Guadalmar/POU 2026/DOCS/Documentos de Trabajo/12.- Accesibilidad/Anexo 12 - Accesibilidad.docx",
+      "donor_excels": [],
+      "support_files": [],
+      "variable_inputs": [
+        "[NOMBRE DEL PROYECTO]",
+        "[CIUDAD DEL PROYECTO]",
+        "[ITINERARIOS ACCESIBLES]",
+        "[PENDIENTES]",
+        "[PASOS PEATONALES]",
+        "[NORMATIVA DE ACCESIBILIDAD]"
+      ],
+      "notes": "Mas ligero que otros anejos, pero la forma se repite y merece familia reusable."
+    },
+    {
+      "number": 13,
+      "slug": "13-estudio-de-gestion-de-residuos",
+      "title": "ESTUDIO DE GESTION DE RESIDUOS",
+      "family": "residuos",
+      "reusability": "specific_template",
+      "donor_docx": "../MEJORA CARRETERA GUADALMAR/PROYECTO 535/535.2/535.2.2 Mejora Carretera Guadalmar/POU 2026/DOCS/Documentos de Trabajo/13.- Estudio de Gestion de Residuos/Anexo 13 - Estudio de Gestión de Residuos.docx",
+      "donor_excels": [
+        "../MEJORA CARRETERA GUADALMAR/PROYECTO 535/535.2/535.2.2 Mejora Carretera Guadalmar/POU 2026/DOCS/Documentos de Trabajo/13.- Estudio de Gestion de Residuos/535_2_2-GR.xlsx"
+      ],
+      "support_files": [],
+      "variable_inputs": [
+        "[NOMBRE DEL PROYECTO]",
+        "[CIUDAD DEL PROYECTO]",
+        "[PEM]",
+        "[MEDICIONES DE DEMOLICION]",
+        "[FRACCIONES RCD]",
+        "[GESTORES AUTORIZADOS]"
+      ],
+      "notes": "Plantilla especifica clara con Excel donor directo."
+    },
+    {
+      "number": 14,
+      "slug": "14-control-de-calidad",
+      "title": "CONTROL DE CALIDAD",
+      "family": "control-calidad",
+      "reusability": "specific_template",
+      "donor_docx": "../MEJORA CARRETERA GUADALMAR/PROYECTO 535/535.2/535.2.2 Mejora Carretera Guadalmar/POU 2026/DOCS/Documentos de Trabajo/14.- Control de Calidad/Anexo 14 - Control de calidad.docx",
+      "donor_excels": [
+        "../MEJORA CARRETERA GUADALMAR/PROYECTO 535/535.2/535.2.2 Mejora Carretera Guadalmar/POU 2026/DOCS/Documentos de Trabajo/14.- Control de Calidad/535.2.2 Control-Calidad.xlsx"
+      ],
+      "support_files": [
+        "../MEJORA CARRETERA GUADALMAR/PROYECTO 535/535.2/535.2.2 Mejora Carretera Guadalmar/POU 2026/DOCS/Documentos de Trabajo/14.- Control de Calidad/535.2.2 Control-Calidad_CRTA. GUADALMAR.csv"
+      ],
+      "variable_inputs": [
+        "[NOMBRE DEL PROYECTO]",
+        "[CIUDAD DEL PROYECTO]",
+        "[UNIDADES DE OBRA]",
+        "[PLAN DE ENSAYOS]",
+        "[FRECUENCIAS]",
+        "[PRESUPUESTO DE CONTROL]"
+      ],
+      "notes": "Plantilla especifica clara con estructura fija y tablas repetibles."
+    },
+    {
+      "number": 15,
+      "slug": "15-plan-de-obra",
+      "title": "PLAN DE OBRA",
+      "family": "plan-obra",
+      "reusability": "specific_template",
+      "donor_docx": "../MEJORA CARRETERA GUADALMAR/PROYECTO 535/535.2/535.2.2 Mejora Carretera Guadalmar/POU 2026/DOCS/Documentos de Trabajo/15.- Plan de Obra/Anexo 15 - Plan de Obras.docx",
+      "donor_excels": [
+        "../MEJORA CARRETERA GUADALMAR/PROYECTO 535/535.2/535.2.2 Mejora Carretera Guadalmar/POU 2026/DOCS/Documentos de Trabajo/15.- Plan de Obra/535.2.2 - Plan de Obra.xlsx"
+      ],
+      "support_files": [],
+      "variable_inputs": [
+        "[NOMBRE DEL PROYECTO]",
+        "[CIUDAD DEL PROYECTO]",
+        "[PLAZO DE OBRA]",
+        "[FASES]",
+        "[RENDIMIENTOS]",
+        "[CAMINO CRITICO]"
+      ],
+      "notes": "Plantilla especifica con Gantt y duraciones repetibles."
+    },
+    {
+      "number": 17,
+      "slug": "17-seguridad-y-salud",
+      "title": "ESTUDIO DE SEGURIDAD Y SALUD",
+      "family": "seguridad-salud",
+      "reusability": "specific_template",
+      "donor_docx": "../MEJORA CARRETERA GUADALMAR/PROYECTO 535/535.2/535.2.2 Mejora Carretera Guadalmar/POU 2026/DOCS/Documentos de Trabajo/17.- Seguridad y Salud/Anejo 17 - Estudio de Seguridad y Salud.docx",
+      "donor_excels": [
+        "../MEJORA CARRETERA GUADALMAR/PROYECTO 535/535.2/535.2.2 Mejora Carretera Guadalmar/POU 2026/DOCS/Documentos de Trabajo/17.- Seguridad y Salud/Dimensionado_SyS_Guadalmar.xlsx"
+      ],
+      "support_files": [
+        "../MEJORA CARRETERA GUADALMAR/PROYECTO 535/535.2/535.2.2 Mejora Carretera Guadalmar/POU 2026/DOCS/Documentos de Trabajo/17.- Seguridad y Salud/SyS_535_2_2_DIMENSIONADO_TRAZABLE.xls",
+        "../MEJORA CARRETERA GUADALMAR/PROYECTO 535/535.2/535.2.2 Mejora Carretera Guadalmar/POU 2026/DOCS/Documentos de Trabajo/17.- Seguridad y Salud/Dimensionado_SyS_Guadalmar.xml"
+      ],
+      "variable_inputs": [
+        "[NOMBRE DEL PROYECTO]",
+        "[CIUDAD DEL PROYECTO]",
+        "[RIESGOS]",
+        "[MEDIDAS PREVENTIVAS]",
+        "[MEDICIONES SYS]",
+        "[PRESUPUESTO SYS]"
+      ],
+      "notes": "Plantilla especifica muy larga, con fuerte relacion con dimensionado y presupuesto donor."
+    }
+  ]
+}

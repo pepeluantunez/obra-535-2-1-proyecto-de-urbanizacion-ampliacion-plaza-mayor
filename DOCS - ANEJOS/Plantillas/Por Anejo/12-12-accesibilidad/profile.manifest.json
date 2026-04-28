@@ -1,0 +1,26 @@
+﻿{
+    "number":  12,
+    "slug":  "12-accesibilidad",
+    "title":  "ACCESIBILIDAD",
+    "family":  "accesibilidad",
+    "reusability":  "family_candidate",
+    "notes":  "Mas ligero que otros anejos, pero la forma se repite y merece familia reusable.",
+    "variable_inputs":  [
+                            "[NOMBRE DEL PROYECTO]",
+                            "[CIUDAD DEL PROYECTO]",
+                            "[ITINERARIOS ACCESIBLES]",
+                            "[PENDIENTES]",
+                            "[PASOS PEATONALES]",
+                            "[NORMATIVA DE ACCESIBILIDAD]"
+                        ],
+    "copied_assets":  {
+                          "master_template":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\Plantillas\\Por Anejo\\12-12-accesibilidad\\00_master\\PLANTILLA_MAESTRA_ANEJOS.docx",
+                          "donor_docx":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\Plantillas\\Por Anejo\\12-12-accesibilidad\\10_donor_docx\\Anexo 12 - Accesibilidad.docx",
+                          "donor_excels":  [
+
+                                           ],
+                          "support_files":  [
+
+                                            ]
+                      }
+}

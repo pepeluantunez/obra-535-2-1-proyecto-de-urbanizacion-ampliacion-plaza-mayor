@@ -1,0 +1,26 @@
+﻿{
+    "number":  8,
+    "slug":  "08-red-de-saneamiento-fecales",
+    "title":  "RED DE SANEAMIENTO - FECALES",
+    "family":  "redes-lineales",
+    "reusability":  "family_candidate",
+    "notes":  "Candidato claro a familia reusable de redes, pendiente de traer soporte Excel donor a la biblioteca.",
+    "variable_inputs":  [
+                            "[NOMBRE DEL PROYECTO]",
+                            "[CIUDAD DEL PROYECTO]",
+                            "[TRAZADO DE RED]",
+                            "[CAUDALES SANITARIOS]",
+                            "[DIAMETROS]",
+                            "[CONDICIONES DE VERTIDO]"
+                        ],
+    "copied_assets":  {
+                          "master_template":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\Plantillas\\Por Anejo\\08-08-red-de-saneamiento-fecales\\00_master\\PLANTILLA_MAESTRA_ANEJOS.docx",
+                          "donor_docx":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\Plantillas\\Por Anejo\\08-08-red-de-saneamiento-fecales\\10_donor_docx\\Anexo 8 - Fecales.docx",
+                          "donor_excels":  [
+
+                                           ],
+                          "support_files":  [
+
+                                            ]
+                      }
+}

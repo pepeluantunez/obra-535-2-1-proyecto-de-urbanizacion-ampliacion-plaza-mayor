@@ -1,0 +1,35 @@
+anejo: "Anejo 8 - Red de Saneamiento - Fecales"
+status_actual: "arranque completado"
+scope: "red de fecales del proyecto"
+fuentes_maestras:
+  - "Excel o fuente tecnica vigente del anejo, si existe"
+  - "DOCS - ANEJOS/8.- Red de Saneamiento - Fecales/Anexo 8 - Red de Saneamiento - Fecales.docx"
+  - "CONTROL/trazabilidad/*"
+restricciones:
+  - "No dar por cerradas magnitudes de red sin fuente tecnica o medicion verificable."
+  - "No mezclar datos de pluviales y fecales en salidas premium."
+datos_minimos:
+  - "tramos"
+  - "diametros"
+  - "longitudes"
+  - "pendientes"
+  - "conexiones a existente"
+  - "elementos singulares"
+datos_deseables:
+  - "caudales de diseno"
+  - "criterio de compania o explotador"
+  - "puntos conflictivos de conexion"
+outputs_premium_recomendados:
+  - "tabla_redes_por_diametro_y_material"
+  - "tabla_elementos_singulares_por_red"
+  - "grafico_longitudes_por_diametro"
+  - "tabla_decisiones_y_pendientes"
+validaciones:
+  - "coherencia_con_presupuesto"
+  - "coherencia_con_planos"
+  - "coherencia_con_memoria"
+  - "conexion_a_existente_identificada"
+  - "hipotesis_marcadas_en_outputs_premium"
+pendientes_tipicos:
+  - "[PENDIENTE: cerrar criterio de compania si aplica]"
+  - "[PENDIENTE: ampliar gramatica de trazabilidad a la red de fecales]"

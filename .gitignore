@@ -16,6 +16,7 @@ findings.md
 *.tmp
 *.temp
 *.bak
+*.bak.*
 *.log
 *.err
 
@@ -64,3 +65,6 @@ PLANOS/01_RefExt/ORTO/
 *.AssemblyInfoInputs.cache
 *.GeneratedMSBuildEditorConfig.editorconfig
 nuget.cache
+
+# Personal overrides for Claude Code (gitignored, not shared)
+CLAUDE.local.md

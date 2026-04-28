@@ -1,0 +1,26 @@
+﻿{
+    "number":  6,
+    "slug":  "06-red-de-agua-potable",
+    "title":  "RED DE AGUA POTABLE",
+    "family":  "redes-lineales",
+    "reusability":  "family_candidate",
+    "notes":  "Buen candidato a familia reusable de redes aunque todavia no hay paquete Excel consolidado en esta biblioteca.",
+    "variable_inputs":  [
+                            "[NOMBRE DEL PROYECTO]",
+                            "[CIUDAD DEL PROYECTO]",
+                            "[TRAZADO DE RED]",
+                            "[DEMANDAS]",
+                            "[DIAMETROS]",
+                            "[PRESIONES]"
+                        ],
+    "copied_assets":  {
+                          "master_template":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\Plantillas\\Por Anejo\\06-06-red-de-agua-potable\\00_master\\PLANTILLA_MAESTRA_ANEJOS.docx",
+                          "donor_docx":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\Plantillas\\Por Anejo\\06-06-red-de-agua-potable\\10_donor_docx\\Anexo 6 - Agua Potable.docx",
+                          "donor_excels":  [
+
+                                           ],
+                          "support_files":  [
+
+                                            ]
+                      }
+}

@@ -1,0 +1,38 @@
+anejo: "Anejo 7 - Red de Saneamiento - Pluviales"
+status_actual: "borrador"
+scope: "red pluvial del proyecto"
+fuentes_maestras:
+  - "Excel o fuente tecnica vigente del anejo, si existe"
+  - "DOCS - ANEJOS/7.- Red de Saneamiento - Pluviales/Anexo 7 - Red de Saneamiento - Pluviales.docx"
+  - "CONTROL/trazabilidad/*"
+restricciones:
+  - "No usar Word como autoridad numerica si existe fuente tecnica mas precisa."
+  - "No generar resultados hidraulicos completos sin fuente trazable."
+datos_minimos:
+  - "tramos"
+  - "diametros"
+  - "longitudes"
+  - "pendientes"
+  - "puntos de descarga"
+  - "elementos singulares"
+  - "criterio o modelo hidraulico usado"
+datos_deseables:
+  - "cuencas"
+  - "intensidad de lluvia"
+  - "caudales"
+  - "velocidades"
+  - "tirantes"
+outputs_premium_recomendados:
+  - "tabla_redes_por_diametro_y_material"
+  - "tabla_elementos_singulares_por_red"
+  - "grafico_longitudes_por_diametro"
+  - "informe_de_incoherencias_transversales"
+validaciones:
+  - "coherencia_con_presupuesto"
+  - "coherencia_con_planos"
+  - "coherencia_con_memoria"
+  - "sin_tablas_imagen_si_hay_tablas_tecnicas_reales"
+  - "hipotesis_marcadas_en_outputs_premium"
+pendientes_tipicos:
+  - "[PENDIENTE: cerrar fuente tecnica de pluviales antes de graficos de calculo]"
+  - "[PENDIENTE: extender trazabilidad a agua potable, pluviales y fecales]"

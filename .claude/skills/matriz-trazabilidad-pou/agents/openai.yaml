@@ -1,0 +1,3 @@
+interface:
+  display_name: "Matriz Trazabilidad POU"
+  short_description: "Mantiene control cruzado entre fuentes, documentos, mediciones y BC3."

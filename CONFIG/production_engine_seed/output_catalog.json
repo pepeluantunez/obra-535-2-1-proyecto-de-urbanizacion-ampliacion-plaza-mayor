@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "status": "seed_local",
+  "owner_repo": "obra-535-2-1-proyecto-de-urbanizacion-ampliacion-plaza-mayor",
+  "promotion_target": "urbanizacion-toolkit",
+  "families": [
+    {
+      "id": "tabla_datos_generales_proyecto",
+      "domain": "tablas",
+      "title": "Tabla de datos generales del proyecto",
+      "objective": "Resumir identidad, alcance y magnitudes base del expediente.",
+      "required_inputs": [
+        "CONTROL/project_facts.json",
+        "MAPA_PROYECTO.md",
+        "FUENTES_MAESTRAS.md"
+      ],
+      "optional_inputs": [
+        "CONTROL/matriz_estado_anejos.json"
+      ],
+      "default_format": "md",
+      "output_folder": "OUTPUTS_AI/tablas",
+      "human_gate": "no",
+      "notes": [
+        "No introducir magnitudes sin fuente."
+      ]
+    },
+    {
+      "id": "tabla_redes_por_diametro_y_material",
+      "domain": "tablas",
+      "title": "Tabla de redes por diametro y material",
+      "objective": "Resumir longitudes, diametros, materiales y tramos por red.",
+      "required_inputs": [
+        "DATA/redes/*.csv"
+      ],
+      "optional_inputs": [
+        "DOCS - ANEJOS/6.- Red de Agua Potable/*",
+        "DOCS - ANEJOS/7.- Red de Saneamiento - Pluviales/*",
+        "DOCS - ANEJOS/8.- Red de Saneamiento - Fecales/*"
+      ],
+      "default_format": "xlsx",
+      "output_folder": "OUTPUTS_AI/tablas",
+      "human_gate": "review_required",
+      "notes": [
+        "Si no existe capa DATA, declarar pendiente y no inventar longitudes."
+      ]
+    },
+    {
+      "id": "tabla_elementos_singulares_por_red",
+      "domain": "tablas",
+      "title": "Tabla de elementos singulares por red",
+      "objective": "Contar pozos, arquetas, imbornales, acometidas y conexiones.",
+      "required_inputs": [
+        "DATA/redes/*.csv"
+      ],
+      "optional_inputs": [
+        "CONTROL/trazabilidad/nodes.json"
+      ],
+      "default_format": "md",
+      "output_folder": "OUTPUTS_AI/tablas",
+      "human_gate": "review_required"
+    },
+    {
+      "id": "tabla_partidas_criticas_presupuesto",
+      "domain": "tablas",
+      "title": "Tabla de partidas criticas de presupuesto",
+      "objective": "Identificar partidas de alto impacto, medicion dudosa o trazabilidad debil.",
+      "required_inputs": [
+        "DATA/presupuesto_normalizado.csv"
+      ],
+      "optional_inputs": [
+        "CONTROL/trazabilidad/coverage.json",
+        "DOCS - ANEJOS/17.- Seguridad y Salud/PRESUPUESTO_DONOR/*.bc3"
+      ],
+      "default_format": "xlsx",
+      "output_folder": "OUTPUTS_AI/tablas",
+      "human_gate": "review_required"
+    },
+    {
+      "id": "tabla_decisiones_y_pendientes",
+      "domain": "tablas",
+      "title": "Tabla de decisiones y pendientes",
+      "objective": "Convertir huecos tecnicos en lista accionable y visible.",
+      "required_inputs": [
+        "DECISIONES_PROYECTO.md",
+        "ESTADO_PROYECTO.md"
+      ],
+      "optional_inputs": [
+        "CONTROL/ai_runs/*.json"
+      ],
+      "default_format": "md",
+      "output_folder": "OUTPUTS_AI/tablas",
+      "human_gate": "no"
+    },
+    {
+      "id": "grafico_pem_por_capitulos",
+      "domain": "graficos",
+      "title": "Grafico de PEM por capitulos",
+      "objective": "Visualizar el peso economico relativo de cada capitulo.",
+      "required_inputs": [
+        "DATA/presupuesto_normalizado.csv"
+      ],
+      "optional_inputs": [
+        "DOCS - ANEJOS/17.- Seguridad y Salud/PRESUPUESTO_DONOR/*.bc3"
+      ],
+      "default_format": "png",
+      "output_folder": "OUTPUTS_AI/graficos",
+      "human_gate": "review_required"
+    },
+    {
+      "id": "grafico_longitudes_por_diametro",
+      "domain": "graficos",
+      "title": "Grafico de longitudes por diametro",
+      "objective": "Mostrar la distribucion de tuberias por diametro para cada red.",
+      "required_inputs": [
+        "DATA/redes/*.csv"
+      ],
+      "optional_inputs": [
+        "CONTROL/trazabilidad/nodes.json"
+      ],
+      "default_format": "png",
+      "output_folder": "OUTPUTS_AI/graficos",
+      "human_gate": "review_required"
+    },
+    {
+      "id": "grafico_distribucion_residuos",
+      "domain": "graficos",
+      "title": "Grafico de distribucion de residuos",
+      "objective": "Resumir residuos por tipo y peso relativo.",
+      "required_inputs": [
+        "DOCS - ANEJOS/13.- Estudio de Gestion de Residuos/CALCULOS/*.xlsx"
+      ],
+      "optional_inputs": [
+        "DATA/residuos/*.csv"
+      ],
+      "default_format": "png",
+      "output_folder": "OUTPUTS_AI/graficos",
+      "human_gate": "review_required"
+    },
+    {
+      "id": "grafico_control_calidad_por_capitulo",
+      "domain": "graficos",
+      "title": "Grafico de control de calidad por capitulo",
+      "objective": "Representar el reparto de controles y coste asociado.",
+      "required_inputs": [
+        "DOCS - ANEJOS/14.- Control de Calidad/CALCULOS/*.xlsx"
+      ],
+      "optional_inputs": [
+        "DATA/control_calidad/*.csv"
+      ],
+      "default_format": "png",
+      "output_folder": "OUTPUTS_AI/graficos",
+      "human_gate": "review_required"
+    },
+    {
+      "id": "dashboard_resumen_proyecto",
+      "domain": "dashboards",
+      "title": "Dashboard resumen del proyecto",
+      "objective": "Unificar magnitudes principales, estado documental y riesgos visibles.",
+      "required_inputs": [
+        "CONTROL/project_facts.json",
+        "CONTROL/matriz_estado_anejos.json",
+        "ESTADO_PROYECTO.md"
+      ],
+      "optional_inputs": [
+        "DATA/presupuesto_normalizado.csv",
+        "DATA/redes/*.csv"
+      ],
+      "default_format": "xlsx",
+      "output_folder": "OUTPUTS_AI/dashboards",
+      "human_gate": "review_required"
+    },
+    {
+      "id": "plan_obra_gantt_preliminar",
+      "domain": "plan_obra",
+      "title": "Gantt preliminar por capitulos y fases",
+      "objective": "Construir un cronograma defendible con hipotesis visibles.",
+      "required_inputs": [
+        "DOCS - ANEJOS/15.- Plan de Obra/*"
+      ],
+      "optional_inputs": [
+        "DATA/cronograma_base.csv",
+        "DATA/presupuesto_normalizado.csv"
+      ],
+      "default_format": "xlsx",
+      "output_folder": "OUTPUTS_AI/plan_obra",
+      "human_gate": "approval_required",
+      "notes": [
+        "Toda duracion estimada debe salir etiquetada como hipotesis si no hay rendimiento confirmado."
+      ]
+    },
+    {
+      "id": "plan_obra_curva_s",
+      "domain": "plan_obra",
+      "title": "Curva S de inversion",
+      "objective": "Vincular avance temporal e inversion acumulada.",
+      "required_inputs": [
+        "DATA/presupuesto_normalizado.csv",
+        "DATA/cronograma_base.csv"
+      ],
+      "optional_inputs": [
+        "OUTPUTS_AI/plan_obra/*.manifest.json"
+      ],
+      "default_format": "xlsx",
+      "output_folder": "OUTPUTS_AI/plan_obra",
+      "human_gate": "approval_required"
+    },
+    {
+      "id": "propuesta_valor_anadido",
+      "domain": "propuestas_valor",
+      "title": "Informe de propuestas de valor anadido",
+      "objective": "Detectar tablas, graficos y analisis que mejoran la entrega sin reescribir anejos.",
+      "required_inputs": [
+        "CONTROL/project_facts.json",
+        "ESTADO_PROYECTO.md",
+        "CONTROL/trazabilidad/coverage.json"
+      ],
+      "optional_inputs": [
+        "OUTPUTS_AI/*"
+      ],
+      "default_format": "md",
+      "output_folder": "OUTPUTS_AI/propuestas_valor",
+      "human_gate": "no"
+    }
+  ]
+}

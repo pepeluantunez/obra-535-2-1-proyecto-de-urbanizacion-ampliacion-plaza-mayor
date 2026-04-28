@@ -1,0 +1,52 @@
+{
+  "project_code": "535.2.1",
+  "document_number": "3",
+  "document_title": "Pliego de Condiciones",
+  "project_title_upper": "PROYECTO DE URBANIZACION",
+  "project_name_cover_upper": "AMPLIACION PLAZA MAYOR",
+  "project_name_sentence": "Proyecto de Urbanizacion de Ampliacion Plaza Mayor",
+  "municipality_upper": "MALAGA",
+  "municipality": "Malaga",
+  "province": "Malaga",
+  "promoter_cover": "Plaza Mayor Shopping, S.A. / DOC Malaga Siteco, S.L. / DOC Malaga Siteco Phase 2, S.L.",
+  "promoter_short": "Plaza Mayor Shopping, S.A. y sociedades vinculadas del ambito",
+  "draft_month": "Abril",
+  "draft_year": "2026",
+  "authors_cover": [
+    "Tristan Martinez Auladell (Arquitecto)",
+    "Jose Luis Antunez Ruiz-Rico (ICCP)",
+    "Santiago Hervas Salado (Ing. Industrial)"
+  ],
+  "docx_core_title": "535.2.1 - Pliego de Prescripciones Tecnicas Particulares",
+  "docx_core_subject": "Proyecto de Urbanizacion. Ampliacion Plaza Mayor, Malaga.",
+  "scope_summary_paragraph": "Las obras comprendidas en el presente Proyecto incluyen las demoliciones, reposiciones, movimiento de tierras, urbanizacion viaria interior y conexiones, firmes y pavimentos, drenaje, redes urbanas, canalizaciones de servicios, senalizacion, jardineria, control de calidad, gestion de residuos y seguridad y salud vinculadas al ambito de Plaza Mayor y a sus accesos.",
+  "utility_norms_clause": "Normas tecnicas de la entidad gestora del abastecimiento y saneamiento, de la compania distribuidora electrica y de los servicios municipales competentes del ambito.",
+  "conditional_headings": {
+    "lighting": "Articulo 698.- INSTALACION DE ALUMBRADO, SI PROCEDE",
+    "irrigation_network": "Articulo 699.- RED DE RIEGO, SI PROCEDE",
+    "telecom": "Articulo 704.- LINEAS DE TELECOMUNICACIONES, SI PROCEDE",
+    "power": "Articulo 705.- LINEAS ELECTRICAS, SI PROCEDE",
+    "irrigation_subspec": "3.5.- PLIEGO DE CONDICIONES DE LA INSTALACION DE RIEGO, SI PROCEDE"
+  },
+  "landscaping_scope_clause": "El presente documento se refiere a la forma de realizar los trabajos y a las condiciones que han de reunir las unidades de obra y materiales correspondientes a las actuaciones de jardineria, zonas verdes y riego que, en su caso, formen parte del proyecto. Las estipulaciones del presente pliego afectaran unicamente a dichos trabajos y, en caso de contradiccion con la Memoria, los Planos o el Presupuesto, prevalecera lo definido especificamente para el proyecto.",
+  "irrigation_object_clause": "El presente Pliego de Condiciones facultativas tiene por objeto definir y fijar las condiciones tecnicas y economicas de los materiales y su ejecucion, asi como las condiciones generales que han de regir en la instalacion de riego de las zonas verdes, exclusivamente cuando dicha instalacion forme parte del alcance del proyecto.",
+  "local_normativa": [
+    "PGOU, ordenanzas municipales y condiciones de companias suministradoras aplicables al ambito",
+    "Normas tecnicas municipales de abastecimiento, saneamiento, alumbrado y zonas verdes",
+    "Prescripciones sectoriales especificas del promotor"
+  ],
+  "protected_strings": [
+    "Avda. de la Aurora, 55, entreplanta",
+    "952 04 10 47",
+    "952 34 41 00",
+    "edp@edp-sl.com",
+    "www.edp-sl.com"
+  ],
+  "review_needles": [
+    "Guadalmar",
+    "Ayuntamiento de Malaga",
+    "535.2.2",
+    "MALAGA",
+    "Malaga"
+  ]
+}

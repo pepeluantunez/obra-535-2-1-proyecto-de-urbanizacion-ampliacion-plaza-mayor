@@ -1,0 +1,508 @@
+﻿<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+<Worksheet ss:Name="00_Resumen"><Table>
+<Row>
+<Cell><Data ss:Type="String">Campo</Data></Cell>
+<Cell><Data ss:Type="String">Valor</Data></Cell>
+<Cell><Data ss:Type="String">Estado</Data></Cell>
+<Cell><Data ss:Type="String">Base</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Plazo tecnico optimista del alcance medido (meses adoptados)</Data></Cell>
+<Cell ss:Formula="=&apos;07_Comparativa&apos;!R2C3"><Data ss:Type="Number">8</Data></Cell>
+<Cell><Data ss:Type="String">Derivado</Data></Cell>
+<Cell><Data ss:Type="String">Redondeo por exceso de 7.62 meses tecnicos</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Plazo tecnico base del alcance medido (meses adoptados)</Data></Cell>
+<Cell ss:Formula="=&apos;07_Comparativa&apos;!R3C3"><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="String">Derivado</Data></Cell>
+<Cell><Data ss:Type="String">Redondeo por exceso de 9.46 meses tecnicos</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Plazo tecnico conservador del alcance medido (meses adoptados)</Data></Cell>
+<Cell ss:Formula="=&apos;07_Comparativa&apos;!R4C3"><Data ss:Type="Number">14</Data></Cell>
+<Cell><Data ss:Type="String">Derivado</Data></Cell>
+<Cell><Data ss:Type="String">Redondeo por exceso de 13.77 meses tecnicos</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Plazo vigente del plan actual (meses)</Data></Cell>
+<Cell><Data ss:Type="Number">18</Data></Cell>
+<Cell><Data ss:Type="String">Confirmado documental</Data></Cell>
+<Cell><Data ss:Type="String">Plan de obra actual</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Observacion</Data></Cell>
+<Cell><Data ss:Type="String">Los 18 meses no se usan como dato tecnico base para SyS</Data></Cell>
+<Cell><Data ss:Type="String">Propuesta</Data></Cell>
+<Cell><Data ss:Type="String">Se sustituyen por rango tecnico derivado</Data></Cell>
+</Row>
+</Table></Worksheet>
+<Worksheet ss:Name="01_Parametros"><Table>
+<Row>
+<Cell><Data ss:Type="String">Parametro</Data></Cell>
+<Cell><Data ss:Type="String">Valor</Data></Cell>
+<Cell><Data ss:Type="String">Tipo</Data></Cell>
+<Cell><Data ss:Type="String">Nota</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Jornadas laborables por mes</Data></Cell>
+<Cell><Data ss:Type="Number">22</Data></Cell>
+<Cell><Data ss:Type="String">Editable</Data></Cell>
+<Cell><Data ss:Type="String">Homogeneizacion de escenarios</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Horas por jornada</Data></Cell>
+<Cell><Data ss:Type="Number">8</Data></Cell>
+<Cell><Data ss:Type="String">Editable</Data></Cell>
+<Cell><Data ss:Type="String">Homogeneizacion de escenarios</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Lag DEM-PLUV optimista (dias)</Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="String">Editable</Data></Cell>
+<Cell><Data ss:Type="String">Secuencia escenario optimista</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Lag MT-PLUV optimista (dias)</Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="String">Editable</Data></Cell>
+<Cell><Data ss:Type="String">Secuencia escenario optimista</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Lag PLUV-FIR optimista (dias)</Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="String">Editable</Data></Cell>
+<Cell><Data ss:Type="String">Secuencia escenario optimista</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Solape SIG/FIR optimista</Data></Cell>
+<Cell><Data ss:Type="Number">0.82</Data></Cell>
+<Cell><Data ss:Type="String">Editable</Data></Cell>
+<Cell><Data ss:Type="String">Porcentaje de duracion de firmes</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Lag DEM-PLUV base (dias)</Data></Cell>
+<Cell><Data ss:Type="Number">15</Data></Cell>
+<Cell><Data ss:Type="String">Editable</Data></Cell>
+<Cell><Data ss:Type="String">Secuencia escenario base</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Lag MT-PLUV base (dias)</Data></Cell>
+<Cell><Data ss:Type="Number">15</Data></Cell>
+<Cell><Data ss:Type="String">Editable</Data></Cell>
+<Cell><Data ss:Type="String">Secuencia escenario base</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Lag PLUV-FIR base (dias)</Data></Cell>
+<Cell><Data ss:Type="Number">12</Data></Cell>
+<Cell><Data ss:Type="String">Editable</Data></Cell>
+<Cell><Data ss:Type="String">Secuencia escenario base</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Solape SIG/FIR base</Data></Cell>
+<Cell><Data ss:Type="Number">0.8</Data></Cell>
+<Cell><Data ss:Type="String">Editable</Data></Cell>
+<Cell><Data ss:Type="String">Porcentaje de duracion de firmes</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Lag DEM-PLUV conservador (dias)</Data></Cell>
+<Cell><Data ss:Type="Number">20</Data></Cell>
+<Cell><Data ss:Type="String">Editable</Data></Cell>
+<Cell><Data ss:Type="String">Secuencia escenario conservador</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Lag MT-PLUV conservador (dias)</Data></Cell>
+<Cell><Data ss:Type="Number">20</Data></Cell>
+<Cell><Data ss:Type="String">Editable</Data></Cell>
+<Cell><Data ss:Type="String">Secuencia escenario conservador</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Lag PLUV-FIR conservador (dias)</Data></Cell>
+<Cell><Data ss:Type="Number">15</Data></Cell>
+<Cell><Data ss:Type="String">Editable</Data></Cell>
+<Cell><Data ss:Type="String">Secuencia escenario conservador</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Solape SIG/FIR conservador</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="String">Editable</Data></Cell>
+<Cell><Data ss:Type="String">Porcentaje de duracion de firmes</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Desfase adicional fecales (dias)</Data></Cell>
+<Cell><Data ss:Type="Number">15</Data></Cell>
+<Cell><Data ss:Type="String">Editable</Data></Cell>
+<Cell><Data ss:Type="String">Sobre el lag MT-PLUV del escenario</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Regla de adopcion del plazo final</Data></Cell>
+<Cell><Data ss:Type="String">Entero superior</Data></Cell>
+<Cell><Data ss:Type="String">Criterio</Data></Cell>
+<Cell><Data ss:Type="String">Se aplica redondeo por exceso al plazo tecnico bruto</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Limite metodologico</Data></Cell>
+<Cell><Data ss:Type="String">Solo alcance medido</Data></Cell>
+<Cell><Data ss:Type="String">Advertencia</Data></Cell>
+<Cell><Data ss:Type="String">No cierra por si solo el proyecto completo</Data></Cell>
+</Row>
+</Table></Worksheet>
+<Worksheet ss:Name="02_CapitulosHH"><Table>
+<Row>
+<Cell><Data ss:Type="String">Capitulo</Data></Cell>
+<Cell><Data ss:Type="String">Actividad</Data></Cell>
+<Cell><Data ss:Type="String">HH</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.01#</Data></Cell>
+<Cell><Data ss:Type="String">Demoliciones y levantados</Data></Cell>
+<Cell><Data ss:Type="Number">613.29</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.02#</Data></Cell>
+<Cell><Data ss:Type="String">Movimiento de tierras</Data></Cell>
+<Cell><Data ss:Type="Number">5060.12</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.03#</Data></Cell>
+<Cell><Data ss:Type="String">Firmes y pavimentos</Data></Cell>
+<Cell><Data ss:Type="Number">8683.15</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.04#</Data></Cell>
+<Cell><Data ss:Type="String">Red saneamiento pluviales</Data></Cell>
+<Cell><Data ss:Type="Number">2832.69</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.05#</Data></Cell>
+<Cell><Data ss:Type="String">Red saneamiento fecales</Data></Cell>
+<Cell><Data ss:Type="Number">654.99</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.15#</Data></Cell>
+<Cell><Data ss:Type="String">Senalizacion</Data></Cell>
+<Cell><Data ss:Type="Number">720.39</Data></Cell>
+</Row>
+</Table></Worksheet>
+<Worksheet ss:Name="03_Duraciones"><Table>
+<Row>
+<Cell><Data ss:Type="String">Actividad</Data></Cell>
+<Cell><Data ss:Type="String">Capitulo</Data></Cell>
+<Cell><Data ss:Type="String">HH_totales</Data></Cell>
+<Cell><Data ss:Type="String">Crew_opt</Data></Cell>
+<Cell><Data ss:Type="String">Crew_base</Data></Cell>
+<Cell><Data ss:Type="String">Crew_con</Data></Cell>
+<Cell><Data ss:Type="String">DurProd_opt_dias</Data></Cell>
+<Cell><Data ss:Type="String">DurProd_base_dias</Data></Cell>
+<Cell><Data ss:Type="String">DurProd_con_dias</Data></Cell>
+<Cell><Data ss:Type="String">DurHH_opt_dias</Data></Cell>
+<Cell><Data ss:Type="String">DurHH_base_dias</Data></Cell>
+<Cell><Data ss:Type="String">DurHH_con_dias</Data></Cell>
+<Cell><Data ss:Type="String">DurAdopt_opt_dias</Data></Cell>
+<Cell><Data ss:Type="String">DurAdopt_base_dias</Data></Cell>
+<Cell><Data ss:Type="String">DurAdopt_con_dias</Data></Cell>
+<Cell><Data ss:Type="String">Comentario</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Demoliciones y levantados New-ExcelTextCell</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Movimiento de tierras New-ExcelTextCell</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Red saneamiento pluviales New-ExcelTextCell</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Red saneamiento fecales New-ExcelTextCell</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Firmes y pavimentos New-ExcelTextCell</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Senalizacion New-ExcelTextCell</Data></Cell>
+</Row>
+</Table></Worksheet>
+<Worksheet ss:Name="04_Escenario_Opt"><Table>
+<Row>
+<Cell><Data ss:Type="String">Escenario</Data></Cell>
+<Cell><Data ss:Type="String">Actividad</Data></Cell>
+<Cell><Data ss:Type="String">Inicio_dia</Data></Cell>
+<Cell><Data ss:Type="String">Fin_dia</Data></Cell>
+<Cell><Data ss:Type="String">Duracion_dias</Data></Cell>
+<Cell><Data ss:Type="String">Inicio_mes</Data></Cell>
+<Cell><Data ss:Type="String">Fin_mes</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Optimista</Data></Cell>
+<Cell><Data ss:Type="String">Demoliciones</Data></Cell>
+<Cell ss:Formula="=0"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:Formula="=RC[-1]+RC[1]"><Data ss:Type="Number">19.2</Data></Cell>
+<Cell ss:Formula="=&apos;03_Duraciones&apos;!R2C13"><Data ss:Type="Number">19.2</Data></Cell>
+<Cell ss:Formula="=ROUND(RC[-3]/&apos;01_Parametros&apos;!R2C2+1,2)"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:Formula="=ROUND(RC[-3]/&apos;01_Parametros&apos;!R2C2,2)"><Data ss:Type="Number">0.87</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Optimista</Data></Cell>
+<Cell><Data ss:Type="String">Movimiento de tierras</Data></Cell>
+<Cell ss:Formula="=0"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:Formula="=RC[-1]+RC[1]"><Data ss:Type="Number">52.7</Data></Cell>
+<Cell ss:Formula="=&apos;03_Duraciones&apos;!R3C13"><Data ss:Type="Number">52.7</Data></Cell>
+<Cell ss:Formula="=ROUND(RC[-3]/&apos;01_Parametros&apos;!R2C2+1,2)"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:Formula="=ROUND(RC[-3]/&apos;01_Parametros&apos;!R2C2,2)"><Data ss:Type="Number">2.4</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Optimista</Data></Cell>
+<Cell><Data ss:Type="String">Pluviales</Data></Cell>
+<Cell ss:Formula="=MAX(&apos;01_Parametros&apos;!R4C2,&apos;01_Parametros&apos;!R5C2)"><Data ss:Type="Number">10</Data></Cell>
+<Cell ss:Formula="=RC[-1]+RC[1]"><Data ss:Type="Number">68</Data></Cell>
+<Cell ss:Formula="=&apos;03_Duraciones&apos;!R4C13"><Data ss:Type="Number">58</Data></Cell>
+<Cell ss:Formula="=ROUND(RC[-3]/&apos;01_Parametros&apos;!R2C2+1,2)"><Data ss:Type="Number">1.45</Data></Cell>
+<Cell ss:Formula="=ROUND(RC[-3]/&apos;01_Parametros&apos;!R2C2,2)"><Data ss:Type="Number">3.09</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Optimista</Data></Cell>
+<Cell><Data ss:Type="String">Fecales</Data></Cell>
+<Cell ss:Formula="=&apos;01_Parametros&apos;!R5C2+&apos;01_Parametros&apos;!R16C2"><Data ss:Type="Number">25</Data></Cell>
+<Cell ss:Formula="=RC[-1]+RC[1]"><Data ss:Type="Number">38.6</Data></Cell>
+<Cell ss:Formula="=&apos;03_Duraciones&apos;!R5C13"><Data ss:Type="Number">13.6</Data></Cell>
+<Cell ss:Formula="=ROUND(RC[-3]/&apos;01_Parametros&apos;!R2C2+1,2)"><Data ss:Type="Number">2.14</Data></Cell>
+<Cell ss:Formula="=ROUND(RC[-3]/&apos;01_Parametros&apos;!R2C2,2)"><Data ss:Type="Number">1.75</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Optimista</Data></Cell>
+<Cell><Data ss:Type="String">Firmes y pavimentos</Data></Cell>
+<Cell ss:Formula="=MAX(R[-3]C4,MAX(R[-2]C4,R[-1]C4))+&apos;01_Parametros&apos;!R6C2"><Data ss:Type="Number">78</Data></Cell>
+<Cell ss:Formula="=RC[-1]+RC[1]"><Data ss:Type="Number">160</Data></Cell>
+<Cell ss:Formula="=&apos;03_Duraciones&apos;!R6C13"><Data ss:Type="Number">82</Data></Cell>
+<Cell ss:Formula="=ROUND(RC[-3]/&apos;01_Parametros&apos;!R2C2+1,2)"><Data ss:Type="Number">4.55</Data></Cell>
+<Cell ss:Formula="=ROUND(RC[-3]/&apos;01_Parametros&apos;!R2C2,2)"><Data ss:Type="Number">7.27</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Optimista</Data></Cell>
+<Cell><Data ss:Type="String">Senalizacion</Data></Cell>
+<Cell ss:Formula="=R[-1]C3+ROUND(R[-1]C5*&apos;01_Parametros&apos;!R7C2,1)"><Data ss:Type="Number">145.2</Data></Cell>
+<Cell ss:Formula="=RC[-1]+RC[1]"><Data ss:Type="Number">167.7</Data></Cell>
+<Cell ss:Formula="=&apos;03_Duraciones&apos;!R7C13"><Data ss:Type="Number">22.5</Data></Cell>
+<Cell ss:Formula="=ROUND(RC[-3]/&apos;01_Parametros&apos;!R2C2+1,2)"><Data ss:Type="Number">7.6</Data></Cell>
+<Cell ss:Formula="=ROUND(RC[-3]/&apos;01_Parametros&apos;!R2C2,2)"><Data ss:Type="Number">7.62</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Optimista</Data></Cell>
+<Cell><Data ss:Type="String">TOTAL</Data></Cell>
+<Cell ss:Formula="=0"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:Formula="=MAX(R[-1]C,R[-2]C)"><Data ss:Type="Number">167.7</Data></Cell>
+<Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">167.7</Data></Cell>
+<Cell ss:Formula="=1"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:Formula="=ROUND(RC[-3]/&apos;01_Parametros&apos;!R2C2,2)"><Data ss:Type="Number">7.62</Data></Cell>
+</Row>
+</Table></Worksheet>
+<Worksheet ss:Name="05_Escenario_Base"><Table>
+<Row>
+<Cell><Data ss:Type="String">Escenario</Data></Cell>
+<Cell><Data ss:Type="String">Actividad</Data></Cell>
+<Cell><Data ss:Type="String">Inicio_dia</Data></Cell>
+<Cell><Data ss:Type="String">Fin_dia</Data></Cell>
+<Cell><Data ss:Type="String">Duracion_dias</Data></Cell>
+<Cell><Data ss:Type="String">Inicio_mes</Data></Cell>
+<Cell><Data ss:Type="String">Fin_mes</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Base</Data></Cell>
+<Cell><Data ss:Type="String">Demoliciones</Data></Cell>
+<Cell ss:Formula="=0"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:Formula="=RC[-1]+RC[1]"><Data ss:Type="Number">20</Data></Cell>
+<Cell ss:Formula="=&apos;03_Duraciones&apos;!R2C14"><Data ss:Type="Number">20</Data></Cell>
+<Cell ss:Formula="=ROUND(RC[-3]/&apos;01_Parametros&apos;!R2C2+1,2)"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:Formula="=ROUND(RC[-3]/&apos;01_Parametros&apos;!R2C2,2)"><Data ss:Type="Number">0.91</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Base</Data></Cell>
+<Cell><Data ss:Type="String">Movimiento de tierras</Data></Cell>
+<Cell ss:Formula="=0"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:Formula="=RC[-1]+RC[1]"><Data ss:Type="Number">63.3</Data></Cell>
+<Cell ss:Formula="=&apos;03_Duraciones&apos;!R3C14"><Data ss:Type="Number">63.3</Data></Cell>
+<Cell ss:Formula="=ROUND(RC[-3]/&apos;01_Parametros&apos;!R2C2+1,2)"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:Formula="=ROUND(RC[-3]/&apos;01_Parametros&apos;!R2C2,2)"><Data ss:Type="Number">2.88</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Base</Data></Cell>
+<Cell><Data ss:Type="String">Pluviales</Data></Cell>
+<Cell ss:Formula="=MAX(&apos;01_Parametros&apos;!R8C2,&apos;01_Parametros&apos;!R9C2)"><Data ss:Type="Number">15</Data></Cell>
+<Cell ss:Formula="=RC[-1]+RC[1]"><Data ss:Type="Number">92</Data></Cell>
+<Cell ss:Formula="=&apos;03_Duraciones&apos;!R4C14"><Data ss:Type="Number">77</Data></Cell>
+<Cell ss:Formula="=ROUND(RC[-3]/&apos;01_Parametros&apos;!R2C2+1,2)"><Data ss:Type="Number">1.68</Data></Cell>
+<Cell ss:Formula="=ROUND(RC[-3]/&apos;01_Parametros&apos;!R2C2,2)"><Data ss:Type="Number">4.18</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Base</Data></Cell>
+<Cell><Data ss:Type="String">Fecales</Data></Cell>
+<Cell ss:Formula="=&apos;01_Parametros&apos;!R9C2+&apos;01_Parametros&apos;!R16C2"><Data ss:Type="Number">30</Data></Cell>
+<Cell ss:Formula="=RC[-1]+RC[1]"><Data ss:Type="Number">45</Data></Cell>
+<Cell ss:Formula="=&apos;03_Duraciones&apos;!R5C14"><Data ss:Type="Number">15</Data></Cell>
+<Cell ss:Formula="=ROUND(RC[-3]/&apos;01_Parametros&apos;!R2C2+1,2)"><Data ss:Type="Number">2.36</Data></Cell>
+<Cell ss:Formula="=ROUND(RC[-3]/&apos;01_Parametros&apos;!R2C2,2)"><Data ss:Type="Number">2.05</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Base</Data></Cell>
+<Cell><Data ss:Type="String">Firmes y pavimentos</Data></Cell>
+<Cell ss:Formula="=MAX(R[-3]C4,MAX(R[-2]C4,R[-1]C4))+&apos;01_Parametros&apos;!R10C2"><Data ss:Type="Number">104</Data></Cell>
+<Cell ss:Formula="=RC[-1]+RC[1]"><Data ss:Type="Number">206</Data></Cell>
+<Cell ss:Formula="=&apos;03_Duraciones&apos;!R6C14"><Data ss:Type="Number">102</Data></Cell>
+<Cell ss:Formula="=ROUND(RC[-3]/&apos;01_Parametros&apos;!R2C2+1,2)"><Data ss:Type="Number">5.73</Data></Cell>
+<Cell ss:Formula="=ROUND(RC[-3]/&apos;01_Parametros&apos;!R2C2,2)"><Data ss:Type="Number">9.36</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Base</Data></Cell>
+<Cell><Data ss:Type="String">Senalizacion</Data></Cell>
+<Cell ss:Formula="=R[-1]C3+ROUND(R[-1]C5*&apos;01_Parametros&apos;!R11C2,1)"><Data ss:Type="Number">185.6</Data></Cell>
+<Cell ss:Formula="=RC[-1]+RC[1]"><Data ss:Type="Number">208.1</Data></Cell>
+<Cell ss:Formula="=&apos;03_Duraciones&apos;!R7C14"><Data ss:Type="Number">22.5</Data></Cell>
+<Cell ss:Formula="=ROUND(RC[-3]/&apos;01_Parametros&apos;!R2C2+1,2)"><Data ss:Type="Number">9.44</Data></Cell>
+<Cell ss:Formula="=ROUND(RC[-3]/&apos;01_Parametros&apos;!R2C2,2)"><Data ss:Type="Number">9.46</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Base</Data></Cell>
+<Cell><Data ss:Type="String">TOTAL</Data></Cell>
+<Cell ss:Formula="=0"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:Formula="=MAX(R[-1]C,R[-2]C)"><Data ss:Type="Number">208.1</Data></Cell>
+<Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">208.1</Data></Cell>
+<Cell ss:Formula="=1"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:Formula="=ROUND(RC[-3]/&apos;01_Parametros&apos;!R2C2,2)"><Data ss:Type="Number">9.46</Data></Cell>
+</Row>
+</Table></Worksheet>
+<Worksheet ss:Name="06_Escenario_Con"><Table>
+<Row>
+<Cell><Data ss:Type="String">Escenario</Data></Cell>
+<Cell><Data ss:Type="String">Actividad</Data></Cell>
+<Cell><Data ss:Type="String">Inicio_dia</Data></Cell>
+<Cell><Data ss:Type="String">Fin_dia</Data></Cell>
+<Cell><Data ss:Type="String">Duracion_dias</Data></Cell>
+<Cell><Data ss:Type="String">Inicio_mes</Data></Cell>
+<Cell><Data ss:Type="String">Fin_mes</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Conservador</Data></Cell>
+<Cell><Data ss:Type="String">Demoliciones</Data></Cell>
+<Cell ss:Formula="=0"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:Formula="=RC[-1]+RC[1]"><Data ss:Type="Number">25.6</Data></Cell>
+<Cell ss:Formula="=&apos;03_Duraciones&apos;!R2C15"><Data ss:Type="Number">25.6</Data></Cell>
+<Cell ss:Formula="=ROUND(RC[-3]/&apos;01_Parametros&apos;!R2C2+1,2)"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:Formula="=ROUND(RC[-3]/&apos;01_Parametros&apos;!R2C2,2)"><Data ss:Type="Number">1.16</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Conservador</Data></Cell>
+<Cell><Data ss:Type="String">Movimiento de tierras</Data></Cell>
+<Cell ss:Formula="=0"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:Formula="=RC[-1]+RC[1]"><Data ss:Type="Number">79.1</Data></Cell>
+<Cell ss:Formula="=&apos;03_Duraciones&apos;!R3C15"><Data ss:Type="Number">79.1</Data></Cell>
+<Cell ss:Formula="=ROUND(RC[-3]/&apos;01_Parametros&apos;!R2C2+1,2)"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:Formula="=ROUND(RC[-3]/&apos;01_Parametros&apos;!R2C2,2)"><Data ss:Type="Number">3.6</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Conservador</Data></Cell>
+<Cell><Data ss:Type="String">Pluviales</Data></Cell>
+<Cell ss:Formula="=MAX(&apos;01_Parametros&apos;!R12C2,&apos;01_Parametros&apos;!R13C2)"><Data ss:Type="Number">20</Data></Cell>
+<Cell ss:Formula="=RC[-1]+RC[1]"><Data ss:Type="Number">122</Data></Cell>
+<Cell ss:Formula="=&apos;03_Duraciones&apos;!R4C15"><Data ss:Type="Number">102</Data></Cell>
+<Cell ss:Formula="=ROUND(RC[-3]/&apos;01_Parametros&apos;!R2C2+1,2)"><Data ss:Type="Number">1.91</Data></Cell>
+<Cell ss:Formula="=ROUND(RC[-3]/&apos;01_Parametros&apos;!R2C2,2)"><Data ss:Type="Number">5.55</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Conservador</Data></Cell>
+<Cell><Data ss:Type="String">Fecales</Data></Cell>
+<Cell ss:Formula="=&apos;01_Parametros&apos;!R13C2+&apos;01_Parametros&apos;!R16C2"><Data ss:Type="Number">35</Data></Cell>
+<Cell ss:Formula="=RC[-1]+RC[1]"><Data ss:Type="Number">55</Data></Cell>
+<Cell ss:Formula="=&apos;03_Duraciones&apos;!R5C15"><Data ss:Type="Number">20</Data></Cell>
+<Cell ss:Formula="=ROUND(RC[-3]/&apos;01_Parametros&apos;!R2C2+1,2)"><Data ss:Type="Number">2.59</Data></Cell>
+<Cell ss:Formula="=ROUND(RC[-3]/&apos;01_Parametros&apos;!R2C2,2)"><Data ss:Type="Number">2.5</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Conservador</Data></Cell>
+<Cell><Data ss:Type="String">Firmes y pavimentos</Data></Cell>
+<Cell ss:Formula="=MAX(R[-3]C4,MAX(R[-2]C4,R[-1]C4))+&apos;01_Parametros&apos;!R14C2"><Data ss:Type="Number">137</Data></Cell>
+<Cell ss:Formula="=RC[-1]+RC[1]"><Data ss:Type="Number">273</Data></Cell>
+<Cell ss:Formula="=&apos;03_Duraciones&apos;!R6C15"><Data ss:Type="Number">136</Data></Cell>
+<Cell ss:Formula="=ROUND(RC[-3]/&apos;01_Parametros&apos;!R2C2+1,2)"><Data ss:Type="Number">7.23</Data></Cell>
+<Cell ss:Formula="=ROUND(RC[-3]/&apos;01_Parametros&apos;!R2C2,2)"><Data ss:Type="Number">12.41</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Conservador</Data></Cell>
+<Cell><Data ss:Type="String">Senalizacion</Data></Cell>
+<Cell ss:Formula="=R[-1]C3+ROUND(R[-1]C5*&apos;01_Parametros&apos;!R15C2,1)"><Data ss:Type="Number">273</Data></Cell>
+<Cell ss:Formula="=RC[-1]+RC[1]"><Data ss:Type="Number">303</Data></Cell>
+<Cell ss:Formula="=&apos;03_Duraciones&apos;!R7C15"><Data ss:Type="Number">30</Data></Cell>
+<Cell ss:Formula="=ROUND(RC[-3]/&apos;01_Parametros&apos;!R2C2+1,2)"><Data ss:Type="Number">13.41</Data></Cell>
+<Cell ss:Formula="=ROUND(RC[-3]/&apos;01_Parametros&apos;!R2C2,2)"><Data ss:Type="Number">13.77</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Conservador</Data></Cell>
+<Cell><Data ss:Type="String">TOTAL</Data></Cell>
+<Cell ss:Formula="=0"><Data ss:Type="Number"></Data></Cell>
+<Cell ss:Formula="=MAX(R[-1]C,R[-2]C)"><Data ss:Type="Number">303</Data></Cell>
+<Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">303</Data></Cell>
+<Cell ss:Formula="=1"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:Formula="=ROUND(RC[-3]/&apos;01_Parametros&apos;!R2C2,2)"><Data ss:Type="Number">13.77</Data></Cell>
+</Row>
+</Table></Worksheet>
+<Worksheet ss:Name="07_Comparativa"><Table>
+<Row>
+<Cell><Data ss:Type="String">Escenario</Data></Cell>
+<Cell><Data ss:Type="String">Meses_brutos</Data></Cell>
+<Cell><Data ss:Type="String">Meses_adoptados</Data></Cell>
+<Cell><Data ss:Type="String">Diferencia_vs_18</Data></Cell>
+<Cell><Data ss:Type="String">Lectura</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Optimista</Data></Cell>
+<Cell ss:Formula="=&apos;04_Escenario_Opt&apos;!R8C7"><Data ss:Type="Number">7.62</Data></Cell>
+<Cell ss:Formula="=ROUNDUP(RC[-1],0)"><Data ss:Type="Number">8</Data></Cell>
+<Cell ss:Formula="=18-RC[-1]"><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="String">Solo defendible con alta industrializacion y buen frente</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Base</Data></Cell>
+<Cell ss:Formula="=&apos;05_Escenario_Base&apos;!R8C7"><Data ss:Type="Number">9.46</Data></Cell>
+<Cell ss:Formula="=ROUNDUP(RC[-1],0)"><Data ss:Type="Number">10</Data></Cell>
+<Cell ss:Formula="=18-RC[-1]"><Data ss:Type="Number">8</Data></Cell>
+<Cell><Data ss:Type="String">Referencia tecnica recomendada del alcance medido</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Conservador</Data></Cell>
+<Cell ss:Formula="=&apos;06_Escenario_Con&apos;!R8C7"><Data ss:Type="Number">13.77</Data></Cell>
+<Cell ss:Formula="=ROUNDUP(RC[-1],0)"><Data ss:Type="Number">14</Data></Cell>
+<Cell ss:Formula="=18-RC[-1]"><Data ss:Type="Number">4</Data></Cell>
+<Cell><Data ss:Type="String">Referencia prudente del alcance medido</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Plan vigente</Data></Cell>
+<Cell><Data ss:Type="Number">18</Data></Cell>
+<Cell><Data ss:Type="Number">18</Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="String">Dato documental, no base tecnica de calculo</Data></Cell>
+</Row>
+</Table></Worksheet>
+<Worksheet ss:Name="08_Pendientes"><Table>
+<Row>
+<Cell><Data ss:Type="String">Tema</Data></Cell>
+<Cell><Data ss:Type="String">Estado</Data></Cell>
+<Cell><Data ss:Type="String">Impacta</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Actividades no cuantificadas</Data></Cell>
+<Cell><Data ss:Type="String">Pendiente</Data></Cell>
+<Cell><Data ss:Type="String">El plazo global definitivo no puede cerrarse solo con el alcance medido</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Servicios afectados y suministros</Data></Cell>
+<Cell><Data ss:Type="String">Pendiente</Data></Cell>
+<Cell><Data ss:Type="String">Pueden desplazar redes y remates</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Implantacion, trafico y permisos</Data></Cell>
+<Cell><Data ss:Type="String">Pendiente</Data></Cell>
+<Cell><Data ss:Type="String">Pueden reducir solapes reales</Data></Cell>
+</Row>
+</Table></Worksheet>
+</Workbook>

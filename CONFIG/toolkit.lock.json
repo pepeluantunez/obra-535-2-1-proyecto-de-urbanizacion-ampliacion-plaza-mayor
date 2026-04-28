@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "toolkit_repo": "urbanizacion-toolkit",
+  "template_repo": "urbanizacion-plantilla-base",
+  "synced_copy_allowed": false,
+  "wrappers_allowed": true,
+  "authorities": {
+    "global_rules": "urbanizacion-toolkit",
+    "task_taxonomy": "urbanizacion-toolkit",
+    "triage": "urbanizacion-toolkit",
+    "generic_tools": "urbanizacion-toolkit",
+    "generic_scripts": "urbanizacion-toolkit",
+    "bootstrap": "urbanizacion-plantilla-base",
+    "project_identity": "local",
+    "project_sources": "local",
+    "project_decisions": "local",
+    "project_status": "local"
+  }
+}

@@ -1,0 +1,255 @@
+﻿{
+    "generated_at":  "2026-04-15 20:06:19",
+    "root":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor",
+    "project_name":  "Proyecto de Urbanizacion - Ampliacion Plaza Mayor",
+    "annex_count":  18,
+    "memory_count":  1,
+    "budget_file_count":  1,
+    "spreadsheet_file_count":  4,
+    "annexes":  [
+                    {
+                        "numero":  1,
+                        "anejo":  "Reportaje Fotografico",
+                        "carpeta":  "DOCS - ANEJOS\\1.- Reportaje Fotografico",
+                        "docx":  "DOCS - ANEJOS\\1.- Reportaje Fotografico\\Anexo 1 - Reportaje Fotografico.docx",
+                        "existe_docx":  true,
+                        "tamano_kb":  90.3,
+                        "contiene_nombre_proyecto":  true
+                    },
+                    {
+                        "numero":  2,
+                        "anejo":  "Cartografia y Topografia",
+                        "carpeta":  "DOCS - ANEJOS\\2.- Cartografia y Topografia",
+                        "docx":  "DOCS - ANEJOS\\2.- Cartografia y Topografia\\Anexo 2 - Cartografia y Topografia.docx",
+                        "existe_docx":  true,
+                        "tamano_kb":  90.6,
+                        "contiene_nombre_proyecto":  true
+                    },
+                    {
+                        "numero":  3,
+                        "anejo":  "Estudio Geotecnico",
+                        "carpeta":  "DOCS - ANEJOS\\3.- Estudio Geotecnico",
+                        "docx":  "DOCS - ANEJOS\\3.- Estudio Geotecnico\\Anexo 3 - Estudio Geotecnico.docx",
+                        "existe_docx":  true,
+                        "tamano_kb":  90.7,
+                        "contiene_nombre_proyecto":  true
+                    },
+                    {
+                        "numero":  4,
+                        "anejo":  "Trazado, Replanteo y Mediciones Auxiliares",
+                        "carpeta":  "DOCS - ANEJOS\\4.- Trazado, Replanteo y Mediciones Auxiliares",
+                        "docx":  "DOCS - ANEJOS\\4.- Trazado, Replanteo y Mediciones Auxiliares\\Anexo 4 - Trazado, Replanteo y Mediciones Auxiliares.docx",
+                        "existe_docx":  true,
+                        "tamano_kb":  90.5,
+                        "contiene_nombre_proyecto":  true
+                    },
+                    {
+                        "numero":  5,
+                        "anejo":  "Dimensionamiento del Firme",
+                        "carpeta":  "DOCS - ANEJOS\\5.- Dimensionamiento del Firme",
+                        "docx":  "DOCS - ANEJOS\\5.- Dimensionamiento del Firme\\Anexo 5 - Dimensionamiento del Firme.docx",
+                        "existe_docx":  true,
+                        "tamano_kb":  90.7,
+                        "contiene_nombre_proyecto":  true
+                    },
+                    {
+                        "numero":  6,
+                        "anejo":  "Red de Agua Potable",
+                        "carpeta":  "DOCS - ANEJOS\\6.- Red de Agua Potable",
+                        "docx":  "DOCS - ANEJOS\\6.- Red de Agua Potable\\Anexo 6 - Red de Agua Potable.docx",
+                        "existe_docx":  true,
+                        "tamano_kb":  90.7,
+                        "contiene_nombre_proyecto":  true
+                    },
+                    {
+                        "numero":  7,
+                        "anejo":  "Red de Saneamiento - Pluviales",
+                        "carpeta":  "DOCS - ANEJOS\\7.- Red de Saneamiento - Pluviales",
+                        "docx":  "DOCS - ANEJOS\\7.- Red de Saneamiento - Pluviales\\Anexo 7 - Red de Saneamiento - Pluviales.docx",
+                        "existe_docx":  true,
+                        "tamano_kb":  90.5,
+                        "contiene_nombre_proyecto":  true
+                    },
+                    {
+                        "numero":  8,
+                        "anejo":  "Red de Saneamiento - Fecales",
+                        "carpeta":  "DOCS - ANEJOS\\8.- Red de Saneamiento - Fecales",
+                        "docx":  "DOCS - ANEJOS\\8.- Red de Saneamiento - Fecales\\Anexo 8 - Red de Saneamiento - Fecales.docx",
+                        "existe_docx":  true,
+                        "tamano_kb":  90.5,
+                        "contiene_nombre_proyecto":  true
+                    },
+                    {
+                        "numero":  9,
+                        "anejo":  "Red de Media Tension",
+                        "carpeta":  "DOCS - ANEJOS\\9.- Red de Media Tension",
+                        "docx":  "DOCS - ANEJOS\\9.- Red de Media Tension\\Anexo 9 - Red de Media Tension.docx",
+                        "existe_docx":  true,
+                        "tamano_kb":  90.6,
+                        "contiene_nombre_proyecto":  true
+                    },
+                    {
+                        "numero":  10,
+                        "anejo":  "Red de Baja Tension",
+                        "carpeta":  "DOCS - ANEJOS\\10.- Red de Baja Tension",
+                        "docx":  "DOCS - ANEJOS\\10.- Red de Baja Tension\\Anexo 10 - Red de Baja Tension.docx",
+                        "existe_docx":  true,
+                        "tamano_kb":  90.6,
+                        "contiene_nombre_proyecto":  true
+                    },
+                    {
+                        "numero":  11,
+                        "anejo":  "Red de Alumbrado",
+                        "carpeta":  "DOCS - ANEJOS\\11.- Red de Alumbrado",
+                        "docx":  "DOCS - ANEJOS\\11.- Red de Alumbrado\\Anexo 11 - Red de Alumbrado.docx",
+                        "existe_docx":  true,
+                        "tamano_kb":  90.6,
+                        "contiene_nombre_proyecto":  true
+                    },
+                    {
+                        "numero":  12,
+                        "anejo":  "Accesibilidad",
+                        "carpeta":  "DOCS - ANEJOS\\12.- Accesibilidad",
+                        "docx":  "DOCS - ANEJOS\\12.- Accesibilidad\\Anexo 12 - Accesibilidad.docx",
+                        "existe_docx":  true,
+                        "tamano_kb":  90.6,
+                        "contiene_nombre_proyecto":  true
+                    },
+                    {
+                        "numero":  13,
+                        "anejo":  "Estudio de Gestion de Residuos",
+                        "carpeta":  "DOCS - ANEJOS\\13.- Estudio de Gestion de Residuos",
+                        "docx":  "DOCS - ANEJOS\\13.- Estudio de Gestion de Residuos\\Anexo 13 - Estudio de Gestion de Residuos.docx",
+                        "existe_docx":  true,
+                        "tamano_kb":  90.7,
+                        "contiene_nombre_proyecto":  true
+                    },
+                    {
+                        "numero":  14,
+                        "anejo":  "Control de Calidad",
+                        "carpeta":  "DOCS - ANEJOS\\14.- Control de Calidad",
+                        "docx":  "DOCS - ANEJOS\\14.- Control de Calidad\\Anexo 14 - Control de Calidad.docx",
+                        "existe_docx":  true,
+                        "tamano_kb":  90.7,
+                        "contiene_nombre_proyecto":  true
+                    },
+                    {
+                        "numero":  15,
+                        "anejo":  "Plan de Obra",
+                        "carpeta":  "DOCS - ANEJOS\\15.- Plan de Obra",
+                        "docx":  "DOCS - ANEJOS\\15.- Plan de Obra\\Anexo 15 - Plan de Obra.docx",
+                        "existe_docx":  true,
+                        "tamano_kb":  90.6,
+                        "contiene_nombre_proyecto":  true
+                    },
+                    {
+                        "numero":  16,
+                        "anejo":  "Comunicaciones con Companias Suministradoras",
+                        "carpeta":  "DOCS - ANEJOS\\16.- Comunicaciones con Companias Suministradoras",
+                        "docx":  "DOCS - ANEJOS\\16.- Comunicaciones con Companias Suministradoras\\Anexo 16 - Comunicaciones con Companias Suministradoras.docx",
+                        "existe_docx":  true,
+                        "tamano_kb":  90.7,
+                        "contiene_nombre_proyecto":  true
+                    },
+                    {
+                        "numero":  17,
+                        "anejo":  "Seguridad y Salud",
+                        "carpeta":  "DOCS - ANEJOS\\17.- Seguridad y Salud",
+                        "docx":  "DOCS - ANEJOS\\17.- Seguridad y Salud\\Anexo 17 - Estudio de Seguridad y Salud.docx",
+                        "existe_docx":  true,
+                        "tamano_kb":  90.6,
+                        "contiene_nombre_proyecto":  true
+                    },
+                    {
+                        "numero":  18,
+                        "anejo":  "Telecomunicaciones",
+                        "carpeta":  "DOCS - ANEJOS\\18.- Telecomunicaciones",
+                        "docx":  "DOCS - ANEJOS\\18.- Telecomunicaciones\\Anexo 18 - Telecomunicaciones.docx",
+                        "existe_docx":  true,
+                        "tamano_kb":  90.7,
+                        "contiene_nombre_proyecto":  true
+                    }
+                ],
+    "memory_docs":  [
+                        {
+                            "archivo":  "DOCS - MEMORIA\\Memoria descriptiva - Proyecto de Urbanizacion - Ampliacion Plaza Mayor.docx",
+                            "tamano_kb":  80.1,
+                            "ultima_modificacion":  "2026-04-15 18:17"
+                        }
+                    ],
+    "budget_files":  [
+                         {
+                             "archivo":  "DOCS - ANEJOS\\17.- Seguridad y Salud\\PRESUPUESTO_DONOR\\535.2.1-Seguridad \u0026 Salud.bc3",
+                             "extension":  ".bc3",
+                             "tamano_kb":  7.9
+                         }
+                     ],
+    "spreadsheet_files":  [
+                              {
+                                  "archivo":  "DOCS - ANEJOS\\13.- Estudio de Gestion de Residuos\\CALCULOS\\535_2_1-GR.xlsx",
+                                  "extension":  ".xlsx",
+                                  "tamano_kb":  35.8
+                              },
+                              {
+                                  "archivo":  "DOCS - ANEJOS\\14.- Control de Calidad\\CALCULOS\\535.2.1 Control-Calidad.xlsx",
+                                  "extension":  ".xlsx",
+                                  "tamano_kb":  25
+                              },
+                              {
+                                  "archivo":  "DOCS - ANEJOS\\17.- Seguridad y Salud\\CALCULOS\\Dimensionado_SyS_Plaza_Mayor.xlsx",
+                                  "extension":  ".xlsx",
+                                  "tamano_kb":  25.8
+                              },
+                              {
+                                  "archivo":  "DOCS - ANEJOS\\17.- Seguridad y Salud\\CALCULOS\\SyS_535_2_1_MEJORADO.xlsx",
+                                  "extension":  ".xlsx",
+                                  "tamano_kb":  30.5
+                              }
+                          ],
+    "top_level_folders":  [
+                              {
+                                  "carpeta":  "CHECKLISTS",
+                                  "archivos":  3
+                              },
+                              {
+                                  "carpeta":  "CONFIG",
+                                  "archivos":  3
+                              },
+                              {
+                                  "carpeta":  "CONTROL",
+                                  "archivos":  3
+                              },
+                              {
+                                  "carpeta":  "CONTROL_CALIDAD",
+                                  "archivos":  1
+                              },
+                              {
+                                  "carpeta":  "DOCS - ANEJOS",
+                                  "archivos":  48
+                              },
+                              {
+                                  "carpeta":  "DOCS - MEMORIA",
+                                  "archivos":  1
+                              },
+                              {
+                                  "carpeta":  "DOCS - PLANTILLAS",
+                                  "archivos":  0
+                              },
+                              {
+                                  "carpeta":  "PLANNING",
+                                  "archivos":  5
+                              },
+                              {
+                                  "carpeta":  "PLANOS",
+                                  "archivos":  0
+                              },
+                              {
+                                  "carpeta":  "scripts",
+                                  "archivos":  4
+                              },
+                              {
+                                  "carpeta":  "tools",
+                                  "archivos":  22
+                              }
+                          ]
+}

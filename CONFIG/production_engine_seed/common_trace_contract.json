@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "status": "seed_local",
+  "owner_repo": "obra-535-2-1-proyecto-de-urbanizacion-ampliacion-plaza-mayor",
+  "promotion_target": "urbanizacion-toolkit",
+  "purpose": "Contrato semilla para salidas tecnicas generadas con trazabilidad explicita.",
+  "allowed_output_statuses": [
+    "borrador",
+    "listo_para_revision",
+    "validado_localmente",
+    "descartado"
+  ],
+  "allowed_evidence_kinds": [
+    "dato_leido",
+    "dato_calculado",
+    "hipotesis_tecnica",
+    "propuesta_mejora",
+    "pendiente_validar"
+  ],
+  "allowed_validation_states": [
+    "confirmado",
+    "parcial",
+    "pendiente_validar",
+    "descartado"
+  ],
+  "required_manifest_fields": [
+    "manifest_version",
+    "project_code",
+    "output_id",
+    "output_type",
+    "output_status",
+    "output_path",
+    "generated_at",
+    "generator",
+    "input_sources",
+    "validation"
+  ],
+  "required_generator_fields": [
+    "kind",
+    "name"
+  ],
+  "required_input_source_fields": [
+    "id",
+    "label",
+    "path",
+    "evidence_kind",
+    "validation_state"
+  ],
+  "required_assumption_fields": [
+    "id",
+    "statement",
+    "basis",
+    "validation_state"
+  ],
+  "required_pending_fields": [
+    "id",
+    "statement",
+    "blocking"
+  ],
+  "required_validation_fields": [
+    "checks_run",
+    "issues"
+  ],
+  "notes": [
+    "Todo output tecnico nuevo debe declarar al menos una fuente de entrada.",
+    "Las hipotesis tecnicas no pueden mezclarse con datos confirmados sin etiquetado explicito.",
+    "Los pendientes no se rellenan automaticamente: se exponen."
+  ]
+}

@@ -1,0 +1,35 @@
+anejo: "Anejo 15 - Plan de Obra"
+status_actual: "base util preparada"
+scope: "programacion, fases y distribucion temporal"
+fuentes_maestras:
+  - "DOCS - ANEJOS/15.- Plan de Obra/Anexo 15 - Plan de Obra.docx"
+  - "DATA/cronograma_base.csv"
+  - "DATA/presupuesto_normalizado.csv"
+  - "CONTROL/trazabilidad/*"
+restricciones:
+  - "Sin cronograma base o rendimientos confirmados, las duraciones son hipotesis."
+  - "No generar curva S ni histograma mensual sin base temporal y economica trazable."
+datos_minimos:
+  - "fases"
+  - "secuencia basica"
+  - "duraciones"
+  - "dependencias"
+  - "hitos"
+datos_deseables:
+  - "rendimientos"
+  - "recursos o cuadrillas"
+  - "inversion por fase"
+  - "ruta critica preliminar"
+outputs_premium_recomendados:
+  - "plan_obra_gantt_preliminar"
+  - "plan_obra_curva_s"
+  - "histograma_mensual_de_inversion"
+  - "riesgos_de_programacion"
+validaciones:
+  - "hipotesis_marcadas"
+  - "coherencia_con_memoria"
+  - "coherencia_con_presupuesto"
+  - "coherencia_con_decision_log"
+pendientes_tipicos:
+  - "[PENDIENTE: crear DATA/cronograma_base.csv]"
+  - "[PENDIENTE: fijar rendimientos reales por capitulo]"

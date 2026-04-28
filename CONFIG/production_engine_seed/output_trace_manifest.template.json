@@ -1,0 +1,74 @@
+{
+  "manifest_version": 1,
+  "project_code": "535.2.1",
+  "output_id": "plan-obra-gantt-preliminar",
+  "output_type": "plan_obra",
+  "output_status": "borrador",
+  "output_path": "OUTPUTS_AI/plan_obra/gantt_preliminar.xlsx",
+  "generated_at": "2026-04-25T12:00:00+02:00",
+  "generator": {
+    "kind": "agent",
+    "name": "AGENTE_PLAN_OBRA",
+    "version": "seed-local-1"
+  },
+  "input_sources": [
+    {
+      "id": "anejo.15",
+      "label": "Anejo 15 - Plan de Obra",
+      "path": "DOCS - ANEJOS/15.- Plan de Obra/Anexo 15 - Plan de Obra.docx",
+      "evidence_kind": "dato_leido",
+      "validation_state": "confirmado",
+      "source_locator": "documento completo"
+    },
+    {
+      "id": "fact.plan_obra.base",
+      "label": "Duraciones preliminares de fases",
+      "path": "DATA/cronograma_base.csv",
+      "evidence_kind": "pendiente_validar",
+      "validation_state": "pendiente_validar",
+      "source_locator": "fila 2-8"
+    }
+  ],
+  "derived_items": [
+    {
+      "id": "duracion_total_meses",
+      "statement": "La duracion preliminar total es de 6 meses.",
+      "evidence_kind": "dato_calculado",
+      "derived_from": [
+        "anejo.15",
+        "fact.plan_obra.base"
+      ],
+      "method": "suma de duraciones por fase sin solape"
+    }
+  ],
+  "assumptions": [
+    {
+      "id": "rendimiento-cuadrilla-01",
+      "statement": "Se asume una cuadrilla estable para urbanizacion general.",
+      "basis": "hipotesis inicial hasta disponer de rendimientos cerrados",
+      "validation_state": "pendiente_validar"
+    }
+  ],
+  "proposed_improvements": [
+    {
+      "id": "mejora-curva-s",
+      "statement": "Generar tambien curva S de inversion para acompanar el Gantt.",
+      "evidence_kind": "propuesta_mejora"
+    }
+  ],
+  "pending_items": [
+    {
+      "id": "pendiente-rendimientos-reales",
+      "statement": "[PENDIENTE: fijar rendimientos reales por capitulo]",
+      "blocking": true
+    }
+  ],
+  "validation": {
+    "checks_run": [
+      "tools/check_output_trace_manifest.ps1"
+    ],
+    "issues": [
+      "El cronograma base sigue pendiente de validar."
+    ]
+  }
+}

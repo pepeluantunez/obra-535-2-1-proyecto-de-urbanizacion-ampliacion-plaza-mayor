@@ -1,0 +1,26 @@
+﻿{
+    "number":  11,
+    "slug":  "11-red-de-alumbrado",
+    "title":  "RED DE ALUMBRADO",
+    "family":  "alumbrado",
+    "reusability":  "specific_template",
+    "notes":  "Anejo muy repetible con tablas y calculo asociados.",
+    "variable_inputs":  [
+                            "[NOMBRE DEL PROYECTO]",
+                            "[CIUDAD DEL PROYECTO]",
+                            "[LUMINARIAS]",
+                            "[NIVELES LUMINICOS]",
+                            "[EFICIENCIA ENERGETICA]",
+                            "[CIRCUITOS]"
+                        ],
+    "copied_assets":  {
+                          "master_template":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\Plantillas\\Por Anejo\\11-11-red-de-alumbrado\\00_master\\PLANTILLA_MAESTRA_ANEJOS.docx",
+                          "donor_docx":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\Plantillas\\Por Anejo\\11-11-red-de-alumbrado\\10_donor_docx\\Anejo alumbrado.docx",
+                          "donor_excels":  [
+                                               "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\Plantillas\\Por Anejo\\11-11-red-de-alumbrado\\20_donor_excel\\CALCULO EFICIENCIA ENERGÉTICA.xlsx"
+                                           ],
+                          "support_files":  [
+                                                "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\Plantillas\\Por Anejo\\11-11-red-de-alumbrado\\30_support\\medición.xlsx"
+                                            ]
+                      }
+}

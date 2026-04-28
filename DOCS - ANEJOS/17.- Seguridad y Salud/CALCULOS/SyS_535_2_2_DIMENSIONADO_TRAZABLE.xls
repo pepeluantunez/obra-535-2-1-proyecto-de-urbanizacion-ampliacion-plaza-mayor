@@ -1,0 +1,1153 @@
+﻿<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+<Worksheet ss:Name="00_Resumen"><Table>
+<Row>
+<Cell><Data ss:Type="String">Parametro</Data></Cell>
+<Cell><Data ss:Type="String">Valor</Data></Cell>
+<Cell><Data ss:Type="String">Estado</Data></Cell>
+<Cell><Data ss:Type="String">Base</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Plazo documental vigente (meses)</Data></Cell>
+<Cell ss:Formula="=&apos;01_Parametros&apos;!R2C2"><Data ss:Type="Number">18</Data></Cell>
+<Cell><Data ss:Type="String">Confirmado</Data></Cell>
+<Cell><Data ss:Type="String">Plan de obra vigente</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Plazo tecnico base adoptado (meses)</Data></Cell>
+<Cell ss:Formula="=&apos;01_Parametros&apos;!R3C2"><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="String">Derivado / editable</Data></Cell>
+<Cell><Data ss:Type="String">Coherente con plazo tecnico derivado actual</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Actividades del plan de obra</Data></Cell>
+<Cell ss:Formula="=COUNTA(&apos;02_ActividadesPlan&apos;!R2C1:R20C1)"><Data ss:Type="Number">19</Data></Cell>
+<Cell><Data ss:Type="String">Confirmado</Data></Cell>
+<Cell><Data ss:Type="String">Plan de obra</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Actividades con base cuantitativa actual</Data></Cell>
+<Cell ss:Formula="=COUNTIF(&apos;02_ActividadesPlan&apos;!R2C6:R20C6,&quot;Si&quot;)"><Data ss:Type="Number">7</Data></Cell>
+<Cell><Data ss:Type="String">Confirmado</Data></Cell>
+<Cell><Data ss:Type="String">BC3 + mediciones del proyecto</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Punta minima confirmada de personal</Data></Cell>
+<Cell ss:Formula="=MAX(&apos;05_Histograma&apos;!R2C2:R19C2)"><Data ss:Type="Number">19</Data></Cell>
+<Cell><Data ss:Type="String">Derivado</Data></Cell>
+<Cell><Data ss:Type="String">Horas-hombre de capitulos ya medidos</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Mes(es) de punta minima confirmada</Data></Cell>
+<Cell><Data ss:Type="String">9, 10, 11</Data></Cell>
+<Cell><Data ss:Type="String">Derivado</Data></Cell>
+<Cell><Data ss:Type="String">Cronograma + horas-hombre medidas</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Longitud simultanea pluviales (m)</Data></Cell>
+<Cell ss:Formula="=&apos;06_Zanjas&apos;!R5C2"><Data ss:Type="Number">58.07</Data></Cell>
+<Cell><Data ss:Type="String">Derivado</Data></Cell>
+<Cell><Data ss:Type="String">Red_Pluviales_Limpia.csv</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Longitud simultanea fecales (m)</Data></Cell>
+<Cell ss:Formula="=&apos;06_Zanjas&apos;!R6C2"><Data ss:Type="Number">36.57</Data></Cell>
+<Cell><Data ss:Type="String">Derivado</Data></Cell>
+<Cell><Data ss:Type="String">Red_Fecales_Limpia.csv</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Longitud simultanea total (m)</Data></Cell>
+<Cell ss:Formula="=&apos;06_Zanjas&apos;!R7C2"><Data ss:Type="Number">94.64</Data></Cell>
+<Cell><Data ss:Type="String">Derivado</Data></Cell>
+<Cell><Data ss:Type="String">Pluviales + fecales</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Advertencia</Data></Cell>
+<Cell><Data ss:Type="String">La punta global del proyecto no esta cerrada</Data></Cell>
+<Cell><Data ss:Type="String">Pendiente</Data></Cell>
+<Cell><Data ss:Type="String">12 actividades del plan sin base cuantitativa actual</Data></Cell>
+</Row>
+</Table></Worksheet>
+<Worksheet ss:Name="01_Parametros"><Table>
+<Row>
+<Cell><Data ss:Type="String">Parametro</Data></Cell>
+<Cell><Data ss:Type="String">Valor</Data></Cell>
+<Cell><Data ss:Type="String">Tipo</Data></Cell>
+<Cell><Data ss:Type="String">Nota</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Plazo documental vigente (meses)</Data></Cell>
+<Cell><Data ss:Type="Number">18</Data></Cell>
+<Cell><Data ss:Type="String">Confirmado</Data></Cell>
+<Cell><Data ss:Type="String">Plan de obra vigente</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Plazo tecnico base adoptado (meses)</Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="String">Editable</Data></Cell>
+<Cell><Data ss:Type="String">Tomado del plazo tecnico derivado actual</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Jornadas laborables por mes</Data></Cell>
+<Cell><Data ss:Type="Number">22</Data></Cell>
+<Cell><Data ss:Type="String">Editable</Data></Cell>
+<Cell><Data ss:Type="String">Criterio de dimensionado</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Horas por jornada</Data></Cell>
+<Cell><Data ss:Type="Number">8</Data></Cell>
+<Cell><Data ss:Type="String">Editable</Data></Cell>
+<Cell><Data ss:Type="String">Criterio de dimensionado</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Coeficiente de punta base</Data></Cell>
+<Cell><Data ss:Type="Number">1.2</Data></Cell>
+<Cell><Data ss:Type="String">Editable</Data></Cell>
+<Cell><Data ss:Type="String">Aplicado a actividades medidas</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Longitud media PP-PP pluviales (m)</Data></Cell>
+<Cell><Data ss:Type="Number">34.82</Data></Cell>
+<Cell><Data ss:Type="String">Confirmado</Data></Cell>
+<Cell><Data ss:Type="String">Tuberias pluviales entre pozos</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Longitud media ramal pluvial (m)</Data></Cell>
+<Cell><Data ss:Type="Number">7.75</Data></Cell>
+<Cell><Data ss:Type="String">Confirmado</Data></Cell>
+<Cell><Data ss:Type="String">Tuberias pluviales no PP-PP</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Longitud media PF-PF fecales (m)</Data></Cell>
+<Cell><Data ss:Type="Number">36.57</Data></Cell>
+<Cell><Data ss:Type="String">Confirmado</Data></Cell>
+<Cell><Data ss:Type="String">Tuberias fecales entre pozos</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Numero de tramos principales pluviales simultaneos</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="String">Editable</Data></Cell>
+<Cell><Data ss:Type="String">Criterio de simultaneidad</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Numero de ramales pluviales simultaneos</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="String">Editable</Data></Cell>
+<Cell><Data ss:Type="String">Criterio de simultaneidad</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Numero de tramos fecales simultaneos</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="String">Editable</Data></Cell>
+<Cell><Data ss:Type="String">Criterio de simultaneidad</Data></Cell>
+</Row>
+</Table></Worksheet>
+<Worksheet ss:Name="02_ActividadesPlan"><Table>
+<Row>
+<Cell><Data ss:Type="String">N</Data></Cell>
+<Cell><Data ss:Type="String">Categoria</Data></Cell>
+<Cell><Data ss:Type="String">Actividad</Data></Cell>
+<Cell><Data ss:Type="String">InicioMes</Data></Cell>
+<Cell><Data ss:Type="String">DuracionMeses</Data></Cell>
+<Cell><Data ss:Type="String">BaseCuantitativa</Data></Cell>
+<Cell><Data ss:Type="String">CapituloBC3</Data></Cell>
+<Cell><Data ss:Type="String">Estado</Data></Cell>
+<Cell><Data ss:Type="String">FinMes</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">2</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">4</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">5</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">6</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">7</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">8</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">9</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">11</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">12</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">13</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">14</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">15</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">16</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">17</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">18</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">19</Data></Cell>
+</Row>
+</Table></Worksheet>
+<Worksheet ss:Name="03_MedicionesProyecto"><Table>
+<Row>
+<Cell><Data ss:Type="String">Capitulo</Data></Cell>
+<Cell><Data ss:Type="String">Codigo</Data></Cell>
+<Cell><Data ss:Type="String">Descripcion</Data></Cell>
+<Cell><Data ss:Type="String">Unidad</Data></Cell>
+<Cell><Data ss:Type="String">Cantidad</Data></Cell>
+<Cell><Data ss:Type="String">HH_por_ud</Data></Cell>
+<Cell><Data ss:Type="String">HH_totales</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.02#</Data></Cell>
+<Cell><Data ss:Type="String">MDT001</Data></Cell>
+<Cell><Data ss:Type="String">DESBROCE TERRENO E&lt;20CM</Data></Cell>
+<Cell><Data ss:Type="String">m²</Data></Cell>
+<Cell><Data ss:Type="Number">4204.09</Data></Cell>
+<Cell><Data ss:Type="Number">0.011</Data></Cell>
+<Cell><Data ss:Type="Number">46.24</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.02#</Data></Cell>
+<Cell><Data ss:Type="String">EXCADESMONTE</Data></Cell>
+<Cell><Data ss:Type="String">EXCAVACION DESMONTE</Data></Cell>
+<Cell><Data ss:Type="String">m²</Data></Cell>
+<Cell><Data ss:Type="Number">26391.19</Data></Cell>
+<Cell><Data ss:Type="Number">0.1</Data></Cell>
+<Cell><Data ss:Type="Number">2639.12</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.02#</Data></Cell>
+<Cell><Data ss:Type="String">RELLENOTERRA</Data></Cell>
+<Cell><Data ss:Type="String">RELLENO TERRAPLEN SUELO SELECCIONADO PRESTAMO</Data></Cell>
+<Cell><Data ss:Type="String">m²</Data></Cell>
+<Cell><Data ss:Type="Number">10780.69</Data></Cell>
+<Cell><Data ss:Type="Number">0.05</Data></Cell>
+<Cell><Data ss:Type="Number">539.03</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.02#</Data></Cell>
+<Cell><Data ss:Type="String">CARGATRANSPO</Data></Cell>
+<Cell><Data ss:Type="String">CARGA Y TRANSPORTE A VERTEDERO</Data></Cell>
+<Cell><Data ss:Type="String">m²</Data></Cell>
+<Cell><Data ss:Type="Number">30595.28</Data></Cell>
+<Cell><Data ss:Type="Number">0.06</Data></Cell>
+<Cell><Data ss:Type="Number">1835.72</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.03#</Data></Cell>
+<Cell><Data ss:Type="String">RELLENOTERRA</Data></Cell>
+<Cell><Data ss:Type="String">RELLENO TERRAPLEN SUELO SELECCIONADO PRESTAMO</Data></Cell>
+<Cell><Data ss:Type="String">m²</Data></Cell>
+<Cell><Data ss:Type="Number">5027.27</Data></Cell>
+<Cell><Data ss:Type="Number">0.05</Data></Cell>
+<Cell><Data ss:Type="Number">251.36</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.03#</Data></Cell>
+<Cell><Data ss:Type="String">PAV003</Data></Cell>
+<Cell><Data ss:Type="String">ZAHORRA ARTIFICIAL</Data></Cell>
+<Cell><Data ss:Type="String">m²</Data></Cell>
+<Cell><Data ss:Type="Number">6877.07</Data></Cell>
+<Cell><Data ss:Type="Number">0.065</Data></Cell>
+<Cell><Data ss:Type="Number">447.01</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.03#</Data></Cell>
+<Cell><Data ss:Type="String">PAV007</Data></Cell>
+<Cell><Data ss:Type="String">M.B.C. TIPO AC 22 BASE</Data></Cell>
+<Cell><Data ss:Type="String">tn</Data></Cell>
+<Cell><Data ss:Type="Number">4212.68</Data></Cell>
+<Cell><Data ss:Type="Number">0.116</Data></Cell>
+<Cell><Data ss:Type="Number">488.67</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.03#</Data></Cell>
+<Cell><Data ss:Type="String">PAV006</Data></Cell>
+<Cell><Data ss:Type="String">M.B.C. TIPO AC 16 SURF</Data></Cell>
+<Cell><Data ss:Type="String">tn</Data></Cell>
+<Cell><Data ss:Type="Number">2746.89</Data></Cell>
+<Cell><Data ss:Type="Number">0.138</Data></Cell>
+<Cell><Data ss:Type="Number">379.07</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.03#</Data></Cell>
+<Cell><Data ss:Type="String">RIEGOAD</Data></Cell>
+<Cell><Data ss:Type="String">RIEGO DE ADHERENCIA</Data></Cell>
+<Cell><Data ss:Type="String">m²</Data></Cell>
+<Cell><Data ss:Type="Number">25637.64</Data></Cell>
+<Cell><Data ss:Type="Number">0.004</Data></Cell>
+<Cell><Data ss:Type="Number">102.55</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.03#</Data></Cell>
+<Cell><Data ss:Type="String">RIEGOIMP</Data></Cell>
+<Cell><Data ss:Type="String">RIEGO DE IMPRIMACIÓN</Data></Cell>
+<Cell><Data ss:Type="String">m2</Data></Cell>
+<Cell><Data ss:Type="Number">17732.84</Data></Cell>
+<Cell><Data ss:Type="Number">0.004</Data></Cell>
+<Cell><Data ss:Type="Number">70.93</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.03#</Data></Cell>
+<Cell><Data ss:Type="String">U03WC010</Data></Cell>
+<Cell><Data ss:Type="String">HORMIGON COMPACTADO EN BASE (MEDICION CONJUNTA CALZADA+ACERA)</Data></Cell>
+<Cell><Data ss:Type="String">m3</Data></Cell>
+<Cell><Data ss:Type="Number">4173.95</Data></Cell>
+<Cell><Data ss:Type="Number">0.19</Data></Cell>
+<Cell><Data ss:Type="Number">793.05</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.03#</Data></Cell>
+<Cell><Data ss:Type="String">FVSOLFRAT001</Data></Cell>
+<Cell><Data ss:Type="String">SOLERA HM-20 15 CM Y MALLAZO #Ø6/15 B400T, ACABADO FRATASADO MEC</Data></Cell>
+<Cell><Data ss:Type="String">m2</Data></Cell>
+<Cell><Data ss:Type="Number">3352.67</Data></Cell>
+<Cell><Data ss:Type="Number">0.15</Data></Cell>
+<Cell><Data ss:Type="Number">502.9</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.03#</Data></Cell>
+<Cell><Data ss:Type="String">P01.05</Data></Cell>
+<Cell><Data ss:Type="String">PAVIMENTO BALDOSA TERRAZO 40x40x3,5 cm IMIT. PIZARRA ROJO (NO PA</Data></Cell>
+<Cell><Data ss:Type="String">m²</Data></Cell>
+<Cell><Data ss:Type="Number">5751.62</Data></Cell>
+<Cell><Data ss:Type="Number">0.2</Data></Cell>
+<Cell><Data ss:Type="Number">1150.32</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.03#</Data></Cell>
+<Cell><Data ss:Type="String">P11.01</Data></Cell>
+<Cell><Data ss:Type="String">PAVIMENTO BOTONES 20x20x8 cm DE PAVIGESA O EQ.</Data></Cell>
+<Cell><Data ss:Type="String">m²</Data></Cell>
+<Cell><Data ss:Type="Number">160.7</Data></Cell>
+<Cell><Data ss:Type="Number">1.026</Data></Cell>
+<Cell><Data ss:Type="Number">164.88</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.03#</Data></Cell>
+<Cell><Data ss:Type="String">P11.02</Data></Cell>
+<Cell><Data ss:Type="String">PAVIMENTO DIRECCIONAL 20x20x8 cm DE PAVIGESA O EQ.</Data></Cell>
+<Cell><Data ss:Type="String">m²</Data></Cell>
+<Cell><Data ss:Type="Number">25</Data></Cell>
+<Cell><Data ss:Type="Number">1.026</Data></Cell>
+<Cell><Data ss:Type="Number">25.65</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.03#</Data></Cell>
+<Cell><Data ss:Type="String">TVEG-001</Data></Cell>
+<Cell><Data ss:Type="String">APORTE Y EXTENDIDO DE TIERRA VEGETAL CRIBADA</Data></Cell>
+<Cell><Data ss:Type="String">m3</Data></Cell>
+<Cell><Data ss:Type="Number">1084.87</Data></Cell>
+<Cell><Data ss:Type="Number">0.14</Data></Cell>
+<Cell><Data ss:Type="Number">151.88</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.03#</Data></Cell>
+<Cell><Data ss:Type="String">B02.C01.08</Data></Cell>
+<Cell><Data ss:Type="String">BORDILLO HORMIGÓN BICAPA C5 DE PAVIGESA 50x25x15x12cm</Data></Cell>
+<Cell><Data ss:Type="String">ml</Data></Cell>
+<Cell><Data ss:Type="Number">5834.67</Data></Cell>
+<Cell><Data ss:Type="Number">0.7121</Data></Cell>
+<Cell><Data ss:Type="Number">4154.87</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.03#</Data></Cell>
+<Cell><Data ss:Type="String">B02.C01.09</Data></Cell>
+<Cell><Data ss:Type="String">BORDILLO HORMIGON BICAPA DE PAVIGESA 50x25x12x9 cm</Data></Cell>
+<Cell><Data ss:Type="String">ml</Data></Cell>
+<Cell><Data ss:Type="Number">1833.06</Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.03#</Data></Cell>
+<Cell><Data ss:Type="String">B02.C01.07</Data></Cell>
+<Cell><Data ss:Type="String">BORDILLO HORMIGÓN BICAPA A2 DE PAVIGESA 50x20x10x9cm</Data></Cell>
+<Cell><Data ss:Type="String">ml</Data></Cell>
+<Cell><Data ss:Type="Number">4372.03</Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.04#</Data></Cell>
+<Cell><Data ss:Type="String">G4500030</Data></Cell>
+<Cell><Data ss:Type="String">HORMIGON EN ZANJA HM20 PARA ASIENTO SANEAMIENTO</Data></Cell>
+<Cell><Data ss:Type="String">M3</Data></Cell>
+<Cell><Data ss:Type="Number">203.79</Data></Cell>
+<Cell><Data ss:Type="Number">0.25</Data></Cell>
+<Cell><Data ss:Type="Number">50.95</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.04#</Data></Cell>
+<Cell><Data ss:Type="String">U01EZ060</Data></Cell>
+<Cell><Data ss:Type="String">EXC. EN ZANJA EN CUALQUIER CLASE</Data></Cell>
+<Cell><Data ss:Type="String">m3</Data></Cell>
+<Cell><Data ss:Type="Number">2917.05</Data></Cell>
+<Cell><Data ss:Type="Number">0.16</Data></Cell>
+<Cell><Data ss:Type="Number">466.73</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.04#</Data></Cell>
+<Cell><Data ss:Type="String">U01RZ031</Data></Cell>
+<Cell><Data ss:Type="String">RELLENO DE ZANJA CON ARENA</Data></Cell>
+<Cell><Data ss:Type="String">m3</Data></Cell>
+<Cell><Data ss:Type="Number">1182.99</Data></Cell>
+<Cell><Data ss:Type="Number">0.155</Data></Cell>
+<Cell><Data ss:Type="Number">183.36</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.04#</Data></Cell>
+<Cell><Data ss:Type="String">APE010</Data></Cell>
+<Cell><Data ss:Type="String">ENTIBACIONES EN ZANJAS</Data></Cell>
+<Cell><Data ss:Type="String">m2</Data></Cell>
+<Cell><Data ss:Type="Number">7236.32</Data></Cell>
+<Cell><Data ss:Type="Number">0.12</Data></Cell>
+<Cell><Data ss:Type="Number">868.36</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.04#</Data></Cell>
+<Cell><Data ss:Type="String">SANRELLZA</Data></Cell>
+<Cell><Data ss:Type="String">RELLENO DE ZANJA CON ZAHORRA</Data></Cell>
+<Cell><Data ss:Type="String">m3</Data></Cell>
+<Cell><Data ss:Type="Number">1275.9</Data></Cell>
+<Cell><Data ss:Type="Number">0.19</Data></Cell>
+<Cell><Data ss:Type="Number">242.42</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.04#</Data></Cell>
+<Cell><Data ss:Type="String">UAC010.00</Data></Cell>
+<Cell><Data ss:Type="String">TUBERIA ENTERRADA PVC D=250mm SN-8</Data></Cell>
+<Cell><Data ss:Type="String">m.</Data></Cell>
+<Cell><Data ss:Type="Number">639.35</Data></Cell>
+<Cell><Data ss:Type="Number">0.12</Data></Cell>
+<Cell><Data ss:Type="Number">76.72</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.04#</Data></Cell>
+<Cell><Data ss:Type="String">UAC010.3</Data></Cell>
+<Cell><Data ss:Type="String">COLECTOR PVC DOBLE PARED CORRUGADO DN400mm SN-8</Data></Cell>
+<Cell><Data ss:Type="String">m</Data></Cell>
+<Cell><Data ss:Type="Number">275.59</Data></Cell>
+<Cell><Data ss:Type="Number">0.2</Data></Cell>
+<Cell><Data ss:Type="Number">55.12</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.04#</Data></Cell>
+<Cell><Data ss:Type="String">UAC010.3.5</Data></Cell>
+<Cell><Data ss:Type="String">COLECTOR PVC DOBLE PARED CORRUGADO DN500mm SN-8</Data></Cell>
+<Cell><Data ss:Type="String">m</Data></Cell>
+<Cell><Data ss:Type="Number">311.52</Data></Cell>
+<Cell><Data ss:Type="Number">0.24</Data></Cell>
+<Cell><Data ss:Type="Number">74.76</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.04#</Data></Cell>
+<Cell><Data ss:Type="String">UAC010.3.6</Data></Cell>
+<Cell><Data ss:Type="String">COLECTOR PVC DOBLE PARED CORRUGADO DN630mm SN-8</Data></Cell>
+<Cell><Data ss:Type="String">m</Data></Cell>
+<Cell><Data ss:Type="Number">195</Data></Cell>
+<Cell><Data ss:Type="Number">0.28</Data></Cell>
+<Cell><Data ss:Type="Number">54.6</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.04#</Data></Cell>
+<Cell><Data ss:Type="String">UAC010.3.8</Data></Cell>
+<Cell><Data ss:Type="String">COLECTOR PVC DOBLE PARED CORRUGADO DN 800 mm SN-8</Data></Cell>
+<Cell><Data ss:Type="String">m</Data></Cell>
+<Cell><Data ss:Type="Number">621.45</Data></Cell>
+<Cell><Data ss:Type="Number">0.28</Data></Cell>
+<Cell><Data ss:Type="Number">174.01</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.04#</Data></Cell>
+<Cell><Data ss:Type="String">UAC010.3.10</Data></Cell>
+<Cell><Data ss:Type="String">COLECTOR PVC DOBLE PARED CORRUGADO DN 1000 mm SN-8</Data></Cell>
+<Cell><Data ss:Type="String">m</Data></Cell>
+<Cell><Data ss:Type="Number">178.43</Data></Cell>
+<Cell><Data ss:Type="Number">0.28</Data></Cell>
+<Cell><Data ss:Type="Number">49.96</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.04#</Data></Cell>
+<Cell><Data ss:Type="String">UAP0.2-TIPOI</Data></Cell>
+<Cell><Data ss:Type="String">POZO PREFABRICADO H.A. DN1100mm TIPO I - H= 2,1 a 3 m</Data></Cell>
+<Cell><Data ss:Type="String">ud</Data></Cell>
+<Cell><Data ss:Type="Number">43</Data></Cell>
+<Cell><Data ss:Type="Number">3.4</Data></Cell>
+<Cell><Data ss:Type="Number">146.2</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.04#</Data></Cell>
+<Cell><Data ss:Type="String">U044879794E3</Data></Cell>
+<Cell><Data ss:Type="String">IMBORNAL HM-20 IN SITU 50x50x100 cm.</Data></Cell>
+<Cell><Data ss:Type="String">ud</Data></Cell>
+<Cell><Data ss:Type="Number">107</Data></Cell>
+<Cell><Data ss:Type="Number">3.35</Data></Cell>
+<Cell><Data ss:Type="Number">358.45</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.04#</Data></Cell>
+<Cell><Data ss:Type="String">P113232LLLPS</Data></Cell>
+<Cell><Data ss:Type="String">PERFILADO DE CUNETA EN TIERRAS TRIANGULAR</Data></Cell>
+<Cell><Data ss:Type="String">m</Data></Cell>
+<Cell><Data ss:Type="Number">4178.94</Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.04#</Data></Cell>
+<Cell><Data ss:Type="String">U19IA320</Data></Cell>
+<Cell><Data ss:Type="String">PRUEBA FUNCIONAMIENTO, RED SANEAMIENTO</Data></Cell>
+<Cell><Data ss:Type="String">ud</Data></Cell>
+<Cell><Data ss:Type="Number">2</Data></Cell>
+<Cell><Data ss:Type="Number">0.9</Data></Cell>
+<Cell><Data ss:Type="Number">1.8</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.04#</Data></Cell>
+<Cell><Data ss:Type="String">PRUEBAINSPECT</Data></Cell>
+<Cell><Data ss:Type="String">PRUEBA DE INSPECCIÓN POR CÁMARA DE TV</Data></Cell>
+<Cell><Data ss:Type="String">m</Data></Cell>
+<Cell><Data ss:Type="Number">2221.34</Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.04#</Data></Cell>
+<Cell><Data ss:Type="String">EMB500CP1</Data></Cell>
+<Cell><Data ss:Type="String">EMBOCADURA DE ENTREGA CP1 A ODT DN500</Data></Cell>
+<Cell><Data ss:Type="String">ud</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">16.8</Data></Cell>
+<Cell><Data ss:Type="Number">16.8</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.04#</Data></Cell>
+<Cell><Data ss:Type="String">UAP0.5-TIPOII</Data></Cell>
+<Cell><Data ss:Type="String">POZO PREFABRICADO H.A. DN1100mm TIPO II - H= 2,1 a 3 m</Data></Cell>
+<Cell><Data ss:Type="String">ud</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="Number">4.15</Data></Cell>
+<Cell><Data ss:Type="Number">12.45</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.04#</Data></Cell>
+<Cell><Data ss:Type="String">CLP1000</Data></Cell>
+<Cell><Data ss:Type="String">CLAPETA ANTIRRETORNO DN1000 EN CP2</Data></Cell>
+<Cell><Data ss:Type="String">ud</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.04#</Data></Cell>
+<Cell><Data ss:Type="String">EMB1000CP2</Data></Cell>
+<Cell><Data ss:Type="String">EMBOCADURA DE ENTREGA CP2 A CANAL DN1000</Data></Cell>
+<Cell><Data ss:Type="String">ud</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.05#</Data></Cell>
+<Cell><Data ss:Type="String">U01EZ060</Data></Cell>
+<Cell><Data ss:Type="String">EXC. EN ZANJA EN CUALQUIER CLASE</Data></Cell>
+<Cell><Data ss:Type="String">m3</Data></Cell>
+<Cell><Data ss:Type="Number">1703.34</Data></Cell>
+<Cell><Data ss:Type="Number">0.16</Data></Cell>
+<Cell><Data ss:Type="Number">272.53</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.05#</Data></Cell>
+<Cell><Data ss:Type="String">U01RZ031</Data></Cell>
+<Cell><Data ss:Type="String">RELLENO DE ZANJA CON ARENA</Data></Cell>
+<Cell><Data ss:Type="String">m3</Data></Cell>
+<Cell><Data ss:Type="Number">389.4</Data></Cell>
+<Cell><Data ss:Type="Number">0.155</Data></Cell>
+<Cell><Data ss:Type="Number">60.36</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.05#</Data></Cell>
+<Cell><Data ss:Type="String">SANRELLZA</Data></Cell>
+<Cell><Data ss:Type="String">RELLENO DE ZANJA CON ZAHORRA</Data></Cell>
+<Cell><Data ss:Type="String">m3</Data></Cell>
+<Cell><Data ss:Type="Number">366.92</Data></Cell>
+<Cell><Data ss:Type="Number">0.19</Data></Cell>
+<Cell><Data ss:Type="Number">69.71</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.05#</Data></Cell>
+<Cell><Data ss:Type="String">APE010</Data></Cell>
+<Cell><Data ss:Type="String">ENTIBACIONES EN ZANJAS</Data></Cell>
+<Cell><Data ss:Type="String">m2</Data></Cell>
+<Cell><Data ss:Type="Number">763.72</Data></Cell>
+<Cell><Data ss:Type="Number">0.12</Data></Cell>
+<Cell><Data ss:Type="Number">91.65</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.05#</Data></Cell>
+<Cell><Data ss:Type="String">UAC010.0</Data></Cell>
+<Cell><Data ss:Type="String">COLECTOR PVC DOBLE PARED CORRUGADO DN315mm SN-8</Data></Cell>
+<Cell><Data ss:Type="String">m</Data></Cell>
+<Cell><Data ss:Type="Number">255.97</Data></Cell>
+<Cell><Data ss:Type="Number">0.16</Data></Cell>
+<Cell><Data ss:Type="Number">40.96</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.05#</Data></Cell>
+<Cell><Data ss:Type="String">UAP0.2-TIPOI</Data></Cell>
+<Cell><Data ss:Type="String">POZO PREFABRICADO H.A. DN1100mm TIPO I - H= 2,1 a 3 m</Data></Cell>
+<Cell><Data ss:Type="String">ud</Data></Cell>
+<Cell><Data ss:Type="Number">8</Data></Cell>
+<Cell><Data ss:Type="Number">3.4</Data></Cell>
+<Cell><Data ss:Type="Number">27.2</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.05#</Data></Cell>
+<Cell><Data ss:Type="String">U19IA320</Data></Cell>
+<Cell><Data ss:Type="String">PRUEBA FUNCIONAMIENTO, RED SANEAMIENTO</Data></Cell>
+<Cell><Data ss:Type="String">ud</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">0.9</Data></Cell>
+<Cell><Data ss:Type="Number">0.9</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.05#</Data></Cell>
+<Cell><Data ss:Type="String">PRUEBAINSPECT</Data></Cell>
+<Cell><Data ss:Type="String">PRUEBA DE INSPECCIÓN POR CÁMARA DE TV</Data></Cell>
+<Cell><Data ss:Type="String">m</Data></Cell>
+<Cell><Data ss:Type="Number">255.97</Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.05#</Data></Cell>
+<Cell><Data ss:Type="String">FEPE100DN200</Data></Cell>
+<Cell><Data ss:Type="String">TUBERIA IMPULSION PE-100 DN200 PN10</Data></Cell>
+<Cell><Data ss:Type="String">m</Data></Cell>
+<Cell><Data ss:Type="Number">764</Data></Cell>
+<Cell><Data ss:Type="Number">0.12</Data></Cell>
+<Cell><Data ss:Type="Number">91.68</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.12#</Data></Cell>
+<Cell><Data ss:Type="String">0DP010</Data></Cell>
+<Cell><Data ss:Type="String">ARRANQUE DE ARBOL</Data></Cell>
+<Cell><Data ss:Type="String">ud</Data></Cell>
+<Cell><Data ss:Type="Number">118</Data></Cell>
+<Cell><Data ss:Type="Number">3.709</Data></Cell>
+<Cell><Data ss:Type="Number">437.66</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.12#</Data></Cell>
+<Cell><Data ss:Type="String">JSP020</Data></Cell>
+<Cell><Data ss:Type="String">TRASPLANTE DE ARBOL</Data></Cell>
+<Cell><Data ss:Type="String">ud</Data></Cell>
+<Cell><Data ss:Type="Number">82</Data></Cell>
+<Cell><Data ss:Type="Number">3.63</Data></Cell>
+<Cell><Data ss:Type="Number">297.66</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.12#</Data></Cell>
+<Cell><Data ss:Type="String">1.7.1.1</Data></Cell>
+<Cell><Data ss:Type="String">CELTIS AUSTRALIS 16/18 cm</Data></Cell>
+<Cell><Data ss:Type="String">ud</Data></Cell>
+<Cell><Data ss:Type="Number">169</Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.12#</Data></Cell>
+<Cell><Data ss:Type="String">1.7.2.6</Data></Cell>
+<Cell><Data ss:Type="String">WASHINGTONIA ROBUSTA 4.00 m</Data></Cell>
+<Cell><Data ss:Type="String">ud</Data></Cell>
+<Cell><Data ss:Type="Number">62</Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.13#</Data></Cell>
+<Cell><Data ss:Type="String">UBENPA679</Data></Cell>
+<Cell><Data ss:Type="String">PAPELERA VIDA XXI 40 litros</Data></Cell>
+<Cell><Data ss:Type="String">ud</Data></Cell>
+<Cell><Data ss:Type="Number">73</Data></Cell>
+<Cell><Data ss:Type="Number">0.6</Data></Cell>
+<Cell><Data ss:Type="Number">43.8</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.13#</Data></Cell>
+<Cell><Data ss:Type="String">UBENUM304N</Data></Cell>
+<Cell><Data ss:Type="String">BANCO NEOBARCINO 1800 natural</Data></Cell>
+<Cell><Data ss:Type="String">ud</Data></Cell>
+<Cell><Data ss:Type="Number">32</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">32</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.13#</Data></Cell>
+<Cell><Data ss:Type="String">UBENVBU01I</Data></Cell>
+<Cell><Data ss:Type="String">APARCABICICLETAS UNIVERSAL INOX</Data></Cell>
+<Cell><Data ss:Type="String">ud</Data></Cell>
+<Cell><Data ss:Type="Number">18</Data></Cell>
+<Cell><Data ss:Type="Number">0.5</Data></Cell>
+<Cell><Data ss:Type="Number">9</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.15#</Data></Cell>
+<Cell><Data ss:Type="String">U18HMC010BL</Data></Cell>
+<Cell><Data ss:Type="String">MARCA VIAL REFLEX.CONT.BL.a=10cm M-2.2</Data></Cell>
+<Cell><Data ss:Type="String">ml</Data></Cell>
+<Cell><Data ss:Type="Number">158</Data></Cell>
+<Cell><Data ss:Type="Number">0.012</Data></Cell>
+<Cell><Data ss:Type="Number">1.9</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.15#</Data></Cell>
+<Cell><Data ss:Type="String">U18HMC010BL-B</Data></Cell>
+<Cell><Data ss:Type="String">MARCA VIAL REFLEX.CONT.BL.a=10cm BORDE B-2.6b</Data></Cell>
+<Cell><Data ss:Type="String">m</Data></Cell>
+<Cell><Data ss:Type="Number">4320</Data></Cell>
+<Cell><Data ss:Type="Number">0.01</Data></Cell>
+<Cell><Data ss:Type="Number">43.2</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.15#</Data></Cell>
+<Cell><Data ss:Type="String">U18HMD010BL-B</Data></Cell>
+<Cell><Data ss:Type="String">MARCA VIAL REFLEX.DISC.BL.a=10cm (1/1) B-1.12</Data></Cell>
+<Cell><Data ss:Type="String">m</Data></Cell>
+<Cell><Data ss:Type="Number">2179</Data></Cell>
+<Cell><Data ss:Type="Number">0.008</Data></Cell>
+<Cell><Data ss:Type="Number">17.43</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.15#</Data></Cell>
+<Cell><Data ss:Type="String">U18HMD010BL</Data></Cell>
+<Cell><Data ss:Type="String">MARCA VIAL REFLEX.DISC.BL.a=10cm M-1.3</Data></Cell>
+<Cell><Data ss:Type="String">ml</Data></Cell>
+<Cell><Data ss:Type="Number">3100</Data></Cell>
+<Cell><Data ss:Type="Number">0.01</Data></Cell>
+<Cell><Data ss:Type="Number">31</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.15#</Data></Cell>
+<Cell><Data ss:Type="String">U18HMC015BL</Data></Cell>
+<Cell><Data ss:Type="String">MARCA VIAL REFLEX.CONT.BL.a=15cm M-2.6</Data></Cell>
+<Cell><Data ss:Type="String">ml</Data></Cell>
+<Cell><Data ss:Type="Number">5246</Data></Cell>
+<Cell><Data ss:Type="Number">0.012</Data></Cell>
+<Cell><Data ss:Type="Number">62.95</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.15#</Data></Cell>
+<Cell><Data ss:Type="String">U18HMC015AMR</Data></Cell>
+<Cell><Data ss:Type="String">MARCA VIAL REFLEX.CONT.AM.a=15cm M-7.3</Data></Cell>
+<Cell><Data ss:Type="String">ml</Data></Cell>
+<Cell><Data ss:Type="Number">701.36</Data></Cell>
+<Cell><Data ss:Type="Number">0.014</Data></Cell>
+<Cell><Data ss:Type="Number">9.82</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.15#</Data></Cell>
+<Cell><Data ss:Type="String">U18HMD040BL</Data></Cell>
+<Cell><Data ss:Type="String">MARCA VIAL REFLEX.DISC.BL.a=40cm M-4.2</Data></Cell>
+<Cell><Data ss:Type="String">ml</Data></Cell>
+<Cell><Data ss:Type="Number">129.18</Data></Cell>
+<Cell><Data ss:Type="Number">0.017</Data></Cell>
+<Cell><Data ss:Type="Number">2.2</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.15#</Data></Cell>
+<Cell><Data ss:Type="String">U18HMC040BL-B</Data></Cell>
+<Cell><Data ss:Type="String">MARCA VIAL TRANSV.CONT.BL.a=40cm B-4.3</Data></Cell>
+<Cell><Data ss:Type="String">m2</Data></Cell>
+<Cell><Data ss:Type="Number">8</Data></Cell>
+<Cell><Data ss:Type="Number">0.44</Data></Cell>
+<Cell><Data ss:Type="Number">3.52</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.15#</Data></Cell>
+<Cell><Data ss:Type="String">U18HSS010</Data></Cell>
+<Cell><Data ss:Type="String">PINTURA REFLEX. EN SÍMBOLOS</Data></Cell>
+<Cell><Data ss:Type="String">ud</Data></Cell>
+<Cell><Data ss:Type="Number">74</Data></Cell>
+<Cell><Data ss:Type="Number">2.15</Data></Cell>
+<Cell><Data ss:Type="Number">159.1</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.15#</Data></Cell>
+<Cell><Data ss:Type="String">U18HSS010BL</Data></Cell>
+<Cell><Data ss:Type="String">PINTURA REFLEX. EN SÍMBOLOS VIAS CICLISTAS</Data></Cell>
+<Cell><Data ss:Type="String">ud</Data></Cell>
+<Cell><Data ss:Type="Number">76</Data></Cell>
+<Cell><Data ss:Type="Number">2.15</Data></Cell>
+<Cell><Data ss:Type="Number">163.4</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.15#</Data></Cell>
+<Cell><Data ss:Type="String">U18HMC040BL</Data></Cell>
+<Cell><Data ss:Type="String">PINTURA REFLEX. BLANCA EN PASO PEATONES PARA VÍAS Y CICLOVÍAS</Data></Cell>
+<Cell><Data ss:Type="String">m2</Data></Cell>
+<Cell><Data ss:Type="Number">285.05</Data></Cell>
+<Cell><Data ss:Type="Number">0.43</Data></Cell>
+<Cell><Data ss:Type="Number">122.57</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.15#</Data></Cell>
+<Cell><Data ss:Type="String">U18VAC060A</Data></Cell>
+<Cell><Data ss:Type="String">SEÑAL CIRCULAR REFLEX. GIRO OBLIG. D=60cm R-402</Data></Cell>
+<Cell><Data ss:Type="String">ud</Data></Cell>
+<Cell><Data ss:Type="Number">8</Data></Cell>
+<Cell><Data ss:Type="Number">3.25</Data></Cell>
+<Cell><Data ss:Type="Number">26</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.15#</Data></Cell>
+<Cell><Data ss:Type="String">U18VACU060</Data></Cell>
+<Cell><Data ss:Type="String">SEÑAL CUADRADA REFLEX. 60x60cm</Data></Cell>
+<Cell><Data ss:Type="String">ud</Data></Cell>
+<Cell><Data ss:Type="Number">23</Data></Cell>
+<Cell><Data ss:Type="Number">2.5</Data></Cell>
+<Cell><Data ss:Type="Number">57.5</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.15#</Data></Cell>
+<Cell><Data ss:Type="String">U18VAT090</Data></Cell>
+<Cell><Data ss:Type="String">SEÑAL TRIANGULAR REFLEX.L=90cm</Data></Cell>
+<Cell><Data ss:Type="String">ud</Data></Cell>
+<Cell><Data ss:Type="Number">9</Data></Cell>
+<Cell><Data ss:Type="Number">2.2</Data></Cell>
+<Cell><Data ss:Type="Number">19.8</Data></Cell>
+</Row>
+</Table></Worksheet>
+<Worksheet ss:Name="04_PersonalMinimo"><Table>
+<Row>
+<Cell><Data ss:Type="String">Capitulo</Data></Cell>
+<Cell><Data ss:Type="String">Actividad</Data></Cell>
+<Cell><Data ss:Type="String">InicioMes</Data></Cell>
+<Cell><Data ss:Type="String">DuracionMeses</Data></Cell>
+<Cell><Data ss:Type="String">FinMes</Data></Cell>
+<Cell><Data ss:Type="String">HH_totales</Data></Cell>
+<Cell><Data ss:Type="String">TrabajadoresMedios</Data></Cell>
+<Cell><Data ss:Type="String">CoefPunta</Data></Cell>
+<Cell><Data ss:Type="String">CuadrillaMin</Data></Cell>
+<Cell><Data ss:Type="String">PuntaMinima</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.02# New-ExcelTextCell</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.03# New-ExcelTextCell</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.04# New-ExcelTextCell</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.05# New-ExcelTextCell</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.12# New-ExcelTextCell</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.13# New-ExcelTextCell</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">MCG-1.15# New-ExcelTextCell</Data></Cell>
+</Row>
+</Table></Worksheet>
+<Worksheet ss:Name="05_Histograma"><Table>
+<Row>
+<Cell><Data ss:Type="String">Mes</Data></Cell>
+<Cell><Data ss:Type="String">PersonalMinimoConfirmado</Data></Cell>
+<Cell><Data ss:Type="String">ActividadesNoCuantificadas</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">2</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">4</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">5</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">6</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">7</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">8</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">9</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">11</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">12</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">13</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">14</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">15</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">16</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">17</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">18</Data></Cell>
+</Row>
+</Table></Worksheet>
+<Worksheet ss:Name="06_Zanjas"><Table>
+<Row>
+<Cell><Data ss:Type="String">Magnitud</Data></Cell>
+<Cell><Data ss:Type="String">Valor</Data></Cell>
+<Cell><Data ss:Type="String">Estado</Data></Cell>
+<Cell><Data ss:Type="String">Base</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Longitud media PP-PP pluviales (m)</Data></Cell>
+<Cell ss:Formula="=&apos;01_Parametros&apos;!R7C2"><Data ss:Type="Number">34.82</Data></Cell>
+<Cell><Data ss:Type="String">Derivado</Data></Cell>
+<Cell><Data ss:Type="String">Tuberias pluviales entre pozos</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Longitud media ramal pluvial (m)</Data></Cell>
+<Cell ss:Formula="=&apos;01_Parametros&apos;!R8C2"><Data ss:Type="Number">7.75</Data></Cell>
+<Cell><Data ss:Type="String">Derivado</Data></Cell>
+<Cell><Data ss:Type="String">Tuberias pluviales no PP-PP</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Longitud media PF-PF fecales (m)</Data></Cell>
+<Cell ss:Formula="=&apos;01_Parametros&apos;!R9C2"><Data ss:Type="Number">36.57</Data></Cell>
+<Cell><Data ss:Type="String">Derivado</Data></Cell>
+<Cell><Data ss:Type="String">Tuberias fecales entre pozos</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Longitud simultanea pluviales (m)</Data></Cell>
+<Cell ss:Formula="=&apos;01_Parametros&apos;!R7C2*&apos;01_Parametros&apos;!R10C2+&apos;01_Parametros&apos;!R8C2*&apos;01_Parametros&apos;!R11C2"><Data ss:Type="Number">58.07</Data></Cell>
+<Cell><Data ss:Type="String">Derivado</Data></Cell>
+<Cell><Data ss:Type="String">1 tramo principal + 3 ramales, editable en parametros</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Longitud simultanea fecales (m)</Data></Cell>
+<Cell ss:Formula="=&apos;01_Parametros&apos;!R9C2*&apos;01_Parametros&apos;!R12C2"><Data ss:Type="Number">36.57</Data></Cell>
+<Cell><Data ss:Type="String">Derivado</Data></Cell>
+<Cell><Data ss:Type="String">1 tramo principal, editable en parametros</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Longitud simultanea total (m)</Data></Cell>
+<Cell ss:Formula="=R[-2]C2+R[-1]C2"><Data ss:Type="Number">94.64</Data></Cell>
+<Cell><Data ss:Type="String">Derivado</Data></Cell>
+<Cell><Data ss:Type="String">Pluviales + fecales</Data></Cell>
+</Row>
+</Table></Worksheet>
+<Worksheet ss:Name="07_PartidasSyS"><Table>
+<Row>
+<Cell><Data ss:Type="String">Cap</Data></Cell>
+<Cell><Data ss:Type="String">Codigo</Data></Cell>
+<Cell><Data ss:Type="String">Partida</Data></Cell>
+<Cell><Data ss:Type="String">MagnitudPropuesta</Data></Cell>
+<Cell><Data ss:Type="String">Estado</Data></Cell>
+<Cell><Data ss:Type="String">Base</Data></Cell>
+<Cell><Data ss:Type="String">Observacion</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">CAP3</Data></Cell>
+<Cell><Data ss:Type="String">E28BC130</Data></Cell>
+<Cell><Data ss:Type="String">Caseta almacen</Data></Cell>
+<Cell ss:Formula="=&apos;01_Parametros&apos;!R3C2"><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="String">Dimensionable ya</Data></Cell>
+<Cell><Data ss:Type="String">1 implantacion principal x plazo tecnico base adoptado</Data></Cell>
+<Cell><Data ss:Type="String">Editable desde parametros</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">CAP3</Data></Cell>
+<Cell><Data ss:Type="String">E28BC180</Data></Cell>
+<Cell><Data ss:Type="String">Caseta oficina + aseo</Data></Cell>
+<Cell ss:Formula="=&apos;01_Parametros&apos;!R3C2"><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="String">Dimensionable ya</Data></Cell>
+<Cell><Data ss:Type="String">1 implantacion principal x plazo tecnico base adoptado</Data></Cell>
+<Cell><Data ss:Type="String">Editable desde parametros</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">CAP3</Data></Cell>
+<Cell><Data ss:Type="String">E28BC200</Data></Cell>
+<Cell><Data ss:Type="String">Caseta comedor</Data></Cell>
+<Cell ss:Formula="=&apos;01_Parametros&apos;!R3C2"><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="String">Dimensionable ya</Data></Cell>
+<Cell><Data ss:Type="String">1 implantacion principal x plazo tecnico base adoptado</Data></Cell>
+<Cell><Data ss:Type="String">Editable desde parametros</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">CAP3</Data></Cell>
+<Cell><Data ss:Type="String">E28BM070</Data></Cell>
+<Cell><Data ss:Type="String">Taquilla individual</Data></Cell>
+<Cell ss:Formula="=MAX(&apos;05_Histograma&apos;!R2C2:R19C2)"><Data ss:Type="Number">19</Data></Cell>
+<Cell><Data ss:Type="String">Dimensionable ya</Data></Cell>
+<Cell><Data ss:Type="String">1 por trabajador en punta minima confirmada</Data></Cell>
+<Cell><Data ss:Type="String">La punta global del proyecto puede ser mayor</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">CAP2</Data></Cell>
+<Cell><Data ss:Type="String">E28PIC090</Data></Cell>
+<Cell><Data ss:Type="String">Mono de trabajo</Data></Cell>
+<Cell ss:Formula="=MAX(&apos;05_Histograma&apos;!R2C2:R19C2)"><Data ss:Type="Number">19</Data></Cell>
+<Cell><Data ss:Type="String">Dimensionable ya</Data></Cell>
+<Cell><Data ss:Type="String">1 por trabajador en punta minima confirmada</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">CAP2</Data></Cell>
+<Cell><Data ss:Type="String">E28PIA010</Data></Cell>
+<Cell><Data ss:Type="String">Casco de seguridad</Data></Cell>
+<Cell ss:Formula="=MAX(&apos;05_Histograma&apos;!R2C2:R19C2)"><Data ss:Type="Number">19</Data></Cell>
+<Cell><Data ss:Type="String">Dimensionable ya</Data></Cell>
+<Cell><Data ss:Type="String">1 por trabajador en punta minima confirmada</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">CAP1</Data></Cell>
+<Cell><Data ss:Type="String">E28PCB1702</Data></Cell>
+<Cell><Data ss:Type="String">Malla plastica de senalizacion</Data></Cell>
+<Cell ss:Formula="=ROUND(&apos;06_Zanjas&apos;!R7C2*2,0)"><Data ss:Type="Number">189</Data></Cell>
+<Cell><Data ss:Type="String">Dimensionable con criterio</Data></Cell>
+<Cell><Data ss:Type="String">2 bordes por longitud simultanea de zanja</Data></Cell>
+<Cell><Data ss:Type="String">Ajustar con trafico y accesos</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">CAP1</Data></Cell>
+<Cell><Data ss:Type="String">E28EB010</Data></Cell>
+<Cell><Data ss:Type="String">Cinta balizamiento</Data></Cell>
+<Cell ss:Formula="=ROUND(&apos;06_Zanjas&apos;!R7C2*4,0)"><Data ss:Type="Number">379</Data></Cell>
+<Cell><Data ss:Type="String">Dimensionable con criterio</Data></Cell>
+<Cell><Data ss:Type="String">Doble balizamiento en ambas margenes</Data></Cell>
+<Cell><Data ss:Type="String">Ajustar con trafico y accesos</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">CAP1</Data></Cell>
+<Cell><Data ss:Type="String">E28PCB170</Data></Cell>
+<Cell><Data ss:Type="String">Vallado fijo de obra</Data></Cell>
+<Cell><Data ss:Type="String">PEND</Data></Cell>
+<Cell><Data ss:Type="String">Pendiente</Data></Cell>
+<Cell><Data ss:Type="String">Perimetro real de implantacion</Data></Cell>
+<Cell><Data ss:Type="String">Medir sobre ESS-2.x</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">CAP1</Data></Cell>
+<Cell><Data ss:Type="String">E28PCM120</Data></Cell>
+<Cell><Data ss:Type="String">Pasarela metalica</Data></Cell>
+<Cell><Data ss:Type="String">PEND</Data></Cell>
+<Cell><Data ss:Type="String">Pendiente</Data></Cell>
+<Cell><Data ss:Type="String">Cruces peatonales reales</Data></Cell>
+<Cell><Data ss:Type="String">Medir sobre ESSsenalizacion.pdf</Data></Cell>
+</Row>
+</Table></Worksheet>
+<Worksheet ss:Name="08_Trazabilidad"><Table>
+<Row>
+<Cell><Data ss:Type="String">Magnitud</Data></Cell>
+<Cell><Data ss:Type="String">Fuente</Data></Cell>
+<Cell><Data ss:Type="String">Impacta</Data></Cell>
+<Cell><Data ss:Type="String">Estado</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Plazo de obra</Data></Cell>
+<Cell><Data ss:Type="String">Plan de Obra.xlsx</Data></Cell>
+<Cell><Data ss:Type="String">Casetas, implantacion, alquileres</Data></Cell>
+<Cell><Data ss:Type="String">Confirmado</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Longitudes de colectores pluviales</Data></Cell>
+<Cell><Data ss:Type="String">CivilReport.html / Red_Pluviales_Trazable.xls</Data></Cell>
+<Cell><Data ss:Type="String">SyS zanjas, vallados temporales, pruebas</Data></Cell>
+<Cell><Data ss:Type="String">Confirmado</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Longitudes de colectores fecales</Data></Cell>
+<Cell><Data ss:Type="String">MEDICION FECALES.html / Red_Fecales_Trazable.xls</Data></Cell>
+<Cell><Data ss:Type="String">SyS zanjas, vallados temporales, pruebas</Data></Cell>
+<Cell><Data ss:Type="String">Confirmado</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Punta minima de personal</Data></Cell>
+<Cell><Data ss:Type="String">BC3 principal + descompuestos</Data></Cell>
+<Cell><Data ss:Type="String">EPI, bienestar, casetas</Data></Cell>
+<Cell><Data ss:Type="String">Derivado</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Punta global del proyecto</Data></Cell>
+<Cell><Data ss:Type="String">Plan de obra completo</Data></Cell>
+<Cell><Data ss:Type="String">Dimensionado global SyS</Data></Cell>
+<Cell><Data ss:Type="String">Pendiente</Data></Cell>
+</Row>
+</Table></Worksheet>
+<Worksheet ss:Name="09_Pendientes"><Table>
+<Row>
+<Cell><Data ss:Type="String">Tema</Data></Cell>
+<Cell><Data ss:Type="String">Estado</Data></Cell>
+<Cell><Data ss:Type="String">QueFalta</Data></Cell>
+<Cell><Data ss:Type="String">Impacta</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Punta global real del proyecto</Data></Cell>
+<Cell><Data ss:Type="String">Pendiente</Data></Cell>
+<Cell><Data ss:Type="String">Cuantificar o acotar las 12 actividades del plan sin base cuantitativa actual</Data></Cell>
+<Cell><Data ss:Type="String">EPI, casetas, implantacion</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Implantacion y trafico</Data></Cell>
+<Cell><Data ss:Type="String">Pendiente</Data></Cell>
+<Cell><Data ss:Type="String">Medir perimetros, accesos, conos y senales sobre los planos ESS</Data></Cell>
+<Cell><Data ss:Type="String">Protecciones colectivas CAP1</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Reparto tipologico de pozos pluviales</Data></Cell>
+<Cell><Data ss:Type="String">Pendiente</Data></Cell>
+<Cell><Data ss:Type="String">Validar si los TIPO II del BC3 tienen apoyo en otra fuente distinta de CivilReport</Data></Cell>
+<Cell><Data ss:Type="String">BC3 principal y Anejo 7</Data></Cell>
+</Row>
+</Table></Worksheet>
+</Workbook>

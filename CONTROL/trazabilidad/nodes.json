@@ -1,0 +1,512 @@
+{
+  "schema_version": 1,
+  "status": "seed",
+  "generated_at": "2026-04-22",
+  "project_code": "535.2.1",
+  "nodes": [
+    {
+      "id": "memoria.main",
+      "type": "memoria_section",
+      "path": "DOCS - MEMORIA/Memoria descriptiva - Proyecto de Urbanizacion - Ampliacion Plaza Mayor.docx",
+      "authority": "local_docx",
+      "status": "active",
+      "owner": "obra-535-2-1",
+      "layer": "source"
+    },
+    {
+      "id": "memoria.firme",
+      "type": "memoria_section",
+      "path": "DOCS - MEMORIA/Memoria descriptiva - Proyecto de Urbanizacion - Ampliacion Plaza Mayor.docx",
+      "authority": "local_docx",
+      "status": "active",
+      "owner": "obra-535-2-1",
+      "layer": "source",
+      "section_title": "Dimensionamiento del firme",
+      "summary": "Seccion disciplinar de firme respaldada por el anejo 5"
+    },
+    {
+      "id": "memoria.agua_potable",
+      "type": "memoria_section",
+      "path": "DOCS - MEMORIA/Memoria descriptiva - Proyecto de Urbanizacion - Ampliacion Plaza Mayor.docx",
+      "authority": "local_docx",
+      "status": "active",
+      "owner": "obra-535-2-1",
+      "layer": "source",
+      "section_title": "Red de agua potable",
+      "summary": "Seccion disciplinar de abastecimiento respaldada por el anejo 6"
+    },
+    {
+      "id": "memoria.pluviales",
+      "type": "memoria_section",
+      "path": "DOCS - MEMORIA/Memoria descriptiva - Proyecto de Urbanizacion - Ampliacion Plaza Mayor.docx",
+      "authority": "local_docx",
+      "status": "active",
+      "owner": "obra-535-2-1",
+      "layer": "source",
+      "section_title": "Red de saneamiento de pluviales",
+      "summary": "Seccion disciplinar de pluviales respaldada por el anejo 7"
+    },
+    {
+      "id": "memoria.fecales",
+      "type": "memoria_section",
+      "path": "DOCS - MEMORIA/Memoria descriptiva - Proyecto de Urbanizacion - Ampliacion Plaza Mayor.docx",
+      "authority": "local_docx",
+      "status": "active",
+      "owner": "obra-535-2-1",
+      "layer": "source",
+      "section_title": "Red de saneamiento de fecales",
+      "summary": "Seccion disciplinar de fecales respaldada por el anejo 8"
+    },
+    {
+      "id": "memoria.accesibilidad",
+      "type": "memoria_section",
+      "path": "DOCS - MEMORIA/Memoria descriptiva - Proyecto de Urbanizacion - Ampliacion Plaza Mayor.docx",
+      "authority": "local_docx",
+      "status": "active",
+      "owner": "obra-535-2-1",
+      "layer": "source",
+      "section_title": "Accesibilidad",
+      "summary": "Seccion disciplinar de accesibilidad respaldada por el anejo 12"
+    },
+    {
+      "id": "memoria.residuos",
+      "type": "memoria_section",
+      "path": "DOCS - MEMORIA/Memoria descriptiva - Proyecto de Urbanizacion - Ampliacion Plaza Mayor.docx",
+      "authority": "local_docx",
+      "status": "active",
+      "owner": "obra-535-2-1",
+      "layer": "source",
+      "section_title": "Gestion de residuos",
+      "summary": "Seccion disciplinar de residuos respaldada por el anejo 13"
+    },
+    {
+      "id": "memoria.control_calidad",
+      "type": "memoria_section",
+      "path": "DOCS - MEMORIA/Memoria descriptiva - Proyecto de Urbanizacion - Ampliacion Plaza Mayor.docx",
+      "authority": "local_docx",
+      "status": "active",
+      "owner": "obra-535-2-1",
+      "layer": "source",
+      "section_title": "Control de calidad",
+      "summary": "Seccion disciplinar de control de calidad respaldada por el anejo 14"
+    },
+    {
+      "id": "memoria.sys",
+      "type": "memoria_section",
+      "path": "DOCS - MEMORIA/Memoria descriptiva - Proyecto de Urbanizacion - Ampliacion Plaza Mayor.docx",
+      "authority": "local_docx",
+      "status": "active",
+      "owner": "obra-535-2-1",
+      "layer": "source",
+      "section_title": "Seguridad y salud",
+      "summary": "Seccion disciplinar de seguridad y salud respaldada por el anejo 17"
+    },
+    {
+      "id": "anejo.01",
+      "type": "anejo",
+      "path": "DOCS - ANEJOS/1.- Reportaje Fotografico/Anexo 1 - Reportaje Fotografico.docx",
+      "authority": "local_docx",
+      "status": "active",
+      "owner": "obra-535-2-1",
+      "layer": "source"
+    },
+    {
+      "id": "anejo.02",
+      "type": "anejo",
+      "path": "DOCS - ANEJOS/2.- Cartografia y Topografia/Anexo 2 - Cartografia y Topografia.docx",
+      "authority": "local_docx",
+      "status": "active",
+      "owner": "obra-535-2-1",
+      "layer": "source"
+    },
+    {
+      "id": "anejo.03",
+      "type": "anejo",
+      "path": "DOCS - ANEJOS/3.- Estudio Geotecnico/Anexo 3 - Estudio Geotecnico.docx",
+      "authority": "local_docx",
+      "status": "active",
+      "owner": "obra-535-2-1",
+      "layer": "source"
+    },
+    {
+      "id": "anejo.04",
+      "type": "anejo",
+      "path": "DOCS - ANEJOS/4.- Trazado, Replanteo y Mediciones Auxiliares/Anexo 4 - Trazado, Replanteo y Mediciones Auxiliares.docx",
+      "authority": "local_docx",
+      "status": "active",
+      "owner": "obra-535-2-1",
+      "layer": "source"
+    },
+    {
+      "id": "anejo.05",
+      "type": "anejo",
+      "path": "DOCS - ANEJOS/5.- Dimensionamiento del Firme/Anexo 5 - Dimensionamiento del Firme.docx",
+      "authority": "local_docx",
+      "status": "active",
+      "owner": "obra-535-2-1",
+      "layer": "source"
+    },
+    {
+      "id": "anejo.06",
+      "type": "anejo",
+      "path": "DOCS - ANEJOS/6.- Red de Agua Potable/Anexo 6 - Red de Agua Potable.docx",
+      "authority": "local_docx",
+      "status": "active",
+      "owner": "obra-535-2-1",
+      "layer": "source"
+    },
+    {
+      "id": "anejo.07",
+      "type": "anejo",
+      "path": "DOCS - ANEJOS/7.- Red de Saneamiento - Pluviales/Anexo 7 - Red de Saneamiento - Pluviales.docx",
+      "authority": "local_docx",
+      "status": "active",
+      "owner": "obra-535-2-1",
+      "layer": "source"
+    },
+    {
+      "id": "anejo.08",
+      "type": "anejo",
+      "path": "DOCS - ANEJOS/8.- Red de Saneamiento - Fecales/Anexo 8 - Red de Saneamiento - Fecales.docx",
+      "authority": "local_docx",
+      "status": "active",
+      "owner": "obra-535-2-1",
+      "layer": "source"
+    },
+    {
+      "id": "anejo.09",
+      "type": "anejo",
+      "path": null,
+      "authority": "external_technician",
+      "status": "out_of_scope",
+      "owner": "tecnico_electrico",
+      "layer": "source",
+      "note": "Red de Media Tension — responsabilidad de tecnico electrico externo. No tiene representacion en este repo. Decision registrada 2026-04-27."
+    },
+    {
+      "id": "anejo.10",
+      "type": "anejo",
+      "path": null,
+      "authority": "external_technician",
+      "status": "out_of_scope",
+      "owner": "tecnico_electrico",
+      "layer": "source",
+      "note": "Red de Baja Tension — responsabilidad de tecnico electrico externo. No tiene representacion en este repo. Decision registrada 2026-04-27."
+    },
+    {
+      "id": "anejo.11",
+      "type": "anejo",
+      "path": null,
+      "authority": "external_technician",
+      "status": "out_of_scope",
+      "owner": "tecnico_electrico",
+      "layer": "source",
+      "note": "Red de Alumbrado — responsabilidad de tecnico electrico externo. No tiene representacion en este repo. Decision registrada 2026-04-27."
+    },
+    {
+      "id": "anejo.12",
+      "type": "anejo",
+      "path": "DOCS - ANEJOS/12.- Accesibilidad/Anexo 12 - Accesibilidad.docx",
+      "authority": "local_docx",
+      "status": "active",
+      "owner": "obra-535-2-1",
+      "layer": "source"
+    },
+    {
+      "id": "anejo.13",
+      "type": "anejo",
+      "path": "DOCS - ANEJOS/13.- Estudio de Gestion de Residuos/Anexo 13 - Estudio de Gestion de Residuos.docx",
+      "authority": "local_docx",
+      "status": "active",
+      "owner": "obra-535-2-1",
+      "layer": "source"
+    },
+    {
+      "id": "anejo.14",
+      "type": "anejo",
+      "path": "DOCS - ANEJOS/14.- Control de Calidad/Anexo 14 - Control de Calidad.docx",
+      "authority": "local_docx",
+      "status": "active",
+      "owner": "obra-535-2-1",
+      "layer": "source"
+    },
+    {
+      "id": "anejo.15",
+      "type": "anejo",
+      "path": "DOCS - ANEJOS/15.- Plan de Obra/Anexo 15 - Plan de Obra.docx",
+      "authority": "local_docx",
+      "status": "active",
+      "owner": "obra-535-2-1",
+      "layer": "source"
+    },
+    {
+      "id": "anejo.16",
+      "type": "anejo",
+      "path": "DOCS - ANEJOS/16.- Comunicaciones con Companias Suministradoras/Anexo 16 - Comunicaciones con Companias Suministradoras.docx",
+      "authority": "local_docx",
+      "status": "active",
+      "owner": "obra-535-2-1",
+      "layer": "source"
+    },
+    {
+      "id": "anejo.17",
+      "type": "anejo",
+      "path": "DOCS - ANEJOS/17.- Seguridad y Salud/Anexo 17 - Estudio de Seguridad y Salud.docx",
+      "authority": "local_docx",
+      "status": "active",
+      "owner": "obra-535-2-1",
+      "layer": "source"
+    },
+    {
+      "id": "anejo.18",
+      "type": "anejo",
+      "path": null,
+      "authority": null,
+      "status": "does_not_exist",
+      "owner": null,
+      "layer": "source",
+      "note": "Anejo 18 no existe en este expediente. El ultimo anejo del proyecto es el 17 (Seguridad y Salud). Decision registrada 2026-04-27."
+    },
+    {
+      "id": "excel.13.gr",
+      "type": "excel_source",
+      "path": "DOCS - ANEJOS/13.- Estudio de Gestion de Residuos/CALCULOS/535_2_1-GR.xlsx",
+      "authority": "local_xlsx",
+      "status": "active",
+      "owner": "obra-535-2-1",
+      "layer": "source"
+    },
+    {
+      "id": "excel.14.control_calidad",
+      "type": "excel_source",
+      "path": "DOCS - ANEJOS/14.- Control de Calidad/CALCULOS/535.2.1 Control-Calidad.xlsx",
+      "authority": "local_xlsx",
+      "status": "active",
+      "owner": "obra-535-2-1",
+      "layer": "source"
+    },
+    {
+      "id": "excel.17.dimensionado_sys",
+      "type": "excel_source",
+      "path": "DOCS - ANEJOS/17.- Seguridad y Salud/CALCULOS/Dimensionado_SyS_Plaza_Mayor.xlsx",
+      "authority": "local_xlsx",
+      "status": "active",
+      "owner": "obra-535-2-1",
+      "layer": "source"
+    },
+    {
+      "id": "excel.17.sys_mejorado",
+      "type": "excel_source",
+      "path": "DOCS - ANEJOS/17.- Seguridad y Salud/CALCULOS/SyS_535_2_1_MEJORADO.xlsx",
+      "authority": "local_xlsx",
+      "status": "active",
+      "owner": "obra-535-2-1",
+      "layer": "source"
+    },
+    {
+      "id": "bc3.17.sys",
+      "type": "bc3_concept",
+      "path": "DOCS - ANEJOS/17.- Seguridad y Salud/PRESUPUESTO_DONOR/535.2.1-Seguridad & Salud.bc3",
+      "authority": "local_bc3",
+      "status": "active",
+      "owner": "obra-535-2-1",
+      "layer": "source",
+      "bc3_code": "Q409SEG#",
+      "summary": "Nodo raiz de Seguridad y Salud en BC3 donor"
+    },
+    {
+      "id": "bc3.17.protecciones_colectivas",
+      "type": "bc3_concept",
+      "path": "DOCS - ANEJOS/17.- Seguridad y Salud/PRESUPUESTO_DONOR/535.2.1-Seguridad & Salud.bc3",
+      "authority": "local_bc3",
+      "status": "active",
+      "owner": "obra-535-2-1",
+      "layer": "source",
+      "bc3_code": "Q409C1#",
+      "summary": "Bloque de protecciones colectivas"
+    },
+    {
+      "id": "bc3.17.protecciones_individuales",
+      "type": "bc3_concept",
+      "path": "DOCS - ANEJOS/17.- Seguridad y Salud/PRESUPUESTO_DONOR/535.2.1-Seguridad & Salud.bc3",
+      "authority": "local_bc3",
+      "status": "active",
+      "owner": "obra-535-2-1",
+      "layer": "source",
+      "bc3_code": "Q409C2#",
+      "summary": "Bloque de protecciones individuales"
+    },
+    {
+      "id": "bc3.17.instalaciones_higiene",
+      "type": "bc3_concept",
+      "path": "DOCS - ANEJOS/17.- Seguridad y Salud/PRESUPUESTO_DONOR/535.2.1-Seguridad & Salud.bc3",
+      "authority": "local_bc3",
+      "status": "active",
+      "owner": "obra-535-2-1",
+      "layer": "source",
+      "bc3_code": "Q409C3#",
+      "summary": "Bloque de instalaciones de higiene"
+    },
+    {
+      "id": "bc3.17.extincion_incendios",
+      "type": "bc3_concept",
+      "path": "DOCS - ANEJOS/17.- Seguridad y Salud/PRESUPUESTO_DONOR/535.2.1-Seguridad & Salud.bc3",
+      "authority": "local_bc3",
+      "status": "active",
+      "owner": "obra-535-2-1",
+      "layer": "source",
+      "bc3_code": "Q409C4#",
+      "summary": "Bloque de extincion de incendios"
+    },
+    {
+      "id": "word_table.13.ler_clasificacion",
+      "type": "word_table",
+      "path": "DOCS - ANEJOS/13.- Estudio de Gestion de Residuos/Anexo 13 - Estudio de Gestion de Residuos.docx",
+      "authority": "local_docx",
+      "status": "active",
+      "owner": "obra-535-2-1",
+      "layer": "source",
+      "caption": "Tabla 1. Descripcion",
+      "summary": "Clasificacion LER y familias de RCD"
+    },
+    {
+      "id": "word_table.13.nivel1_tierras",
+      "type": "word_table",
+      "path": "DOCS - ANEJOS/13.- Estudio de Gestion de Residuos/Anexo 13 - Estudio de Gestion de Residuos.docx",
+      "authority": "local_docx",
+      "status": "active",
+      "owner": "obra-535-2-1",
+      "layer": "source",
+      "caption": "Tabla 2. Descripcion",
+      "summary": "Volumen y toneladas de RCD de nivel I"
+    },
+    {
+      "id": "word_table.13.destino_tratamiento",
+      "type": "word_table",
+      "path": "DOCS - ANEJOS/13.- Estudio de Gestion de Residuos/Anexo 13 - Estudio de Gestion de Residuos.docx",
+      "authority": "local_docx",
+      "status": "active",
+      "owner": "obra-535-2-1",
+      "layer": "source",
+      "caption": "Tabla 3. Descripcion",
+      "summary": "Destino, tratamiento y cuantificacion por codigo LER"
+    },
+    {
+      "id": "word_table.13.separacion_in_situ",
+      "type": "word_table",
+      "path": "DOCS - ANEJOS/13.- Estudio de Gestion de Residuos/Anexo 13 - Estudio de Gestion de Residuos.docx",
+      "authority": "local_docx",
+      "status": "active",
+      "owner": "obra-535-2-1",
+      "layer": "source",
+      "caption": "Tabla 4. Descripcion",
+      "summary": "Separacion in situ por tipo de residuo y umbral normativo"
+    },
+    {
+      "id": "word_table.13.presupuesto_residuos",
+      "type": "word_table",
+      "path": "DOCS - ANEJOS/13.- Estudio de Gestion de Residuos/Anexo 13 - Estudio de Gestion de Residuos.docx",
+      "authority": "local_docx",
+      "status": "active",
+      "owner": "obra-535-2-1",
+      "layer": "source",
+      "caption": "Tabla 5. Descripcion",
+      "summary": "Resumen economico del estudio de gestion de residuos"
+    },
+    {
+      "id": "word_table.14.explanaciones",
+      "type": "word_table",
+      "path": "DOCS - ANEJOS/14.- Control de Calidad/Anexo 14 - Control de Calidad.docx",
+      "authority": "local_docx",
+      "status": "active",
+      "owner": "obra-535-2-1",
+      "layer": "source",
+      "caption": "Tabla 1. Descripcion",
+      "summary": "Plan de ensayos de explanaciones"
+    },
+    {
+      "id": "word_table.14.suelo_seleccionado",
+      "type": "word_table",
+      "path": "DOCS - ANEJOS/14.- Control de Calidad/Anexo 14 - Control de Calidad.docx",
+      "authority": "local_docx",
+      "status": "active",
+      "owner": "obra-535-2-1",
+      "layer": "source",
+      "caption": "Tabla 2. Descripcion",
+      "summary": "Plan de ensayos de suelo seleccionado"
+    },
+    {
+      "id": "word_table.14.zahorra_artificial",
+      "type": "word_table",
+      "path": "DOCS - ANEJOS/14.- Control de Calidad/Anexo 14 - Control de Calidad.docx",
+      "authority": "local_docx",
+      "status": "active",
+      "owner": "obra-535-2-1",
+      "layer": "source",
+      "caption": "Tabla 3. Descripcion",
+      "summary": "Plan de ensayos de zahorra artificial"
+    },
+    {
+      "id": "word_table.14.mezcla_bituminosa",
+      "type": "word_table",
+      "path": "DOCS - ANEJOS/14.- Control de Calidad/Anexo 14 - Control de Calidad.docx",
+      "authority": "local_docx",
+      "status": "active",
+      "owner": "obra-535-2-1",
+      "layer": "source",
+      "caption": "Tabla 4. Descripcion",
+      "summary": "Plan de ensayos de mezcla bituminosa en caliente"
+    },
+    {
+      "id": "word_table.14.bordillos",
+      "type": "word_table",
+      "path": "DOCS - ANEJOS/14.- Control de Calidad/Anexo 14 - Control de Calidad.docx",
+      "authority": "local_docx",
+      "status": "active",
+      "owner": "obra-535-2-1",
+      "layer": "source",
+      "caption": "Tabla 5. Descripcion",
+      "summary": "Plan de ensayos de bordillos prefabricados"
+    },
+    {
+      "id": "word_table.14.hormigones_y_aceros",
+      "type": "word_table",
+      "path": "DOCS - ANEJOS/14.- Control de Calidad/Anexo 14 - Control de Calidad.docx",
+      "authority": "local_docx",
+      "status": "active",
+      "owner": "obra-535-2-1",
+      "layer": "source",
+      "caption": "Tabla 6. Descripcion",
+      "summary": "Plan de ensayos de hormigones y aceros"
+    },
+    {
+      "id": "word_table.14.senalizacion_balizamiento",
+      "type": "word_table",
+      "path": "DOCS - ANEJOS/14.- Control de Calidad/Anexo 14 - Control de Calidad.docx",
+      "authority": "local_docx",
+      "status": "active",
+      "owner": "obra-535-2-1",
+      "layer": "source",
+      "caption": "Tabla 7. Descripcion",
+      "summary": "Plan de ensayos de senalizacion y balizamiento"
+    },
+    {
+      "id": "control.project_facts",
+      "type": "review_output",
+      "path": "CONTROL/project_facts.json",
+      "authority": "local_control",
+      "status": "derived",
+      "owner": "obra-535-2-1",
+      "layer": "control"
+    },
+    {
+      "id": "control.matriz_estado_anejos",
+      "type": "review_output",
+      "path": "CONTROL/matriz_estado_anejos.json",
+      "authority": "local_control",
+      "status": "derived",
+      "owner": "obra-535-2-1",
+      "layer": "control"
+    }
+  ]
+}

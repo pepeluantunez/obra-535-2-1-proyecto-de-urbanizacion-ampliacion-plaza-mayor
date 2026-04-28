@@ -1,0 +1,575 @@
+{
+  "schema_version": 1,
+  "status": "seed",
+  "generated_at": "2026-04-22",
+  "edges": [
+    {
+      "from": "control.project_facts",
+      "relation": "summarizes",
+      "to": "memoria.main",
+      "status": "observed",
+      "evidence": "project_facts inventaria la memoria principal",
+      "needs_review": false
+    },
+    {
+      "from": "memoria.main",
+      "relation": "summarizes",
+      "to": "memoria.firme",
+      "status": "seed_inferred",
+      "evidence": "La memoria principal del proyecto incorpora la disciplina de firme dentro del expediente tecnico.",
+      "needs_review": false
+    },
+    {
+      "from": "memoria.main",
+      "relation": "summarizes",
+      "to": "memoria.agua_potable",
+      "status": "seed_inferred",
+      "evidence": "La memoria principal del proyecto incorpora la disciplina de agua potable dentro del expediente tecnico.",
+      "needs_review": false
+    },
+    {
+      "from": "memoria.main",
+      "relation": "summarizes",
+      "to": "memoria.pluviales",
+      "status": "seed_inferred",
+      "evidence": "La memoria principal del proyecto incorpora la disciplina de pluviales dentro del expediente tecnico.",
+      "needs_review": false
+    },
+    {
+      "from": "memoria.main",
+      "relation": "summarizes",
+      "to": "memoria.fecales",
+      "status": "seed_inferred",
+      "evidence": "La memoria principal del proyecto incorpora la disciplina de fecales dentro del expediente tecnico.",
+      "needs_review": false
+    },
+    {
+      "from": "memoria.main",
+      "relation": "summarizes",
+      "to": "memoria.accesibilidad",
+      "status": "seed_inferred",
+      "evidence": "La memoria principal del proyecto incorpora la disciplina de accesibilidad dentro del expediente tecnico.",
+      "needs_review": false
+    },
+    {
+      "from": "memoria.main",
+      "relation": "summarizes",
+      "to": "memoria.residuos",
+      "status": "seed_inferred",
+      "evidence": "La memoria principal del proyecto incorpora la disciplina de residuos dentro del expediente tecnico.",
+      "needs_review": false
+    },
+    {
+      "from": "memoria.main",
+      "relation": "summarizes",
+      "to": "memoria.control_calidad",
+      "status": "seed_inferred",
+      "evidence": "La memoria principal del proyecto incorpora la disciplina de control de calidad dentro del expediente tecnico.",
+      "needs_review": false
+    },
+    {
+      "from": "memoria.main",
+      "relation": "summarizes",
+      "to": "memoria.sys",
+      "status": "seed_inferred",
+      "evidence": "La memoria principal del proyecto incorpora la disciplina de seguridad y salud dentro del expediente tecnico.",
+      "needs_review": false
+    },
+    {
+      "from": "memoria.firme",
+      "relation": "backs",
+      "to": "anejo.05",
+      "status": "seed_inferred",
+      "evidence": "La disciplina de firme del proyecto queda desarrollada en el anejo 5.",
+      "needs_review": false
+    },
+    {
+      "from": "memoria.agua_potable",
+      "relation": "backs",
+      "to": "anejo.06",
+      "status": "seed_inferred",
+      "evidence": "La disciplina de agua potable del proyecto queda desarrollada en el anejo 6.",
+      "needs_review": false
+    },
+    {
+      "from": "memoria.pluviales",
+      "relation": "backs",
+      "to": "anejo.07",
+      "status": "seed_inferred",
+      "evidence": "La disciplina de pluviales del proyecto queda desarrollada en el anejo 7.",
+      "needs_review": false
+    },
+    {
+      "from": "memoria.fecales",
+      "relation": "backs",
+      "to": "anejo.08",
+      "status": "seed_inferred",
+      "evidence": "La disciplina de fecales del proyecto queda desarrollada en el anejo 8.",
+      "needs_review": false
+    },
+    {
+      "from": "memoria.accesibilidad",
+      "relation": "backs",
+      "to": "anejo.12",
+      "status": "seed_inferred",
+      "evidence": "La disciplina de accesibilidad del proyecto queda desarrollada en el anejo 12.",
+      "needs_review": false
+    },
+    {
+      "from": "memoria.residuos",
+      "relation": "backs",
+      "to": "anejo.13",
+      "status": "seed_inferred",
+      "evidence": "La disciplina de residuos del proyecto queda desarrollada en el anejo 13.",
+      "needs_review": false
+    },
+    {
+      "from": "memoria.control_calidad",
+      "relation": "backs",
+      "to": "anejo.14",
+      "status": "seed_inferred",
+      "evidence": "La disciplina de control de calidad del proyecto queda desarrollada en el anejo 14.",
+      "needs_review": false
+    },
+    {
+      "from": "memoria.sys",
+      "relation": "backs",
+      "to": "anejo.17",
+      "status": "seed_inferred",
+      "evidence": "La disciplina de seguridad y salud del proyecto queda desarrollada en el anejo 17.",
+      "needs_review": false
+    },
+    {
+      "from": "control.matriz_estado_anejos",
+      "relation": "checks",
+      "to": "anejo.01",
+      "status": "observed",
+      "evidence": "matriz_estado_anejos revisa estado y marcadores del anejo 1",
+      "needs_review": false
+    },
+    {
+      "from": "control.matriz_estado_anejos",
+      "relation": "checks",
+      "to": "anejo.02",
+      "status": "observed",
+      "evidence": "matriz_estado_anejos revisa estado y marcadores del anejo 2",
+      "needs_review": false
+    },
+    {
+      "from": "control.matriz_estado_anejos",
+      "relation": "checks",
+      "to": "anejo.03",
+      "status": "observed",
+      "evidence": "matriz_estado_anejos revisa estado y marcadores del anejo 3",
+      "needs_review": false
+    },
+    {
+      "from": "control.matriz_estado_anejos",
+      "relation": "checks",
+      "to": "anejo.04",
+      "status": "observed",
+      "evidence": "matriz_estado_anejos revisa estado y marcadores del anejo 4",
+      "needs_review": false
+    },
+    {
+      "from": "control.matriz_estado_anejos",
+      "relation": "checks",
+      "to": "anejo.05",
+      "status": "observed",
+      "evidence": "matriz_estado_anejos revisa estado y marcadores del anejo 5",
+      "needs_review": false
+    },
+    {
+      "from": "control.matriz_estado_anejos",
+      "relation": "checks",
+      "to": "anejo.06",
+      "status": "observed",
+      "evidence": "matriz_estado_anejos revisa estado y marcadores del anejo 6",
+      "needs_review": false
+    },
+    {
+      "from": "control.matriz_estado_anejos",
+      "relation": "checks",
+      "to": "anejo.07",
+      "status": "observed",
+      "evidence": "matriz_estado_anejos revisa estado y marcadores del anejo 7",
+      "needs_review": false
+    },
+    {
+      "from": "control.matriz_estado_anejos",
+      "relation": "checks",
+      "to": "anejo.08",
+      "status": "observed",
+      "evidence": "matriz_estado_anejos revisa estado y marcadores del anejo 8",
+      "needs_review": false
+    },
+    {
+      "from": "control.matriz_estado_anejos",
+      "relation": "checks",
+      "to": "anejo.09",
+      "status": "observed",
+      "evidence": "matriz_estado_anejos revisa estado y marcadores del anejo 9",
+      "needs_review": false
+    },
+    {
+      "from": "control.matriz_estado_anejos",
+      "relation": "checks",
+      "to": "anejo.10",
+      "status": "observed",
+      "evidence": "matriz_estado_anejos revisa estado y marcadores del anejo 10",
+      "needs_review": false
+    },
+    {
+      "from": "control.matriz_estado_anejos",
+      "relation": "checks",
+      "to": "anejo.11",
+      "status": "observed",
+      "evidence": "matriz_estado_anejos revisa estado y marcadores del anejo 11",
+      "needs_review": false
+    },
+    {
+      "from": "control.matriz_estado_anejos",
+      "relation": "checks",
+      "to": "anejo.12",
+      "status": "observed",
+      "evidence": "matriz_estado_anejos revisa estado y marcadores del anejo 12",
+      "needs_review": false
+    },
+    {
+      "from": "control.matriz_estado_anejos",
+      "relation": "checks",
+      "to": "anejo.13",
+      "status": "observed",
+      "evidence": "matriz_estado_anejos revisa estado y marcadores del anejo 13",
+      "needs_review": false
+    },
+    {
+      "from": "control.matriz_estado_anejos",
+      "relation": "checks",
+      "to": "anejo.14",
+      "status": "observed",
+      "evidence": "matriz_estado_anejos revisa estado y marcadores del anejo 14",
+      "needs_review": false
+    },
+    {
+      "from": "control.matriz_estado_anejos",
+      "relation": "checks",
+      "to": "anejo.15",
+      "status": "observed",
+      "evidence": "matriz_estado_anejos revisa estado y marcadores del anejo 15",
+      "needs_review": false
+    },
+    {
+      "from": "control.matriz_estado_anejos",
+      "relation": "checks",
+      "to": "anejo.16",
+      "status": "observed",
+      "evidence": "matriz_estado_anejos revisa estado y marcadores del anejo 16",
+      "needs_review": false
+    },
+    {
+      "from": "control.matriz_estado_anejos",
+      "relation": "checks",
+      "to": "anejo.17",
+      "status": "observed",
+      "evidence": "matriz_estado_anejos revisa estado y marcadores del anejo 17",
+      "needs_review": false
+    },
+    {
+      "from": "control.matriz_estado_anejos",
+      "relation": "checks",
+      "to": "anejo.18",
+      "status": "observed",
+      "evidence": "matriz_estado_anejos revisa estado y marcadores del anejo 18",
+      "needs_review": false
+    },
+    {
+      "from": "anejo.13",
+      "relation": "derived_from",
+      "to": "excel.13.gr",
+      "status": "seed_inferred",
+      "evidence": "Excel de calculo ubicado en la misma disciplina y carpeta de anejo 13",
+      "needs_review": false
+    },
+    {
+      "from": "anejo.14",
+      "relation": "derived_from",
+      "to": "excel.14.control_calidad",
+      "status": "seed_inferred",
+      "evidence": "Excel de control de calidad ubicado en la misma disciplina y carpeta de anejo 14",
+      "needs_review": false
+    },
+    {
+      "from": "anejo.17",
+      "relation": "derived_from",
+      "to": "excel.17.dimensionado_sys",
+      "status": "seed_inferred",
+      "evidence": "Excel de dimensionado ubicado en la misma disciplina y carpeta de anejo 17",
+      "needs_review": false
+    },
+    {
+      "from": "anejo.17",
+      "relation": "derived_from",
+      "to": "excel.17.sys_mejorado",
+      "status": "seed_inferred",
+      "evidence": "Excel de SyS mejorado ubicado en la misma disciplina y carpeta de anejo 17",
+      "needs_review": false
+    },
+    {
+      "from": "bc3.17.sys",
+      "relation": "summarizes",
+      "to": "bc3.17.protecciones_colectivas",
+      "status": "observed",
+      "evidence": "El BC3 de SyS contiene el bloque Q409C1# de protecciones colectivas.",
+      "needs_review": false
+    },
+    {
+      "from": "bc3.17.sys",
+      "relation": "summarizes",
+      "to": "bc3.17.protecciones_individuales",
+      "status": "observed",
+      "evidence": "El BC3 de SyS contiene el bloque Q409C2# de protecciones individuales.",
+      "needs_review": false
+    },
+    {
+      "from": "bc3.17.sys",
+      "relation": "summarizes",
+      "to": "bc3.17.instalaciones_higiene",
+      "status": "observed",
+      "evidence": "El BC3 de SyS contiene el bloque Q409C3# de instalaciones de higiene.",
+      "needs_review": false
+    },
+    {
+      "from": "bc3.17.sys",
+      "relation": "summarizes",
+      "to": "bc3.17.extincion_incendios",
+      "status": "observed",
+      "evidence": "El BC3 de SyS contiene el bloque Q409C4# de extincion de incendios.",
+      "needs_review": false
+    },
+    {
+      "from": "anejo.17",
+      "relation": "justifies",
+      "to": "bc3.17.protecciones_colectivas",
+      "status": "observed",
+      "evidence": "El anejo 17 se corresponde con el bloque de protecciones colectivas del BC3 de SyS.",
+      "needs_review": false
+    },
+    {
+      "from": "anejo.17",
+      "relation": "justifies",
+      "to": "bc3.17.protecciones_individuales",
+      "status": "observed",
+      "evidence": "El anejo 17 se corresponde con el bloque de protecciones individuales del BC3 de SyS.",
+      "needs_review": false
+    },
+    {
+      "from": "anejo.17",
+      "relation": "justifies",
+      "to": "bc3.17.instalaciones_higiene",
+      "status": "observed",
+      "evidence": "El anejo 17 se corresponde con el bloque de instalaciones de higiene del BC3 de SyS.",
+      "needs_review": false
+    },
+    {
+      "from": "anejo.17",
+      "relation": "justifies",
+      "to": "bc3.17.extincion_incendios",
+      "status": "observed",
+      "evidence": "El anejo 17 se corresponde con el bloque de extincion de incendios del BC3 de SyS.",
+      "needs_review": false
+    },
+    {
+      "from": "anejo.13",
+      "relation": "summarizes",
+      "to": "word_table.13.ler_clasificacion",
+      "status": "observed",
+      "evidence": "El anejo 13 contiene esta tabla captionada y visible en el DOCX.",
+      "needs_review": false
+    },
+    {
+      "from": "anejo.13",
+      "relation": "summarizes",
+      "to": "word_table.13.nivel1_tierras",
+      "status": "observed",
+      "evidence": "El anejo 13 contiene esta tabla captionada y visible en el DOCX.",
+      "needs_review": false
+    },
+    {
+      "from": "anejo.13",
+      "relation": "summarizes",
+      "to": "word_table.13.destino_tratamiento",
+      "status": "observed",
+      "evidence": "El anejo 13 contiene esta tabla captionada y visible en el DOCX.",
+      "needs_review": false
+    },
+    {
+      "from": "anejo.13",
+      "relation": "summarizes",
+      "to": "word_table.13.separacion_in_situ",
+      "status": "observed",
+      "evidence": "El anejo 13 contiene esta tabla captionada y visible en el DOCX.",
+      "needs_review": false
+    },
+    {
+      "from": "anejo.13",
+      "relation": "summarizes",
+      "to": "word_table.13.presupuesto_residuos",
+      "status": "observed",
+      "evidence": "El anejo 13 contiene esta tabla captionada y visible en el DOCX.",
+      "needs_review": false
+    },
+    {
+      "from": "word_table.13.ler_clasificacion",
+      "relation": "derived_from",
+      "to": "excel.13.gr",
+      "status": "observed",
+      "evidence": "La tabla de residuos se apoya en 535_2_1-GR.xlsx.",
+      "needs_review": false
+    },
+    {
+      "from": "word_table.13.nivel1_tierras",
+      "relation": "derived_from",
+      "to": "excel.13.gr",
+      "status": "observed",
+      "evidence": "La tabla de residuos se apoya en 535_2_1-GR.xlsx.",
+      "needs_review": false
+    },
+    {
+      "from": "word_table.13.destino_tratamiento",
+      "relation": "derived_from",
+      "to": "excel.13.gr",
+      "status": "observed",
+      "evidence": "La tabla de residuos se apoya en 535_2_1-GR.xlsx.",
+      "needs_review": false
+    },
+    {
+      "from": "word_table.13.separacion_in_situ",
+      "relation": "derived_from",
+      "to": "excel.13.gr",
+      "status": "observed",
+      "evidence": "La tabla de residuos se apoya en 535_2_1-GR.xlsx.",
+      "needs_review": false
+    },
+    {
+      "from": "word_table.13.presupuesto_residuos",
+      "relation": "derived_from",
+      "to": "excel.13.gr",
+      "status": "observed",
+      "evidence": "La tabla de residuos se apoya en 535_2_1-GR.xlsx.",
+      "needs_review": false
+    },
+    {
+      "from": "anejo.14",
+      "relation": "summarizes",
+      "to": "word_table.14.explanaciones",
+      "status": "observed",
+      "evidence": "El anejo 14 contiene esta tabla captionada y visible en el DOCX.",
+      "needs_review": false
+    },
+    {
+      "from": "anejo.14",
+      "relation": "summarizes",
+      "to": "word_table.14.suelo_seleccionado",
+      "status": "observed",
+      "evidence": "El anejo 14 contiene esta tabla captionada y visible en el DOCX.",
+      "needs_review": false
+    },
+    {
+      "from": "anejo.14",
+      "relation": "summarizes",
+      "to": "word_table.14.zahorra_artificial",
+      "status": "observed",
+      "evidence": "El anejo 14 contiene esta tabla captionada y visible en el DOCX.",
+      "needs_review": false
+    },
+    {
+      "from": "anejo.14",
+      "relation": "summarizes",
+      "to": "word_table.14.mezcla_bituminosa",
+      "status": "observed",
+      "evidence": "El anejo 14 contiene esta tabla captionada y visible en el DOCX.",
+      "needs_review": false
+    },
+    {
+      "from": "anejo.14",
+      "relation": "summarizes",
+      "to": "word_table.14.bordillos",
+      "status": "observed",
+      "evidence": "El anejo 14 contiene esta tabla captionada y visible en el DOCX.",
+      "needs_review": false
+    },
+    {
+      "from": "anejo.14",
+      "relation": "summarizes",
+      "to": "word_table.14.hormigones_y_aceros",
+      "status": "observed",
+      "evidence": "El anejo 14 contiene esta tabla captionada y visible en el DOCX.",
+      "needs_review": false
+    },
+    {
+      "from": "anejo.14",
+      "relation": "summarizes",
+      "to": "word_table.14.senalizacion_balizamiento",
+      "status": "observed",
+      "evidence": "El anejo 14 contiene esta tabla captionada y visible en el DOCX.",
+      "needs_review": false
+    },
+    {
+      "from": "word_table.14.explanaciones",
+      "relation": "derived_from",
+      "to": "excel.14.control_calidad",
+      "status": "observed",
+      "evidence": "La tabla de control de calidad se apoya en 535.2.1 Control-Calidad.xlsx.",
+      "needs_review": false
+    },
+    {
+      "from": "word_table.14.suelo_seleccionado",
+      "relation": "derived_from",
+      "to": "excel.14.control_calidad",
+      "status": "observed",
+      "evidence": "La tabla de control de calidad se apoya en 535.2.1 Control-Calidad.xlsx.",
+      "needs_review": false
+    },
+    {
+      "from": "word_table.14.zahorra_artificial",
+      "relation": "derived_from",
+      "to": "excel.14.control_calidad",
+      "status": "observed",
+      "evidence": "La tabla de control de calidad se apoya en 535.2.1 Control-Calidad.xlsx.",
+      "needs_review": false
+    },
+    {
+      "from": "word_table.14.mezcla_bituminosa",
+      "relation": "derived_from",
+      "to": "excel.14.control_calidad",
+      "status": "observed",
+      "evidence": "La tabla de control de calidad se apoya en 535.2.1 Control-Calidad.xlsx.",
+      "needs_review": false
+    },
+    {
+      "from": "word_table.14.bordillos",
+      "relation": "derived_from",
+      "to": "excel.14.control_calidad",
+      "status": "observed",
+      "evidence": "La tabla de control de calidad se apoya en 535.2.1 Control-Calidad.xlsx.",
+      "needs_review": false
+    },
+    {
+      "from": "word_table.14.hormigones_y_aceros",
+      "relation": "derived_from",
+      "to": "excel.14.control_calidad",
+      "status": "observed",
+      "evidence": "La tabla de control de calidad se apoya en 535.2.1 Control-Calidad.xlsx.",
+      "needs_review": false
+    },
+    {
+      "from": "word_table.14.senalizacion_balizamiento",
+      "relation": "derived_from",
+      "to": "excel.14.control_calidad",
+      "status": "observed",
+      "evidence": "La tabla de control de calidad se apoya en 535.2.1 Control-Calidad.xlsx.",
+      "needs_review": false
+    }
+  ]
+}

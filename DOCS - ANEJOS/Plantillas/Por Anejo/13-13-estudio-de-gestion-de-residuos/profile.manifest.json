@@ -1,0 +1,26 @@
+﻿{
+    "number":  13,
+    "slug":  "13-estudio-de-gestion-de-residuos",
+    "title":  "ESTUDIO DE GESTION DE RESIDUOS",
+    "family":  "residuos",
+    "reusability":  "specific_template",
+    "notes":  "Plantilla especifica clara con Excel donor directo.",
+    "variable_inputs":  [
+                            "[NOMBRE DEL PROYECTO]",
+                            "[CIUDAD DEL PROYECTO]",
+                            "[PEM]",
+                            "[MEDICIONES DE DEMOLICION]",
+                            "[FRACCIONES RCD]",
+                            "[GESTORES AUTORIZADOS]"
+                        ],
+    "copied_assets":  {
+                          "master_template":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\Plantillas\\Por Anejo\\13-13-estudio-de-gestion-de-residuos\\00_master\\PLANTILLA_MAESTRA_ANEJOS.docx",
+                          "donor_docx":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\Plantillas\\Por Anejo\\13-13-estudio-de-gestion-de-residuos\\10_donor_docx\\Anexo 13 - Estudio de Gestión de Residuos.docx",
+                          "donor_excels":  [
+                                               "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\Plantillas\\Por Anejo\\13-13-estudio-de-gestion-de-residuos\\20_donor_excel\\535_2_2-GR.xlsx"
+                                           ],
+                          "support_files":  [
+
+                                            ]
+                      }
+}

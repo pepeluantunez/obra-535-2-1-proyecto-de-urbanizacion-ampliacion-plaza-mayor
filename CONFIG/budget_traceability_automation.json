@@ -1,0 +1,71 @@
+{
+  "project_config": "CONFIG\\project_budget_traceability.json",
+  "always": {
+    "scripts": [
+      {
+        "path": "tools\\sync_project_pem_traceability.ps1",
+        "args": [
+          "-Bc3Path",
+          "{Bc3Path}",
+          "-ValidationMode",
+          "warn",
+          "-RequireBc3"
+        ]
+      }
+    ],
+    "profiles": [
+      "base_general",
+      "control_calidad_plan_obra",
+      "residuos_sys",
+      "seguridad_salud"
+    ]
+  },
+  "areas": [
+    {
+      "id": "trazado_y_redes",
+      "match_any": [
+        "EJE",
+        "TRAZA",
+        "RED",
+        "PLUV",
+        "FECA",
+        "SANE"
+      ],
+      "scripts": [],
+      "profiles": [
+        "base_general",
+        "pluviales_fecales"
+      ]
+    },
+    {
+      "id": "control_calidad_residuos",
+      "match_any": [
+        "RESID",
+        "GR.",
+        "GESTION",
+        "CONTROL",
+        "ENSAY"
+      ],
+      "scripts": [],
+      "profiles": [
+        "control_calidad_plan_obra",
+        "residuos_sys"
+      ]
+    },
+    {
+      "id": "seguridad_y_salud",
+      "match_any": [
+        "SYS",
+        "SS-",
+        "SEGURIDAD",
+        "SALUD"
+      ],
+      "scripts": [],
+      "profiles": [
+        "control_calidad_plan_obra",
+        "residuos_sys",
+        "seguridad_salud"
+      ]
+    }
+  ]
+}
