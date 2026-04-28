@@ -6,6 +6,7 @@
 task_plan.md
 progress.md
 findings.md
+scratch/
 
 # Temporales y bloqueos de Office
 ~$*.docx
@@ -17,6 +18,8 @@ findings.md
 *.temp
 *.bak
 *.bak.*
+*.bak_*
+*_bak_*.docx
 *.log
 *.err
 
