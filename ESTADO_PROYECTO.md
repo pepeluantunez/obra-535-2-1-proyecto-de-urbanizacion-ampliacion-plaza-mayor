@@ -1,7 +1,7 @@
 # ESTADO_PROYECTO - 535.2.1 Plaza Mayor
 
 > Estado corto y operativo del expediente.
-> Ultima revision: 2026-04-27
+> Ultima revision: 2026-04-30
 
 ## Documentacion tecnica
 
@@ -56,13 +56,14 @@ Nota: carpetas de anejos 9-11 y 18 no aparecen en `DOCS - ANEJOS/`; los DOCX pue
 | Trazabilidad transversal | en revision | Falta cerrar jerarquia con BC3 general cuando se cree |
 | Cierre de entrega | borrador | No listo para cierre global |
 
-## Cambios 2026-04-27
+## Cambios recientes
 
 - Raiz limpiada: `findings.md`, `progress.md`, `task_plan.md` y `535.2.2_POU_PLIEGO DE CONDICIONES.docx` movidos a `scratch/`.
 - Pliego de trabajo fijado: `535.2.1_POU_PLIEGO DE CONDICIONES_REFINADO_v2.docx`.
 - Base de precios del ecosistema declarada: GMU Malaga PRECIOS_V5_18_05_2023.
 - Skills locales clasificadas: 7 a toolkit, 1 mantener local, 1 retirar. Ver `07_CATALOGO_ECOSISTEMA.md`.
 - KANBAN reestructurado en dos carriles (expediente tecnico / plataforma).
+- Se confirma normativa activa por via compartida (opcion B): `C:\Users\USUARIO\Documents\Claude\Projects\normativa-obra-civil\catalog.json`.
 
 ## Pendientes inmediatos
 
@@ -71,5 +72,9 @@ Nota: carpetas de anejos 9-11 y 18 no aparecen en `DOCS - ANEJOS/`; los DOCX pue
 - Cerrar anejo 7 — Red de Saneamiento Pluviales (unico en borrador).
 - Eliminar carpeta `career-ops` de `C:\Users\USUARIO\Documents\Claude\Projects\` (repo ajeno al ecosistema).
 - Promover las 7 skills maduras al `urbanizacion-toolkit` cuando el toolkit exista como autoridad real.
-- Crear `NORMATIVA/` local o confirmar que `normativa-obra-civil/` en Projects es suficiente.
 - Mantener actualizados `MAPA_PROYECTO.md`, `FUENTES_MAESTRAS.md` y `DECISIONES_PROYECTO.md` cuando cambie una fuente activa.
+- Definir allowlist de plugins externos para el ecosistema (prioridad: `anthropics/claude-plugins-official`) y bloquear instalacion ad-hoc sin revision.
+- Pilotar una skill de "segundo dictamen" tipo LLM Council solo para decisiones criticas (diseno tecnico, trazabilidad, control de cambios), con evidencia y sin automatizar veredictos.
+- Montar evaluaciones de regresion de prompts/skills (p.ej. `promptfoo`) para checks de cierre documental, mojibake y trazabilidad.
+- Auditar catalogos masivos de skills (VoltAgent/Antigravity) y promover solo las que pasen filtro local de seguridad, mantenimiento y utilidad real.
+- Extraer patrones reutilizables de `anthropics/skills` para endurecer skills propias (estructura, validaciones, progressive disclosure) y planificar promotion a toolkit/plantilla.

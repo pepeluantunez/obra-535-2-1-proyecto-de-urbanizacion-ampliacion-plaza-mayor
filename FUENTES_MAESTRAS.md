@@ -19,6 +19,7 @@
 | Memoria descriptiva | `DOCS - MEMORIA/Memoria descriptiva - Proyecto de Urbanizacion - Ampliacion Plaza Mayor.docx` | Tablas de resumen y referencias cruzadas | Es el documento central de entrega de memoria |
 | Plantilla de anejos | `DOCS - ANEJOS/Plantillas/PLANTILLA_MAESTRA_ANEJOS.docx` | Nuevos anejos o regeneraciones controladas | No usar plantillas externas sin justificarlo |
 | Plantilla de ESS | `DOCS - ANEJOS/Plantillas/PLANTILLA_MAESTRA_ESS.docx` | Anejo 17 | Solo para SyS |
+| Cartas de companias suministradoras | `Cias Suministradoras/` + `CONTROL/cias_suministradoras_conocimiento.md` | Citas de conformidad, condicionantes y actuaciones en memoria y anejos | Si hay discrepancia, manda la carta/expediente original; el fichero en `CONTROL/` es un consolidado operativo |
 
 ## Capa de control y trazabilidad
 
@@ -27,6 +28,12 @@
 | Red minima de trazabilidad | `CONTROL/trazabilidad/nodes.json`, `CONTROL/trazabilidad/edges.json`, `CONTROL/trazabilidad/coverage.json` | Declara relaciones verificables entre memoria, anejos, Excel, BC3 y salidas de control |
 | Inventario de hechos de proyecto | `CONTROL/project_facts.json` | Salida de control derivada; no sustituye a la fuente tecnica |
 | Matriz de estado de anejos | `CONTROL/matriz_estado_anejos.json` | Salida de revision; no sustituye a la fuente documental |
+
+## Normativa y cumplimiento
+
+| Tema | Fuente maestra | Derivados | No usar por defecto |
+| --- | --- | --- | --- |
+| Corpus normativo base del expediente | `C:\Users\USUARIO\Documents\Claude\Projects\normativa-obra-civil\catalog.json` (confirmado para Plaza Mayor el 2026-04-30) | Citas normativas en memoria, anejos y checks de alcance | Normativa citada de memoria sin estar en ese corpus o en una capa local curada |
 
 ## Pliego de condiciones
 

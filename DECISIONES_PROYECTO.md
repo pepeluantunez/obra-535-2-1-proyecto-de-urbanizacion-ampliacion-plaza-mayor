@@ -57,3 +57,9 @@
 - Priorizar cambios focalizados en el archivo afectado frente a auditorias globales.
 - No mezclar roles de proyecto vivo, plantilla base y toolkit reutilizable en este repo.
 - La autoridad comun de ecosistema debe converger fuera de Plaza Mayor; aqui solo se fijan decisiones locales mientras no exista una capa comun estable.
+
+## Normativa activa
+
+- Se confirma la opcion B para Plaza Mayor (2026-04-30): la autoridad normativa activa es `C:\Users\USUARIO\Documents\Claude\Projects\normativa-obra-civil\catalog.json`.
+- No se crea aun `NORMATIVA/` local; esa capa solo se abrira cuando exista curacion propia suficiente del expediente.
+- Cualquier cita normativa nueva debe poder trazarse a ese corpus o a una fuente local curada y declarada en `ACTIVE_SOURCES.md`.
