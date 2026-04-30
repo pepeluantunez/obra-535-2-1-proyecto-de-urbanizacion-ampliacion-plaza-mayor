@@ -1,0 +1,5 @@
+Nombre del elemento hidromecánico,Descripción,Estilo de elemento hidromecánico,Tipo de pieza,Diámetro nominal,Alineación de referencia,Superficie de referencia,P.K.,Desfase,Abscisa,Ordenada,Elevación,Conexiones,Material,Descripción de pieza,Infracciones,Conjuntos de propiedades
+Appurtenance - (1),Gate Valve_ PN 16_ D [...],PROPUESTO,Válvula,200,<Ninguno>,PROPUESTA,,,367740.0561,4057517.3892,3.907,2,ByLayer,Gate Valve_ PN 16_ DN 200_ RF,0,0
+Appurtenance - (2),Gate Valve_ PN 16_ D [...],PROPUESTO,Válvula,150,<Ninguno>,PROPUESTA,,,368171.2260,4057967.9461,4.721,2,ByLayer,Gate Valve_ PN 16_ DN 150_ RF,0,0
+Appurtenance - (3),Underground Hydrant_ [...],PROPUESTO,Hidrante,80,<Ninguno>,PROPUESTA,,,367809.9951,4057577.1774,3.350,1,ByLayer,Underground Hydrant_ DN 80_ PN 16_ RF,0,0
+Appurtenance - (5),Underground Hydrant_ [...],PROPUESTO,Hidrante,80,<Ninguno>,PROPUESTA,,,368039.9311,4058047.2764,4.877,1,ByLayer,Underground Hydrant_ DN 80_ PN 16_ RF,0,0

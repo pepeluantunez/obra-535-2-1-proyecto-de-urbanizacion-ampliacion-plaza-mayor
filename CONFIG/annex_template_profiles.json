@@ -1,4 +1,4 @@
-{
+﻿{
   "library_name": "biblioteca_guadalmar_anejos_trazables",
   "master_template": "DOCS - ANEJOS/Plantillas/PLANTILLA_MAESTRA_ANEJOS.docx",
   "default_output_root": "DOCS - ANEJOS/Plantillas/Por Anejo",
@@ -256,3 +256,4 @@
     }
   ]
 }
+

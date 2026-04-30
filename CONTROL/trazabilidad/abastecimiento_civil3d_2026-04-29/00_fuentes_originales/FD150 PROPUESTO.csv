@@ -1,0 +1,37 @@
+﻿Dibujo:,ABASTECIMIENTO.dwg
+Ruta de dibujo:,Z:\PROYECTO 535\535.2\535.2.1 Proyecto de Urbanización\PLANOS\04_CIVIL3D\ABASTECIMIENTO.dwg
+Fecha del informe:,29/04/2026
+Notificado por:,USUARIO
+Versión del informe:,1.0 (D)
+
+ABASTECIMIENTO
+Nombre de la red de tuberías a presión,Descripción,Lista de piezas,Tuberías,Accesorios,Elementos hidromecánicos,Tramos de tubería,Superficie de referencia por defecto,Alineación de referencia por defecto,Elevación mínima,Elevación máxima,Estilo de etiqueta de tuberías en planta,Estilo de etiqueta de accesorio en planta,Estilo de etiqueta de elemento hidromecánico en planta,Capa de tuberías en planta,Capa de accesorio en planta,Capa de elemento hidromecánico en planta,Infracciones
+ABASTECIMIENTO,<Ninguno>,ESPAÑA,124,112,4,10,PROPUESTA,<Ninguno>,-1.163,8.827,<Ninguno>,<Ninguno>,<Ninguno>,C-WATR-PIPE,C-WATR-FITT,C-WATR-APPT,0
+
+ABASTECIMIENTO
+Distancia de tramo de tubería,Nombre de pieza,Tipo de pieza,Abscisa,Ordenada,Rasante,Elevación de eje,Elevación de generatriz interior superior,Talud,Orientación/ángulo,Perfil de superficie,Elevación del perfil de superficie,Radio horizontal,Radio vertical,Nombre del tramo de tubería,Comparar con,P.K. comparado,Abscisa comparada,Ordenada comparada,Elevación comparada,Desfase comparado (XY),Desfase comparado (Z),Pendiente comparada
+0+000.00,Fitting - (156),Unión en T,368171.9787,4057967.4195,,4.654,,,,<Ninguno>,,,,FD150 PROPUESTO,,,,,,,,
+0+000.92,Appurtenance - (2),Válvula,368171.2260,4057967.9461,,4.721,,,,<Ninguno>,,,,FD150 PROPUESTO,,,,,,,,
+0+010.00,Pressure Pipe - (176),Tubería a presión,368163.7845,4057973.1515,4.718,4.793,4.878,-0.80 %,304° 58' 23.711",<Ninguno>,,,,FD150 PROPUESTO,,,,,,,,
+0+020.00,Pressure Pipe - (176),Tubería a presión,368155.5903,4057978.8834,4.798,4.873,4.958,-0.80 %,304° 58' 23.711",<Ninguno>,,,,FD150 PROPUESTO,,,,,,,,
+0+030.00,Pressure Pipe - (176),Tubería a presión,368147.3961,4057984.6154,4.878,4.953,5.038,-0.80 %,304° 58' 23.711",<Ninguno>,,,,FD150 PROPUESTO,,,,,,,,
+0+040.00,Pressure Pipe - (176),Tubería a presión,368139.2019,4057990.3473,4.959,5.034,5.119,-0.80 %,304° 58' 23.711",<Ninguno>,,,,FD150 PROPUESTO,,,,,,,,
+0+050.00,Pressure Pipe - (176),Tubería a presión,368131.0077,4057996.0792,5.039,5.114,5.199,-0.80 %,304° 58' 23.711",<Ninguno>,,,,FD150 PROPUESTO,,,,,,,,
+0+060.00,Pressure Pipe - (176),Tubería a presión,368122.8135,4058001.8112,5.119,5.194,5.279,-0.80 %,304° 58' 23.711",<Ninguno>,,,,FD150 PROPUESTO,,,,,,,,
+0+067.97,Fitting - (115),Codo,368116.2803,4058006.3815,,5.262,,,,<Ninguno>,,,,FD150 PROPUESTO,,,,,,,,
+0+070.00,Pressure Pipe - (123),Tubería a presión,368114.6190,4058007.5427,5.193,5.268,5.353,-0.45 %,304° 57' 31.091",<Ninguno>,,,,FD150 PROPUESTO,,,,,,,,
+0+080.00,Pressure Pipe - (123),Tubería a presión,368106.4233,4058013.2725,5.238,5.313,5.398,-0.45 %,304° 57' 31.091",<Ninguno>,,,,FD150 PROPUESTO,,,,,,,,
+0+090.00,Pressure Pipe - (123),Tubería a presión,368098.2277,4058019.0024,5.283,5.358,5.443,-0.45 %,304° 57' 31.091",<Ninguno>,,,,FD150 PROPUESTO,,,,,,,,
+0+100.00,Pressure Pipe - (123),Tubería a presión,368090.0320,4058024.7322,5.328,5.403,5.488,-0.45 %,304° 57' 31.091",<Ninguno>,,,,FD150 PROPUESTO,,,,,,,,
+0+110.00,Pressure Pipe - (123),Tubería a presión,368081.8363,4058030.4621,5.373,5.448,5.533,-0.45 %,304° 57' 31.091",<Ninguno>,,,,FD150 PROPUESTO,,,,,,,,
+0+120.00,Pressure Pipe - (123),Tubería a presión,368073.6407,4058036.1919,5.419,5.494,5.579,-0.45 %,304° 57' 31.091",<Ninguno>,,,,FD150 PROPUESTO,,,,,,,,
+0+130.00,Pressure Pipe - (124),Tubería a presión,368065.3592,4058041.7854,5.464,5.539,5.624,-0.45 %,297° 30' 14.601",<Ninguno>,,22.5355,,FD150 PROPUESTO,,,,,,,,
+0+133.64,Fitting - (117),Codo,368062.0129,4058043.1977,,5.552,,,,<Ninguno>,,,,FD150 PROPUESTO,,,,,,,,
+0+139.81,Fitting - (118),Codo,368055.9190,4058043.7432,,5.620,,,,<Ninguno>,,,,FD150 PROPUESTO,,,,,,,,
+0+140.00,Pressure Pipe - (126),Tubería a presión,368055.7292,4058043.7158,5.514,5.589,5.674,15.66 %,261° 55' 5.005",<Ninguno>,,39.7305,,FD150 PROPUESTO,,,,,,,,
+0+143.37,Fitting - (119),Codo,368052.3734,4058043.3841,,5.060,,,,<Ninguno>,,,,FD150 PROPUESTO,,,,,,,,
+0+150.00,Pressure Pipe - (127),Tubería a presión,368045.8126,4058043.9697,4.890,4.965,5.050,1.45 %,285° 59' 39.048",<Ninguno>,,17.4311,,FD150 PROPUESTO,,,,,,,,
+0+155.77,Fitting - (120),Codo,368040.6258,4058046.4415,,4.884,,,,<Ninguno>,,,,FD150 PROPUESTO,,,,,,,,
+0+156.82,Fitting - (164),Unión en T,368039.7672,4058047.0420,,4.848,,,,<Ninguno>,,,,FD150 PROPUESTO,,,,,,,,
+0+159.36,Pressure Pipe - (178),Tubería a presión,368037.6849,4058048.4982,4.695,4.770,4.855,3.08 %,304° 57' 58.897",<Ninguno>,,,,FD150 PROPUESTO,,,,,,,,
+

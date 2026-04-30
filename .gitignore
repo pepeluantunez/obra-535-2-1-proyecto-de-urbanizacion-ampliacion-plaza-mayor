@@ -7,6 +7,9 @@ task_plan.md
 progress.md
 findings.md
 scratch/
+scratch_pydeps/
+scratch_unpack/
+scratch_wheels/
 
 # Temporales y bloqueos de Office
 ~$*.docx
@@ -32,6 +35,7 @@ __pycache__/
 .venv/
 venv/
 node_modules/
+tools/mcp/civil3d-mcp/node_modules/
 .vs/
 bin/
 obj/

@@ -59,6 +59,9 @@ if (-not $usedProjectSpecific) {
     -ProjectConfig $configResolved `
     -Paths @(".\DOCS - ANEJOS", ".\DOCS - MEMORIA") | Out-Null
 
+& (Join-Path (Get-Location).Path "tools\fix_docx_project_identity.ps1") `
+    -Paths @(".\DOCS - ANEJOS", ".\DOCS - MEMORIA") | Out-Null
+
 if (-not $SkipChecks) {
     & (Join-Path (Get-Location).Path "tools\check_template_completion.ps1") -Paths @(".\DOCS - ANEJOS", ".\DOCS - MEMORIA") -ProjectName $projectName
 }

@@ -1,0 +1,15 @@
+# BLOQUES_COMUNES - Anejo 17
+
+## Bloques
+
+### 4.1 ANTECEDENTES Y OBJETO DEL ESS
+- Clasificaci?n: `COMUN_FIJO`
+- Placeholders: `{{NORMATIVA_SYS}}`
+
+### 5.2 DATOS GENERALES
+- Clasificaci?n: `COMUN_PARAMETRIZABLE`
+- Placeholders: `{{PROMOTOR}}`, `{{AUTOR_PROYECTO}}`, `{{AUTOR_ESS}}`, `{{PEM_EUR}}`, `{{PLAZO_MESES}}`
+
+### 26.5 DETERMINACI?N DEL PROCESO CONSTRUCTIVO
+- Clasificaci?n: `COMUN_PARAMETRIZABLE`
+- Placeholders: `{{FASES_CONSTRUCTIVAS}}`, `{{RIESGOS_FASE}}`, `{{MEDIDAS_PREVENTIVAS}}`

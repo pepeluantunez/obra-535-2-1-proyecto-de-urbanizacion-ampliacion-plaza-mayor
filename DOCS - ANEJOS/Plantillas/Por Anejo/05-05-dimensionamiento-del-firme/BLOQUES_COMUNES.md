@@ -1,0 +1,15 @@
+# BLOQUES_COMUNES - Anejo 5
+
+## Bloques
+
+### 2. METODOLOG?A Y MARCO NORMATIVO PARA EL DIMENSIONAMIENTO DE FIRMES
+- Clasificaci?n: `COMUN_FIJO`
+- Placeholders: `{{NORMATIVA_FIRMES}}`
+
+### 3.- CATEGOR?A DE TR?FICO DE PROYECTO
+- Clasificaci?n: `COMUN_PARAMETRIZABLE`
+- Placeholders: `{{CATEGORIA_TRAFICO}}`, `{{IMD_PESADOS}}`
+
+### 4.- EXPLANADA
+- Clasificaci?n: `COMUN_PARAMETRIZABLE`
+- Placeholders: `{{CATEGORIA_EXPLANADA}}`, `{{EE_MPA}}`

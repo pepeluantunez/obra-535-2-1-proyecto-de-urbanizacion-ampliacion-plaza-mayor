@@ -4,12 +4,15 @@
   "required_files": [
     "README.md",
     "AGENTS.md",
+    "ACTIVE_SOURCES.md",
+    "LOCAL_ONLY_ASSETS.md",
     "MAPA_PROYECTO.md",
     "FUENTES_MAESTRAS.md",
     "DECISIONES_PROYECTO.md",
     "ESTADO_PROYECTO.md",
     "PLANNING/KANBAN.md",
     "CONFIG/project_identity.json",
+    "CONFIG/ecosystem_alignment_manifest.json",
     "CONFIG/toolkit.lock.json"
   ],
   "required_directories": [
@@ -31,7 +34,6 @@
   ],
   "warn_if_root_markdown_count_gt": 12,
   "warn_on_root_governance_duplicates": [
-    "CLAUDE.md",
     "ESTANDARES.md",
     "TRIAGE.md",
     "COMANDOS_RAPIDOS_MAQUETACION.md",

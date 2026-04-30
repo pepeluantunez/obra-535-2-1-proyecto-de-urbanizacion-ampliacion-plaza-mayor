@@ -1,0 +1,202 @@
+{
+  "generado_en": "2026-04-29T13:05:25",
+  "output_root": "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\CONTROL\\trazabilidad\\abastecimiento_civil3d_2026-04-29",
+  "fuentes": {
+    "fd150": {
+      "archivo": "FD150 PROPUESTO.csv",
+      "ruta": "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\6.- Red de Agua Potable\\FD150 PROPUESTO.csv",
+      "sha256": "c9ccfa97bd8898c51381ec4653a192850acfafccabb74d42b664231a97c799ef",
+      "encoding_detectado": "utf-8-sig",
+      "ok_parseo": true,
+      "error_parseo": null,
+      "meta": {
+        "Dibujo": "ABASTECIMIENTO.dwg",
+        "Ruta de dibujo": "Z:\\PROYECTO 535\\535.2\\535.2.1 Proyecto de Urbanización\\PLANOS\\04_CIVIL3D\\ABASTECIMIENTO.dwg",
+        "Fecha del informe": "29/04/2026",
+        "Notificado por": "USUARIO",
+        "Versión del informe": "1.0 (D)"
+      },
+      "resumen_red": {
+        "Nombre de la red de tuberías a presión": "ABASTECIMIENTO",
+        "Descripción": "<Ninguno>",
+        "Lista de piezas": "ESPAÑA",
+        "Tuberías": "124",
+        "Accesorios": "112",
+        "Elementos hidromecánicos": "4",
+        "Tramos de tubería": "10",
+        "Superficie de referencia por defecto": "PROPUESTA",
+        "Alineación de referencia por defecto": "<Ninguno>",
+        "Elevación mínima": "-1.163",
+        "Elevación máxima": "8.827",
+        "Estilo de etiqueta de tuberías en planta": "<Ninguno>",
+        "Estilo de etiqueta de accesorio en planta": "<Ninguno>",
+        "Estilo de etiqueta de elemento hidromecánico en planta": "<Ninguno>",
+        "Capa de tuberías en planta": "C-WATR-PIPE",
+        "Capa de accesorio en planta": "C-WATR-FITT",
+        "Capa de elemento hidromecánico en planta": "C-WATR-APPT",
+        "Infracciones": "0"
+      },
+      "n_filas_detalle": 24
+    },
+    "fd200": {
+      "archivo": "FD200 PROPUESTO.csv",
+      "ruta": "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\6.- Red de Agua Potable\\FD200 PROPUESTO.csv",
+      "sha256": "52af9c9995cc1859f13d2d038b57f71f86cdc7b22d2ff625fc2c8d2c4363ac9c",
+      "encoding_detectado": "utf-8-sig",
+      "ok_parseo": true,
+      "error_parseo": null,
+      "meta": {
+        "Dibujo": "ABASTECIMIENTO.dwg",
+        "Ruta de dibujo": "Z:\\PROYECTO 535\\535.2\\535.2.1 Proyecto de Urbanización\\PLANOS\\04_CIVIL3D\\ABASTECIMIENTO.dwg",
+        "Fecha del informe": "29/04/2026",
+        "Notificado por": "USUARIO",
+        "Versión del informe": "1.0 (E)"
+      },
+      "resumen_red": {
+        "Nombre de la red de tuberías a presión": "ABASTECIMIENTO",
+        "Descripción": "<Ninguno>",
+        "Lista de piezas": "ESPAÑA",
+        "Tuberías": "124",
+        "Accesorios": "112",
+        "Elementos hidromecánicos": "4",
+        "Tramos de tubería": "11",
+        "Superficie de referencia por defecto": "PROPUESTA",
+        "Alineación de referencia por defecto": "FD200 PROPUESTO",
+        "Elevación mínima": "-1.163",
+        "Elevación máxima": "8.827",
+        "Estilo de etiqueta de tuberías en planta": "<Ninguno>",
+        "Estilo de etiqueta de accesorio en planta": "<Ninguno>",
+        "Estilo de etiqueta de elemento hidromecánico en planta": "<Ninguno>",
+        "Capa de tuberías en planta": "C-WATR-PIPE",
+        "Capa de accesorio en planta": "C-WATR-FITT",
+        "Capa de elemento hidromecánico en planta": "C-WATR-APPT",
+        "Infracciones": "0"
+      },
+      "n_filas_detalle": 54
+    },
+    "tuberias": {
+      "archivo": "LISTA DE TUBERIAS.csv",
+      "ruta": "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\6.- Red de Agua Potable\\LISTA DE TUBERIAS.csv",
+      "sha256": "3173563f5672079fe905011fed39d6186b03a91976e129eb3cced1ba0a943752",
+      "encoding_detectado": "utf-8-sig",
+      "ok_parseo": true,
+      "error_parseo": null,
+      "meta": {
+        "Dibujo": "ABASTECIMIENTO.dwg",
+        "Ruta de dibujo": "Z:\\PROYECTO 535\\535.2\\535.2.1 Proyecto de Urbanización\\PLANOS\\04_CIVIL3D\\ABASTECIMIENTO.dwg",
+        "Fecha del informe": "29/04/2026",
+        "Notificado por": "USUARIO",
+        "Versión del informe": "1.0 (A)"
+      },
+      "resumen_red": {
+        "Nombre de la red de tuberías a presión": "ABASTECIMIENTO",
+        "Descripción": "<Ninguno>",
+        "Lista de piezas": "ESPAÑA",
+        "Tuberías": "124",
+        "Accesorios": "112",
+        "Elementos hidromecánicos": "4",
+        "Tramos de tubería": "10",
+        "Superficie de referencia por defecto": "PROPUESTA",
+        "Alineación de referencia por defecto": "<Ninguno>",
+        "Elevación mínima": "-1.163",
+        "Elevación máxima": "8.827",
+        "Estilo de etiqueta de tuberías en planta": "<Ninguno>",
+        "Estilo de etiqueta de accesorio en planta": "<Ninguno>",
+        "Estilo de etiqueta de elemento hidromecánico en planta": "<Ninguno>",
+        "Capa de tuberías en planta": "C-WATR-PIPE",
+        "Capa de accesorio en planta": "C-WATR-FITT",
+        "Capa de elemento hidromecánico en planta": "C-WATR-APPT",
+        "Infracciones": "0"
+      },
+      "n_filas_detalle": 124
+    },
+    "accesorios": {
+      "archivo": "LISTA DE ACCESORIOS.csv",
+      "ruta": "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\6.- Red de Agua Potable\\LISTA DE ACCESORIOS.csv",
+      "sha256": "ab4f708dc2d907416da8efc6f2729e5e9b10148a1d26e38f30a3e082bf070d08",
+      "encoding_detectado": "utf-8-sig",
+      "ok_parseo": true,
+      "error_parseo": null,
+      "meta": {
+        "Dibujo": "ABASTECIMIENTO.dwg",
+        "Ruta de dibujo": "Z:\\PROYECTO 535\\535.2\\535.2.1 Proyecto de Urbanización\\PLANOS\\04_CIVIL3D\\ABASTECIMIENTO.dwg",
+        "Fecha del informe": "29/04/2026",
+        "Notificado por": "USUARIO",
+        "Versión del informe": "1.0 (B)"
+      },
+      "resumen_red": {
+        "Nombre de la red de tuberías a presión": "ABASTECIMIENTO",
+        "Descripción": "<Ninguno>",
+        "Lista de piezas": "ESPAÑA",
+        "Tuberías": "124",
+        "Accesorios": "112",
+        "Elementos hidromecánicos": "4",
+        "Tramos de tubería": "10",
+        "Superficie de referencia por defecto": "PROPUESTA",
+        "Alineación de referencia por defecto": "<Ninguno>",
+        "Elevación mínima": "-1.163",
+        "Elevación máxima": "8.827",
+        "Estilo de etiqueta de tuberías en planta": "<Ninguno>",
+        "Estilo de etiqueta de accesorio en planta": "<Ninguno>",
+        "Estilo de etiqueta de elemento hidromecánico en planta": "<Ninguno>",
+        "Capa de tuberías en planta": "C-WATR-PIPE",
+        "Capa de accesorio en planta": "C-WATR-FITT",
+        "Capa de elemento hidromecánico en planta": "C-WATR-APPT",
+        "Infracciones": "0"
+      },
+      "n_filas_detalle": 112
+    },
+    "ehm": {
+      "archivo": "LISTA DE EHM.csv",
+      "ruta": "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\6.- Red de Agua Potable\\LISTA DE EHM.csv",
+      "sha256": "64d6f0e0c2451d54ffd812d0a648f5ddf49fd302481fdd06ffc546d43d71afac",
+      "encoding_detectado": "utf-8-sig",
+      "ok_parseo": true,
+      "error_parseo": null,
+      "meta": {
+        "Dibujo": "ABASTECIMIENTO.dwg",
+        "Ruta de dibujo": "Z:\\PROYECTO 535\\535.2\\535.2.1 Proyecto de Urbanización\\PLANOS\\04_CIVIL3D\\ABASTECIMIENTO.dwg",
+        "Fecha del informe": "29/04/2026",
+        "Notificado por": "USUARIO",
+        "Versión del informe": "1.0 (C)"
+      },
+      "resumen_red": {
+        "Nombre de la red de tuberías a presión": "ABASTECIMIENTO",
+        "Descripción": "<Ninguno>",
+        "Lista de piezas": "ESPAÑA",
+        "Tuberías": "124",
+        "Accesorios": "112",
+        "Elementos hidromecánicos": "4",
+        "Tramos de tubería": "10",
+        "Superficie de referencia por defecto": "PROPUESTA",
+        "Alineación de referencia por defecto": "<Ninguno>",
+        "Elevación mínima": "-1.163",
+        "Elevación máxima": "8.827",
+        "Estilo de etiqueta de tuberías en planta": "<Ninguno>",
+        "Estilo de etiqueta de accesorio en planta": "<Ninguno>",
+        "Estilo de etiqueta de elemento hidromecánico en planta": "<Ninguno>",
+        "Capa de tuberías en planta": "C-WATR-PIPE",
+        "Capa de accesorio en planta": "C-WATR-FITT",
+        "Capa de elemento hidromecánico en planta": "C-WATR-APPT",
+        "Infracciones": "0"
+      },
+      "n_filas_detalle": 4
+    }
+  },
+  "incidencias": [],
+  "metricas": {
+    "universo_propuesto_piezas_unicas": 48,
+    "tramos_tuberia": 20,
+    "longitud_3d_total_m": 466.062,
+    "piezas_especiales": 28,
+    "cobertura_cruce_general_pct": 100.0,
+    "mapeo_bc3_confianza": {
+      "MEDIA": 2,
+      "ALTA": 46
+    }
+  },
+  "notas": {
+    "sin_modificacion_bc3": true,
+    "sin_modificacion_docx": true
+  }
+}

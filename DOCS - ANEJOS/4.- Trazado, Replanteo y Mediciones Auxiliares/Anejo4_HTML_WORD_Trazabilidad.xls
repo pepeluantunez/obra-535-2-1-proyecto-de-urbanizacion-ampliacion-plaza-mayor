@@ -19,55 +19,87 @@
 <Cell><Data ss:Type="String">AccionRecomendada</Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.1</Data></Cell>
+<Cell><Data ss:Type="String">3.1.1</Data></Cell>
 <Cell><Data ss:Type="String">Planta_PI</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. de PI de alineaciones.html</Data></Cell>
-<Cell><Data ss:Type="String">ROTONDA</Data></Cell>
-<Cell><Data ss:Type="String">ROTONDA</Data></Cell>
+<Cell><Data ss:Type="String">CALLE PARKING</Data></Cell>
+<Cell><Data ss:Type="String">CALLE PARKING</Data></Cell>
 <Cell><Data ss:Type="String">0+000.00</Data></Cell>
-<Cell><Data ss:Type="String">0+056.54</Data></Cell>
-<Cell><Data ss:Type="String"></Data></Cell>
-<Cell><Data ss:Type="Number">7</Data></Cell>
-<Cell><Data ss:Type="Number"></Data></Cell>
-<Cell><Data ss:Type="Number"></Data></Cell>
-<Cell><Data ss:Type="Number"></Data></Cell>
-<Cell><Data ss:Type="String">Falta en Word</Data></Cell>
-<Cell><Data ss:Type="String">Insertar bloque nuevo desde HTML y revisar tabla asociada</Data></Cell>
-</Row>
-<Row>
-<Cell><Data ss:Type="String">2.1.1</Data></Cell>
-<Cell><Data ss:Type="String">Planta_PI</Data></Cell>
-<Cell><Data ss:Type="String">Informe de P.K. de PI de alineaciones.html</Data></Cell>
-<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
-<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
-<Cell><Data ss:Type="String">0+000.00</Data></Cell>
-<Cell><Data ss:Type="String">0+162.93</Data></Cell>
+<Cell><Data ss:Type="String">0+055.31</Data></Cell>
 <Cell><Data ss:Type="String"></Data></Cell>
 <Cell><Data ss:Type="Number">5</Data></Cell>
-<Cell><Data ss:Type="Number"></Data></Cell>
-<Cell><Data ss:Type="Number"></Data></Cell>
-<Cell><Data ss:Type="Number"></Data></Cell>
-<Cell><Data ss:Type="String">Falta en Word</Data></Cell>
-<Cell><Data ss:Type="String">Insertar bloque nuevo desde HTML y revisar tabla asociada</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="String">OK</Data></Cell>
+<Cell><Data ss:Type="String">Sin accion</Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.1</Data></Cell>
+<Cell><Data ss:Type="String">3.1.1</Data></Cell>
+<Cell><Data ss:Type="String">Planta_PI</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. de PI de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">ROTONDA</Data></Cell>
+<Cell><Data ss:Type="String">ROTONDA</Data></Cell>
+<Cell><Data ss:Type="String">0+000.00</Data></Cell>
+<Cell><Data ss:Type="String">0+056.54</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">7</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="String">OK</Data></Cell>
+<Cell><Data ss:Type="String">Sin accion</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.1.1</Data></Cell>
+<Cell><Data ss:Type="String">Planta_PI</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. de PI de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="String">0+000.00</Data></Cell>
+<Cell><Data ss:Type="String">0+166.48</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">5</Data></Cell>
+<Cell><Data ss:Type="Number">6</Data></Cell>
+<Cell><Data ss:Type="Number">6</Data></Cell>
+<Cell><Data ss:Type="Number">2</Data></Cell>
+<Cell><Data ss:Type="String">OK</Data></Cell>
+<Cell><Data ss:Type="String">Sin accion</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.1.1</Data></Cell>
 <Cell><Data ss:Type="String">Planta_PI</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. de PI de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
 <Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
 <Cell><Data ss:Type="String">0+000.00</Data></Cell>
-<Cell><Data ss:Type="String">0+098.34</Data></Cell>
+<Cell><Data ss:Type="String">0+101.79</Data></Cell>
 <Cell><Data ss:Type="String"></Data></Cell>
 <Cell><Data ss:Type="Number">3</Data></Cell>
-<Cell><Data ss:Type="Number"></Data></Cell>
-<Cell><Data ss:Type="Number"></Data></Cell>
-<Cell><Data ss:Type="Number"></Data></Cell>
-<Cell><Data ss:Type="String">Falta en Word</Data></Cell>
-<Cell><Data ss:Type="String">Insertar bloque nuevo desde HTML y revisar tabla asociada</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="String">OK</Data></Cell>
+<Cell><Data ss:Type="String">Sin accion</Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">CALLE PARKING</Data></Cell>
+<Cell><Data ss:Type="String">CALLE PARKING</Data></Cell>
+<Cell><Data ss:Type="String">0+000.00</Data></Cell>
+<Cell><Data ss:Type="String">0+055.31</Data></Cell>
+<Cell><Data ss:Type="String">10.00</Data></Cell>
+<Cell><Data ss:Type="Number">7</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="String">OK</Data></Cell>
+<Cell><Data ss:Type="String">Sin accion</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
 <Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">ROTONDA</Data></Cell>
@@ -76,43 +108,203 @@
 <Cell><Data ss:Type="String">0+056.54</Data></Cell>
 <Cell><Data ss:Type="String">10.00</Data></Cell>
 <Cell><Data ss:Type="Number">7</Data></Cell>
-<Cell><Data ss:Type="Number"></Data></Cell>
-<Cell><Data ss:Type="Number"></Data></Cell>
-<Cell><Data ss:Type="Number"></Data></Cell>
-<Cell><Data ss:Type="String">Falta en Word</Data></Cell>
-<Cell><Data ss:Type="String">Insertar bloque nuevo desde HTML y revisar tabla asociada</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="String">OK</Data></Cell>
+<Cell><Data ss:Type="String">Sin accion</Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
 <Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
 <Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
 <Cell><Data ss:Type="String">0+000.00</Data></Cell>
-<Cell><Data ss:Type="String">0+162.93</Data></Cell>
+<Cell><Data ss:Type="String">0+166.48</Data></Cell>
 <Cell><Data ss:Type="String">10.00</Data></Cell>
 <Cell><Data ss:Type="Number">18</Data></Cell>
-<Cell><Data ss:Type="Number"></Data></Cell>
-<Cell><Data ss:Type="Number"></Data></Cell>
-<Cell><Data ss:Type="Number"></Data></Cell>
-<Cell><Data ss:Type="String">Falta en Word</Data></Cell>
-<Cell><Data ss:Type="String">Insertar bloque nuevo desde HTML y revisar tabla asociada</Data></Cell>
+<Cell><Data ss:Type="Number">6</Data></Cell>
+<Cell><Data ss:Type="Number">6</Data></Cell>
+<Cell><Data ss:Type="Number">2</Data></Cell>
+<Cell><Data ss:Type="String">OK</Data></Cell>
+<Cell><Data ss:Type="String">Sin accion</Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
 <Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
 <Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
 <Cell><Data ss:Type="String">0+000.00</Data></Cell>
-<Cell><Data ss:Type="String">0+098.34</Data></Cell>
+<Cell><Data ss:Type="String">0+101.79</Data></Cell>
 <Cell><Data ss:Type="String">10.00</Data></Cell>
-<Cell><Data ss:Type="Number">11</Data></Cell>
+<Cell><Data ss:Type="Number">12</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="String">OK</Data></Cell>
+<Cell><Data ss:Type="String">Sin accion</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.1</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Singular</Data></Cell>
+<Cell><Data ss:Type="String">Informe de curva y P.K. de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CALLE PARKING</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CALLE PARKING</Data></Cell>
+<Cell><Data ss:Type="String">0+000.00</Data></Cell>
+<Cell><Data ss:Type="String">0+051.65</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
 <Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="String">OK</Data></Cell>
+<Cell><Data ss:Type="String">Sin accion</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.1</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Singular</Data></Cell>
+<Cell><Data ss:Type="String">Informe de curva y P.K. de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE R-EJE DER</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE R-EJE DER</Data></Cell>
+<Cell><Data ss:Type="String">0+000.00</Data></Cell>
+<Cell><Data ss:Type="String">0+011.29</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="Number">4</Data></Cell>
+<Cell><Data ss:Type="Number">4</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="String">OK</Data></Cell>
+<Cell><Data ss:Type="String">Sin accion</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.1</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Singular</Data></Cell>
+<Cell><Data ss:Type="String">Informe de curva y P.K. de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE R-EJE IZQ</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE R-EJE IZQ</Data></Cell>
+<Cell><Data ss:Type="String">0+000.00</Data></Cell>
+<Cell><Data ss:Type="String">0+012.23</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
 <Cell><Data ss:Type="Number"></Data></Cell>
-<Cell><Data ss:Type="Number"></Data></Cell>
-<Cell><Data ss:Type="String">Falta en Word</Data></Cell>
-<Cell><Data ss:Type="String">Insertar bloque nuevo desde HTML y revisar tabla asociada</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="String">OK</Data></Cell>
+<Cell><Data ss:Type="String">Sin accion</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.1</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Singular</Data></Cell>
+<Cell><Data ss:Type="String">Informe de curva y P.K. de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE VIAL CONEXION SG-IT</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE VIAL CONEXION SG-IT</Data></Cell>
+<Cell><Data ss:Type="String">0+000.00</Data></Cell>
+<Cell><Data ss:Type="String">0+101.79</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="Number">4</Data></Cell>
+<Cell><Data ss:Type="Number">4</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="String">OK</Data></Cell>
+<Cell><Data ss:Type="String">Sin accion</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.1</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Singular</Data></Cell>
+<Cell><Data ss:Type="String">Informe de curva y P.K. de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="String">0+000.00</Data></Cell>
+<Cell><Data ss:Type="String">0+166.48</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="Number">4</Data></Cell>
+<Cell><Data ss:Type="Number">4</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="String">OK</Data></Cell>
+<Cell><Data ss:Type="String">Sin accion</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CALLE PARKING</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CALLE PARKING</Data></Cell>
+<Cell><Data ss:Type="String">0+000.00</Data></Cell>
+<Cell><Data ss:Type="String">0+051.65</Data></Cell>
+<Cell><Data ss:Type="String">10.00</Data></Cell>
+<Cell><Data ss:Type="Number">7</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="String">OK</Data></Cell>
+<Cell><Data ss:Type="String">Sin accion</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE R-EJE DER</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE R-EJE DER</Data></Cell>
+<Cell><Data ss:Type="String">0+000.00</Data></Cell>
+<Cell><Data ss:Type="String">0+011.29</Data></Cell>
+<Cell><Data ss:Type="String">10.00</Data></Cell>
+<Cell><Data ss:Type="Number">6</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="String">OK</Data></Cell>
+<Cell><Data ss:Type="String">Sin accion</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE R-EJE IZQ</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE R-EJE IZQ</Data></Cell>
+<Cell><Data ss:Type="String">0+000.00</Data></Cell>
+<Cell><Data ss:Type="String">0+012.23</Data></Cell>
+<Cell><Data ss:Type="String">10.00</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="String">OK</Data></Cell>
+<Cell><Data ss:Type="String">Sin accion</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE VIAL CONEXION SG-IT</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE VIAL CONEXION SG-IT</Data></Cell>
+<Cell><Data ss:Type="String">0+000.00</Data></Cell>
+<Cell><Data ss:Type="String">0+101.79</Data></Cell>
+<Cell><Data ss:Type="String">10.00</Data></Cell>
+<Cell><Data ss:Type="Number">23</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="String">OK</Data></Cell>
+<Cell><Data ss:Type="String">Sin accion</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="String">0+000.00</Data></Cell>
+<Cell><Data ss:Type="String">0+166.48</Data></Cell>
+<Cell><Data ss:Type="String">10.00</Data></Cell>
+<Cell><Data ss:Type="Number">35</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="String">OK</Data></Cell>
+<Cell><Data ss:Type="String">Sin accion</Data></Cell>
 </Row>
 </Table></Worksheet>
 <Worksheet ss:Name="01_Planta_PI"><Table>
@@ -129,7 +321,67 @@
 <Cell><Data ss:Type="String">Col5</Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.1</Data></Cell>
+<Cell><Data ss:Type="String">3.1.1</Data></Cell>
+<Cell><Data ss:Type="String">Planta_PI</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. de PI de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">CALLE PARKING</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="String">0+000.00</Data></Cell>
+<Cell><Data ss:Type="String">4,058,062.8839m</Data></Cell>
+<Cell><Data ss:Type="String">368,168.7578m</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.1.1</Data></Cell>
+<Cell><Data ss:Type="String">Planta_PI</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. de PI de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">CALLE PARKING</Data></Cell>
+<Cell><Data ss:Type="Number">2</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">48.130m</Data></Cell>
+<Cell><Data ss:Type="String">S54.987572E (d)</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.1.1</Data></Cell>
+<Cell><Data ss:Type="String">Planta_PI</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. de PI de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">CALLE PARKING</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="String">0+048.13</Data></Cell>
+<Cell><Data ss:Type="String">4,058,035.2694m</Data></Cell>
+<Cell><Data ss:Type="String">368,208.1772m</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.1.1</Data></Cell>
+<Cell><Data ss:Type="String">Planta_PI</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. de PI de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">CALLE PARKING</Data></Cell>
+<Cell><Data ss:Type="Number">4</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">8.463m</Data></Cell>
+<Cell><Data ss:Type="String">S34.941718O (d)</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.1.1</Data></Cell>
+<Cell><Data ss:Type="String">Planta_PI</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. de PI de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">CALLE PARKING</Data></Cell>
+<Cell><Data ss:Type="Number">5</Data></Cell>
+<Cell><Data ss:Type="String">0+055.31</Data></Cell>
+<Cell><Data ss:Type="String">4,058,028.3323m</Data></Cell>
+<Cell><Data ss:Type="String">368,203.3303m</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.1.1</Data></Cell>
 <Cell><Data ss:Type="String">Planta_PI</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. de PI de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">ROTONDA</Data></Cell>
@@ -141,7 +393,7 @@
 <Cell><Data ss:Type="String"></Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.1</Data></Cell>
+<Cell><Data ss:Type="String">3.1.1</Data></Cell>
 <Cell><Data ss:Type="String">Planta_PI</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. de PI de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">ROTONDA</Data></Cell>
@@ -153,7 +405,7 @@
 <Cell><Data ss:Type="String">N1.762539O (d)</Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.1</Data></Cell>
+<Cell><Data ss:Type="String">3.1.1</Data></Cell>
 <Cell><Data ss:Type="String">Planta_PI</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. de PI de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">ROTONDA</Data></Cell>
@@ -165,7 +417,7 @@
 <Cell><Data ss:Type="String"></Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.1</Data></Cell>
+<Cell><Data ss:Type="String">3.1.1</Data></Cell>
 <Cell><Data ss:Type="String">Planta_PI</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. de PI de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">ROTONDA</Data></Cell>
@@ -177,7 +429,7 @@
 <Cell><Data ss:Type="String">S1.729747E (d)</Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.1</Data></Cell>
+<Cell><Data ss:Type="String">3.1.1</Data></Cell>
 <Cell><Data ss:Type="String">Planta_PI</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. de PI de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">ROTONDA</Data></Cell>
@@ -189,7 +441,7 @@
 <Cell><Data ss:Type="String"></Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.1</Data></Cell>
+<Cell><Data ss:Type="String">3.1.1</Data></Cell>
 <Cell><Data ss:Type="String">Planta_PI</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. de PI de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">ROTONDA</Data></Cell>
@@ -201,7 +453,7 @@
 <Cell><Data ss:Type="String">N1.698877O (d)</Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.1</Data></Cell>
+<Cell><Data ss:Type="String">3.1.1</Data></Cell>
 <Cell><Data ss:Type="String">Planta_PI</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. de PI de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">ROTONDA</Data></Cell>
@@ -213,7 +465,7 @@
 <Cell><Data ss:Type="String"></Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.1</Data></Cell>
+<Cell><Data ss:Type="String">3.1.1</Data></Cell>
 <Cell><Data ss:Type="String">Planta_PI</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. de PI de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
@@ -225,7 +477,7 @@
 <Cell><Data ss:Type="String"></Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.1</Data></Cell>
+<Cell><Data ss:Type="String">3.1.1</Data></Cell>
 <Cell><Data ss:Type="String">Planta_PI</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. de PI de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
@@ -237,7 +489,7 @@
 <Cell><Data ss:Type="String">N88.269292E (d)</Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.1</Data></Cell>
+<Cell><Data ss:Type="String">3.1.1</Data></Cell>
 <Cell><Data ss:Type="String">Planta_PI</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. de PI de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
@@ -249,7 +501,7 @@
 <Cell><Data ss:Type="String"></Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.1</Data></Cell>
+<Cell><Data ss:Type="String">3.1.1</Data></Cell>
 <Cell><Data ss:Type="String">Planta_PI</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. de PI de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
@@ -257,23 +509,23 @@
 <Cell><Data ss:Type="String"></Data></Cell>
 <Cell><Data ss:Type="String"></Data></Cell>
 <Cell><Data ss:Type="String"></Data></Cell>
-<Cell><Data ss:Type="String">136.432m</Data></Cell>
+<Cell><Data ss:Type="String">139.985m</Data></Cell>
 <Cell><Data ss:Type="String">S55.112678E (d)</Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.1</Data></Cell>
+<Cell><Data ss:Type="String">3.1.1</Data></Cell>
 <Cell><Data ss:Type="String">Planta_PI</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. de PI de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
 <Cell><Data ss:Type="Number">5</Data></Cell>
-<Cell><Data ss:Type="String">0+162.93</Data></Cell>
-<Cell><Data ss:Type="String">4,057,961.4310m</Data></Cell>
-<Cell><Data ss:Type="String">368,172.7215m</Data></Cell>
+<Cell><Data ss:Type="String">0+166.48</Data></Cell>
+<Cell><Data ss:Type="String">4,057,959.3991m</Data></Cell>
+<Cell><Data ss:Type="String">368,175.6354m</Data></Cell>
 <Cell><Data ss:Type="String"></Data></Cell>
 <Cell><Data ss:Type="String"></Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.1</Data></Cell>
+<Cell><Data ss:Type="String">3.1.1</Data></Cell>
 <Cell><Data ss:Type="String">Planta_PI</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. de PI de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
@@ -285,7 +537,7 @@
 <Cell><Data ss:Type="String"></Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.1</Data></Cell>
+<Cell><Data ss:Type="String">3.1.1</Data></Cell>
 <Cell><Data ss:Type="String">Planta_PI</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. de PI de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
@@ -293,18 +545,18 @@
 <Cell><Data ss:Type="String"></Data></Cell>
 <Cell><Data ss:Type="String"></Data></Cell>
 <Cell><Data ss:Type="String"></Data></Cell>
-<Cell><Data ss:Type="String">98.344m</Data></Cell>
+<Cell><Data ss:Type="String">101.789m</Data></Cell>
 <Cell><Data ss:Type="String">N35.013566E (d)</Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.1</Data></Cell>
+<Cell><Data ss:Type="String">3.1.1</Data></Cell>
 <Cell><Data ss:Type="String">Planta_PI</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. de PI de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
 <Cell><Data ss:Type="Number">3</Data></Cell>
-<Cell><Data ss:Type="String">0+098.34</Data></Cell>
-<Cell><Data ss:Type="String">4,058,077.1274m</Data></Cell>
-<Cell><Data ss:Type="String">368,178.7362m</Data></Cell>
+<Cell><Data ss:Type="String">0+101.79</Data></Cell>
+<Cell><Data ss:Type="String">4,058,079.9489m</Data></Cell>
+<Cell><Data ss:Type="String">368,180.7128m</Data></Cell>
 <Cell><Data ss:Type="String"></Data></Cell>
 <Cell><Data ss:Type="String"></Data></Cell>
 </Row>
@@ -323,7 +575,91 @@
 <Cell><Data ss:Type="String">Col5</Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">CALLE PARKING</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="String">0+000.00</Data></Cell>
+<Cell><Data ss:Type="String">4,058,062.8839m</Data></Cell>
+<Cell><Data ss:Type="String">368,168.7578m</Data></Cell>
+<Cell><Data ss:Type="String">S54.987572E (d)</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">CALLE PARKING</Data></Cell>
+<Cell><Data ss:Type="Number">2</Data></Cell>
+<Cell><Data ss:Type="String">0+010.00</Data></Cell>
+<Cell><Data ss:Type="String">4,058,057.1464m</Data></Cell>
+<Cell><Data ss:Type="String">368,176.9481m</Data></Cell>
+<Cell><Data ss:Type="String">S54.987572E (d)</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">CALLE PARKING</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="String">0+020.00</Data></Cell>
+<Cell><Data ss:Type="String">4,058,051.4089m</Data></Cell>
+<Cell><Data ss:Type="String">368,185.1383m</Data></Cell>
+<Cell><Data ss:Type="String">S54.987572E (d)</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">CALLE PARKING</Data></Cell>
+<Cell><Data ss:Type="Number">4</Data></Cell>
+<Cell><Data ss:Type="String">0+030.00</Data></Cell>
+<Cell><Data ss:Type="String">4,058,045.6713m</Data></Cell>
+<Cell><Data ss:Type="String">368,193.3286m</Data></Cell>
+<Cell><Data ss:Type="String">S54.987572E (d)</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">CALLE PARKING</Data></Cell>
+<Cell><Data ss:Type="Number">5</Data></Cell>
+<Cell><Data ss:Type="String">0+040.00</Data></Cell>
+<Cell><Data ss:Type="String">4,058,039.9338m</Data></Cell>
+<Cell><Data ss:Type="String">368,201.5189m</Data></Cell>
+<Cell><Data ss:Type="String">S54.987572E (d)</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">CALLE PARKING</Data></Cell>
+<Cell><Data ss:Type="Number">6</Data></Cell>
+<Cell><Data ss:Type="String">0+050.00</Data></Cell>
+<Cell><Data ss:Type="String">4,058,032.6837m</Data></Cell>
+<Cell><Data ss:Type="String">368,206.3706m</Data></Cell>
+<Cell><Data ss:Type="String">S34.941718O (d)</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">CALLE PARKING</Data></Cell>
+<Cell><Data ss:Type="Number">7</Data></Cell>
+<Cell><Data ss:Type="String">0+055.31</Data></Cell>
+<Cell><Data ss:Type="String">4,058,028.3323m</Data></Cell>
+<Cell><Data ss:Type="String">368,203.3303m</Data></Cell>
+<Cell><Data ss:Type="String">S34.941718O (d)</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
 <Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">ROTONDA</Data></Cell>
@@ -335,7 +671,7 @@
 <Cell><Data ss:Type="String"></Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
 <Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">ROTONDA</Data></Cell>
@@ -347,7 +683,7 @@
 <Cell><Data ss:Type="String"></Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
 <Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">ROTONDA</Data></Cell>
@@ -359,7 +695,7 @@
 <Cell><Data ss:Type="String"></Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
 <Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">ROTONDA</Data></Cell>
@@ -371,7 +707,7 @@
 <Cell><Data ss:Type="String"></Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
 <Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">ROTONDA</Data></Cell>
@@ -383,7 +719,7 @@
 <Cell><Data ss:Type="String"></Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
 <Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">ROTONDA</Data></Cell>
@@ -395,7 +731,7 @@
 <Cell><Data ss:Type="String"></Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
 <Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">ROTONDA</Data></Cell>
@@ -407,7 +743,7 @@
 <Cell><Data ss:Type="String"></Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
 <Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
@@ -419,7 +755,7 @@
 <Cell><Data ss:Type="String"></Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
 <Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
@@ -431,7 +767,7 @@
 <Cell><Data ss:Type="String"></Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
 <Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
@@ -443,7 +779,7 @@
 <Cell><Data ss:Type="String"></Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
 <Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
@@ -455,7 +791,7 @@
 <Cell><Data ss:Type="String"></Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
 <Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
@@ -467,7 +803,7 @@
 <Cell><Data ss:Type="String"></Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
 <Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
@@ -479,7 +815,7 @@
 <Cell><Data ss:Type="String"></Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
 <Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
@@ -491,7 +827,7 @@
 <Cell><Data ss:Type="String"></Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
 <Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
@@ -503,7 +839,7 @@
 <Cell><Data ss:Type="String"></Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
 <Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
@@ -515,7 +851,7 @@
 <Cell><Data ss:Type="String"></Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
 <Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
@@ -527,7 +863,7 @@
 <Cell><Data ss:Type="String"></Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
 <Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
@@ -539,7 +875,7 @@
 <Cell><Data ss:Type="String"></Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
 <Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
@@ -551,7 +887,7 @@
 <Cell><Data ss:Type="String"></Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
 <Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
@@ -563,7 +899,7 @@
 <Cell><Data ss:Type="String"></Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
 <Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
@@ -575,7 +911,7 @@
 <Cell><Data ss:Type="String"></Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
 <Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
@@ -587,7 +923,7 @@
 <Cell><Data ss:Type="String"></Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
 <Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
@@ -599,7 +935,7 @@
 <Cell><Data ss:Type="String"></Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
 <Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
@@ -611,19 +947,19 @@
 <Cell><Data ss:Type="String"></Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
 <Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
 <Cell><Data ss:Type="Number">18</Data></Cell>
-<Cell><Data ss:Type="String">0+162.93</Data></Cell>
-<Cell><Data ss:Type="String">4,057,961.4315m</Data></Cell>
-<Cell><Data ss:Type="String">368,172.7208m</Data></Cell>
+<Cell><Data ss:Type="String">0+166.48</Data></Cell>
+<Cell><Data ss:Type="String">4,057,959.4010m</Data></Cell>
+<Cell><Data ss:Type="String">368,175.6328m</Data></Cell>
 <Cell><Data ss:Type="String">S55.112678E (d)</Data></Cell>
 <Cell><Data ss:Type="String"></Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
 <Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
@@ -635,7 +971,7 @@
 <Cell><Data ss:Type="String"></Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
 <Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
@@ -647,7 +983,7 @@
 <Cell><Data ss:Type="String"></Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
 <Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
@@ -659,7 +995,7 @@
 <Cell><Data ss:Type="String"></Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
 <Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
@@ -671,7 +1007,7 @@
 <Cell><Data ss:Type="String"></Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
 <Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
@@ -683,7 +1019,7 @@
 <Cell><Data ss:Type="String"></Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
 <Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
@@ -695,7 +1031,7 @@
 <Cell><Data ss:Type="String"></Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
 <Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
@@ -707,7 +1043,7 @@
 <Cell><Data ss:Type="String"></Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
 <Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
@@ -719,7 +1055,7 @@
 <Cell><Data ss:Type="String"></Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
 <Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
@@ -731,7 +1067,7 @@
 <Cell><Data ss:Type="String"></Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
 <Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
@@ -743,22 +1079,1363 @@
 <Cell><Data ss:Type="String"></Data></Cell>
 </Row>
 <Row>
-<Cell><Data ss:Type="String">2.1.2</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
 <Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
 <Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
 <Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
 <Cell><Data ss:Type="Number">11</Data></Cell>
-<Cell><Data ss:Type="String">0+098.34</Data></Cell>
-<Cell><Data ss:Type="String">4,058,077.1243m</Data></Cell>
-<Cell><Data ss:Type="String">368,178.7340m</Data></Cell>
+<Cell><Data ss:Type="String">0+100.00</Data></Cell>
+<Cell><Data ss:Type="String">4,058,078.4839m</Data></Cell>
+<Cell><Data ss:Type="String">368,179.6865m</Data></Cell>
+<Cell><Data ss:Type="String">N35.013566E (d)</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Planta_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de alineaciones.html</Data></Cell>
+<Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
+<Cell><Data ss:Type="Number">12</Data></Cell>
+<Cell><Data ss:Type="String">0+101.79</Data></Cell>
+<Cell><Data ss:Type="String">4,058,079.9489m</Data></Cell>
+<Cell><Data ss:Type="String">368,180.7128m</Data></Cell>
 <Cell><Data ss:Type="String">N35.013566E (d)</Data></Cell>
 <Cell><Data ss:Type="String"></Data></Cell>
 </Row>
 </Table></Worksheet>
-<Worksheet ss:Name="05_Word"><Table>
+<Worksheet ss:Name="03_Alzado_Sing"><Table>
 <Row>
+<Cell><Data ss:Type="String">Seccion</Data></Cell>
+<Cell><Data ss:Type="String">FuenteTipo</Data></Cell>
+<Cell><Data ss:Type="String">ArchivoFuente</Data></Cell>
+<Cell><Data ss:Type="String">NombreHtml</Data></Cell>
+<Cell><Data ss:Type="String">Fila</Data></Cell>
+<Cell><Data ss:Type="String">Etiqueta</Data></Cell>
+<Cell><Data ss:Type="String">Valor1</Data></Cell>
+<Cell><Data ss:Type="String">Valor2</Data></Cell>
+<Cell><Data ss:Type="String">Valor3</Data></Cell>
 </Row>
 <Row>
+<Cell><Data ss:Type="String">3.2.1</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Singular</Data></Cell>
+<Cell><Data ss:Type="String">Informe de curva y P.K. de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE R-EJE DER</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="String">P.K. de VAV:</Data></Cell>
+<Cell><Data ss:Type="String">0+007.41</Data></Cell>
+<Cell><Data ss:Type="String">Elevación:</Data></Cell>
+<Cell><Data ss:Type="String">6.544m</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.1</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Singular</Data></Cell>
+<Cell><Data ss:Type="String">Informe de curva y P.K. de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE R-EJE DER</Data></Cell>
+<Cell><Data ss:Type="Number">2</Data></Cell>
+<Cell><Data ss:Type="String">P.K. de PTV:</Data></Cell>
+<Cell><Data ss:Type="String">0+009.91</Data></Cell>
+<Cell><Data ss:Type="String">Elevación:</Data></Cell>
+<Cell><Data ss:Type="String">6.599m</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.1</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Singular</Data></Cell>
+<Cell><Data ss:Type="String">Informe de curva y P.K. de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE R-EJE DER</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="String">Inclinacion de rasante T.E.:</Data></Cell>
+<Cell><Data ss:Type="String">-2.78%</Data></Cell>
+<Cell><Data ss:Type="String">Inclinacion de rasante T.S.:</Data></Cell>
+<Cell><Data ss:Type="String">2.20%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.1</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Singular</Data></Cell>
+<Cell><Data ss:Type="String">Informe de curva y P.K. de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE VIAL CONEXION SG-IT</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="String">P.K. de VAV:</Data></Cell>
+<Cell><Data ss:Type="String">0+005.97</Data></Cell>
+<Cell><Data ss:Type="String">Elevación:</Data></Cell>
+<Cell><Data ss:Type="String">6.294m</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.1</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Singular</Data></Cell>
+<Cell><Data ss:Type="String">Informe de curva y P.K. de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE VIAL CONEXION SG-IT</Data></Cell>
+<Cell><Data ss:Type="Number">2</Data></Cell>
+<Cell><Data ss:Type="String">P.K. de PTV:</Data></Cell>
+<Cell><Data ss:Type="String">0+008.61</Data></Cell>
+<Cell><Data ss:Type="String">Elevación:</Data></Cell>
+<Cell><Data ss:Type="String">6.279m</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.1</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Singular</Data></Cell>
+<Cell><Data ss:Type="String">Informe de curva y P.K. de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE VIAL CONEXION SG-IT</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="String">Inclinacion de rasante T.E.:</Data></Cell>
+<Cell><Data ss:Type="String">-0.85%</Data></Cell>
+<Cell><Data ss:Type="String">Inclinacion de rasante T.S.:</Data></Cell>
+<Cell><Data ss:Type="String">-0.60%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.1</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Singular</Data></Cell>
+<Cell><Data ss:Type="String">Informe de curva y P.K. de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="String">P.K. de VAV:</Data></Cell>
+<Cell><Data ss:Type="String">0+013.09</Data></Cell>
+<Cell><Data ss:Type="String">Elevación:</Data></Cell>
+<Cell><Data ss:Type="String">6.598m</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.1</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Singular</Data></Cell>
+<Cell><Data ss:Type="String">Informe de curva y P.K. de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">2</Data></Cell>
+<Cell><Data ss:Type="String">P.K. de PTV:</Data></Cell>
+<Cell><Data ss:Type="String">0+017.18</Data></Cell>
+<Cell><Data ss:Type="String">Elevación:</Data></Cell>
+<Cell><Data ss:Type="String">6.689m</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.1</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Singular</Data></Cell>
+<Cell><Data ss:Type="String">Informe de curva y P.K. de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="String">Inclinacion de rasante T.E.:</Data></Cell>
+<Cell><Data ss:Type="String">-2.00%</Data></Cell>
+<Cell><Data ss:Type="String">Inclinacion de rasante T.S.:</Data></Cell>
+<Cell><Data ss:Type="String">2.22%</Data></Cell>
+</Row>
+</Table></Worksheet>
+<Worksheet ss:Name="04_Alzado_INC"><Table>
+<Row>
+<Cell><Data ss:Type="String">Seccion</Data></Cell>
+<Cell><Data ss:Type="String">FuenteTipo</Data></Cell>
+<Cell><Data ss:Type="String">ArchivoFuente</Data></Cell>
+<Cell><Data ss:Type="String">NombreHtml</Data></Cell>
+<Cell><Data ss:Type="String">Fila</Data></Cell>
+<Cell><Data ss:Type="String">PK</Data></Cell>
+<Cell><Data ss:Type="String">CotaRasante</Data></Cell>
+<Cell><Data ss:Type="String">PendientePct</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CALLE PARKING</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="String">0+000.00</Data></Cell>
+<Cell><Data ss:Type="String">5.819m</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CALLE PARKING</Data></Cell>
+<Cell><Data ss:Type="Number">2</Data></Cell>
+<Cell><Data ss:Type="String">0+010.00</Data></Cell>
+<Cell><Data ss:Type="String">5.775m</Data></Cell>
+<Cell><Data ss:Type="String">-0.44%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CALLE PARKING</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="String">0+020.00</Data></Cell>
+<Cell><Data ss:Type="String">5.731m</Data></Cell>
+<Cell><Data ss:Type="String">-0.44%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CALLE PARKING</Data></Cell>
+<Cell><Data ss:Type="Number">4</Data></Cell>
+<Cell><Data ss:Type="String">0+030.00</Data></Cell>
+<Cell><Data ss:Type="String">5.687m</Data></Cell>
+<Cell><Data ss:Type="String">-0.44%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CALLE PARKING</Data></Cell>
+<Cell><Data ss:Type="Number">5</Data></Cell>
+<Cell><Data ss:Type="String">0+040.00</Data></Cell>
+<Cell><Data ss:Type="String">5.643m</Data></Cell>
+<Cell><Data ss:Type="String">-0.44%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CALLE PARKING</Data></Cell>
+<Cell><Data ss:Type="Number">6</Data></Cell>
+<Cell><Data ss:Type="String">0+050.00</Data></Cell>
+<Cell><Data ss:Type="String">5.598m</Data></Cell>
+<Cell><Data ss:Type="String">-0.44%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CALLE PARKING</Data></Cell>
+<Cell><Data ss:Type="Number">7</Data></Cell>
+<Cell><Data ss:Type="String">0+051.65</Data></Cell>
+<Cell><Data ss:Type="String">5.591m</Data></Cell>
+<Cell><Data ss:Type="String">-0.44%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE R-EJE DER</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="String">0+000.00</Data></Cell>
+<Cell><Data ss:Type="String">6.750m</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE R-EJE DER</Data></Cell>
+<Cell><Data ss:Type="Number">2</Data></Cell>
+<Cell><Data ss:Type="String">0+004.91</Data></Cell>
+<Cell><Data ss:Type="String">6.613m</Data></Cell>
+<Cell><Data ss:Type="String">-2.78%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE R-EJE DER</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="String">0+007.41</Data></Cell>
+<Cell><Data ss:Type="String">6.575m</Data></Cell>
+<Cell><Data ss:Type="String">-1.54%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE R-EJE DER</Data></Cell>
+<Cell><Data ss:Type="Number">4</Data></Cell>
+<Cell><Data ss:Type="String">0+009.91</Data></Cell>
+<Cell><Data ss:Type="String">6.599m</Data></Cell>
+<Cell><Data ss:Type="String">0.96%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE R-EJE DER</Data></Cell>
+<Cell><Data ss:Type="Number">5</Data></Cell>
+<Cell><Data ss:Type="String">0+010.00</Data></Cell>
+<Cell><Data ss:Type="String">6.601m</Data></Cell>
+<Cell><Data ss:Type="String">2.20%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE R-EJE DER</Data></Cell>
+<Cell><Data ss:Type="Number">6</Data></Cell>
+<Cell><Data ss:Type="String">0+011.29</Data></Cell>
+<Cell><Data ss:Type="String">6.629m</Data></Cell>
+<Cell><Data ss:Type="String">2.20%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE R-EJE IZQ</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="String">0+000.00</Data></Cell>
+<Cell><Data ss:Type="String">5.950m</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE R-EJE IZQ</Data></Cell>
+<Cell><Data ss:Type="Number">2</Data></Cell>
+<Cell><Data ss:Type="String">0+010.00</Data></Cell>
+<Cell><Data ss:Type="String">6.071m</Data></Cell>
+<Cell><Data ss:Type="String">1.21%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE R-EJE IZQ</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="String">0+012.23</Data></Cell>
+<Cell><Data ss:Type="String">6.098m</Data></Cell>
+<Cell><Data ss:Type="String">1.21%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE VIAL CONEXION SG-IT</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="String">0+000.00</Data></Cell>
+<Cell><Data ss:Type="String">6.374m</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE VIAL CONEXION SG-IT</Data></Cell>
+<Cell><Data ss:Type="Number">2</Data></Cell>
+<Cell><Data ss:Type="String">0+003.30</Data></Cell>
+<Cell><Data ss:Type="String">6.317m</Data></Cell>
+<Cell><Data ss:Type="String">-1.73%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE VIAL CONEXION SG-IT</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="String">0+003.33</Data></Cell>
+<Cell><Data ss:Type="String">6.317m</Data></Cell>
+<Cell><Data ss:Type="String">-0.85%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE VIAL CONEXION SG-IT</Data></Cell>
+<Cell><Data ss:Type="Number">4</Data></Cell>
+<Cell><Data ss:Type="String">0+005.97</Data></Cell>
+<Cell><Data ss:Type="String">6.296m</Data></Cell>
+<Cell><Data ss:Type="String">-0.79%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE VIAL CONEXION SG-IT</Data></Cell>
+<Cell><Data ss:Type="Number">5</Data></Cell>
+<Cell><Data ss:Type="String">0+008.61</Data></Cell>
+<Cell><Data ss:Type="String">6.279m</Data></Cell>
+<Cell><Data ss:Type="String">-0.66%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE VIAL CONEXION SG-IT</Data></Cell>
+<Cell><Data ss:Type="Number">6</Data></Cell>
+<Cell><Data ss:Type="String">0+010.00</Data></Cell>
+<Cell><Data ss:Type="String">6.270m</Data></Cell>
+<Cell><Data ss:Type="String">-0.60%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE VIAL CONEXION SG-IT</Data></Cell>
+<Cell><Data ss:Type="Number">7</Data></Cell>
+<Cell><Data ss:Type="String">0+020.00</Data></Cell>
+<Cell><Data ss:Type="String">6.211m</Data></Cell>
+<Cell><Data ss:Type="String">-0.60%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE VIAL CONEXION SG-IT</Data></Cell>
+<Cell><Data ss:Type="Number">8</Data></Cell>
+<Cell><Data ss:Type="String">0+030.00</Data></Cell>
+<Cell><Data ss:Type="String">6.151m</Data></Cell>
+<Cell><Data ss:Type="String">-0.60%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE VIAL CONEXION SG-IT</Data></Cell>
+<Cell><Data ss:Type="Number">9</Data></Cell>
+<Cell><Data ss:Type="String">0+040.00</Data></Cell>
+<Cell><Data ss:Type="String">6.092m</Data></Cell>
+<Cell><Data ss:Type="String">-0.60%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE VIAL CONEXION SG-IT</Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="String">0+050.00</Data></Cell>
+<Cell><Data ss:Type="String">6.032m</Data></Cell>
+<Cell><Data ss:Type="String">-0.60%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE VIAL CONEXION SG-IT</Data></Cell>
+<Cell><Data ss:Type="Number">11</Data></Cell>
+<Cell><Data ss:Type="String">0+060.00</Data></Cell>
+<Cell><Data ss:Type="String">5.973m</Data></Cell>
+<Cell><Data ss:Type="String">-0.60%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE VIAL CONEXION SG-IT</Data></Cell>
+<Cell><Data ss:Type="Number">12</Data></Cell>
+<Cell><Data ss:Type="String">0+070.00</Data></Cell>
+<Cell><Data ss:Type="String">5.913m</Data></Cell>
+<Cell><Data ss:Type="String">-0.60%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE VIAL CONEXION SG-IT</Data></Cell>
+<Cell><Data ss:Type="Number">13</Data></Cell>
+<Cell><Data ss:Type="String">0+076.73</Data></Cell>
+<Cell><Data ss:Type="String">5.873m</Data></Cell>
+<Cell><Data ss:Type="String">-0.60%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE VIAL CONEXION SG-IT</Data></Cell>
+<Cell><Data ss:Type="Number">14</Data></Cell>
+<Cell><Data ss:Type="String">0+080.00</Data></Cell>
+<Cell><Data ss:Type="String">5.837m</Data></Cell>
+<Cell><Data ss:Type="String">-1.12%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE VIAL CONEXION SG-IT</Data></Cell>
+<Cell><Data ss:Type="Number">15</Data></Cell>
+<Cell><Data ss:Type="String">0+081.09</Data></Cell>
+<Cell><Data ss:Type="String">5.817m</Data></Cell>
+<Cell><Data ss:Type="String">-1.82%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE VIAL CONEXION SG-IT</Data></Cell>
+<Cell><Data ss:Type="Number">16</Data></Cell>
+<Cell><Data ss:Type="String">0+085.45</Data></Cell>
+<Cell><Data ss:Type="String">5.699m</Data></Cell>
+<Cell><Data ss:Type="String">-2.70%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE VIAL CONEXION SG-IT</Data></Cell>
+<Cell><Data ss:Type="Number">17</Data></Cell>
+<Cell><Data ss:Type="String">0+086.04</Data></Cell>
+<Cell><Data ss:Type="String">5.679m</Data></Cell>
+<Cell><Data ss:Type="String">-3.40%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE VIAL CONEXION SG-IT</Data></Cell>
+<Cell><Data ss:Type="Number">18</Data></Cell>
+<Cell><Data ss:Type="String">0+090.00</Data></Cell>
+<Cell><Data ss:Type="String">5.591m</Data></Cell>
+<Cell><Data ss:Type="String">-2.23%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE VIAL CONEXION SG-IT</Data></Cell>
+<Cell><Data ss:Type="Number">19</Data></Cell>
+<Cell><Data ss:Type="String">0+090.61</Data></Cell>
+<Cell><Data ss:Type="String">5.585m</Data></Cell>
+<Cell><Data ss:Type="String">-0.88%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE VIAL CONEXION SG-IT</Data></Cell>
+<Cell><Data ss:Type="Number">20</Data></Cell>
+<Cell><Data ss:Type="String">0+095.19</Data></Cell>
+<Cell><Data ss:Type="String">5.615m</Data></Cell>
+<Cell><Data ss:Type="String">0.65%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE VIAL CONEXION SG-IT</Data></Cell>
+<Cell><Data ss:Type="Number">21</Data></Cell>
+<Cell><Data ss:Type="String">0+098.49</Data></Cell>
+<Cell><Data ss:Type="String">5.681m</Data></Cell>
+<Cell><Data ss:Type="String">2.00%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE VIAL CONEXION SG-IT</Data></Cell>
+<Cell><Data ss:Type="Number">22</Data></Cell>
+<Cell><Data ss:Type="String">0+100.00</Data></Cell>
+<Cell><Data ss:Type="String">5.651m</Data></Cell>
+<Cell><Data ss:Type="String">-2.00%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE VIAL CONEXION SG-IT</Data></Cell>
+<Cell><Data ss:Type="Number">23</Data></Cell>
+<Cell><Data ss:Type="String">0+101.79</Data></Cell>
+<Cell><Data ss:Type="String">5.615m</Data></Cell>
+<Cell><Data ss:Type="String">-2.00%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="String">0+000.00</Data></Cell>
+<Cell><Data ss:Type="String">6.570m</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">2</Data></Cell>
+<Cell><Data ss:Type="String">0+004.50</Data></Cell>
+<Cell><Data ss:Type="String">6.770m</Data></Cell>
+<Cell><Data ss:Type="String">4.44%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="String">0+009.00</Data></Cell>
+<Cell><Data ss:Type="String">6.680m</Data></Cell>
+<Cell><Data ss:Type="String">-2.00%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">4</Data></Cell>
+<Cell><Data ss:Type="String">0+010.00</Data></Cell>
+<Cell><Data ss:Type="String">6.663m</Data></Cell>
+<Cell><Data ss:Type="String">-1.74%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">5</Data></Cell>
+<Cell><Data ss:Type="String">0+013.09</Data></Cell>
+<Cell><Data ss:Type="String">6.641m</Data></Cell>
+<Cell><Data ss:Type="String">-0.69%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">6</Data></Cell>
+<Cell><Data ss:Type="String">0+017.18</Data></Cell>
+<Cell><Data ss:Type="String">6.689m</Data></Cell>
+<Cell><Data ss:Type="String">1.17%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">7</Data></Cell>
+<Cell><Data ss:Type="String">0+019.88</Data></Cell>
+<Cell><Data ss:Type="String">6.749m</Data></Cell>
+<Cell><Data ss:Type="String">2.22%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">8</Data></Cell>
+<Cell><Data ss:Type="String">0+020.00</Data></Cell>
+<Cell><Data ss:Type="String">6.752m</Data></Cell>
+<Cell><Data ss:Type="String">2.19%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">9</Data></Cell>
+<Cell><Data ss:Type="String">0+022.38</Data></Cell>
+<Cell><Data ss:Type="String">6.788m</Data></Cell>
+<Cell><Data ss:Type="String">1.50%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="String">0+024.88</Data></Cell>
+<Cell><Data ss:Type="String">6.791m</Data></Cell>
+<Cell><Data ss:Type="String">0.15%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">11</Data></Cell>
+<Cell><Data ss:Type="String">0+030.00</Data></Cell>
+<Cell><Data ss:Type="String">6.763m</Data></Cell>
+<Cell><Data ss:Type="String">-0.54%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">12</Data></Cell>
+<Cell><Data ss:Type="String">0+040.00</Data></Cell>
+<Cell><Data ss:Type="String">6.709m</Data></Cell>
+<Cell><Data ss:Type="String">-0.54%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">13</Data></Cell>
+<Cell><Data ss:Type="String">0+050.00</Data></Cell>
+<Cell><Data ss:Type="String">6.654m</Data></Cell>
+<Cell><Data ss:Type="String">-0.54%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">14</Data></Cell>
+<Cell><Data ss:Type="String">0+060.00</Data></Cell>
+<Cell><Data ss:Type="String">6.600m</Data></Cell>
+<Cell><Data ss:Type="String">-0.54%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">15</Data></Cell>
+<Cell><Data ss:Type="String">0+070.00</Data></Cell>
+<Cell><Data ss:Type="String">6.545m</Data></Cell>
+<Cell><Data ss:Type="String">-0.54%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">16</Data></Cell>
+<Cell><Data ss:Type="String">0+080.00</Data></Cell>
+<Cell><Data ss:Type="String">6.491m</Data></Cell>
+<Cell><Data ss:Type="String">-0.54%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">17</Data></Cell>
+<Cell><Data ss:Type="String">0+090.00</Data></Cell>
+<Cell><Data ss:Type="String">6.437m</Data></Cell>
+<Cell><Data ss:Type="String">-0.54%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">18</Data></Cell>
+<Cell><Data ss:Type="String">0+095.77</Data></Cell>
+<Cell><Data ss:Type="String">6.405m</Data></Cell>
+<Cell><Data ss:Type="String">-0.54%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">19</Data></Cell>
+<Cell><Data ss:Type="String">0+100.00</Data></Cell>
+<Cell><Data ss:Type="String">6.383m</Data></Cell>
+<Cell><Data ss:Type="String">-0.53%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">20</Data></Cell>
+<Cell><Data ss:Type="String">0+101.48</Data></Cell>
+<Cell><Data ss:Type="String">6.375m</Data></Cell>
+<Cell><Data ss:Type="String">-0.50%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">21</Data></Cell>
+<Cell><Data ss:Type="String">0+107.19</Data></Cell>
+<Cell><Data ss:Type="String">6.348m</Data></Cell>
+<Cell><Data ss:Type="String">-0.47%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">22</Data></Cell>
+<Cell><Data ss:Type="String">0+110.00</Data></Cell>
+<Cell><Data ss:Type="String">6.336m</Data></Cell>
+<Cell><Data ss:Type="String">-0.45%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">23</Data></Cell>
+<Cell><Data ss:Type="String">0+120.00</Data></Cell>
+<Cell><Data ss:Type="String">6.291m</Data></Cell>
+<Cell><Data ss:Type="String">-0.45%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">24</Data></Cell>
+<Cell><Data ss:Type="String">0+130.00</Data></Cell>
+<Cell><Data ss:Type="String">6.246m</Data></Cell>
+<Cell><Data ss:Type="String">-0.45%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">25</Data></Cell>
+<Cell><Data ss:Type="String">0+140.00</Data></Cell>
+<Cell><Data ss:Type="String">6.201m</Data></Cell>
+<Cell><Data ss:Type="String">-0.45%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">26</Data></Cell>
+<Cell><Data ss:Type="String">0+150.00</Data></Cell>
+<Cell><Data ss:Type="String">6.156m</Data></Cell>
+<Cell><Data ss:Type="String">-0.45%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">27</Data></Cell>
+<Cell><Data ss:Type="String">0+150.43</Data></Cell>
+<Cell><Data ss:Type="String">6.154m</Data></Cell>
+<Cell><Data ss:Type="String">-0.45%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">28</Data></Cell>
+<Cell><Data ss:Type="String">0+152.43</Data></Cell>
+<Cell><Data ss:Type="String">6.101m</Data></Cell>
+<Cell><Data ss:Type="String">-2.61%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">29</Data></Cell>
+<Cell><Data ss:Type="String">0+154.43</Data></Cell>
+<Cell><Data ss:Type="String">5.963m</Data></Cell>
+<Cell><Data ss:Type="String">-6.94%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">30</Data></Cell>
+<Cell><Data ss:Type="String">0+155.87</Data></Cell>
+<Cell><Data ss:Type="String">5.831m</Data></Cell>
+<Cell><Data ss:Type="String">-9.10%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">31</Data></Cell>
+<Cell><Data ss:Type="String">0+157.87</Data></Cell>
+<Cell><Data ss:Type="String">5.705m</Data></Cell>
+<Cell><Data ss:Type="String">-6.32%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">32</Data></Cell>
+<Cell><Data ss:Type="String">0+159.87</Data></Cell>
+<Cell><Data ss:Type="String">5.689m</Data></Cell>
+<Cell><Data ss:Type="String">-0.77%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">33</Data></Cell>
+<Cell><Data ss:Type="String">0+160.00</Data></Cell>
+<Cell><Data ss:Type="String">5.692m</Data></Cell>
+<Cell><Data ss:Type="String">2.00%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">34</Data></Cell>
+<Cell><Data ss:Type="String">0+162.93</Data></Cell>
+<Cell><Data ss:Type="String">5.751m</Data></Cell>
+<Cell><Data ss:Type="String">2.00%</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Alzado_Incremental</Data></Cell>
+<Cell><Data ss:Type="String">Informe de P.K. incremental de VAV.html</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="Number">35</Data></Cell>
+<Cell><Data ss:Type="String">0+166.48</Data></Cell>
+<Cell><Data ss:Type="String">5.680m</Data></Cell>
+<Cell><Data ss:Type="String">-2.00%</Data></Cell>
+</Row>
+</Table></Worksheet>
+<Worksheet ss:Name="05_Word"><Table>
+<Row>
+<Cell><Data ss:Type="String">Indice</Data></Cell>
+<Cell><Data ss:Type="String">Seccion</Data></Cell>
+<Cell><Data ss:Type="String">StyleId</Data></Cell>
+<Cell><Data ss:Type="String">Texto</Data></Cell>
+<Cell><Data ss:Type="String">TextoClave</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">18</Data></Cell>
+<Cell><Data ss:Type="String">3.1.1</Data></Cell>
+<Cell><Data ss:Type="String">Ttulo4</Data></Cell>
+<Cell><Data ss:Type="String">3.1.1. Puntos singulares</Data></Cell>
+<Cell><Data ss:Type="String">3 1 1 PUNTOS SINGULARES</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">19</Data></Cell>
+<Cell><Data ss:Type="String">3.1.1</Data></Cell>
+<Cell><Data ss:Type="String">Ttulo5</Data></Cell>
+<Cell><Data ss:Type="String">CALLE PARKING</Data></Cell>
+<Cell><Data ss:Type="String">CALLE PARKING</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">20</Data></Cell>
+<Cell><Data ss:Type="String">3.1.1</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">La Alineacion CALLE PARKING presenta los siguientes puntos singulares en planta segun la exportacion de Civil 3D.</Data></Cell>
+<Cell><Data ss:Type="String">LA ALINEACION CALLE PARKING PRESENTA LOS SIGUIENTES PUNTOS SINGULARES EN PLANTA SEGUN LA EXPORTACION DE CIVIL 3D</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">21</Data></Cell>
+<Cell><Data ss:Type="String">3.1.1</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">Tabla 1. Puntos singulares en planta de la Alineacion CALLE PARKING.</Data></Cell>
+<Cell><Data ss:Type="String">TABLA 1 PUNTOS SINGULARES EN PLANTA DE LA ALINEACION CALLE PARKING</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">23</Data></Cell>
+<Cell><Data ss:Type="String">3.1.1</Data></Cell>
+<Cell><Data ss:Type="String">Ttulo5</Data></Cell>
+<Cell><Data ss:Type="String">ROTONDA</Data></Cell>
+<Cell><Data ss:Type="String">ROTONDA</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">24</Data></Cell>
+<Cell><Data ss:Type="String">3.1.1</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">La Alineacion ROTONDA presenta los siguientes puntos singulares en planta segun la exportacion de Civil 3D.</Data></Cell>
+<Cell><Data ss:Type="String">LA ALINEACION ROTONDA PRESENTA LOS SIGUIENTES PUNTOS SINGULARES EN PLANTA SEGUN LA EXPORTACION DE CIVIL 3D</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">25</Data></Cell>
+<Cell><Data ss:Type="String">3.1.1</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">Tabla 2. Puntos singulares en planta de la Alineacion ROTONDA.</Data></Cell>
+<Cell><Data ss:Type="String">TABLA 2 PUNTOS SINGULARES EN PLANTA DE LA ALINEACION ROTONDA</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">27</Data></Cell>
+<Cell><Data ss:Type="String">3.1.1</Data></Cell>
+<Cell><Data ss:Type="String">Ttulo5</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">28</Data></Cell>
+<Cell><Data ss:Type="String">3.1.1</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">La Alineacion VIAL CONEXION SG presenta los siguientes puntos singulares en planta segun la exportacion de Civil 3D.</Data></Cell>
+<Cell><Data ss:Type="String">LA ALINEACION VIAL CONEXION SG PRESENTA LOS SIGUIENTES PUNTOS SINGULARES EN PLANTA SEGUN LA EXPORTACION DE CIVIL 3D</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">29</Data></Cell>
+<Cell><Data ss:Type="String">3.1.1</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">Tabla 3. Puntos singulares en planta de la Alineacion VIAL CONEXION SG.</Data></Cell>
+<Cell><Data ss:Type="String">TABLA 3 PUNTOS SINGULARES EN PLANTA DE LA ALINEACION VIAL CONEXION SG</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">31</Data></Cell>
+<Cell><Data ss:Type="String">3.1.1</Data></Cell>
+<Cell><Data ss:Type="String">Ttulo5</Data></Cell>
+<Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG IT</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">32</Data></Cell>
+<Cell><Data ss:Type="String">3.1.1</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">La Alineacion Vial Conexión SG-IT presenta los siguientes puntos singulares en planta segun la exportacion de Civil 3D.</Data></Cell>
+<Cell><Data ss:Type="String">LA ALINEACION VIAL CONEXION SG IT PRESENTA LOS SIGUIENTES PUNTOS SINGULARES EN PLANTA SEGUN LA EXPORTACION DE CIVIL 3D</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">33</Data></Cell>
+<Cell><Data ss:Type="String">3.1.1</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">Tabla 4. Puntos singulares en planta de la Alineacion Vial Conexión SG-IT.</Data></Cell>
+<Cell><Data ss:Type="String">TABLA 4 PUNTOS SINGULARES EN PLANTA DE LA ALINEACION VIAL CONEXION SG IT</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">35</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Ttulo4</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2. Puntos fijos cada 10 m.</Data></Cell>
+<Cell><Data ss:Type="String">3 1 2 PUNTOS FIJOS CADA 10 M</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">36</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Ttulo5</Data></Cell>
+<Cell><Data ss:Type="String">CALLE PARKING</Data></Cell>
+<Cell><Data ss:Type="String">CALLE PARKING</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">37</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">La Alineacion CALLE PARKING presenta el replanteo en planta a puntos fijos segun la exportacion incremental de Civil 3D.</Data></Cell>
+<Cell><Data ss:Type="String">LA ALINEACION CALLE PARKING PRESENTA EL REPLANTEO EN PLANTA A PUNTOS FIJOS SEGUN LA EXPORTACION INCREMENTAL DE CIVIL 3D</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">38</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">Tabla 5. Puntos fijos cada 10 m en planta de la Alineacion CALLE PARKING.</Data></Cell>
+<Cell><Data ss:Type="String">TABLA 5 PUNTOS FIJOS CADA 10 M EN PLANTA DE LA ALINEACION CALLE PARKING</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">40</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Ttulo5</Data></Cell>
+<Cell><Data ss:Type="String">ROTONDA</Data></Cell>
+<Cell><Data ss:Type="String">ROTONDA</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">41</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">La Alineacion ROTONDA presenta el replanteo en planta a puntos fijos segun la exportacion incremental de Civil 3D.</Data></Cell>
+<Cell><Data ss:Type="String">LA ALINEACION ROTONDA PRESENTA EL REPLANTEO EN PLANTA A PUNTOS FIJOS SEGUN LA EXPORTACION INCREMENTAL DE CIVIL 3D</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">42</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">Tabla 6. Puntos fijos cada 10 m en planta de la Alineacion ROTONDA.</Data></Cell>
+<Cell><Data ss:Type="String">TABLA 6 PUNTOS FIJOS CADA 10 M EN PLANTA DE LA ALINEACION ROTONDA</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">44</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Ttulo5</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">45</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">La Alineacion VIAL CONEXION SG presenta el replanteo en planta a puntos fijos segun la exportacion incremental de Civil 3D.</Data></Cell>
+<Cell><Data ss:Type="String">LA ALINEACION VIAL CONEXION SG PRESENTA EL REPLANTEO EN PLANTA A PUNTOS FIJOS SEGUN LA EXPORTACION INCREMENTAL DE CIVIL 3D</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">46</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">Tabla 7. Puntos fijos cada 10 m en planta de la Alineacion VIAL CONEXION SG.</Data></Cell>
+<Cell><Data ss:Type="String">TABLA 7 PUNTOS FIJOS CADA 10 M EN PLANTA DE LA ALINEACION VIAL CONEXION SG</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">48</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Ttulo5</Data></Cell>
+<Cell><Data ss:Type="String">Vial Conexión SG-IT</Data></Cell>
+<Cell><Data ss:Type="String">VIAL CONEXION SG IT</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">49</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">La Alineacion Vial Conexión SG-IT presenta el replanteo en planta a puntos fijos segun la exportacion incremental de Civil 3D.</Data></Cell>
+<Cell><Data ss:Type="String">LA ALINEACION VIAL CONEXION SG IT PRESENTA EL REPLANTEO EN PLANTA A PUNTOS FIJOS SEGUN LA EXPORTACION INCREMENTAL DE CIVIL 3D</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">50</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">Tabla 8. Puntos fijos cada 10 m en planta de la Alineacion Vial Conexión SG-IT.</Data></Cell>
+<Cell><Data ss:Type="String">TABLA 8 PUNTOS FIJOS CADA 10 M EN PLANTA DE LA ALINEACION VIAL CONEXION SG IT</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">52</Data></Cell>
+<Cell><Data ss:Type="String">3.1.2</Data></Cell>
+<Cell><Data ss:Type="String">Ttulo3</Data></Cell>
+<Cell><Data ss:Type="String">3.2. Alzado</Data></Cell>
+<Cell><Data ss:Type="String">3 2 ALZADO</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">53</Data></Cell>
+<Cell><Data ss:Type="String">3.2.1</Data></Cell>
+<Cell><Data ss:Type="String">Ttulo4</Data></Cell>
+<Cell><Data ss:Type="String">3.2.1. Puntos singulares</Data></Cell>
+<Cell><Data ss:Type="String">3 2 1 PUNTOS SINGULARES</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">54</Data></Cell>
+<Cell><Data ss:Type="String">3.2.1</Data></Cell>
+<Cell><Data ss:Type="String">Ttulo5</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CALLE PARKING</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CALLE PARKING</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">55</Data></Cell>
+<Cell><Data ss:Type="String">3.2.1</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">La rasante RASANTE CALLE PARKING presenta los siguientes puntos singulares en alzado segun la exportacion de Civil 3D.</Data></Cell>
+<Cell><Data ss:Type="String">LA RASANTE RASANTE CALLE PARKING PRESENTA LOS SIGUIENTES PUNTOS SINGULARES EN ALZADO SEGUN LA EXPORTACION DE CIVIL 3D</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">56</Data></Cell>
+<Cell><Data ss:Type="String">3.2.1</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">Tabla 9. Puntos singulares de VAV en alzado para la rasante RASANTE CALLE PARKING.</Data></Cell>
+<Cell><Data ss:Type="String">TABLA 9 PUNTOS SINGULARES DE VAV EN ALZADO PARA LA RASANTE RASANTE CALLE PARKING</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">58</Data></Cell>
+<Cell><Data ss:Type="String">3.2.1</Data></Cell>
+<Cell><Data ss:Type="String">Ttulo5</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE R-EJE DER</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE R EJE DER</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">59</Data></Cell>
+<Cell><Data ss:Type="String">3.2.1</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">La rasante RASANTE R-EJE DER presenta los siguientes puntos singulares en alzado segun la exportacion de Civil 3D.</Data></Cell>
+<Cell><Data ss:Type="String">LA RASANTE RASANTE R EJE DER PRESENTA LOS SIGUIENTES PUNTOS SINGULARES EN ALZADO SEGUN LA EXPORTACION DE CIVIL 3D</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">60</Data></Cell>
+<Cell><Data ss:Type="String">3.2.1</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">Tabla 10. Puntos singulares de VAV en alzado para la rasante RASANTE R-EJE DER.</Data></Cell>
+<Cell><Data ss:Type="String">TABLA 10 PUNTOS SINGULARES DE VAV EN ALZADO PARA LA RASANTE RASANTE R EJE DER</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">61</Data></Cell>
+<Cell><Data ss:Type="String">3.2.1</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">Tabla 11. Parametros singulares de acuerdo vertical para la rasante RASANTE R-EJE DER.</Data></Cell>
+<Cell><Data ss:Type="String">TABLA 11 PARAMETROS SINGULARES DE ACUERDO VERTICAL PARA LA RASANTE RASANTE R EJE DER</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">63</Data></Cell>
+<Cell><Data ss:Type="String">3.2.1</Data></Cell>
+<Cell><Data ss:Type="String">Ttulo5</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE R-EJE IZQ</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE R EJE IZQ</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">64</Data></Cell>
+<Cell><Data ss:Type="String">3.2.1</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">La rasante RASANTE R-EJE IZQ presenta los siguientes puntos singulares en alzado segun la exportacion de Civil 3D.</Data></Cell>
+<Cell><Data ss:Type="String">LA RASANTE RASANTE R EJE IZQ PRESENTA LOS SIGUIENTES PUNTOS SINGULARES EN ALZADO SEGUN LA EXPORTACION DE CIVIL 3D</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">65</Data></Cell>
+<Cell><Data ss:Type="String">3.2.1</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">Tabla 12. Puntos singulares de VAV en alzado para la rasante RASANTE R-EJE IZQ.</Data></Cell>
+<Cell><Data ss:Type="String">TABLA 12 PUNTOS SINGULARES DE VAV EN ALZADO PARA LA RASANTE RASANTE R EJE IZQ</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">67</Data></Cell>
+<Cell><Data ss:Type="String">3.2.1</Data></Cell>
+<Cell><Data ss:Type="String">Ttulo5</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE VIAL CONEXION SG-IT</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE VIAL CONEXION SG IT</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">68</Data></Cell>
+<Cell><Data ss:Type="String">3.2.1</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">La rasante RASANTE VIAL CONEXION SG-IT presenta los siguientes puntos singulares en alzado segun la exportacion de Civil 3D.</Data></Cell>
+<Cell><Data ss:Type="String">LA RASANTE RASANTE VIAL CONEXION SG IT PRESENTA LOS SIGUIENTES PUNTOS SINGULARES EN ALZADO SEGUN LA EXPORTACION DE CIVIL 3D</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">69</Data></Cell>
+<Cell><Data ss:Type="String">3.2.1</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">Tabla 13. Puntos singulares de VAV en alzado para la rasante RASANTE VIAL CONEXION SG-IT.</Data></Cell>
+<Cell><Data ss:Type="String">TABLA 13 PUNTOS SINGULARES DE VAV EN ALZADO PARA LA RASANTE RASANTE VIAL CONEXION SG IT</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">70</Data></Cell>
+<Cell><Data ss:Type="String">3.2.1</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">Tabla 14. Parametros singulares de acuerdo vertical para la rasante RASANTE VIAL CONEXION SG-IT.</Data></Cell>
+<Cell><Data ss:Type="String">TABLA 14 PARAMETROS SINGULARES DE ACUERDO VERTICAL PARA LA RASANTE RASANTE VIAL CONEXION SG IT</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">72</Data></Cell>
+<Cell><Data ss:Type="String">3.2.1</Data></Cell>
+<Cell><Data ss:Type="String">Ttulo5</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CONEXION SG</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">73</Data></Cell>
+<Cell><Data ss:Type="String">3.2.1</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">La rasante RASANTE CONEXION SG presenta los siguientes puntos singulares en alzado segun la exportacion de Civil 3D.</Data></Cell>
+<Cell><Data ss:Type="String">LA RASANTE RASANTE CONEXION SG PRESENTA LOS SIGUIENTES PUNTOS SINGULARES EN ALZADO SEGUN LA EXPORTACION DE CIVIL 3D</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">74</Data></Cell>
+<Cell><Data ss:Type="String">3.2.1</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">Tabla 15. Puntos singulares de VAV en alzado para la rasante RASANTE CONEXION SG.</Data></Cell>
+<Cell><Data ss:Type="String">TABLA 15 PUNTOS SINGULARES DE VAV EN ALZADO PARA LA RASANTE RASANTE CONEXION SG</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">75</Data></Cell>
+<Cell><Data ss:Type="String">3.2.1</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">Tabla 16. Parametros singulares de acuerdo vertical para la rasante RASANTE CONEXION SG.</Data></Cell>
+<Cell><Data ss:Type="String">TABLA 16 PARAMETROS SINGULARES DE ACUERDO VERTICAL PARA LA RASANTE RASANTE CONEXION SG</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">77</Data></Cell>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Ttulo4</Data></Cell>
+<Cell><Data ss:Type="String">3.2.2. Puntos fijos cada 10 m.</Data></Cell>
+<Cell><Data ss:Type="String">3 2 2 PUNTOS FIJOS CADA 10 M</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">78</Data></Cell>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Ttulo5</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CALLE PARKING</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CALLE PARKING</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">79</Data></Cell>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">La rasante RASANTE CALLE PARKING presenta el replanteo de alzado a puntos fijos segun la exportacion incremental de Civil 3D.</Data></Cell>
+<Cell><Data ss:Type="String">LA RASANTE RASANTE CALLE PARKING PRESENTA EL REPLANTEO DE ALZADO A PUNTOS FIJOS SEGUN LA EXPORTACION INCREMENTAL DE CIVIL 3D</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">80</Data></Cell>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">Tabla 17. Puntos fijos de alzado para la rasante RASANTE CALLE PARKING.</Data></Cell>
+<Cell><Data ss:Type="String">TABLA 17 PUNTOS FIJOS DE ALZADO PARA LA RASANTE RASANTE CALLE PARKING</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">82</Data></Cell>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Ttulo5</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE R-EJE DER</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE R EJE DER</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">83</Data></Cell>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">La rasante RASANTE R-EJE DER presenta el replanteo de alzado a puntos fijos segun la exportacion incremental de Civil 3D.</Data></Cell>
+<Cell><Data ss:Type="String">LA RASANTE RASANTE R EJE DER PRESENTA EL REPLANTEO DE ALZADO A PUNTOS FIJOS SEGUN LA EXPORTACION INCREMENTAL DE CIVIL 3D</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">84</Data></Cell>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">Tabla 18. Puntos fijos de alzado para la rasante RASANTE R-EJE DER.</Data></Cell>
+<Cell><Data ss:Type="String">TABLA 18 PUNTOS FIJOS DE ALZADO PARA LA RASANTE RASANTE R EJE DER</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">86</Data></Cell>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Ttulo5</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE R-EJE IZQ</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE R EJE IZQ</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">87</Data></Cell>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">La rasante RASANTE R-EJE IZQ presenta el replanteo de alzado a puntos fijos segun la exportacion incremental de Civil 3D.</Data></Cell>
+<Cell><Data ss:Type="String">LA RASANTE RASANTE R EJE IZQ PRESENTA EL REPLANTEO DE ALZADO A PUNTOS FIJOS SEGUN LA EXPORTACION INCREMENTAL DE CIVIL 3D</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">88</Data></Cell>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">Tabla 19. Puntos fijos de alzado para la rasante RASANTE R-EJE IZQ.</Data></Cell>
+<Cell><Data ss:Type="String">TABLA 19 PUNTOS FIJOS DE ALZADO PARA LA RASANTE RASANTE R EJE IZQ</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">90</Data></Cell>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Ttulo5</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE VIAL CONEXION SG-IT</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE VIAL CONEXION SG IT</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">91</Data></Cell>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">La rasante RASANTE VIAL CONEXION SG-IT presenta el replanteo de alzado a puntos fijos segun la exportacion incremental de Civil 3D.</Data></Cell>
+<Cell><Data ss:Type="String">LA RASANTE RASANTE VIAL CONEXION SG IT PRESENTA EL REPLANTEO DE ALZADO A PUNTOS FIJOS SEGUN LA EXPORTACION INCREMENTAL DE CIVIL 3D</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">92</Data></Cell>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">Tabla 20. Puntos fijos de alzado para la rasante RASANTE VIAL CONEXION SG-IT.</Data></Cell>
+<Cell><Data ss:Type="String">TABLA 20 PUNTOS FIJOS DE ALZADO PARA LA RASANTE RASANTE VIAL CONEXION SG IT</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">94</Data></Cell>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Ttulo5</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CONEXION SG</Data></Cell>
+<Cell><Data ss:Type="String">RASANTE CONEXION SG</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">95</Data></Cell>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">La rasante RASANTE CONEXION SG presenta el replanteo de alzado a puntos fijos segun la exportacion incremental de Civil 3D.</Data></Cell>
+<Cell><Data ss:Type="String">LA RASANTE RASANTE CONEXION SG PRESENTA EL REPLANTEO DE ALZADO A PUNTOS FIJOS SEGUN LA EXPORTACION INCREMENTAL DE CIVIL 3D</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">96</Data></Cell>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">Tabla 21. Puntos fijos de alzado para la rasante RASANTE CONEXION SG.</Data></Cell>
+<Cell><Data ss:Type="String">TABLA 21 PUNTOS FIJOS DE ALZADO PARA LA RASANTE RASANTE CONEXION SG</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">98</Data></Cell>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Ttulo2</Data></Cell>
+<Cell><Data ss:Type="String">4. MEDICIONES AUXILIARES</Data></Cell>
+<Cell><Data ss:Type="String">4 MEDICIONES AUXILIARES</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">99</Data></Cell>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Ttulo3</Data></Cell>
+<Cell><Data ss:Type="String">4.1. Movimiento de tierras</Data></Cell>
+<Cell><Data ss:Type="String">4 1 MOVIMIENTO DE TIERRAS</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">100</Data></Cell>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Ttulo4</Data></Cell>
+<Cell><Data ss:Type="String">4.1.1. Viales</Data></Cell>
+<Cell><Data ss:Type="String">4 1 1 VIALES</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">101</Data></Cell>
+<Cell><Data ss:Type="String">3.2.2</Data></Cell>
+<Cell><Data ss:Type="String">Ttulo4</Data></Cell>
+<Cell><Data ss:Type="String">4.1.2. Excavaciones en zanja saneamiento</Data></Cell>
+<Cell><Data ss:Type="String">4 1 2 EXCAVACIONES EN ZANJA SANEAMIENTO</Data></Cell>
 </Row>
 </Table></Worksheet>
 <Worksheet ss:Name="06_Control"><Table>

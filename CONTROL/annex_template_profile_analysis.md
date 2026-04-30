@@ -1,20 +1,20 @@
 ﻿# Analisis de perfiles reutilizables de anejos
 
-- Fecha: 2026-04-21 15:24:27
+- Fecha: 2026-04-29 08:58:34
 - Configuracion: .\CONFIG\annex_template_profiles.json
 - Total de perfiles auditados: 11
 
 | Anejo | Familia | Reutilizacion | Estado | Apartados | Tablas | Excels | Soportes | Inputs |
 |---|---|---|---|---:|---:|---:|---:|---:|
 | 4 | viario-trazado | specific_template | READY | 41 | 62 | 1 | 4 | 7 |
-| 5 | firmes | specific_template | READY | 9 | 1 | 1 | 5 | 7 |
+| 5 | firmes | specific_template | PARTIAL_SUPPORT | 9 | 1 | 1 | 5 | 7 |
 | 6 | redes-lineales | family_candidate | READY | 19 | 0 | 0 | 0 | 6 |
 | 7 | pluviales | specific_template | READY | 13 | 8 | 3 | 3 | 6 |
 | 8 | redes-lineales | family_candidate | READY | 6 | 1 | 0 | 0 | 6 |
 | 11 | alumbrado | specific_template | READY | 24 | 36 | 1 | 1 | 6 |
 | 12 | accesibilidad | family_candidate | READY | 3 | 5 | 0 | 0 | 6 |
 | 13 | residuos | specific_template | READY | 18 | 8 | 1 | 0 | 6 |
-| 14 | control-calidad | specific_template | READY | 10 | 7 | 1 | 1 | 6 |
+| 14 | control-calidad | specific_template | READY | 9 | 7 | 1 | 1 | 6 |
 | 15 | plan-obra | specific_template | READY | 5 | 0 | 1 | 0 | 6 |
 | 17 | seguridad-salud | specific_template | READY | 186 | 2 | 1 | 2 | 6 |
 
@@ -35,7 +35,7 @@
 
 - Familia: firmes
 - Reutilizacion recomendada: specific_template
-- Estado donor: READY
+- Estado donor: PARTIAL_SUPPORT
 - DOCX donor: C:\Users\USUARIO\Documents\Claude\Projects\MEJORA CARRETERA GUADALMAR\PROYECTO 535\535.2\535.2.2 Mejora Carretera Guadalmar\POU 2026\DOCS\Documentos de Trabajo\5.- Dimensionamiento del Firme\Anexo 5 - Dimensionamiento del firme.docx
 - Apartados detectados: 9
 - Tablas detectadas: 1
@@ -130,7 +130,7 @@
 - Reutilizacion recomendada: specific_template
 - Estado donor: READY
 - DOCX donor: C:\Users\USUARIO\Documents\Claude\Projects\MEJORA CARRETERA GUADALMAR\PROYECTO 535\535.2\535.2.2 Mejora Carretera Guadalmar\POU 2026\DOCS\Documentos de Trabajo\14.- Control de Calidad\Anexo 14 - Control de calidad.docx
-- Apartados detectados: 10
+- Apartados detectados: 9
 - Tablas detectadas: 7
 - Muestra de apartados: ANEJO N.º 14.- CONTROL DE CALIDAD | 1. CONTROL DE CALIDAD | 1.1. CAPÍTULO 1: EXPLANACIONES. | 1.2. CAPÍTULO 2: EXPLANACIONES. CAPAS DE ASIENTO. SUELO SELECCIONADO. | 1.3. CAPÍTULO 3: FIRMES. ZAHORRA ARTIFICIAL | 1.4. CAPÍTULO 4: MEZCLA BITUMINOSA EN CALIENTE | 1.5. CAPÍTULO 5: BORDILLOS | 1.6. CAPÍTULO 6: HORMIGONES Y ACEROS
 - Excel donor: C:\Users\USUARIO\Documents\Claude\Projects\MEJORA CARRETERA GUADALMAR\PROYECTO 535\535.2\535.2.2 Mejora Carretera Guadalmar\POU 2026\DOCS\Documentos de Trabajo\14.- Control de Calidad\535.2.2 Control-Calidad.xlsx (1 hojas: CRTA. GUADALMAR)

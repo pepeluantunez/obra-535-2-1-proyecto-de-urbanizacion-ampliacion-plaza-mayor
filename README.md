@@ -23,6 +23,8 @@ La autoridad operativa de este repo se reparte asi:
 - `FUENTES_MAESTRAS.md`: autoridad documental y jerarquia entre fuentes.
 - `DECISIONES_PROYECTO.md`: criterios ya fijados para trabajar sin reabrir debates locales.
 - `AGENTS.md`: reglas especificas de Plaza Mayor, cierres y comandos de comprobacion del proyecto.
+- `ACTIVE_SOURCES.md`: declaracion corta de fuentes activas y corpus compartido en uso.
+- `LOCAL_ONLY_ASSETS.md`: activos locales, pesados o no canonicos.
 - `CONFIG/repo_contract.json`: guardarrailes para evitar inflar la raiz o mezclar capas de ecosistema.
 
 Si una regla o SOP es comun a varios proyectos, no debe consolidarse aqui como autoridad final.
@@ -35,7 +37,9 @@ Antes de una tarea no trivial, leer en este orden:
 2. `FUENTES_MAESTRAS.md`
 3. `DECISIONES_PROYECTO.md`
 4. `ESTADO_PROYECTO.md`
-5. `AGENTS.md`
+5. `ACTIVE_SOURCES.md`
+6. `CONTROL/lecciones_operativas.md`
+7. `AGENTS.md`
 
 La rutina minima de triage local ya esta resumida dentro de `MAPA_PROYECTO.md`; no necesita vivir como autoridad separada en raiz.
 
@@ -46,11 +50,15 @@ Este repo ya declara su contrato minimo en:
 - `CONFIG/project_identity.json`
 - `CONFIG/toolkit.lock.json`
 - `CONFIG/repo_contract.json`
+- `CONFIG/ecosystem_alignment_manifest.json`
+- `ACTIVE_SOURCES.md`
+- `LOCAL_ONLY_ASSETS.md`
 
 Validacion local:
 
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File .\tools\check_repo_contract.ps1 -ContractPath .\CONFIG\repo_contract.json -RootPath .
+powershell -NoProfile -ExecutionPolicy Bypass -File .\tools\check_machine_guard.ps1
 powershell -NoProfile -ExecutionPolicy Bypass -File .\tools\check_traceability_graph_seed.ps1 -NodesPath .\CONTROL\trazabilidad\nodes.json -EdgesPath .\CONTROL\trazabilidad\edges.json -CoveragePath .\CONTROL\trazabilidad\coverage.json -RootPath .
 ```
 

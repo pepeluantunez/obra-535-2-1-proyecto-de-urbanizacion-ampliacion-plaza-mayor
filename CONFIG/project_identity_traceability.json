@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "scan_parts": [
+    "header",
+    "footer"
+  ],
+  "forbidden_tokens": [
+    "535.2.2",
+    "GUADALMAR",
+    "MEJORA CARRETERA GUADALMAR",
+    "MEJORA DE CARRETERA DE GUADALMAR"
+  ],
+  "replacement_rules": [
+    {
+      "find": "535.2.2",
+      "replace": "535.2.1",
+      "parts": [
+        "header",
+        "footer"
+      ]
+    },
+    {
+      "find": "MEJORA CARRETERA GUADALMAR",
+      "replace": "AMPLIACION PLAZA MAYOR",
+      "parts": [
+        "header",
+        "footer"
+      ]
+    },
+    {
+      "find": "MEJORA DE CARRETERA DE GUADALMAR",
+      "replace": "AMPLIACION PLAZA MAYOR",
+      "parts": [
+        "header",
+        "footer"
+      ]
+    },
+    {
+      "find": "GUADALMAR",
+      "replace": "AMPLIACION PLAZA MAYOR",
+      "parts": [
+        "header",
+        "footer"
+      ]
+    }
+  ]
+}

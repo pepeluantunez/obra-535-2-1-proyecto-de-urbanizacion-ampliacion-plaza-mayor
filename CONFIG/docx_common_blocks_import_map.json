@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "jobs": [
+    {
+      "name": "anejo6_agua_potable",
+      "donor": "DOCS - ANEJOS/Plantillas/Por Anejo/06-06-red-de-agua-potable/10_donor_docx/Anexo 6 - Agua Potable.docx",
+      "targets": [
+        {
+          "path": "DOCS - ANEJOS/6.- Red de Agua Potable/Anexo 6 - Red de Agua Potable.docx",
+          "sections": [
+            { "from": "2.1. Caudales, Dimensionamiento y Planificación Estratégica", "to": "3.1. Caudales, Dimensionamiento y Planificación Estratégica" },
+            { "from": "2.2. Suministros de la Red", "to": "3.2. Suministros de la Red" },
+            { "from": "2.3. Velocidad de las conducciones", "to": "3.3. Velocidad de las conducciones" },
+            { "from": "2.4 Presiones en los consumos", "to": "3.4 Presiones en los consumos" },
+            { "from": "2.5 Diámetro mínimo", "to": "3.5 Diámetro mínimo" },
+            { "from": "2.6. Elementos Especiales", "to": "3.6. Elementos Especiales" },
+            { "from": "2.7 Materiales Empleados", "to": "3.7 Materiales Empleados" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "anejo7_pluviales",
+      "donor": "DOCS - ANEJOS/Plantillas/Por Anejo/07-07-red-de-saneamiento-pluviales/10_donor_docx/Anexo 7 - Pluviales.docx",
+      "targets": [
+        {
+          "path": "DOCS - ANEJOS/7.- Red de Saneamiento - Pluviales/Anexo 7 - Red de Saneamiento - Pluviales.docx",
+          "sections": [
+            { "from": "2. CÁLCULOS HIDROLÓGICOS", "to": "3. CÁLCULOS HIDROLÓGICOS" },
+            { "from": "2.1. Método de cálculo", "to": "3.1. Método de cálculo" },
+            { "from": "2.2. Datos de las cuencas", "to": "3.2. Datos de las cuencas" },
+            { "from": "2.3. Tiempo de concentración", "to": "3.3. Tiempo de concentración" },
+            { "from": "2.4. Intensidad de Precipitación I (T,tc)", "to": "3.4. Intensidad de Precipitación I (T,tc)" },
+            { "from": "a) Máxima precipitaciones diarias (Pd)", "to": "a) Máxima precipitaciones diarias (Pd)" },
+            { "from": "b) Factor de Intensidad (Fint)", "to": "b) Factor de Intensidad (Fint)" },
+            { "from": "c) Valor inicial del umbral de escorrentía P0i", "to": "c) Valor inicial del umbral de escorrentía P0i" },
+            { "from": "d) Valor coeficiente corrector del umbral de escorrentía β", "to": "d) Valor coeficiente corrector del umbral de escorrentía β" },
+            { "from": "2.5. Obtención del caudal punta", "to": "3.5. Obtención del caudal punta" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "anejo8_fecales",
+      "donor": "DOCS - ANEJOS/Plantillas/Por Anejo/08-08-red-de-saneamiento-fecales/10_donor_docx/Anexo 8 - Fecales.docx",
+      "targets": [
+        {
+          "path": "DOCS - ANEJOS/8.- Red de Saneamiento - Fecales/Anexo 8 - Red de Saneamiento - Fecales.docx",
+          "sections": [
+            { "from": "NORMATIVA DE REFERENCIA", "to": "2. NORMATIVA DE REFERENCIA" },
+            { "from": "1. INTRODUCCIÓN", "to": "3. INTRODUCCIÓN" },
+            { "from": "2. CONDICIONANTES Y AFECCIONES EXISTENTES", "to": "4. CONDICIONANTES Y AFECCIONES EXISTENTES" },
+            { "from": "3. SOLUCIÓN PROYECTADA", "to": "5. SOLUCIÓN PROYECTADA" },
+            { "from": "4. ALCANCE DE LAS COMPROBACIONES", "to": "6. ALCANCE DE LAS COMPROBACIONES" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "anejo12_accesibilidad_canonico",
+      "donor": "DOCS - ANEJOS/Plantillas/Por Anejo/12-12-accesibilidad/10_donor_docx/Anexo 12 - Accesibilidad.docx",
+      "targets": [
+        {
+          "path": "DOCS - ANEJOS/12.- Accesibilidad/Anexo 12 - Accesibilidad.docx",
+          "sections": [
+            { "from": "JUSTIFICACIÓN DEL CUMPLIMIENTO DEL REGLAMENTO", "to": "JUSTIFICACIÓN DEL CUMPLIMIENTO DEL REGLAMENTO" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "anejo13_residuos",
+      "donor": "DOCS - ANEJOS/Plantillas/Por Anejo/13-13-estudio-de-gestion-de-residuos/10_donor_docx/Anexo 13 - Estudio de Gestión de Residuos.docx",
+      "targets": [
+        {
+          "path": "DOCS - ANEJOS/13.- Estudio de Gestion de Residuos/Anexo 13 - Estudio de Gestion de Residuos.docx",
+          "sections": [
+            { "from": "2.- AGENTES INTERVINIENTES", "to": "3.- AGENTES INTERVINIENTES" },
+            { "from": "3.- NORMATIVA Y LEGISLACIÓN APLICABLE", "to": "4.- NORMATIVA Y LEGISLACIÓN APLICABLE" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "anejo14_control_calidad",
+      "donor": "DOCS - ANEJOS/Plantillas/Por Anejo/14-14-control-de-calidad/10_donor_docx/Anexo 14 - Control de calidad.docx",
+      "targets": [
+        {
+          "path": "DOCS - ANEJOS/14.- Control de Calidad/Anexo 14 - Control de Calidad.docx",
+          "sections": [
+            { "from": "1. CONTROL DE CALIDAD", "to": "2. CONTROL DE CALIDAD" },
+            { "from": "1.1. CAPÍTULO 1: EXPLANACIONES.", "to": "2.1. CAPÍTULO 1: EXPLANACIONES." },
+            { "from": "1.2. CAPÍTULO 2: EXPLANACIONES. CAPAS DE ASIENTO. SUELO SELECCIONADO.", "to": "2.2. CAPÍTULO 2: EXPLANACIONES. CAPAS DE ASIENTO. SUELO SELECCIONADO." },
+            { "from": "1.3. CAPÍTULO 3: FIRMES. ZAHORRA ARTIFICIAL", "to": "2.3. CAPÍTULO 3: FIRMES. ZAHORRA ARTIFICIAL" },
+            { "from": "1.4. CAPÍTULO 4: MEZCLA BITUMINOSA EN CALIENTE", "to": "2.4. CAPÍTULO 4: MEZCLA BITUMINOSA EN CALIENTE" },
+            { "from": "1.5. CAPÍTULO 5: BORDILLOS", "to": "2.5. CAPÍTULO 5: BORDILLOS" },
+            { "from": "1.6. CAPÍTULO 6: HORMIGONES Y ACEROS", "to": "2.6. CAPÍTULO 6: HORMIGONES Y ACEROS" },
+            { "from": "1.7. CAPÍTULO 7: SEÑALIZACIÓN Y BALIZAMIENTO", "to": "2.7. CAPÍTULO 7: SEÑALIZACIÓN Y BALIZAMIENTO" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "anejo15_plan_obra",
+      "donor": "DOCS - ANEJOS/Plantillas/Por Anejo/15-15-plan-de-obra/10_donor_docx/Anexo 15 - Plan de Obras.docx",
+      "targets": [
+        {
+          "path": "DOCS - ANEJOS/15.- Plan de Obra/Anexo 15 - Plan de Obra.docx",
+          "sections": [
+            { "from": "1. INTRODUCCION", "to": "2. INTRODUCCIÓN" },
+            { "from": "2. DESCRIPCIÓN DE LAS ACTUACIONES MÁS SIGNIFICATIVAS", "to": "3. DESCRIPCIÓN DE LAS ACTUACIONES MÁS SIGNIFICATIVAS" },
+            { "from": "3. DURACIÓN DE LOS TRABAJOS", "to": "4. DURACIÓN DE LOS TRABAJOS" },
+            { "from": "4. DIAGRAMA DE GANTT", "to": "5. DIAGRAMA DE GANTT" }
+          ]
+        }
+      ]
+    }
+  ]
+}

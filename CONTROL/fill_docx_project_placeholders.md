@@ -12,7 +12,8 @@
 | DOCS - ANEJOS\17.- Seguridad y Salud\Anexo 17 - Estudio de Seguridad y Salud.docx | UPDATED | word/header3.xml, word/header2.xml, word/document.xml |
 | DOCS - ANEJOS\2.- Cartografia y Topografia\Anexo 2 - Cartografia y Topografia.docx | UPDATED | word/header3.xml, word/header2.xml, word/document.xml |
 | DOCS - ANEJOS\3.- Estudio Geotecnico\Anexo 3 - Estudio Geotecnico.docx | UPDATED | word/header3.xml, word/header2.xml, word/document.xml |
-| DOCS - ANEJOS\4.- Trazado, Replanteo y Mediciones Auxiliares\Anexo 4 - Trazado, Replanteo y Mediciones Auxiliares.docx | UPDATED | word/header3.xml, word/header2.xml, word/document.xml |
+| DOCS - ANEJOS\4.- Trazado, Replanteo y Mediciones Auxiliares\Anexo 4 - Trazado, Replanteo y Mediciones Auxiliares.docx | UPDATED | word/header2.xml, word/header3.xml, word/document.xml |
+| DOCS - ANEJOS\4.- Trazado, Replanteo y Mediciones Auxiliares\Anexo 4 - Trazado, Replanteo y Mediciones Auxiliares_bak_before_civil3d.docx | UNCHANGED | - |
 | DOCS - ANEJOS\5.- Dimensionamiento del Firme\Anexo 5 - Dimensionamiento del Firme.docx | UPDATED | word/header3.xml, word/header2.xml, word/document.xml |
 | DOCS - ANEJOS\6.- Red de Agua Potable\Anexo 6 - Red de Agua Potable.docx | UPDATED | word/header3.xml, word/header2.xml, word/document.xml |
 | DOCS - ANEJOS\7.- Red de Saneamiento - Pluviales\Anexo 7 - Red de Saneamiento - Pluviales.docx | UPDATED | word/header3.xml, word/header2.xml, word/document.xml |

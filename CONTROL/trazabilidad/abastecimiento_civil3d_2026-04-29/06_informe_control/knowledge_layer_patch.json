@@ -1,0 +1,69 @@
+{
+  "scope": "535.2.1 Plaza Mayor - Abastecimiento Civil 3D",
+  "date": "2026-04-29",
+  "purpose": "Patch propuesto para incorporar la base trazable a la capa de conocimiento del repo sin modificar nodos/edges globales en esta tarea.",
+  "nodes": [
+    {
+      "id": "c3d_fd150_propuesto_2026_04_29",
+      "type": "civil3d_export",
+      "path": "DOCS - ANEJOS/6.- Red de Agua Potable/FD150 PROPUESTO.csv",
+      "role": "source_proposed"
+    },
+    {
+      "id": "c3d_fd200_propuesto_2026_04_29",
+      "type": "civil3d_export",
+      "path": "DOCS - ANEJOS/6.- Red de Agua Potable/FD200 PROPUESTO.csv",
+      "role": "source_proposed"
+    },
+    {
+      "id": "abast_medicion_propuesta_2026_04_29",
+      "type": "measurement_dataset",
+      "path": "CONTROL/trazabilidad/abastecimiento_civil3d_2026-04-29/03_mediciones/medicion_tuberias_propuestas.csv",
+      "metrics": {
+        "universo_propuesto_piezas_unicas": 48,
+        "tramos_tuberia": 20,
+        "longitud_3d_total_m": 466.062,
+        "piezas_especiales": 28,
+        "cobertura_cruce_general_pct": 100.0,
+        "mapeo_bc3_confianza": {
+          "MEDIA": 2,
+          "ALTA": 46
+        }
+      }
+    },
+    {
+      "id": "abast_mapeo_bc3_candidato_2026_04_29",
+      "type": "bc3_mapping_candidate",
+      "path": "CONTROL/trazabilidad/abastecimiento_civil3d_2026-04-29/04_mapeo_bc3/mapeo_propuesto_a_bc3_candidato.csv",
+      "target_bc3": "PRESUPUESTO/535.2.1_maestro.bc3"
+    },
+    {
+      "id": "abast_texto_memoria_anejo6_base_2026_04_29",
+      "type": "doc_text_draft",
+      "path": "CONTROL/trazabilidad/abastecimiento_civil3d_2026-04-29/05_textos_memoria_anejo/"
+    }
+  ],
+  "edges": [
+    {
+      "from": "c3d_fd150_propuesto_2026_04_29",
+      "to": "abast_medicion_propuesta_2026_04_29",
+      "relation": "defines_proposed_universe"
+    },
+    {
+      "from": "c3d_fd200_propuesto_2026_04_29",
+      "to": "abast_medicion_propuesta_2026_04_29",
+      "relation": "defines_proposed_universe"
+    },
+    {
+      "from": "abast_medicion_propuesta_2026_04_29",
+      "to": "abast_mapeo_bc3_candidato_2026_04_29",
+      "relation": "feeds_budget_mapping"
+    },
+    {
+      "from": "abast_mapeo_bc3_candidato_2026_04_29",
+      "to": "abast_texto_memoria_anejo6_base_2026_04_29",
+      "relation": "supports_document_narrative"
+    }
+  ],
+  "integration_note": "No se han modificado nodes.json/edges.json globales; este patch queda preparado para revision e integracion controlada."
+}

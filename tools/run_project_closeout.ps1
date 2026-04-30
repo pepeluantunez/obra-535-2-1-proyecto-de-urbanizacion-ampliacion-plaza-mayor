@@ -61,6 +61,8 @@ $officeChecker = Join-Path $toolsRoot 'check_office_mojibake.ps1'
 $bc3Checker = Join-Path $toolsRoot 'check_bc3_integrity.ps1'
 $docChecker = Join-Path $toolsRoot 'check_docx_tables_consistency.ps1'
 $excelChecker = Join-Path $toolsRoot 'check_excel_formula_guard.ps1'
+$identityChecker = Join-Path $toolsRoot 'check_docx_project_identity.ps1'
+$normalStyleChecker = Join-Path $toolsRoot 'check_docx_normal_style_contract.ps1'
 
 $hadFailure = $false
 
@@ -88,6 +90,22 @@ if ($docFiles.Count -gt 0) {
     Write-Output '== Control DOCX tablas =='
     try {
         & $docChecker -Paths $docFiles -ExpectedFont 'Montserrat' -EnforceFont $StrictDocxLayout -RequireTableCaption $RequireTableCaption
+    } catch {
+        $hadFailure = $true
+        Write-Output $_.Exception.Message
+    }
+
+    Write-Output '== Control identidad proyecto (header/footer) =='
+    try {
+        & $identityChecker -Paths $docFiles -FailOnIssue
+    } catch {
+        $hadFailure = $true
+        Write-Output $_.Exception.Message
+    }
+
+    Write-Output '== Control contrato tipografico (Normal/docDefaults) =='
+    try {
+        & $normalStyleChecker -Paths $docFiles -ExpectedFont 'Montserrat' -ExpectedFontPt 9.5 -FailOnIssue
     } catch {
         $hadFailure = $true
         Write-Output $_.Exception.Message

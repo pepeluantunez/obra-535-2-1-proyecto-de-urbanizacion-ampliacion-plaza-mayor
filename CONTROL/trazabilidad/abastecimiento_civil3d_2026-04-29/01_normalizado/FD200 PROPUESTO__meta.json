@@ -1,0 +1,31 @@
+{
+  "encoding_origen": "utf-8-sig",
+  "meta": {
+    "Dibujo": "ABASTECIMIENTO.dwg",
+    "Ruta de dibujo": "Z:\\PROYECTO 535\\535.2\\535.2.1 Proyecto de Urbanización\\PLANOS\\04_CIVIL3D\\ABASTECIMIENTO.dwg",
+    "Fecha del informe": "29/04/2026",
+    "Notificado por": "USUARIO",
+    "Versión del informe": "1.0 (E)"
+  },
+  "resumen_red": {
+    "Nombre de la red de tuberías a presión": "ABASTECIMIENTO",
+    "Descripción": "<Ninguno>",
+    "Lista de piezas": "ESPAÑA",
+    "Tuberías": "124",
+    "Accesorios": "112",
+    "Elementos hidromecánicos": "4",
+    "Tramos de tubería": "11",
+    "Superficie de referencia por defecto": "PROPUESTA",
+    "Alineación de referencia por defecto": "FD200 PROPUESTO",
+    "Elevación mínima": "-1.163",
+    "Elevación máxima": "8.827",
+    "Estilo de etiqueta de tuberías en planta": "<Ninguno>",
+    "Estilo de etiqueta de accesorio en planta": "<Ninguno>",
+    "Estilo de etiqueta de elemento hidromecánico en planta": "<Ninguno>",
+    "Capa de tuberías en planta": "C-WATR-PIPE",
+    "Capa de accesorio en planta": "C-WATR-FITT",
+    "Capa de elemento hidromecánico en planta": "C-WATR-APPT",
+    "Infracciones": "0"
+  },
+  "n_filas_detalle": 54
+}

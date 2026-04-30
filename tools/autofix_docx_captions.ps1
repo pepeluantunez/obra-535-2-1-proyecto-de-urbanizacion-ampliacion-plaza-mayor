@@ -5,6 +5,7 @@ param(
     [string]$CaptionPrefix = 'Tabla',
     [string]$DefaultDescription = 'Descripcion',
     [bool]$UseMontserrat = $true,
+    [switch]$IncludeTemplates,
     [switch]$WhatIf
 )
 
@@ -26,12 +27,18 @@ function Resolve-DocFiles {
         $item = Get-Item -LiteralPath $absolute
         if ($item.PSIsContainer) {
             Get-ChildItem -LiteralPath $item.FullName -Recurse -File |
-                Where-Object { $_.Extension.ToLowerInvariant() -in $docExtensions } |
+                Where-Object {
+                    $_.Extension.ToLowerInvariant() -in $docExtensions -and
+                    ($IncludeTemplates -or $_.FullName -notmatch '\\Plantillas\\') -and
+                    ($IncludeTemplates -or $_.FullName -notmatch '\\10_donor_docx\\')
+                } |
                 ForEach-Object { $resolved += $_.FullName }
         } else {
             if ($item.Extension.ToLowerInvariant() -notin $docExtensions) {
                 throw "Extension no soportada para autofix de captions: $($item.FullName)"
             }
+            if (-not $IncludeTemplates -and $item.FullName -match '\\Plantillas\\') { continue }
+            if (-not $IncludeTemplates -and $item.FullName -match '\\10_donor_docx\\') { continue }
             $resolved += $item.FullName
         }
     }

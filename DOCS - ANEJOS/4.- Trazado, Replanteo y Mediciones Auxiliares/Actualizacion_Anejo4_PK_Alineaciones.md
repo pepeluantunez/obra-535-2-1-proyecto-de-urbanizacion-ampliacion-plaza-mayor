@@ -3,8 +3,8 @@
 - Fuentes integradas:
   - Informe de P.K. de PI de alineaciones.html
   - Informe de P.K. incremental de alineaciones.html
-- Alineaciones procesadas: 3
-- Nombres de ejes: ROTONDA, VIAL CONEXION SG, Vial Conexión SG-IT
+- Alineaciones procesadas: 4
+- Nombres de ejes: CALLE PARKING, ROTONDA, VIAL CONEXION SG, Vial Conexión SG-IT
 - Delta longitud PI vs Incremental: min = 0 m, max = 0 m
 
 ## Entregables

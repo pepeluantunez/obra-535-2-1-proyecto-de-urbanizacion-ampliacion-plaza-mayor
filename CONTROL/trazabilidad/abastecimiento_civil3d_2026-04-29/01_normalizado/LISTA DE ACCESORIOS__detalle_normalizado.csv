@@ -1,0 +1,113 @@
+Nombre de accesorio,Descripción,Estilo de accesorio,Tipo de pieza,Diámetro nominal,Alineación de referencia,Superficie de referencia,P.K.,Desfase,Abscisa,Ordenada,Elevación,Ángulo horizontal,Ángulo vertical,Conexiones,Material,Descripción de pieza,Infracciones,Conjuntos de propiedades
+Fitting - (12),Bend 11.25_ DN 300_  [...],Estándar,Codo,300,<Ninguno>,PROPUESTA,,,367524.1170,4057784.0156,-0.932,"11° 15' 6.317""","0° 0' 0.000""",2,ByLayer,Bend 11.25_ DN 300_ Socket,0,0
+Fitting - (13),Bend 22.5_ DN 300_ S [...],Estándar,Codo,300,<Ninguno>,PROPUESTA,,,367530.4176,4057778.2696,-0.781,"22° 30' 13.278""","0° 0' 0.000""",2,ByLayer,Bend 22.5_ DN 300_ Socket,0,0
+Fitting - (14),Bend 11.25_ DN 300_  [...],Estándar,Codo,300,<Ninguno>,PROPUESTA,,,367532.4488,4057771.5510,-0.656,"11° 15' 6.377""","0° 0' 0.000""",2,ByLayer,Bend 11.25_ DN 300_ Socket,0,0
+Fitting - (15),Bend 11.25_ DN 300_  [...],Estándar,Codo,300,<Ninguno>,PROPUESTA,,,367532.9913,4057762.1268,-0.488,"11° 15' 6.425""","0° 0' 0.000""",2,ByLayer,Bend 11.25_ DN 300_ Socket,0,0
+Fitting - (16),Bend 11.25_ DN 300_  [...],Estándar,Codo,300,<Ninguno>,PROPUESTA,,,367530.5964,4057752.0656,-0.305,"11° 15' 6.385""","0° 0' 0.000""",2,ByLayer,Bend 11.25_ DN 300_ Socket,0,0
+Fitting - (17),Bend 90_ DN 350_ PN  [...],Estándar,Codo,300,<Ninguno>,PROPUESTA,,,367504.9928,4057702.9306,0.679,"90° 0' 57.478""","0° 0' 0.000""",2,ByLayer,Bend 90_ DN 350_ PN 16_ RF,0,0
+Fitting - (18),Bend 22.5_ DN 300_ S [...],Estándar,Codo,300,<Ninguno>,PROPUESTA,,,367652.1786,4057599.7620,3.870,"22° 30' 12.702""","0° 0' 0.000""",2,ByLayer,Bend 22.5_ DN 300_ Socket,0,0
+Fitting - (19),Bend 22.5_ DN 300_ S [...],Estándar,Codo,300,<Ninguno>,PROPUESTA,,,367684.0334,4057554.7272,4.850,"22° 24' 14.948""","2° 5' 16.084""",2,ByLayer,Bend 22.5_ DN 300_ Socket,0,0
+Fitting - (20),Bend 11.25_ DN 300_  [...],Estándar,Codo,300,<Ninguno>,PROPUESTA,,,367807.1480,4057470.5045,2.556,"10° 51' 8.622""","3° 0' 10.330""",2,ByLayer,Bend 11.25_ DN 300_ Socket,0,0
+Fitting - (21),Bend 45_ DN 300_ Soc [...],Estándar,Codo,300,<Ninguno>,PROPUESTA,,,367833.2666,4057444.2377,0.053,"45° 6' 31.281""","0° 0' 0.000""",2,ByLayer,Bend 45_ DN 300_ Socket,0,0
+Fitting - (22),Bend 45_ DN 300_ Soc [...],Estándar,Codo,300,<Ninguno>,PROPUESTA,,,367833.1921,4057438.2731,-0.349,"45° 6' 3.404""","0° 0' 0.000""",2,ByLayer,Bend 45_ DN 300_ Socket,0,0
+Fitting - (57),Bend 11.25_ DN 200_  [...],Estándar,Codo,200,<Ninguno>,PROPUESTA,,,367576.2346,4057787.1349,1.273,"11° 15' 9.125""","0° 2' 35.694""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (58),Bend 11.25_ DN 200_  [...],Estándar,Codo,200,<Ninguno>,PROPUESTA,,,367585.8292,4057802.2932,1.665,"11° 15' 9.439""","0° 0' 0.000""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (59),Bend 11.25_ DN 200_  [...],Estándar,Codo,200,<Ninguno>,PROPUESTA,,,367592.0037,4057808.5951,1.855,"11° 15' 9.347""","0° 0' 0.000""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (60),Bend 11.25_ DN 200_  [...],Estándar,Codo,200,<Ninguno>,PROPUESTA,,,367604.3145,4057819.3653,2.209,"11° 15' 9.441""","0° 0' 0.000""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (61),Bend 11.25_ DN 200_  [...],Estándar,Codo,200,<Ninguno>,PROPUESTA,,,367643.7941,4057841.2074,3.183,"11° 15' 9.338""","0° 0' 0.000""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (62),Bend 90_ DN 200_ Soc [...],Estándar,Codo,200,<Ninguno>,PROPUESTA,,,367665.1212,4057854.2879,3.724,"90° 1' 30.681""","0° 0' 0.000""",2,ByLayer,Bend 90_ DN 200_ Socket,0,0
+Fitting - (63),Bend 45_ DN 200_ Soc [...],Estándar,Codo,200,<Ninguno>,PROPUESTA,,,367671.4878,4057845.2059,3.963,"45° 0' 44.731""","0° 0' 0.000""",2,ByLayer,Bend 45_ DN 200_ Socket,0,0
+Fitting - (64),Bend 45_ DN 200_ Soc [...],Estándar,Codo,200,<Ninguno>,PROPUESTA,,,367700.3458,4057847.0145,4.588,"45° 0' 47.163""","0° 0' 0.000""",2,ByLayer,Bend 45_ DN 200_ Socket,0,0
+Fitting - (65),Bend 11.25_ DN 200_  [...],Estándar,Codo,200,<Ninguno>,PROPUESTA,,,367710.0022,4057870.0429,5.128,"10° 56' 55.883""","2° 37' 29.687""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (66),Bend 11.25_ DN 200_  [...],Estándar,Codo,200,<Ninguno>,PROPUESTA,,,367729.5065,4057902.3221,7.276,"11° 15' 27.997""","0° 25' 7.678""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (67),Bend 11.25_ DN 200_  [...],Estándar,Codo,200,<Ninguno>,PROPUESTA,,,367752.4277,4057925.1791,8.827,"7° 48' 31.553""","8° 6' 17.673""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (68),Bend 11.25_ DN 200_  [...],Estándar,Codo,200,<Ninguno>,PROPUESTA,,,367774.0209,4057950.4545,7.658,"11° 5' 7.597""","1° 58' 22.768""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (69),Bend 11.25_ DN 200_  [...],Estándar,Codo,200,<Ninguno>,PROPUESTA,,,367787.3757,4057968.3431,6.610,"10° 37' 5.119""","3° 44' 18.364""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (70),Bend 11.25_ DN 200_  [...],Estándar,Codo,200,<Ninguno>,PROPUESTA,,,367814.2817,4058011.3572,5.702,"2° 53' 10.457""","10° 52' 28.643""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (71),Bend 11.25_ DN 200_  [...],Estándar,Codo,200,<Ninguno>,PROPUESTA,,,367837.5462,4058048.1355,5.732,"11° 11' 26.648""","1° 9' 17.868""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (72),Bend 11.25_ DN 200_  [...],Estándar,Codo,200,<Ninguno>,PROPUESTA,,,367918.0916,4058177.1230,5.914,"11° 14' 16.728""","0° 31' 14.960""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (73),Bend 11.25_ DN 200_  [...],Estándar,Codo,200,<Ninguno>,PROPUESTA,,,367950.5358,4058226.0029,6.061,"10° 23' 26.392""","4° 19' 5.745""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (74),Bend 11.25_ DN 200_  [...],Estándar,Codo,200,<Ninguno>,PROPUESTA,,,367959.2473,4058239.4550,6.029,"10° 15' 5.524""","4° 38' 23.277""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (75),Bend 11.25_ DN 200_  [...],Estándar,Codo,200,<Ninguno>,PROPUESTA,,,367981.6170,4058273.1507,5.747,"10° 17' 44.650""","4° 32' 25.892""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (76),Bend 11.25_ DN 200_  [...],Estándar,Codo,200,<Ninguno>,PROPUESTA,,,368009.4749,4058316.8359,5.806,"11° 4' 37.354""","1° 58' 5.256""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (77),Bend 11.25_ DN 200_  [...],Estándar,Codo,200,<Ninguno>,PROPUESTA,,,368036.8562,4058357.4247,5.636,"11° 11' 16.361""","1° 11' 3.575""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (78),Bend 11.25_ DN 200_  [...],Estándar,Codo,200,<Ninguno>,PROPUESTA,,,368053.0405,4058379.0226,5.399,"10° 43' 40.395""","3° 23' 33.636""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (79),Bend 11.25_ DN 200_  [...],Estándar,Codo,200,<Ninguno>,PROPUESTA,,,368070.8449,4058401.4130,5.413,"1° 44' 56.451""","11° 6' 49.061""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (80),Bend 11.25_ DN 200_  [...],Estándar,Codo,200,<Ninguno>,PROPUESTA,,,368072.7059,4058403.7660,5.391,"11° 14' 59.726""","0° 4' 43.333""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (81),Bend 11.25_ DN 200_  [...],Estándar,Codo,200,<Ninguno>,PROPUESTA,,,368085.3646,4058419.6840,5.265,"11° 14' 59.651""","0° 4' 48.686""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (82),Bend 11.25_ DN 200_  [...],Estándar,Codo,200,<Ninguno>,PROPUESTA,,,368105.0208,4058442.3690,5.089,"11° 14' 59.523""","0° 4' 57.581""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (83),Bend 11.25_ DN 200_  [...],Estándar,Codo,200,<Ninguno>,PROPUESTA,,,368121.9246,4058460.6453,4.948,"11° 14' 47.240""","0° 17' 17.966""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (84),Bend 11.25_ DN 200_  [...],Estándar,Codo,200,<Ninguno>,PROPUESTA,,,368144.7774,4058483.9064,4.789,"11° 14' 43.249""","0° 19' 38.326""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (85),Bend 11.25_ DN 200_  [...],Estándar,Codo,200,<Ninguno>,PROPUESTA,,,368166.7573,4058504.9732,4.668,"11° 14' 59.236""","0° 4' 54.070""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (86),Bend 90_ DN 200_ Soc [...],Estándar,Codo,200,<Ninguno>,PROPUESTA,,,368193.8343,4058528.0701,4.511,"90° 0' 4.028""","0° 1' 5.770""",2,ByLayer,Bend 90_ DN 200_ Socket,0,0
+Fitting - (87),Bend 11.25_ DN 200_  [...],Estándar,Codo,200,<Ninguno>,PROPUESTA,,,368223.2328,4058497.9229,4.312,"11° 13' 20.850""","0° 47' 17.371""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (88),Bend 11.25_ DN 200_  [...],Estándar,Codo,200,<Ninguno>,PROPUESTA,,,368295.6619,4058448.3508,5.119,"0° 0' 0.000""","11° 14' 59.945""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (89),Bend 11.25_ DN 200_  [...],Estándar,Codo,200,<Ninguno>,PROPUESTA,,,368297.5681,4058437.8577,4.585,"0° 0' 0.000""","11° 14' 59.945""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (90),Bend 90_ DN 200_ Soc [...],Estándar,Codo,200,<Ninguno>,PROPUESTA,,,368085.5728,4058135.3211,5.363,"90° 0' 1.837""","0° 7' 20.081""",2,ByLayer,Bend 90_ DN 200_ Socket,0,0
+Fitting - (91),Tee (Red)_ DN 300x20 [...],Estándar,Unión en T,300 x 200,<Ninguno>,PROPUESTA,,,367524.2875,4057689.4338,1.096,,,3,ByLayer,Tee (Red)_ DN 300x200_ PN 16_ RF,0,0
+Fitting - (92),Bend 11.25_ DN 200_  [...],PROPUESTO,Codo,200,<Ninguno>,PROPUESTA,,,367773.8914,4057566.8512,3.666,"6° 40' 22.156""","9° 3' 46.410""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (93),Bend 11.25_ DN 200_  [...],PROPUESTO,Codo,200,<Ninguno>,PROPUESTA,,,367779.7921,4057572.3411,3.480,"0° 0' 0.000""","11° 14' 59.945""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (94),Bend 11.25_ DN 200_  [...],PROPUESTO,Codo,200,<Ninguno>,PROPUESTA,,,367787.4077,4057574.9778,3.626,"0° 0' 0.000""","11° 14' 59.945""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (95),Bend 90_ DN 200_ Soc [...],PROPUESTO,Codo,200,<Ninguno>,PROPUESTA,,,367803.1441,4057571.6341,3.343,"90° 0' 17.145""","0° 39' 6.294""",2,ByLayer,Bend 90_ DN 200_ Socket,0,0
+Fitting - (96),Bend 90_ DN 200_ Soc [...],PROPUESTO,Codo,200,<Ninguno>,PROPUESTA,,,367808.0987,4057579.8163,3.295,"90° 0' 2.689""","0° 8' 33.735""",2,ByLayer,Bend 90_ DN 200_ Socket,0,0
+Fitting - (97),Bend 22.5_ DN 200_ S [...],Estándar,Codo,200,<Ninguno>,PROPUESTA,,,367836.4178,4057562.6321,3.212,"22° 29' 55.276""","0° 14' 30.672""",2,ByLayer,Bend 22.5_ DN 200_ Socket,0,0
+Fitting - (98),Bend 11.25_ DN 200_  [...],PROPUESTO,Codo,200,<Ninguno>,PROPUESTA,,,367847.4369,4057560.9892,3.234,"11° 14' 26.569""","0° 27' 34.927""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (99),Bend 11.25_ DN 200_  [...],PROPUESTO,Codo,200,<Ninguno>,PROPUESTA,,,367851.3549,4057563.4557,3.269,"0° 0' 0.001""","11° 14' 59.945""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (100),Bend 11.25_ DN 200_  [...],PROPUESTO,Codo,200,<Ninguno>,PROPUESTA,,,367854.8379,4057566.5060,3.273,"0° 0' 0.014""","11° 14' 59.945""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (101),Bend 11.25_ DN 200_  [...],PROPUESTO,Codo,200,<Ninguno>,PROPUESTA,,,367875.5890,4057587.7784,3.268,"0° 0' 0.000""","11° 14' 59.945""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (102),Bend 11.25_ DN 200_  [...],PROPUESTO,Codo,200,<Ninguno>,PROPUESTA,,,367896.3418,4057609.0494,3.185,"11° 14' 36.791""","0° 22' 52.428""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (103),Bend 11.25_ DN 200_  [...],PROPUESTO,Codo,200,<Ninguno>,PROPUESTA,,,367911.1124,4057626.8859,3.188,"11° 14' 59.945""","0° 0' 3.173""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (104),Bend 11.25_ DN 200_  [...],PROPUESTO,Codo,200,<Ninguno>,PROPUESTA,,,367947.2362,4057678.3370,3.196,"11° 11' 7.567""","1° 12' 39.707""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (105),Bend 11.25_ DN 200_  [...],PROPUESTO,Codo,200,<Ninguno>,PROPUESTA,,,367951.9310,4057682.8189,3.059,"11° 12' 27.411""","0° 59' 7.557""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (106),Bend 11.25_ DN 200_  [...],PROPUESTO,Codo,200,<Ninguno>,PROPUESTA,,,367963.4685,4057689.7652,3.036,"11° 14' 43.286""","0° 19' 24.224""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (107),Bend 11.25_ DN 200_  [...],PROPUESTO,Codo,200,<Ninguno>,PROPUESTA,,,367978.0674,4057695.0208,3.097,"11° 15' 0.260""","0° 0' 9.352""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (108),Bend 11.25_ DN 200_  [...],Estándar,Codo,200,<Ninguno>,PROPUESTA,,,368068.8143,4057820.3259,4.003,"0° 0' 0.000""","11° 14' 59.945""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (109),Bend 11.25_ DN 200_  [...],Estándar,Codo,200,<Ninguno>,PROPUESTA,,,368153.5649,4057941.0501,4.381,"4° 40' 34.295""","10° 14' 5.976""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (110),Bend 11.25_ DN 200_  [...],Estándar,Codo,200,<Ninguno>,PROPUESTA,,,368165.0670,4057957.6237,4.672,"4° 57' 9.484""","10° 6' 15.716""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (111),Bend 11.25_ DN 200_  [...],Estándar,Codo,200,<Ninguno>,PROPUESTA,,,368183.6797,4057984.0047,4.626,"5° 34' 12.520""","9° 46' 41.126""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (112),Bend 11.25_ DN 200_  [...],Estándar,Codo,200,<Ninguno>,PROPUESTA,,,368200.0225,4058007.3242,4.747,"1° 46' 17.984""","11° 6' 36.183""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (113),Bend 11.25_ DN 200_  [...],Estándar,Codo,200,<Ninguno>,PROPUESTA,,,368219.7508,4058035.4322,4.771,"11° 14' 12.586""","0° 32' 42.356""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (115),Bend 11.25_ DN 150_  [...],PROPUESTO,Codo,150,<Ninguno>,PROPUESTA,,,368116.2803,4058006.3815,5.262,"0° 46' 54.697""","11° 13' 22.335""",2,ByLayer,Bend 11.25_ DN 150_ Socket,0,0
+Fitting - (116),Bend 11.25_ DN 150_  [...],PROPUESTO,Codo,150,<Ninguno>,PROPUESTA,,,368066.9038,4058040.9050,5.531,"11° 15' 0.356""","0° 0' 2.032""",2,ByLayer,Bend 11.25_ DN 150_ Socket,0,0
+Fitting - (117),Bend 11.25_ DN 150_  [...],PROPUESTO,Codo,150,<Ninguno>,PROPUESTA,,,368062.0129,4058043.1977,5.552,"0° 0' 0.000""","11° 14' 59.945""",2,ByLayer,Bend 11.25_ DN 150_ Socket,0,0
+Fitting - (118),Bend 11.25_ DN 150_  [...],PROPUESTO,Codo,150,<Ninguno>,PROPUESTA,,,368055.9190,4058043.7432,5.620,"0° 23' 39.304""","11° 14' 35.279""",2,ByLayer,Bend 11.25_ DN 150_ Socket,0,0
+Fitting - (119),Bend 11.25_ DN 150_  [...],PROPUESTO,Codo,150,<Ninguno>,PROPUESTA,,,368052.3734,4058043.3841,5.060,"3° 24' 33.125""","10° 43' 35.256""",2,ByLayer,Bend 11.25_ DN 150_ Socket,0,0
+Fitting - (120),Bend 11.25_ DN 150_  [...],PROPUESTO,Codo,150,<Ninguno>,PROPUESTA,,,368040.6258,4058046.4415,4.884,"0° 0' 0.000""","11° 14' 59.945""",2,ByLayer,Bend 11.25_ DN 150_ Socket,0,0
+Fitting - (121),Bend 90_ DN 150_ Soc [...],Estándar,Codo,150,<Ninguno>,PROPUESTA,,,367917.0469,4058273.6628,6.081,"90° 0' 0.394""","0° 17' 23.075""",2,ByLayer,Bend 90_ DN 150_ Socket,0,0
+Fitting - (122),Bend 90_ DN 150_ Soc [...],Estándar,Codo,150,<Ninguno>,PROPUESTA,,,367907.8333,4058263.5675,6.156,"89° 59' 57.580""","0° 26' 12.394""",2,ByLayer,Bend 90_ DN 150_ Socket,0,0
+Fitting - (123),Bend 11.25_ DN 150_  [...],Estándar,Codo,150,<Ninguno>,PROPUESTA,,,367880.1386,4058286.0546,6.082,"1° 34' 48.522""","11° 8' 19.756""",2,ByLayer,Bend 11.25_ DN 150_ Socket,0,0
+Fitting - (124),Bend 11.25_ DN 150_  [...],Estándar,Codo,150,<Ninguno>,PROPUESTA,,,367854.1190,4058307.0513,6.704,"3° 56' 54.390""","10° 32' 11.084""",2,ByLayer,Bend 11.25_ DN 150_ Socket,0,0
+Fitting - (125),Bend 90_ DN 150_ Soc [...],Estándar,Codo,150,<Ninguno>,PROPUESTA,,,367837.9999,4058319.7289,6.401,"89° 59' 36.981""","1° 16' 39.927""",2,ByLayer,Bend 90_ DN 150_ Socket,0,0
+Fitting - (126),Bend 90_ DN 150_ Soc [...],Estándar,Codo,150,<Ninguno>,PROPUESTA,,,367846.6275,4058331.2188,6.508,"90° 0' 8.396""","0° 6' 0.048""",2,ByLayer,Bend 90_ DN 150_ Socket,0,0
+Fitting - (127),Bend 11.25_ DN 150_  [...],Estándar,Codo,150,<Ninguno>,PROPUESTA,,,367793.4963,4058374.1903,6.898,"11° 5' 25.429""","1° 53' 28.132""",2,ByLayer,Bend 11.25_ DN 150_ Socket,0,0
+Fitting - (128),Bend 11.25_ DN 150_  [...],Estándar,Codo,150,<Ninguno>,PROPUESTA,,,367771.0908,4058495.9947,6.118,"0° 0' 0.000""","11° 14' 59.945""",2,ByLayer,Bend 11.25_ DN 150_ Socket,0,0
+Fitting - (129),Bend 11.25_ DN 150_  [...],Estándar,Codo,150,<Ninguno>,PROPUESTA,,,367772.6957,4058498.3137,6.044,"0° 0' 0.000""","11° 14' 59.945""",2,ByLayer,Bend 11.25_ DN 150_ Socket,0,0
+Fitting - (130),Bend 11.25_ DN 150_  [...],Estándar,Codo,150,<Ninguno>,PROPUESTA,,,367775.1411,4058500.9554,5.645,"0° 0' 0.007""","11° 14' 59.945""",2,ByLayer,Bend 11.25_ DN 150_ Socket,0,0
+Fitting - (131),Bend 11.25_ DN 150_  [...],Estándar,Codo,150,<Ninguno>,PROPUESTA,,,367776.6207,4058503.0322,5.369,"0° 0' 0.000""","11° 14' 59.945""",2,ByLayer,Bend 11.25_ DN 150_ Socket,0,0
+Fitting - (132),Bend 11.25_ DN 150_  [...],Estándar,Codo,150,<Ninguno>,PROPUESTA,,,367836.3201,4058614.6381,4.992,"11° 14' 22.024""","0° 29' 19.681""",2,ByLayer,Bend 11.25_ DN 150_ Socket,0,0
+Fitting - (133),Bend 11.25_ DN 150_  [...],Estándar,Codo,150,<Ninguno>,PROPUESTA,,,367840.3066,4058622.0985,4.960,"0° 0' 0.000""","11° 14' 59.945""",2,ByLayer,Bend 11.25_ DN 150_ Socket,0,0
+Fitting - (134),Bend 11.25_ DN 150_  [...],Estándar,Codo,150,<Ninguno>,PROPUESTA,,,367844.3416,4058629.6423,4.992,"0° 0' 0.005""","11° 14' 59.945""",2,ByLayer,Bend 11.25_ DN 150_ Socket,0,0
+Fitting - (135),Bend 11.25_ DN 150_  [...],Estándar,Codo,150,<Ninguno>,PROPUESTA,,,367846.5368,4058633.7463,5.019,"0° 0' 0.000""","11° 14' 59.945""",2,ByLayer,Bend 11.25_ DN 150_ Socket,0,0
+Fitting - (136),Bend 11.25_ DN 150_  [...],Estándar,Codo,150,<Ninguno>,PROPUESTA,,,367882.7348,4058691.4554,5.013,"0° 0' 0.000""","11° 14' 59.945""",2,ByLayer,Bend 11.25_ DN 150_ Socket,0,0
+Fitting - (137),Bend 11.25_ DN 150_  [...],Estándar,Codo,150,<Ninguno>,PROPUESTA,,,367906.0792,4058721.0701,4.753,"1° 16' 33.517""","11° 10' 39.435""",2,ByLayer,Bend 11.25_ DN 150_ Socket,0,0
+Fitting - (138),Bend 90_ DN 150_ Soc [...],Estándar,Codo,150,<Ninguno>,PROPUESTA,,,367932.2881,4058750.8056,4.873,"89° 59' 59.326""","0° 14' 2.165""",2,ByLayer,Bend 90_ DN 150_ Socket,0,0
+Fitting - (141),Bend 11.25_ DN 150_  [...],Estándar,Codo,150,<Ninguno>,PROPUESTA,,,368164.9581,4058571.7891,4.589,"10° 30' 35.512""","4° 1' 7.619""",2,ByLayer,Bend 11.25_ DN 150_ Socket,0,0
+Fitting - (142),Bend 11.25_ DN 150_  [...],Estándar,Codo,150,<Ninguno>,PROPUESTA,,,368172.7739,4058565.1330,4.554,"11° 14' 2.893""","0° 36' 18.978""",2,ByLayer,Bend 11.25_ DN 150_ Socket,0,0
+Fitting - (143),Bend 11.25_ DN 150_  [...],Estándar,Codo,150,<Ninguno>,PROPUESTA,,,368222.4138,4058051.8489,4.850,"1° 8' 32.732""","11° 11' 31.250""",2,ByLayer,Bend 11.25_ DN 150_ Socket,0,0
+Fitting - (144),Bend 11.25_ DN 150_  [...],Estándar,Codo,150,<Ninguno>,PROPUESTA,,,368231.4142,4058053.4210,4.856,"0° 5' 36.969""","11° 14' 58.547""",2,ByLayer,Bend 11.25_ DN 150_ Socket,0,0
+Fitting - (145),Bend 90_ DN 150_ Soc [...],Estándar,Codo,150,<Ninguno>,PROPUESTA,,,368349.8430,4058221.9436,3.186,"89° 59' 48.744""","0° 50' 59.838""",2,ByLayer,Bend 90_ DN 150_ Socket,0,0
+Fitting - (146),Tee (Red)_ DN 200x15 [...],Estándar,Unión en T,200 x 150,<Ninguno>,PROPUESTA,,,368213.3114,4058317.6156,4.896,,,3,ByLayer,Tee (Red)_ DN 200x150_ PN 16_ RF,0,0
+Fitting - (147),Tee (Red)_ DN 200x15 [...],Estándar,Unión en T,200 x 150,<Ninguno>,PROPUESTA,,,368091.5531,4058143.8553,5.341,,,3,ByLayer,Tee (Red)_ DN 200x150_ PN 16_ RF,0,0
+Fitting - (148),Bend 90_ DN 100_ Soc [...],Estándar,Codo,100,<Ninguno>,PROPUESTA,,,368061.8196,4058423.7739,5.462,"89° 59' 58.464""","0° 23' 17.795""",2,ByLayer,Bend 90_ DN 100_ Socket,0,0
+Fitting - (149),Bend 90_ DN 100_ Soc [...],Estándar,Codo,100,<Ninguno>,PROPUESTA,,,368034.8480,4058385.2833,5.527,"90° 0' 1.474""","0° 13' 4.242""",2,ByLayer,Bend 90_ DN 100_ Socket,0,0
+Fitting - (150),Bend 90_ DN 100_ Soc [...],Estándar,Codo,100,<Ninguno>,PROPUESTA,,,367914.3057,4058469.7477,6.290,"89° 59' 59.248""","0° 20' 13.911""",2,ByLayer,Bend 90_ DN 100_ Socket,0,0
+Fitting - (151),Tee_ DN 100_ PN 16_  [...],Estándar,Unión en T,100,<Ninguno>,PROPUESTA,,,368048.3338,4058404.5286,5.494,,,3,ByLayer,Tee_ DN 100_ PN 16_ RF,0,0
+Fitting - (152),Tee (Red)_ DN 300x20 [...],PROPUESTO,Unión en T,300 x 200,<Ninguno>,PROPUESTA,,,367739.5965,4057516.7175,3.814,,,3,ByLayer,Tee (Red)_ DN 300x200_ PN 16_ RF,0,0
+Fitting - (153),Tee (Red)_ DN 200x10 [...],Estándar,Unión en T,200 x 100,<Ninguno>,PROPUESTA,,,368064.3843,4058393.2870,5.406,,,3,ByLayer,Tee (Red)_ DN 200x100_ PN 16_ RF,0,0
+Fitting - (155),Bend 90_ DN 150_ Soc [...],Estándar,Codo,150,<Ninguno>,PROPUESTA,,,367959.2483,4058239.4651,5.969,"90° 0' 0.044""","0° 6' 51.135""",2,ByLayer,Bend 90_ DN 150_ Socket,0,0
+Fitting - (156),Tee (Red)_ DN 200x15 [...],PROPUESTO,Unión en T,200 x 150,<Ninguno>,PROPUESTA,,,368171.9787,4057967.4195,4.654,,,3,ByLayer,Tee (Red)_ DN 200x150_ PN 16_ RF,0,0
+Fitting - (162),Tee (Red)_ DN 200x10 [...],PROPUESTO,Unión en T,200 x 100,<Ninguno>,PROPUESTA,,,367810.6836,4057578.2478,3.287,,,3,ByLayer,Tee (Red)_ DN 200x100_ SocketxRF,0,0
+Fitting - (163),Tee (Red)_ DN 200x10 [...],PROPUESTO,Unión en T,200 x 100,<Ninguno>,PROPUESTA,,,367946.0869,4057676.7002,3.196,,,3,ByLayer,Tee (Red)_ DN 200x100_ SocketxRF,0,0
+Fitting - (164),Tee (Red)_ DN 150x10 [...],PROPUESTO,Unión en T,150 x 100,<Ninguno>,PROPUESTA,,,368039.7672,4058047.0420,4.848,,,3,ByLayer,Tee (Red)_ DN 150x100_ SocketxRF,0,0
+Fitting - (165),Bend 11.25_ DN 200_  [...],PROPUESTO,Codo,200,<Ninguno>,PROPUESTA,,,367981.3189,4057696.9788,3.112,"11° 15' 0.268""","0° 0' 8.440""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0
+Fitting - (166),Bend 11.25_ DN 200_  [...],PROPUESTO,Codo,200,<Ninguno>,PROPUESTA,,,367984.0642,4057699.5999,3.127,"11° 14' 51.593""","0° 13' 47.822""",2,ByLayer,Bend 11.25_ DN 200_ Socket,0,0

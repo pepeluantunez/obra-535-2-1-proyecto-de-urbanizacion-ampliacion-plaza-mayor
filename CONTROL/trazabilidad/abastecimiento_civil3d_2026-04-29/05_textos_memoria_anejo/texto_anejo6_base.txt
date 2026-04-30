@@ -1,0 +1,6 @@
+Criterio de medición adoptado: 
+1) Universo propuesto = elementos identificados en FD150 PROPUESTO y FD200 PROPUESTO.
+2) Enriquecimiento = cruce por nombre de pieza con LISTA DE TUBERIAS, LISTA DE ACCESORIOS y LISTA DE EHM.
+3) Medición lineal = suma de 'Longitud 3D' en la lista general únicamente para tuberías incluidas en el universo propuesto.
+4) Piezas especiales = recuento unitario por tipo (codos, uniones en T, válvulas, hidrantes) limitado al universo propuesto.
+5) Integración BC3 = mapeo candidato por similitud de unidad/material/diámetro, pendiente de validación técnica antes de cargar ~M.

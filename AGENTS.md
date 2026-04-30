@@ -14,6 +14,8 @@
   2. `FUENTES_MAESTRAS.md` — qué documento manda en cada tema
   3. `DECISIONES_PROYECTO.md` — decisiones ya tomadas, no reabrir
   4. `ESTADO_PROYECTO.md` — estado actual
+  5. `ACTIVE_SOURCES.md` — fuentes activas declaradas del proyecto
+  6. `CONTROL/lecciones_operativas.md` — reglas nacidas de errores y correcciones reales
 
 ## Estilo visual del proyecto (Montserrat + azul corporativo)
 
@@ -52,6 +54,7 @@ Ejemplos: `anejo(7): primer borrador pluviales` · `bc3(maestro): recalc PEM` ·
 | `organize_anejo_folders.py` | Verificar/crear estructura de carpetas de anejos |
 | `session_briefing.py` | Briefing de sesión: bloqueados, P1, progreso |
 | `install_git_hooks.ps1` | Instalar pre-commit + commit-msg hooks |
+| `check_machine_guard.ps1` | Semaforo estructural local: contrato, alineacion ecosistema y toolkit.lock |
 
 ---
 
@@ -61,6 +64,11 @@ Ejemplos: `anejo(7): primer borrador pluviales` · `bc3(maestro): recalc PEM` ·
 - Si una mejora, SOP o regla sirve a varios proyectos, debe proponerse para toolkit o plantilla y no quedarse solo como regla local por defecto.
 - No crear autoridades paralelas en raiz para triage, estandares o gobierno si la funcion ya existe en `MAPA_PROYECTO.md`, `FUENTES_MAESTRAS.md`, `DECISIONES_PROYECTO.md` o `CONFIG\repo_contract.json`.
 - Si una tarea mezcla proyecto, plantilla y toolkit, separar primero la capa afectada antes de editar.
+
+## Regla critica: corpus normativo compartido
+- Mientras Plaza no tenga una capa local curada en `NORMATIVA/`, la consulta base compartida es `C:\Users\USUARIO\Documents\Claude\Projects\normativa-obra-civil\catalog.json`.
+- No citar normativa general de memoria si no consta en ese corpus o en una fuente local curada del proyecto.
+- Si una norma pasa a formar parte del trabajo activo del expediente, declararla tambien en `ACTIVE_SOURCES.md` o en la futura capa local de `NORMATIVA/`.
 
 ## Regla critica: control de mojibake y codificacion
 - Ninguna tarea sobre DOCX, XLSX, XML Office o BC3 se dara por terminada sin una verificacion explicita final de codificacion y texto corrupto.

@@ -1,0 +1,100 @@
+{
+  "repos": {
+    "obra": "..",
+    "toolkit": "../../urbanizacion-toolkit",
+    "plantilla": "../../urbanizacion-plantilla-base"
+  },
+  "items": [
+    {
+      "id": "bc3-tools",
+      "owner": "toolkit",
+      "mode": "synced-copy",
+      "paths": {
+        "obra": "tools/bc3_tools.py",
+        "toolkit": "tools/python/bc3_tools.py"
+      }
+    },
+    {
+      "id": "excel-tools",
+      "owner": "toolkit",
+      "mode": "synced-copy",
+      "paths": {
+        "obra": "tools/excel_tools.py",
+        "toolkit": "tools/python/excel_tools.py"
+      }
+    },
+    {
+      "id": "mediciones-validator",
+      "owner": "toolkit",
+      "mode": "synced-copy",
+      "paths": {
+        "obra": "tools/mediciones_validator.py",
+        "toolkit": "tools/python/mediciones_validator.py"
+      }
+    },
+    {
+      "id": "check-office-mojibake",
+      "owner": "toolkit",
+      "mode": "synced-copy",
+      "paths": {
+        "obra": "tools/check_office_mojibake.ps1",
+        "toolkit": "tools/office/check_office_mojibake.ps1"
+      }
+    },
+    {
+      "id": "check-docx-tables-consistency",
+      "owner": "toolkit",
+      "mode": "synced-copy",
+      "paths": {
+        "obra": "tools/check_docx_tables_consistency.ps1",
+        "toolkit": "tools/office/check_docx_tables_consistency.ps1"
+      }
+    },
+    {
+      "id": "check-excel-formula-guard",
+      "owner": "toolkit",
+      "mode": "synced-copy",
+      "paths": {
+        "obra": "tools/check_excel_formula_guard.ps1",
+        "toolkit": "tools/office/check_excel_formula_guard.ps1"
+      }
+    },
+    {
+      "id": "check-bc3-integrity",
+      "owner": "toolkit",
+      "mode": "synced-copy",
+      "paths": {
+        "obra": "tools/check_bc3_integrity.ps1",
+        "toolkit": "tools/bc3/check_bc3_integrity.ps1"
+      }
+    },
+    {
+      "id": "check-traceability-consistency",
+      "owner": "toolkit",
+      "mode": "synced-copy",
+      "paths": {
+        "obra": "tools/check_traceability_consistency.ps1",
+        "toolkit": "tools/traceability/check_traceability_consistency.ps1"
+      }
+    },
+    {
+      "id": "run-traceability-profile",
+      "owner": "toolkit",
+      "mode": "synced-copy",
+      "paths": {
+        "obra": "tools/run_traceability_profile.ps1",
+        "toolkit": "tools/traceability/run_traceability_profile.ps1"
+      }
+    },
+    {
+      "id": "xml-excel-helpers",
+      "owner": "plantilla",
+      "mode": "synced-copy",
+      "paths": {
+        "obra": "scripts/xml_excel_helpers.ps1",
+        "plantilla": "scripts/xml_excel_helpers.ps1"
+      },
+      "note": "Helper alineado con la plantilla base; la propiedad futura puede revisarse cuando el ecosistema cierre esta capa."
+    }
+  ]
+}

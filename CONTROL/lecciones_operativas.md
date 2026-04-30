@@ -36,9 +36,9 @@ Cómo aplicar: copiar primero (`cp -r`), verificar recuento de archivos y presen
 Por qué: git trata un repo dentro de otro como submodule no declarado. Claude no sabe a qué repo está sirviendo, los commits del padre no capturan los cambios del hijo.
 Cómo aplicar: cuando se detecte un `.git` dentro de la carpeta de trabajo de otro repo, moverlo a su nivel correcto antes de operar.
 
-**Regla: `shared-tools/` es la fuente canónica de bc3_tools.py, excel_tools.py y mediciones_validator.py.**
-Por qué: si la copia local en `tools/` diverge de shared-tools, las herramientas del proyecto quedan desincronizadas del ecosistema.
-Cómo aplicar: ejecutar `tools/check_tools_sync.ps1` antes de tareas que usen las herramientas. Si hay drift, copiar desde shared-tools.
+**Regla: `urbanizacion-toolkit/tools/python/` es la fuente canónica de bc3_tools.py, excel_tools.py y mediciones_validator.py.**
+Por qué: si la copia local en `tools/` diverge del toolkit, las herramientas del proyecto quedan desincronizadas de la autoridad reutilizable del ecosistema.
+Cómo aplicar: ejecutar `tools/check_tools_sync.ps1` antes de tareas que usen las herramientas. Si hay drift, sincronizar desde toolkit.
 
 ---
 

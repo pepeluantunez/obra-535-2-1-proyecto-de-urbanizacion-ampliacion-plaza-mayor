@@ -1,0 +1,26 @@
+﻿{
+    "variable_inputs":  [
+                            "[NOMBRE DEL PROYECTO]",
+                            "[SUPERFICIE_ACTUACION_HA]",
+                            "[NUMERO_PLANO_TOPOGRAFICO]",
+                            "[ENTIDAD REDACTORA DEL LEVANTAMIENTO]",
+                            "[ENTIDAD REDACTORA DEL INVENTARIO ARBOREO]",
+                            "[ORDENANZA MUNICIPAL APLICABLE]"
+                        ],
+    "title":  "CARTOGRAFIA Y TOPOGRAFIA",
+    "copied_assets":  {
+                          "donor_docx":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\Plantillas\\Por Anejo\\02-02-cartografia-topografia\\10_donor_docx\\Anexo 2 - Cartografia y Topografia.docx",
+                          "support_files":  [
+
+                                            ],
+                          "donor_excels":  [
+
+                                           ],
+                          "master_template":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\Plantillas\\Por Anejo\\02-02-cartografia-topografia\\00_master\\PLANTILLA_MAESTRA_ANEJOS.docx"
+                      },
+    "family":  "cartografia-topografia",
+    "reusability":  "family_candidate",
+    "number":  2,
+    "notes":  "Base reusable para futuros proyectos; apartados 3 y 4 parametrizados para entidad de levantamiento, inventario arboreo, superficie y numero de plano.",
+    "slug":  "02-cartografia-topografia"
+}

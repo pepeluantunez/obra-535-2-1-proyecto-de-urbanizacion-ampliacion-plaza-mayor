@@ -1,0 +1,49 @@
+nombre_pieza,pieza_id,tipo_pieza,origen_fd,n_muestras_pk,pk_min_m,pk_max_m,fuente_general,encontrado_en_general,diametro_nominal_mm,descripcion_pieza,material,nombre_tecnico_general,longitud_3d_m
+Appurtenance - (1),1,Válvula,FD200 PROPUESTO,1,0.81,0.81,LISTA DE EHM,SI,200.0,Gate Valve_ PN 16_ DN 200_ RF,ByLayer,Gate Valve_ PN 16_ D [...],
+Appurtenance - (2),2,Válvula,FD150 PROPUESTO,1,0.92,0.92,LISTA DE EHM,SI,150.0,Gate Valve_ PN 16_ DN 150_ RF,ByLayer,Gate Valve_ PN 16_ D [...],
+Fitting - (92),92,Codo,FD200 PROPUESTO,1,60.74,60.74,LISTA DE ACCESORIOS,SI,200.0,Bend 11.25_ DN 200_ Socket,ByLayer,Bend 11.25_ DN 200_  [...],
+Fitting - (93),93,Codo,FD200 PROPUESTO,1,68.86,68.86,LISTA DE ACCESORIOS,SI,200.0,Bend 11.25_ DN 200_ Socket,ByLayer,Bend 11.25_ DN 200_  [...],
+Fitting - (94),94,Codo,FD200 PROPUESTO,1,76.98,76.98,LISTA DE ACCESORIOS,SI,200.0,Bend 11.25_ DN 200_ Socket,ByLayer,Bend 11.25_ DN 200_  [...],
+Fitting - (95),95,Codo,FD200 PROPUESTO,1,102.94,102.94,LISTA DE ACCESORIOS,SI,200.0,Bend 90_ DN 200_ Socket,ByLayer,Bend 90_ DN 200_ Soc [...],
+Fitting - (96),96,Codo,FD200 PROPUESTO,1,102.93,102.93,LISTA DE ACCESORIOS,SI,200.0,Bend 90_ DN 200_ Socket,ByLayer,Bend 90_ DN 200_ Soc [...],
+Fitting - (97),97,Codo,FD200 PROPUESTO,1,136.06,136.06,LISTA DE ACCESORIOS,SI,200.0,Bend 22.5_ DN 200_ Socket,ByLayer,Bend 22.5_ DN 200_ S [...],
+Fitting - (98),98,Codo,FD200 PROPUESTO,1,148.36,148.36,LISTA DE ACCESORIOS,SI,200.0,Bend 11.25_ DN 200_ Socket,ByLayer,Bend 11.25_ DN 200_  [...],
+Fitting - (99),99,Codo,FD200 PROPUESTO,1,152.99,152.99,LISTA DE ACCESORIOS,SI,200.0,Bend 11.25_ DN 200_ Socket,ByLayer,Bend 11.25_ DN 200_  [...],
+Pressure Pipe - (99),99,Tubería a presión,FD200 PROPUESTO,1,70.0,70.0,LISTA DE TUBERIAS,SI,200.0,Pipe_ DN 200_ PN 16_ RF,ByLayer,Pipe_ DN 200_ PN 16_ [...],8.0392
+Fitting - (100),100,Codo,FD200 PROPUESTO,1,157.63,157.63,LISTA DE ACCESORIOS,SI,200.0,Bend 11.25_ DN 200_ Socket,ByLayer,Bend 11.25_ DN 200_  [...],
+Pressure Pipe - (100),100,Tubería a presión,FD200 PROPUESTO,2,80.0,90.0,LISTA DE TUBERIAS,SI,200.0,Pipe_ DN 200_ PN 16_ RF,ByLayer,Pipe_ DN 200_ PN 16_ [...],16.1335
+Fitting - (101),101,Codo,FD200 PROPUESTO,1,187.34,187.34,LISTA DE ACCESORIOS,SI,200.0,Bend 11.25_ DN 200_ Socket,ByLayer,Bend 11.25_ DN 200_  [...],
+Pressure Pipe - (101),101,Tubería a presión,FD200 PROPUESTO,1,100.0,100.0,LISTA DE TUBERIAS,SI,200.0,Pipe_ DN 200_ PN 16_ RF,ByLayer,Pipe_ DN 200_ PN 16_ [...],9.1235
+Pressure Pipe - (103),103,Tubería a presión,FD200 PROPUESTO,1,140.0,140.0,LISTA DE TUBERIAS,SI,200.0,Pipe_ DN 200_ PN 16_ RF,ByLayer,Pipe_ DN 200_ PN 16_ [...],12.1955
+Fitting - (104),104,Codo,FD200 PROPUESTO,1,303.08,303.08,LISTA DE ACCESORIOS,SI,200.0,Bend 11.25_ DN 200_ Socket,ByLayer,Bend 11.25_ DN 200_  [...],
+Pressure Pipe - (104),104,Tubería a presión,FD200 PROPUESTO,1,150.0,150.0,LISTA DE TUBERIAS,SI,200.0,Pipe_ DN 200_ PN 16_ RF,ByLayer,Pipe_ DN 200_ PN 16_ [...],4.555
+Fitting - (105),105,Codo,FD200 PROPUESTO,1,309.58,309.58,LISTA DE ACCESORIOS,SI,200.0,Bend 11.25_ DN 200_ Socket,ByLayer,Bend 11.25_ DN 200_  [...],
+Fitting - (106),106,Codo,FD200 PROPUESTO,1,323.04,323.04,LISTA DE ACCESORIOS,SI,200.0,Bend 11.25_ DN 200_ Socket,ByLayer,Bend 11.25_ DN 200_  [...],
+Pressure Pipe - (106),106,Tubería a presión,FD200 PROPUESTO,3,160.0,180.0,LISTA DE TUBERIAS,SI,200.0,Pipe_ DN 200_ PN 16_ RF,ByLayer,Pipe_ DN 200_ PN 16_ [...],29.6378
+Fitting - (107),107,Codo,FD200 PROPUESTO,1,338.56,338.56,LISTA DE ACCESORIOS,SI,200.0,Bend 11.25_ DN 200_ Socket,ByLayer,Bend 11.25_ DN 200_  [...],
+Pressure Pipe - (107),107,Tubería a presión,FD200 PROPUESTO,3,190.0,210.0,LISTA DE TUBERIAS,SI,200.0,Pipe_ DN 200_ PN 16_ RF,ByLayer,Pipe_ DN 200_ PN 16_ [...],29.6379
+Pressure Pipe - (108),108,Tubería a presión,FD200 PROPUESTO,3,220.0,240.0,LISTA DE TUBERIAS,SI,200.0,Pipe_ DN 200_ PN 16_ RF,ByLayer,Pipe_ DN 200_ PN 16_ [...],23.0786
+Pressure Pipe - (109),109,Tubería a presión,FD200 PROPUESTO,6,250.0,300.0,LISTA DE TUBERIAS,SI,200.0,Pipe_ DN 200_ PN 16_ RF,ByLayer,Pipe_ DN 200_ PN 16_ [...],60.7241
+Pressure Pipe - (111),111,Tubería a presión,FD200 PROPUESTO,2,310.0,320.0,LISTA DE TUBERIAS,SI,200.0,Pipe_ DN 200_ PN 16_ RF,ByLayer,Pipe_ DN 200_ PN 16_ [...],13.3872
+Pressure Pipe - (112),112,Tubería a presión,FD200 PROPUESTO,1,330.0,330.0,LISTA DE TUBERIAS,SI,200.0,Pipe_ DN 200_ PN 16_ RF,ByLayer,Pipe_ DN 200_ PN 16_ [...],15.4362
+Pressure Pipe - (113),113,Tubería a presión,FD200 PROPUESTO,1,340.0,340.0,LISTA DE TUBERIAS,SI,200.0,Pipe_ DN 200_ PN 16_ RF,ByLayer,Pipe_ DN 200_ PN 16_ [...],3.7156
+Fitting - (115),115,Codo,FD150 PROPUESTO,1,67.97,67.97,LISTA DE ACCESORIOS,SI,150.0,Bend 11.25_ DN 150_ Socket,ByLayer,Bend 11.25_ DN 150_  [...],
+Fitting - (117),117,Codo,FD150 PROPUESTO,1,133.64,133.64,LISTA DE ACCESORIOS,SI,150.0,Bend 11.25_ DN 150_ Socket,ByLayer,Bend 11.25_ DN 150_  [...],
+Fitting - (118),118,Codo,FD150 PROPUESTO,1,139.81,139.81,LISTA DE ACCESORIOS,SI,150.0,Bend 11.25_ DN 150_ Socket,ByLayer,Bend 11.25_ DN 150_  [...],
+Fitting - (119),119,Codo,FD150 PROPUESTO,1,143.37,143.37,LISTA DE ACCESORIOS,SI,150.0,Bend 11.25_ DN 150_ Socket,ByLayer,Bend 11.25_ DN 150_  [...],
+Fitting - (120),120,Codo,FD150 PROPUESTO,1,155.77,155.77,LISTA DE ACCESORIOS,SI,150.0,Bend 11.25_ DN 150_ Socket,ByLayer,Bend 11.25_ DN 150_  [...],
+Pressure Pipe - (123),123,Tubería a presión,FD150 PROPUESTO,6,70.0,120.0,LISTA DE TUBERIAS,SI,150.0,Pipe_ DN 150_ PN 16_ RF,ByLayer,Pipe_ DN 150_ PN 16_ [...],60.1796
+Pressure Pipe - (124),124,Tubería a presión,FD150 PROPUESTO,1,130.0,130.0,LISTA DE TUBERIAS,SI,150.0,Pipe_ DN 150_ PN 16_ RF,ByLayer,Pipe_ DN 150_ PN 16_ [...],5.3446
+Pressure Pipe - (126),126,Tubería a presión,FD150 PROPUESTO,1,140.0,140.0,LISTA DE TUBERIAS,SI,150.0,Pipe_ DN 150_ PN 16_ RF,ByLayer,Pipe_ DN 150_ PN 16_ [...],3.5386
+Pressure Pipe - (127),127,Tubería a presión,FD150 PROPUESTO,1,150.0,150.0,LISTA DE TUBERIAS,SI,150.0,Pipe_ DN 150_ PN 16_ RF,ByLayer,Pipe_ DN 150_ PN 16_ [...],12.3303
+Fitting - (152),152,Unión en T,FD200 PROPUESTO,1,0.0,0.0,LISTA DE ACCESORIOS,SI,,Tee (Red)_ DN 300x200_ PN 16_ RF,ByLayer,Tee (Red)_ DN 300x20 [...],
+Fitting - (156),156,Unión en T,FD150 PROPUESTO,1,0.0,0.0,LISTA DE ACCESORIOS,SI,,Tee (Red)_ DN 200x150_ PN 16_ RF,ByLayer,Tee (Red)_ DN 200x15 [...],
+Fitting - (162),162,Unión en T,FD200 PROPUESTO,1,105.96,105.96,LISTA DE ACCESORIOS,SI,,Tee (Red)_ DN 200x100_ SocketxRF,ByLayer,Tee (Red)_ DN 200x10 [...],
+Fitting - (163),163,Unión en T,FD200 PROPUESTO,1,301.08,301.08,LISTA DE ACCESORIOS,SI,,Tee (Red)_ DN 200x100_ SocketxRF,ByLayer,Tee (Red)_ DN 200x10 [...],
+Fitting - (164),164,Unión en T,FD150 PROPUESTO,1,156.82,156.82,LISTA DE ACCESORIOS,SI,,Tee (Red)_ DN 150x100_ SocketxRF,ByLayer,Tee (Red)_ DN 150x10 [...],
+Fitting - (165),165,Codo,FD200 PROPUESTO,1,342.35,342.35,LISTA DE ACCESORIOS,SI,200.0,Bend 11.25_ DN 200_ Socket,ByLayer,Bend 11.25_ DN 200_  [...],
+Fitting - (166),166,Codo,FD200 PROPUESTO,1,346.15,346.15,LISTA DE ACCESORIOS,SI,200.0,Bend 11.25_ DN 200_ Socket,ByLayer,Bend 11.25_ DN 200_  [...],
+Pressure Pipe - (173),173,Tubería a presión,FD200 PROPUESTO,6,10.0,60.0,LISTA DE TUBERIAS,SI,200.0,Pipe_ DN 200_ PN 16_ RF,ByLayer,Pipe_ DN 200_ PN 16_ [...],59.7393
+Pressure Pipe - (174),174,Tubería a presión,FD200 PROPUESTO,3,110.0,130.0,LISTA DE TUBERIAS,SI,200.0,Pipe_ DN 200_ PN 16_ RF,ByLayer,Pipe_ DN 200_ PN 16_ [...],29.9346
+Pressure Pipe - (176),176,Tubería a presión,FD150 PROPUESTO,6,10.0,60.0,LISTA DE TUBERIAS,SI,150.0,Pipe_ DN 150_ PN 16_ RF,ByLayer,Pipe_ DN 150_ PN 16_ [...],66.8884
+Pressure Pipe - (178),178,Tubería a presión,FD150 PROPUESTO,1,159.36,159.36,LISTA DE TUBERIAS,SI,150.0,Pipe_ DN 150_ PN 16_ RF,ByLayer,Pipe_ DN 150_ PN 16_ [...],2.4426

@@ -1,0 +1,372 @@
+﻿[
+    {
+        "mode":  "apply",
+        "job":  "anejo6_agua_potable",
+        "target":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\6.- Red de Agua Potable\\Anexo 6 - Red de Agua Potable.docx",
+        "from":  "2.1. Caudales, Dimensionamiento y Planificación Estratégica",
+        "to":  "3.1. Caudales, Dimensionamiento y Planificación Estratégica",
+        "source_nodes":  4,
+        "target_nodes_before":  0,
+        "status":  "ok"
+    },
+    {
+        "mode":  "apply",
+        "job":  "anejo6_agua_potable",
+        "target":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\6.- Red de Agua Potable\\Anexo 6 - Red de Agua Potable.docx",
+        "from":  "2.2. Suministros de la Red",
+        "to":  "3.2. Suministros de la Red",
+        "source_nodes":  9,
+        "target_nodes_before":  0,
+        "status":  "ok"
+    },
+    {
+        "mode":  "apply",
+        "job":  "anejo6_agua_potable",
+        "target":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\6.- Red de Agua Potable\\Anexo 6 - Red de Agua Potable.docx",
+        "from":  "2.3. Velocidad de las conducciones",
+        "to":  "3.3. Velocidad de las conducciones",
+        "source_nodes":  3,
+        "target_nodes_before":  6,
+        "status":  "ok"
+    },
+    {
+        "mode":  "apply",
+        "job":  "anejo6_agua_potable",
+        "target":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\6.- Red de Agua Potable\\Anexo 6 - Red de Agua Potable.docx",
+        "from":  "2.4 Presiones en los consumos",
+        "to":  "3.4 Presiones en los consumos",
+        "source_nodes":  3,
+        "target_nodes_before":  6,
+        "status":  "ok"
+    },
+    {
+        "mode":  "apply",
+        "job":  "anejo6_agua_potable",
+        "target":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\6.- Red de Agua Potable\\Anexo 6 - Red de Agua Potable.docx",
+        "from":  "2.5 Diámetro mínimo",
+        "to":  "3.5 Diámetro mínimo",
+        "source_nodes":  4,
+        "target_nodes_before":  6,
+        "status":  "ok"
+    },
+    {
+        "mode":  "apply",
+        "job":  "anejo6_agua_potable",
+        "target":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\6.- Red de Agua Potable\\Anexo 6 - Red de Agua Potable.docx",
+        "from":  "2.6. Elementos Especiales",
+        "to":  "3.6. Elementos Especiales",
+        "source_nodes":  11,
+        "target_nodes_before":  0,
+        "status":  "ok"
+    },
+    {
+        "mode":  "apply",
+        "job":  "anejo6_agua_potable",
+        "target":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\6.- Red de Agua Potable\\Anexo 6 - Red de Agua Potable.docx",
+        "from":  "2.7 Materiales Empleados",
+        "to":  "3.7 Materiales Empleados",
+        "source_nodes":  10,
+        "target_nodes_before":  0,
+        "status":  "ok"
+    },
+    {
+        "mode":  "apply",
+        "job":  "anejo7_pluviales",
+        "target":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\7.- Red de Saneamiento - Pluviales\\Anexo 7 - Red de Saneamiento - Pluviales.docx",
+        "from":  "2. CÁLCULOS HIDROLÓGICOS",
+        "to":  "3. CÁLCULOS HIDROLÓGICOS",
+        "source_nodes":  4,
+        "target_nodes_before":  7,
+        "status":  "ok"
+    },
+    {
+        "mode":  "apply",
+        "job":  "anejo7_pluviales",
+        "target":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\7.- Red de Saneamiento - Pluviales\\Anexo 7 - Red de Saneamiento - Pluviales.docx",
+        "from":  "2.1. Método de cálculo",
+        "to":  "3.1. Método de cálculo",
+        "source_nodes":  22,
+        "target_nodes_before":  4,
+        "status":  "ok"
+    },
+    {
+        "mode":  "apply",
+        "job":  "anejo7_pluviales",
+        "target":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\7.- Red de Saneamiento - Pluviales\\Anexo 7 - Red de Saneamiento - Pluviales.docx",
+        "from":  "2.2. Datos de las cuencas",
+        "to":  "3.2. Datos de las cuencas",
+        "source_nodes":  7,
+        "target_nodes_before":  0,
+        "status":  "ok"
+    },
+    {
+        "mode":  "apply",
+        "job":  "anejo7_pluviales",
+        "target":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\7.- Red de Saneamiento - Pluviales\\Anexo 7 - Red de Saneamiento - Pluviales.docx",
+        "from":  "2.3. Tiempo de concentración",
+        "to":  "3.3. Tiempo de concentración",
+        "source_nodes":  19,
+        "target_nodes_before":  4,
+        "status":  "ok"
+    },
+    {
+        "mode":  "apply",
+        "job":  "anejo7_pluviales",
+        "target":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\7.- Red de Saneamiento - Pluviales\\Anexo 7 - Red de Saneamiento - Pluviales.docx",
+        "from":  "2.4. Intensidad de Precipitación I (T,tc)",
+        "to":  "3.4. Intensidad de Precipitación I (T,tc)",
+        "source_nodes":  15,
+        "target_nodes_before":  0,
+        "status":  "ok"
+    },
+    {
+        "mode":  "apply",
+        "job":  "anejo7_pluviales",
+        "target":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\7.- Red de Saneamiento - Pluviales\\Anexo 7 - Red de Saneamiento - Pluviales.docx",
+        "from":  "a) Máxima precipitaciones diarias (Pd)",
+        "to":  "a) Máxima precipitaciones diarias (Pd)",
+        "source_nodes":  7,
+        "target_nodes_before":  0,
+        "status":  "ok"
+    },
+    {
+        "mode":  "apply",
+        "job":  "anejo7_pluviales",
+        "target":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\7.- Red de Saneamiento - Pluviales\\Anexo 7 - Red de Saneamiento - Pluviales.docx",
+        "from":  "b) Factor de Intensidad (Fint)",
+        "to":  "b) Factor de Intensidad (Fint)",
+        "source_nodes":  48,
+        "target_nodes_before":  6,
+        "status":  "ok"
+    },
+    {
+        "mode":  "apply",
+        "job":  "anejo7_pluviales",
+        "target":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\7.- Red de Saneamiento - Pluviales\\Anexo 7 - Red de Saneamiento - Pluviales.docx",
+        "from":  "c) Valor inicial del umbral de escorrentía P0i",
+        "to":  "c) Valor inicial del umbral de escorrentía P0i",
+        "source_nodes":  14,
+        "target_nodes_before":  0,
+        "status":  "ok"
+    },
+    {
+        "mode":  "apply",
+        "job":  "anejo7_pluviales",
+        "target":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\7.- Red de Saneamiento - Pluviales\\Anexo 7 - Red de Saneamiento - Pluviales.docx",
+        "from":  "d) Valor coeficiente corrector del umbral de escorrentía β",
+        "to":  "d) Valor coeficiente corrector del umbral de escorrentía β",
+        "source_nodes":  36,
+        "target_nodes_before":  0,
+        "status":  "ok"
+    },
+    {
+        "mode":  "apply",
+        "job":  "anejo7_pluviales",
+        "target":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\7.- Red de Saneamiento - Pluviales\\Anexo 7 - Red de Saneamiento - Pluviales.docx",
+        "from":  "2.5. Obtención del caudal punta",
+        "to":  "3.5. Obtención del caudal punta",
+        "source_nodes":  29,
+        "target_nodes_before":  0,
+        "status":  "ok"
+    },
+    {
+        "mode":  "apply",
+        "job":  "anejo8_fecales",
+        "target":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\8.- Red de Saneamiento - Fecales\\Anexo 8 - Red de Saneamiento - Fecales.docx",
+        "from":  "NORMATIVA DE REFERENCIA",
+        "to":  "2. NORMATIVA DE REFERENCIA",
+        "source_nodes":  6,
+        "target_nodes_before":  1,
+        "status":  "ok"
+    },
+    {
+        "mode":  "apply",
+        "job":  "anejo8_fecales",
+        "target":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\8.- Red de Saneamiento - Fecales\\Anexo 8 - Red de Saneamiento - Fecales.docx",
+        "from":  "1. INTRODUCCIÓN",
+        "to":  "3. INTRODUCCIÓN",
+        "source_nodes":  2,
+        "target_nodes_before":  0,
+        "status":  "ok"
+    },
+    {
+        "mode":  "apply",
+        "job":  "anejo8_fecales",
+        "target":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\8.- Red de Saneamiento - Fecales\\Anexo 8 - Red de Saneamiento - Fecales.docx",
+        "from":  "2. CONDICIONANTES Y AFECCIONES EXISTENTES",
+        "to":  "4. CONDICIONANTES Y AFECCIONES EXISTENTES",
+        "source_nodes":  8,
+        "target_nodes_before":  6,
+        "status":  "ok"
+    },
+    {
+        "mode":  "apply",
+        "job":  "anejo8_fecales",
+        "target":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\8.- Red de Saneamiento - Fecales\\Anexo 8 - Red de Saneamiento - Fecales.docx",
+        "from":  "3. SOLUCIÓN PROYECTADA",
+        "to":  "5. SOLUCIÓN PROYECTADA",
+        "source_nodes":  7,
+        "target_nodes_before":  0,
+        "status":  "ok"
+    },
+    {
+        "mode":  "apply",
+        "job":  "anejo8_fecales",
+        "target":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\8.- Red de Saneamiento - Fecales\\Anexo 8 - Red de Saneamiento - Fecales.docx",
+        "from":  "4. ALCANCE DE LAS COMPROBACIONES",
+        "to":  "6. ALCANCE DE LAS COMPROBACIONES",
+        "source_nodes":  4,
+        "target_nodes_before":  19,
+        "status":  "ok"
+    },
+    {
+        "mode":  "apply",
+        "job":  "anejo12_accesibilidad_canonico",
+        "target":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\12.- Accesibilidad\\Anexo 12 - Accesibilidad.docx",
+        "from":  "JUSTIFICACIÓN DEL CUMPLIMIENTO DEL REGLAMENTO",
+        "to":  "JUSTIFICACIÓN DEL CUMPLIMIENTO DEL REGLAMENTO",
+        "source_nodes":  13,
+        "target_nodes_before":  0,
+        "status":  "ok"
+    },
+    {
+        "mode":  "apply",
+        "job":  "anejo13_residuos",
+        "target":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\13.- Estudio de Gestion de Residuos\\Anexo 13 - Estudio de Gestion de Residuos.docx",
+        "from":  "2.- AGENTES INTERVINIENTES",
+        "to":  "3.- AGENTES INTERVINIENTES",
+        "source_nodes":  1,
+        "target_nodes_before":  1,
+        "status":  "ok"
+    },
+    {
+        "mode":  "apply",
+        "job":  "anejo13_residuos",
+        "target":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\13.- Estudio de Gestion de Residuos\\Anexo 13 - Estudio de Gestion de Residuos.docx",
+        "from":  "3.- NORMATIVA Y LEGISLACIÓN APLICABLE",
+        "to":  "4.- NORMATIVA Y LEGISLACIÓN APLICABLE",
+        "source_nodes":  74,
+        "target_nodes_before":  74,
+        "status":  "ok"
+    },
+    {
+        "mode":  "apply",
+        "job":  "anejo14_control_calidad",
+        "target":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\14.- Control de Calidad\\Anexo 14 - Control de Calidad.docx",
+        "from":  "1. CONTROL DE CALIDAD",
+        "to":  "2. CONTROL DE CALIDAD",
+        "source_nodes":  0,
+        "target_nodes_before":  0,
+        "status":  "ok"
+    },
+    {
+        "mode":  "apply",
+        "job":  "anejo14_control_calidad",
+        "target":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\14.- Control de Calidad\\Anexo 14 - Control de Calidad.docx",
+        "from":  "1.1. CAPÍTULO 1: EXPLANACIONES.",
+        "to":  "2.1. CAPÍTULO 1: EXPLANACIONES.",
+        "source_nodes":  3,
+        "target_nodes_before":  3,
+        "status":  "ok"
+    },
+    {
+        "mode":  "apply",
+        "job":  "anejo14_control_calidad",
+        "target":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\14.- Control de Calidad\\Anexo 14 - Control de Calidad.docx",
+        "from":  "1.2. CAPÍTULO 2: EXPLANACIONES. CAPAS DE ASIENTO. SUELO SELECCIONADO.",
+        "to":  "2.2. CAPÍTULO 2: EXPLANACIONES. CAPAS DE ASIENTO. SUELO SELECCIONADO.",
+        "source_nodes":  7,
+        "target_nodes_before":  3,
+        "status":  "ok"
+    },
+    {
+        "mode":  "apply",
+        "job":  "anejo14_control_calidad",
+        "target":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\14.- Control de Calidad\\Anexo 14 - Control de Calidad.docx",
+        "from":  "1.3. CAPÍTULO 3: FIRMES. ZAHORRA ARTIFICIAL",
+        "to":  "2.3. CAPÍTULO 3: FIRMES. ZAHORRA ARTIFICIAL",
+        "source_nodes":  3,
+        "target_nodes_before":  3,
+        "status":  "ok"
+    },
+    {
+        "mode":  "apply",
+        "job":  "anejo14_control_calidad",
+        "target":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\14.- Control de Calidad\\Anexo 14 - Control de Calidad.docx",
+        "from":  "1.4. CAPÍTULO 4: MEZCLA BITUMINOSA EN CALIENTE",
+        "to":  "2.4. CAPÍTULO 4: MEZCLA BITUMINOSA EN CALIENTE",
+        "source_nodes":  3,
+        "target_nodes_before":  3,
+        "status":  "ok"
+    },
+    {
+        "mode":  "apply",
+        "job":  "anejo14_control_calidad",
+        "target":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\14.- Control de Calidad\\Anexo 14 - Control de Calidad.docx",
+        "from":  "1.5. CAPÍTULO 5: BORDILLOS",
+        "to":  "2.5. CAPÍTULO 5: BORDILLOS",
+        "source_nodes":  3,
+        "target_nodes_before":  3,
+        "status":  "ok"
+    },
+    {
+        "mode":  "apply",
+        "job":  "anejo14_control_calidad",
+        "target":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\14.- Control de Calidad\\Anexo 14 - Control de Calidad.docx",
+        "from":  "1.6. CAPÍTULO 6: HORMIGONES Y ACEROS",
+        "to":  "2.6. CAPÍTULO 6: HORMIGONES Y ACEROS",
+        "source_nodes":  3,
+        "target_nodes_before":  3,
+        "status":  "ok"
+    },
+    {
+        "mode":  "apply",
+        "job":  "anejo14_control_calidad",
+        "target":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\14.- Control de Calidad\\Anexo 14 - Control de Calidad.docx",
+        "from":  "1.7. CAPÍTULO 7: SEÑALIZACIÓN Y BALIZAMIENTO",
+        "to":  "2.7. CAPÍTULO 7: SEÑALIZACIÓN Y BALIZAMIENTO",
+        "source_nodes":  3,
+        "target_nodes_before":  3,
+        "status":  "ok"
+    },
+    {
+        "mode":  "apply",
+        "job":  "anejo15_plan_obra",
+        "target":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\15.- Plan de Obra\\Anexo 15 - Plan de Obra.docx",
+        "from":  "1. INTRODUCCION",
+        "to":  "2. INTRODUCCIÓN",
+        "source_nodes":  4,
+        "target_nodes_before":  2,
+        "status":  "ok"
+    },
+    {
+        "mode":  "apply",
+        "job":  "anejo15_plan_obra",
+        "target":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\15.- Plan de Obra\\Anexo 15 - Plan de Obra.docx",
+        "from":  "2. DESCRIPCIÓN DE LAS ACTUACIONES MÁS SIGNIFICATIVAS",
+        "to":  "3. DESCRIPCIÓN DE LAS ACTUACIONES MÁS SIGNIFICATIVAS",
+        "source_nodes":  15,
+        "target_nodes_before":  4,
+        "status":  "ok"
+    },
+    {
+        "mode":  "apply",
+        "job":  "anejo15_plan_obra",
+        "target":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\15.- Plan de Obra\\Anexo 15 - Plan de Obra.docx",
+        "from":  "3. DURACIÓN DE LOS TRABAJOS",
+        "to":  "4. DURACIÓN DE LOS TRABAJOS",
+        "source_nodes":  3,
+        "target_nodes_before":  4,
+        "status":  "ok"
+    },
+    {
+        "mode":  "apply",
+        "job":  "anejo15_plan_obra",
+        "target":  "C:\\Users\\USUARIO\\Documents\\Claude\\Projects\\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\\DOCS - ANEJOS\\15.- Plan de Obra\\Anexo 15 - Plan de Obra.docx",
+        "from":  "4. DIAGRAMA DE GANTT",
+        "to":  "5. DIAGRAMA DE GANTT",
+        "source_nodes":  20,
+        "target_nodes_before":  0,
+        "status":  "ok"
+    }
+]

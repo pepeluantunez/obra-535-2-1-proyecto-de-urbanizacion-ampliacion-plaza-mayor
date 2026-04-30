@@ -1,12 +1,12 @@
 ﻿# Biblioteca de plantillas donor por anejo
 
-- Fecha: 2026-04-21 15:24:27
+- Fecha: 2026-04-29 09:04:07
 - Salida: C:\Users\USUARIO\Documents\Claude\Projects\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\DOCS - ANEJOS\Plantillas\Por Anejo
 
 | Anejo | Estado | DOCX donor | Excels | Soportes | Paquete |
 |---|---|---|---:|---:|---|
 | 4 | OK | si | 1 | 4 | C:\Users\USUARIO\Documents\Claude\Projects\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\DOCS - ANEJOS\Plantillas\Por Anejo\04-04-trazado-replanteo-mediciones-auxiliares |
-| 5 | OK | si | 1 | 5 | C:\Users\USUARIO\Documents\Claude\Projects\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\DOCS - ANEJOS\Plantillas\Por Anejo\05-05-dimensionamiento-del-firme |
+| 5 | OK | si | 1 | 2 | C:\Users\USUARIO\Documents\Claude\Projects\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\DOCS - ANEJOS\Plantillas\Por Anejo\05-05-dimensionamiento-del-firme |
 | 6 | OK | si | 0 | 0 | C:\Users\USUARIO\Documents\Claude\Projects\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\DOCS - ANEJOS\Plantillas\Por Anejo\06-06-red-de-agua-potable |
 | 7 | OK | si | 3 | 3 | C:\Users\USUARIO\Documents\Claude\Projects\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\DOCS - ANEJOS\Plantillas\Por Anejo\07-07-red-de-saneamiento-pluviales |
 | 8 | OK | si | 0 | 0 | C:\Users\USUARIO\Documents\Claude\Projects\535.2.1 - Proyecto de Urbanizacion - Ampliacion Plaza Mayor\DOCS - ANEJOS\Plantillas\Por Anejo\08-08-red-de-saneamiento-fecales |
